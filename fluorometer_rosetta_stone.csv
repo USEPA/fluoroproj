@@ -1,0 +1,3 @@
+manufacturer, product, variables, cost, url, notes, we_have
+Turner, FluoroSense, phycocyanin or chlorophyll, 985, https://www.turnerdesigns.com/fluorosense-handheld-fluorometer, unclear if it is one or the other or how you switch from chla to phyco, TRUE
+Turner, AquaFluor, "turbidity and fluoresecence for one of the following: Ammonium, CDOM/FDOM, Chl a extracted, Chl a in vivo, phycocyanin, phycoerythrin", NA, https://www.turnerdesigns.com/aquafluor-handheld-fluorometer,NA,FALSE
