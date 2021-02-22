@@ -3,7 +3,7 @@ Turner, FluoroSense, phycocyanin or chlorophyll, 985.00, https://www.turnerdesig
 Turner, AquaFluor, "turbidity and fluoresecence for one of the following: Ammonium, CDOM/FDOM, Chl a extracted, Chl a in vivo, phycocyanin, phycoerythrin", NA, https://www.turnerdesigns.com/aquafluor-handheld-fluorometer,Greg Boyer had bad luck with multiple units returning similar results,FALSE
 Turner, CyanoFluor, "PC:Chl, phycocyanin and chlorophyll RFU", 3400, https://www.turnerdesigns.com/cyanofluor-hab-indicator, NA, TRUE
 Turner, Trilogy, everything, 8500, https://www.turnerdesigns.com/trilogy-laboratory-fluorometer, the gold standard, TRUE
-AmiScience, Beagle/FluoroQuick, chla and phyco, 1200, http://www.amiscience.com/product.php?pid=517, Aaaaargh!, TRUE
+AmiScience, FluoroQuick, chla and phyco, 1200, http://www.amiscience.com/product.php?pid=517, Formerly known as the Beagle, TRUE
 BBE, AlgaeTorch, "chlorophyll, turbidity and percent chlorophyll from cyanos", 15000, https://www.bbe-moldaenke.de/en/products/chlorophyll/details/algaetorch.html, NA, TRUE
 BBE, PhycoProbe, "chlorophyll content from different algal classes, phycocyanin", 37000, https://www.bbe-moldaenke.de/en/products/chlorophyll/details/phycoprobe.html, NA, TRUE
 BBE, FluoroProbe, "chlorophyll content from different algal classes, no phycocyanin", 27000, https://www.bbe-moldaenke.de/en/products/chlorophyll/details/fluoroprobe.html, NA, FALSE
