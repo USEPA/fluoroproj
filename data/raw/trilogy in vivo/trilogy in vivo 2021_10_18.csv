@@ -1,0 +1,40 @@
+﻿AMPLE-001,93769.96,RFU,,na,solid std,,na,chla_invivo_rfu,,10,2021,na,G04
+SAMPLE-002,287,RFU,,yawgoo,blank,1,1,blank,6,10,2021,na,G04
+SAMPLE-003,376.32,RFU,,yawgoo,1,1,1,chla_invivo_rfu,6,10,2021,frozen1,G04
+SAMPLE-004,365.19,RFU,,yawgoo,1,1,2,chla_invivo_rfu,6,10,2021,frozen1,G04
+SAMPLE-005,370.44,RFU,,yawgoo,1,1,3,chla_invivo_rfu,6,10,2021,frozen1,G04
+SAMPLE-006,284.37,RFU,,yawgoo,blank,2,1,blank,6,10,2021,na,G04
+SAMPLE-007,372.12,RFU,,yawgoo,1,2,1,chla_invivo_rfu,6,10,2021,frozen1,G04
+SAMPLE-008,363.59,RFU,,yawgoo,1,2,2,chla_invivo_rfu,6,10,2021,frozen1,G04
+SAMPLE-009,377.14,RFU,,yawgoo,1,2,3,chla_invivo_rfu,6,10,2021,frozen1,G04
+SAMPLE-010,300.3,RFU,,yawgoo,blank,3,1,blank,6,10,2021,na,G04
+SAMPLE-011,414.97,RFU,,yawgoo,1,3,1,chla_invivo_rfu,6,10,2021,frozen1,G04
+SAMPLE-012,415.48,RFU,,yawgoo,1,3,2,chla_invivo_rfu,6,10,2021,frozen1,G04
+SAMPLE-013,394.36,RFU,,yawgoo,1,3,3,chla_invivo_rfu,6,10,2021,frozen1,G04
+SAMPLE-014,595.66,RFU,,barber,blank,1,1,blank,6,10,2021,na,G04
+SAMPLE-015,594.57,RFU,,,blank rerun,,,,,,,,
+SAMPLE-016,683.03,RFU,,barber,1,1,1,chla_invivo_rfu,6,10,2021,frozen1,G04
+SAMPLE-017,695.78,RFU,,barber,1,1,2,chla_invivo_rfu,6,10,2021,frozen1,G04
+SAMPLE-018,684.98,RFU,,barber,1,1,3,chla_invivo_rfu,6,10,2021,frozen1,G04
+SAMPLE-019,555.3,RFU,,barber,blank,2,1,blank,6,10,2021,na,G04
+SAMPLE-020,669.72,RFU,,barber,1,2,1,chla_invivo_rfu,6,10,2021,frozen1,G04
+SAMPLE-021,656.55,RFU,,barber,1,2,2,chla_invivo_rfu,6,10,2021,frozen1,G04
+SAMPLE-022,658.6,RFU,,barber,1,2,3,chla_invivo_rfu,6,10,2021,frozen1,G04
+SAMPLE-023,557.59,RFU,,barber,blank,3,1,blank,6,10,2021,na,G04
+SAMPLE-024,660.19,RFU,,barber,1,3,1,chla_invivo_rfu,6,10,2021,frozen1,G04
+SAMPLE-025,664.33,RFU,,barber,1,3,2,chla_invivo_rfu,6,10,2021,frozen1,G04
+SAMPLE-026,651.03,RFU,,barber,1,3,3,chla_invivo_rfu,6,10,2021,frozen1,G04
+SAMPLE-027,273.24,RFU,,indian,blank,1,1,blank,6,10,2021,na,G04
+SAMPLE-028,358.01,RFU,,indian,1,1,1,chla_invivo_rfu,6,10,2021,frozen1,G04
+AMPLE-029,378.29,RFU,,indian,1,1,2,chla_invivo_rfu,6,10,2021,frozen1,G04
+SAMPLE-030,362.65,RFU,,indian,1,1,3,chla_invivo_rfu,6,10,2021,frozen1,G04
+SAMPLE-031,264.84,RFU,,indian,blank,2,1,blank,6,10,2021,na,G04
+SAMPLE-032,352.6,RFU,,indian,1,2,1,chla_invivo_rfu,6,10,2021,frozen1,G04
+SAMPLE-033,357.49,RFU,,indian,1,2,2,chla_invivo_rfu,6,10,2021,frozen1,G04
+SAMPLE-034,365.88,RFU,,indian,1,2,3,chla_invivo_rfu,6,10,2021,frozen1,G04
+SAMPLE-035,272.24,RFU,,indian,blank,3,1,blank,6,10,2021,na,G04
+SAMPLE-036,352.65,RFU,,indian,1,3,1,chla_invivo_rfu,6,10,2021,frozen1,G04
+SAMPLE-037,354.59,RFU,,indian,1,3,2,chla_invivo_rfu,6,10,2021,frozen1,G04
+SAMPLE-038,363.35,RFU,,indian,1,3,3,chla_invivo_rfu,6,10,2021,frozen1,G04
+SAMPLE-039,93561.38,RFU,,na,solid std,,na,chla_invivo_rfu,,10,2021,na,G04
+,value,x,x,waterbody,site,dup,reps,variable,day,month,year,fresh/frozen,fluorometer
