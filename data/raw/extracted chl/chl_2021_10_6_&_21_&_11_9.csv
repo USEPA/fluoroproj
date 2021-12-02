@@ -1,0 +1,93 @@
+﻿,value,units,waterbody,site,depth,reps,variable,day,month,year,filter_vol,fluorometer
+SAMPLE-001,123.92,RFU,na,solid std,na,na,chla_rfu,2,12,2021,na,G04
+SAMPLE-013,0.15,RFU,barber,blank,int,na,blank,6,10,2021,na,G04
+SAMPLE-014,202.81,RFU,barber,1,int,1,chla_rfu,6,10,2021,100,G04
+SAMPLE-015,186.31,RFU,barber,1,int,2,chla_rfu,6,10,2021,100,G04
+SAMPLE-016,179.46,RFU,barber,1,int,3,chla_rfu,6,10,2021,100,G04
+SAMPLE-017,178.88,RFU,barber,2,int,1,chla_rfu,6,10,2021,100,G04
+SAMPLE-018,181.13,RFU,barber,2,int,2,chla_rfu,6,10,2021,100,G04
+SAMPLE-019,181.77,RFU,barber,2,int,3,chla_rfu,6,10,2021,100,G04
+SAMPLE-020,165.43,RFU,barber,3,int,1,chla_rfu,6,10,2021,100,G04
+SAMPLE-021,176.55,RFU,barber,3,int,2,chla_rfu,6,10,2021,100,G04
+SAMPLE-022,177.67,RFU,barber,3,int,3,chla_rfu,6,10,2021,100,G04
+SAMPLE-023,0.12,RFU,indian,blank,int,na,blank,6,10,2021,na,G04
+SAMPLE-024,122.44,RFU,indian,1,int,1,chla_rfu,6,10,2021,250,G04
+SAMPLE-025,115.78,RFU,indian,1,int,2,chla_rfu,6,10,2021,250,G04
+SAMPLE-026,136.25,RFU,indian,1,int,3,chla_rfu,6,10,2021,250,G04
+SAMPLE-027,130.39,RFU,indian,2,int,1,chla_rfu,6,10,2021,250,G04
+SAMPLE-028,133.79,RFU,indian,2,int,2,chla_rfu,6,10,2021,250,G04
+SAMPLE-029,130.86,RFU,indian,2,int,3,chla_rfu,6,10,2021,250,G04
+SAMPLE-030,107.38,RFU,indian,3,int,1,chla_rfu,6,10,2021,250,G04
+SAMPLE-031,125.36,RFU,indian,3,int,2,chla_rfu,6,10,2021,250,G04
+SAMPLE-032,139.01,RFU,indian,3,int,3,chla_rfu,6,10,2021,250,G04
+SAMPLE-033,0.15,RFU,yawgoo,blank,int,na,blank,6,10,2021,na,G04
+SAMPLE-034,303.48,RFU,yawgoo,1,int,1,chla_rfu,6,10,2021,250,G04
+SAMPLE-035,306.83,RFU,yawgoo,1,int,2,chla_rfu,6,10,2021,250,G04
+SAMPLE-036,292.51,RFU,yawgoo,1,int,3,chla_rfu,6,10,2021,250,G04
+SAMPLE-037,279.98,RFU,yawgoo,2,int,1,chla_rfu,6,10,2021,250,G04
+SAMPLE-038,280.14,RFU,yawgoo,2,int,2,chla_rfu,6,10,2021,250,G04
+SAMPLE-039,280.67,RFU,yawgoo,2,int,3,chla_rfu,6,10,2021,250,G04
+SAMPLE-040,270.73,RFU,yawgoo,3,int,1,chla_rfu,6,10,2021,250,G04
+SAMPLE-041,273.16,RFU,yawgoo,3,int,2,chla_rfu,6,10,2021,250,G04
+SAMPLE-042,265.76,RFU,yawgoo,3,int,3,chla_rfu,6,10,2021,250,G04
+SAMPLE-043,0.25,RFU,curran,blank,int,na,blank,21,10,2021,na,G04
+SAMPLE-044,417.64,RFU,curran,1,int,1,chla_rfu,21,10,2021,50,G04
+SAMPLE-045,383.48,RFU,curran,1,int,2,chla_rfu,21,10,2021,50,G04
+SAMPLE-046,399.66,RFU,curran,1,int,3,chla_rfu,21,10,2021,50,G04
+SAMPLE-047,416.9,RFU,curran,2,int,1,chla_rfu,21,10,2021,50,G04
+AMPLE-048,391.81,RFU,curran,2,int,2,chla_rfu,21,10,2021,50,G04
+SAMPLE-049,386.94,RFU,curran,2,int,3,chla_rfu,21,10,2021,50,G04
+SAMPLE-050,389.77,RFU,curran,3,int,1,chla_rfu,21,10,2021,50,G04
+SAMPLE-051,393.17,RFU,curran,3,int,2,chla_rfu,21,10,2021,50,G04
+SAMPLE-052,391.59,RFU,curran,3,int,3,chla_rfu,21,10,2021,50,G04
+SAMPLE-053,0.08,RFU,mashapaug,blank,int,na,blank,21,10,2021,na,G04
+SAMPLE-054,607.76,RFU,mashapaug,1,int,1,chla_rfu,21,10,2021,50,G04
+SAMPLE-055,600.99,RFU,mashapaug,1,int,2,chla_rfu,21,10,2021,50,G04
+SAMPLE-056,595.7,RFU,mashapaug,1,int,3,chla_rfu,21,10,2021,50,G04
+SAMPLE-057,599.62,RFU,mashapaug,2,int,1,chla_rfu,21,10,2021,50,G04
+SAMPLE-058,581.29,RFU,mashapaug,2,int,2,chla_rfu,21,10,2021,50,G04
+SAMPLE-059,680.22,RFU,mashapaug,2,int,3,chla_rfu,21,10,2021,50,G04
+SAMPLE-060,728.66,RFU,mashapaug,3,int,1,chla_rfu,21,10,2021,50,G04
+SAMPLE-061,759.66,RFU,mashapaug,3,int,2,chla_rfu,21,10,2021,50,G04
+SAMPLE-062,715.7,RFU,mashapaug,3,int,3,chla_rfu,21,10,2021,50,G04
+SAMPLE-063,0.09,RFU,warwick,blank,int,na,blank,21,10,2021,na,G04
+SAMPLE-064,377.28,RFU,warwick,1,int,1,chla_rfu,21,10,2021,50,G04
+SAMPLE-065,421.89,RFU,warwick,1,int,2,chla_rfu,21,10,2021,50,G04
+SAMPLE-066,357.69,RFU,warwick,1,int,3,chla_rfu,21,10,2021,50,G04
+SAMPLE-067,398.73,RFU,warwick,2,int,1,chla_rfu,21,10,2021,50,G04
+SAMPLE-068,422.98,RFU,warwick,2,int,2,chla_rfu,21,10,2021,50,G04
+SAMPLE-069,397.53,RFU,warwick,2,int,3,chla_rfu,21,10,2021,50,G04
+SAMPLE-070,405.68,RFU,warwick,3,int,1,chla_rfu,21,10,2021,50,G04
+SAMPLE-071,435.77,RFU,warwick,3,int,2,chla_rfu,21,10,2021,50,G04
+SAMPLE-072,433.39,RFU,warwick,3,int,3,chla_rfu,21,10,2021,50,G04
+SAMPLE-073,0.18,RFU,lower melville,blank,int,na,blank,9,11,2021,na,G04
+SAMPLE-074,255,RFU,lower melville,1,int,1,chla_rfu,9,11,2021,100,G04
+SAMPLE-075,256.97,RFU,lower melville,1,int,2,chla_rfu,9,11,2021,100,G04
+SAMPLE-076,240.69,RFU,lower melville,1,int,3,chla_rfu,9,11,2021,100,G04
+SAMPLE-077,230.24,RFU,lower melville,2,int,1,chla_rfu,9,11,2021,100,G04
+SAMPLE-078,215.6,RFU,lower melville,2,int,2,chla_rfu,9,11,2021,100,G04
+SAMPLE-079,228.13,RFU,lower melville,2,int,3,chla_rfu,9,11,2021,100,G04
+SAMPLE-080,201.25,RFU,lower melville,3,int,1,chla_rfu,9,11,2021,100,G04
+SAMPLE-081,204.89,RFU,lower melville,3,int,2,chla_rfu,9,11,2021,100,G04
+SAMPLE-082,209.25,RFU,lower melville,3,int,3,chla_rfu,9,11,2021,100,G04
+SAMPLE-083,0.16,RFU,upper melville,blank,int,na,blank,9,11,2021,na,G04
+SAMPLE-084,276.84,RFU,upper melville,1,int,1,chla_rfu,9,11,2021,100,G04
+SAMPLE-085,287.4,RFU,upper melville,1,int,2,chla_rfu,9,11,2021,100,G04
+SAMPLE-086,274.38,RFU,upper melville,1,int,3,chla_rfu,9,11,2021,100,G04
+SAMPLE-087,290.58,RFU,upper melville,2,int,1,chla_rfu,9,11,2021,100,G04
+SAMPLE-088,302.12,RFU,upper melville,2,int,2,chla_rfu,9,11,2021,100,G04
+SAMPLE-089,316.06,RFU,upper melville,2,int,3,chla_rfu,9,11,2021,100,G04
+SAMPLE-090,220.76,RFU,upper melville,3,int,1,chla_rfu,9,11,2021,100,G04
+SAMPLE-091,237.62,RFU,upper melville,3,int,2,chla_rfu,9,11,2021,100,G04
+SAMPLE-092,241.31,RFU,upper melville,3,int,3,chla_rfu,9,11,2021,100,G04
+SAMPLE-093,0.2,RFU,windmist farm,blank,int,na,blank,9,11,2021,na,G04
+SAMPLE-094,72.67,RFU,windmist farm,1,int,1,chla_rfu,9,11,2021,50,G04
+SAMPLE-095,77.29,RFU,windmist farm,1,int,2,chla_rfu,9,11,2021,50,G04
+SAMPLE-096,81.32,RFU,windmist farm,1,int,3,chla_rfu,9,11,2021,50,G04
+SAMPLE-097,269.97,RFU,windmist farm,2,int,1,chla_rfu,9,11,2021,50,G04
+SAMPLE-099,340.6,RFU,windmist farm,2,int,2,chla_rfu,9,11,2021,50,G04
+SAMPLE-100,304.77,RFU,windmist farm,2,int,3,chla_rfu,9,11,2021,50,G04
+SAMPLE-101,58.46,RFU,windmist farm,3,int,1,chla_rfu,9,11,2021,50,G04
+SAMPLE-102,60.73,RFU,windmist farm,3,int,2,chla_rfu,9,11,2021,50,G04
+AMPLE-103,65.57,RFU,windmist farm,3,int,3,chla_rfu,9,11,2021,50,G04
+SAMPLE-104,126.02,RFU,na,solid std,na,na,chla_rfu,1,12,2021,na,G04
