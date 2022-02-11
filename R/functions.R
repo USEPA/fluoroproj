@@ -1,29 +1,76 @@
-#' Function to open and merge data
+#' Merge trilogy extracted data
 #' 
-merge_data <- function(){
-  browser()
-  cf_fq_data <- read_csv(here("data/raw/cyanofluor_fluoroquik_data.csv"))
-  
-  extract_chla_data <- read_csv(here("data/raw/extracted chl/chl_2021_10_6_&_21_&_11_9.csv"))
-  extract_phyco_data1 <- read_csv(here("data/raw/extracted phyco/phyco_2021_10_21_&_11_9.csv"))
-  extract_phyco_data2 <- read_csv(here("data/raw/extracted phyco/phyco_2021_10_6_&_21.csv"))
-  extract_data <- bind_rows(extract_chla_data, extract_phyco_data1, 
-                            extract_phyco_data2)
-  
-  phycoprobe_fresh_data1 <- read_csv(here("data/raw/phycoprobe/phycoprobe_2021_10_21_fresh.csv"))
-  phycoprobe_fresh_data2 <- read_csv(here("data/raw/phycoprobe/phycoprobe_2021_10_6_fresh.csv"))
-  phycoprobe_fresh_data3 <- read_csv(here("data/raw/phycoprobe/phycoprobe_2021_11_9_fresh.csv"))
-  phycoprobe_fresh <- bind_rows(phycoprobe_fresh_data1, phycoprobe_fresh_data2, 
-                                phycoprobe_fresh_data3)
-  
-  phycoprobe_frozen_data1 <- read_csv(here("data/raw/phycoprobe/phycoprobe_2021_10_21_frozen1.csv"))
-  phycoprobe_frozen_data2 <- read_csv(here("data/raw/phycoprobe/phycoprobe_2021_10_6_frozen1.csv"))
-  phycoprobe_frozen_data3 <- read_csv(here("data/raw/phycoprobe/phycoprobe_2021_11_9_frozen1.csv"))
-  phycoprobe_frozen <- bind_rows(phycoprobe_frozen_data1, 
-                                 phycoprobe_frozen_data2, 
-                                 phycoprobe_frozen_data3)
-  
-  phycoprobe_data <- bind_rows(phycoprobe_fresh, phycoprobe_frozen)
-    
-  invivo_fresh_data1 <- read_csv(here("data/raw/trilogy in vivo/trilogy in vivo 2021_10_21_fresh.csv"))
+merge_extracted <- function(){
+  files <- c(list.files(here("data/raw/extracted chl/"), ".csv", 
+                        full.names = TRUE),
+             list.files(here("data/raw/extracted phyco/"), ".csv", 
+                        full.names = TRUE))
+  extracted_data <- purrr::map_df(files, 
+                                  function(x) 
+                                    read_csv(x, na = c("", "NA", "na")))
+  extracted_data
+}
+
+#' Merge phycoprobe data
+#' 
+merge_phycoprobe <- function(){
+  files <- list.files(here("data/raw/phycoprobe/"), ".csv", full.names = TRUE)
+  #phycoprobe_header <- read_csv(files[1], n_max = 1)
+  phycoprobe_data <- purrr::map_df(files,  
+                                   function(x) 
+                                     read_csv(x, na = c("", "NA", "na", "--"))[-1,])
+  #phycoprobe_data <- bind_rows(phycoprobe_header, phycoprobe_data)
+  phycoprobe_data
+}   
+
+#' Merge phycoprobe data
+#'  
+merge_invivo <- function(){
+  files <- list.files(here("data/raw/trilogy in vivo/"), ".csv", full.names = TRUE)
+  invivo_data <- purrr::map_df(files,  
+                               function(x) 
+                                 read_csv(x, na = c("", "NA", "na")))
+  invivo_data
+}   
+
+#' Clean cyanoflour/fluoroquick data
+#' 
+#' @param df cyanoflour/fluoroquick data frame
+clean_handheld <- function(df){
+  handheld_data <- mutate(df, date = ymd(paste0(year, month, day)),
+                          parameter = tolower(parameter))
+  handheld_data <- select(handheld_data, date, waterbody, dup, rep = reps, instrument,
+                          method = `fresh/frozen1/frozen3`, parameter, units, 
+                          value)
+  handheld_data <- filter(handheld_data, parameter %in% c("chl", "chl blk", 
+                                                          "pc", "pc blk"))
+  handheld_data <- mutate(handheld_data, units = case_when(units == "ug/l" ~
+                                                             "µg/L",
+                                                           TRUE ~ units))
+  #borrowed from https://stackoverflow.com/questions/54221280/how-to-declare-encoding-for-all-character-columns-in-a-data-frame
+  handheld_data <- dplyr::mutate_if(handheld_data, is.character, .funs = 
+                                        function(x){return(`Encoding<-`(x, "UTF-8"))})
+  handheld_data
+}
+
+#' Clean phycoprobe data
+#' 
+#' @param df phycoprobe data frame
+clean_phycoprobe <- function(df){  
+  phycoprobe_data <- rename_all(df, tolower)
+  phycoprobe_data <- mutate(phycoprobe_data, date = ymd(paste0(year, month, day)),
+                            instrument = "phycoprobe", units = "µg/L")
+  #Assuming this data is what we want from phycoprobe
+  phycoprobe_data <- select(phycoprobe_data, date, waterbody, dup, rep = reps, instrument,
+                            method = `fresh/frozen1`, units,
+                            chl = `total conc.`, bluegreen = `bluegreen...8`)
+  phycoprobe_data <- pivot_longer(phycoprobe_data, cols = chl:bluegreen, 
+                                  names_to = "parameter", values_to = "value")
+  phycoprobe_data <- select(phycoprobe_data, date:method, parameter, units, 
+                            value)
+  phycoprobe_data <- mutate(phycoprobe_data, value = as.numeric(value))
+  #borrowed from https://stackoverflow.com/questions/54221280/how-to-declare-encoding-for-all-character-columns-in-a-data-frame
+  phycoprobe_data <- dplyr::mutate_if(phycoprobe_data, is.character, .funs = 
+                                  function(x){return(`Encoding<-`(x, "UTF-8"))})
+  phycoprobe_data
 }
