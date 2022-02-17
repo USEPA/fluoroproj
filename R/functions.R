@@ -15,10 +15,10 @@ merge_extracted_chla <- function(){
 merge_extracted_phyco <- function(){
   files <- c(list.files(here("data/raw/extracted phyco/"), ".csv", 
                         full.names = TRUE))
-  browser()
   extracted_data <- purrr::map_df(files, 
                                   function(x) 
-                                    read_csv(x, na = c("", "NA", "na")))
+                                    ce_convert_rfus(x, "phyco", "2021", 
+                                                    "ours", std_check = TRUE))
   extracted_data
 }
 
@@ -37,10 +37,22 @@ merge_phycoprobe <- function(){
 #' Merge phycoprobe data
 #'  
 merge_invivo <- function(){
-  files <- list.files(here("data/raw/trilogy in vivo/"), ".csv", full.names = TRUE)
-  invivo_data <- purrr::map_df(files,  
+  files_fresh <- list.files(here("data/raw/trilogy in vivo/"), "fresh.csv", full.names = TRUE)
+  files_frozen <- list.files(here("data/raw/trilogy in vivo/"), "frozen1.csv", full.names = TRUE)
+  # Need to add in fresh/frozen method here.
+  invivo_data_fresh <- purrr::map_df(files_fresh,  
                                function(x) 
-                                 read_csv(x, na = c("", "NA", "na")))
+                                 ce_convert_rfus(x, "invivo_chla", "2021", 
+                                                 "ours", std_check = FALSE))
+  invivo_data_frozen <- purrr::map_df(files_frozen,  
+                                     function(x) 
+                                       ce_convert_rfus(x, "invivo_chla", "2021", 
+                                                       "ours", std_check = FALSE))
+  invivo_data_fresh <- mutate(invivo_data_fresh, method = "fresh")
+  invivo_data_frozen <- mutate(invivo_data_frozen, method = "frozen")
+  invivo_data <- bind_rows(invivo_data_fresh, invivo_data_frozen)
+  invivo_data$units <- "rfu"
+  invivo_data <- unique(invivo_data)
   invivo_data
 }   
 
@@ -53,11 +65,14 @@ clean_handheld <- function(df){
   handheld_data <- select(handheld_data, date, waterbody, dups = dup, reps, 
                           instrument, method = `fresh/frozen1/frozen3`, 
                           variable, units, value)
-  handheld_data <- filter(handheld_data, variable %in% c("chl", "chl blk", 
-                                                          "pc", "pc blk"))
+  #handheld_data <- filter(handheld_data, variable %in% c("chl", "chl blk", 
+  #                                                        "pc", "pc blk"))
   handheld_data <- mutate(handheld_data, units = case_when(units == "ug/l" ~
                                                              "µg/L",
                                                            TRUE ~ units))
+  # Assumes hi is chl and lo is phyco
+  # What are ch1/ch2 hi/lo???
+  
   #borrowed from https://stackoverflow.com/questions/54221280/how-to-declare-encoding-for-all-character-columns-in-a-data-frame
   handheld_data <- dplyr::mutate_if(handheld_data, is.character, .funs = 
                                         function(x){return(`Encoding<-`(x, "UTF-8"))})
@@ -100,6 +115,24 @@ clean_extracted <- function(df){
                                                 TRUE ~ variable),
                            waterbody = case_when(waterbody == "windmist farm" ~
                                                    "windmist", 
-                                                 TRUE ~ waterbody))
+                                                 TRUE ~ waterbody),
+                           units = tolower(units))
   extracted_data
+}
+
+#' Clean invivo data
+#' 
+#' @param df merged extracted data
+clean_invivo <- function(df){
+  invivo_data <- mutate(df, instrument = "trilogy in vivo")
+  invivo_data <- select(invivo_data, date, waterbody, dups, reps, 
+                           instrument, method, variable, units, value)
+  invivo_data <- mutate(invivo_data, 
+                           variable = case_when(variable == "invivo_chla" ~
+                                                  "chl",
+                                                TRUE ~ variable),
+                           waterbody = case_when(waterbody == "windmist farm" ~
+                                                   "windmist", 
+                                                 TRUE ~ waterbody))
+  invivo_data
 }

@@ -9,28 +9,40 @@ source(here::here("R/functions.R"))
 handheld_data <- read_csv(here("data/raw/cyanofluor_fluoroquik_data.csv"))
 phycoprobe_data <- merge_phycoprobe()
 extracted_chla_data <- merge_extracted_chla()
-#extracted_phyco_data <- merge_extracted_phyco()
+extracted_phyco_data <- merge_extracted_phyco()
 invivo_data <- merge_invivo()
 
 # Clean up data
 handheld_data <- clean_handheld(handheld_data)
 phycoprobe_data <- clean_phycoprobe(phycoprobe_data)
-extracted_chla_data <- clean_extracted(extracted_chla_data)#, extracted_phyco_data)
+extracted_data <- bind_rows(extracted_chla_data, extracted_phyco_data)
+extracted_data <- clean_extracted(extracted_data)
+invivo_data <- clean_invivo(invivo_data)
 
 
-fluoroproj_data <- bind_rows(handheld_data, phycoprobe_data, extracted_chla_data)
+fluoroproj_data <- bind_rows(handheld_data, phycoprobe_data, extracted_data,
+                             invivo_data)
+fluoroproj_data <- mutate(fluoroproj_data, units = case_when(units == "µg/l" ~
+                                              "µg/L",
+                                            TRUE ~ units),
+                          variable = case_when(variable == "bluegreen" ~
+                                                 "phyco",
+                                               variable == "pc" ~
+                                                 "phyco",
+                                               TRUE ~ variable))
 
 x <- fluoroproj_data %>% 
-  filter(variable == "chl") %>%
   group_by(date, waterbody, instrument, variable, units) %>%
-  summarize(chl = mean(value, na.rm = TRUE)) %>%
+  summarize(value = mean(value, na.rm = TRUE)) %>%
   ungroup() %>%
-  group_by(waterbody,instrument, units) %>%
-  summarize(chl = mean(chl)) %>%
-  ungroup() %>%
-  filter(units == "µg/L") %>%
-  tidyr::pivot_wider(id_cols = "waterbody", names_from = "instrument", 
-                     values_from = "chl") %>%
-  filter(complete.cases(.))
+  #group_by(waterbody,instrument, units) %>%
+  #summarize(chl = mean(chl)) %>%
+  #ungroup() %>%
+  filter(units == "rfu") #%>%
+  #select(-units) %>%
+  #tidyr::pivot_wider(id_cols = c("date", "waterbody", "instrument"), names_from = "variable", 
+  #                   values_from = "value")
+  #select(waterbody,trilogy, everything()) %>%
+  #arrange(trilogy)
 
   
