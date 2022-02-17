@@ -45,4 +45,6 @@ x <- fluoroproj_data %>%
   #select(waterbody,trilogy, everything()) %>%
   #arrange(trilogy)
 
-  
+x <- pivot_wider(fluoroproj_data, date:reps, names_from = instrument:units, values_from = value)
+x <- filter(x, !is.na(`cyanofluor_fresh_pc:chl_ratio`))
+trilogy <- select(x, date:reps, contains("trilogy"))

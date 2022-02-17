@@ -1,53 +1,53 @@
-﻿,value,units,waterbody,site,depth,reps,variable,day,month,year,filter_vol,fluorometer
-SAMPLE-001,9692.22,RFU,na,solid std,na,na,phyco_rfu,2,12,2021,na,G04
-SAMPLE-002,61.33,RFU,mashapaug,blank,int,na,blank,21,10,2021,na,G04
-SAMPLE-004,263.89,RFU,mashapaug,1,int,1,phyco_rfu,21,10,2021,50,G04
-SAMPLE-005,338.86,RFU,mashapaug,1,int,2,phyco_rfu,21,10,2021,50,G04
-SAMPLE-006,339.42,RFU,mashapaug,1,int,3,phyco_rfu,21,10,2021,50,G04
-SAMPLE-007,414.25,RFU,mashapaug,2,int,1,phyco_rfu,21,10,2021,50,G04
-SAMPLE-008,389.37,RFU,mashapaug,2,int,2,phyco_rfu,21,10,2021,50,G04
-SAMPLE-009,525.45,RFU,mashapaug,2,int,3,phyco_rfu,21,10,2021,50,G04
-SAMPLE-010,423.53,RFU,mashapaug,3,int,1,phyco_rfu,21,10,2021,50,G04
-SAMPLE-011,561.65,RFU,mashapaug,3,int,2,phyco_rfu,21,10,2021,50,G04
-SAMPLE-012,436.14,RFU,mashapaug,3,int,3,phyco_rfu,21,10,2021,50,G04
-SAMPLE-013,59.96,RFU,warwick,blank,int,na,blank,21,10,2021,na,G04
-SAMPLE-014,142.4,RFU,warwick,1,int,1,phyco_rfu,21,10,2021,50,G04
-SAMPLE-015,147.79,RFU,warwick,1,int,2,phyco_rfu,21,10,2021,50,G04
-SAMPLE-016,168.64,RFU,warwick,1,int,3,phyco_rfu,21,10,2021,50,G04
-SAMPLE-017,152.23,RFU,warwick,2,int,1,phyco_rfu,21,10,2021,50,G04
-SAMPLE-018,144.88,RFU,warwick,2,int,2,phyco_rfu,21,10,2021,50,G04
-SAMPLE-019,134.33,RFU,warwick,2,int,3,phyco_rfu,21,10,2021,50,G04
-SAMPLE-020,127.49,RFU,warwick,3,int,1,phyco_rfu,21,10,2021,50,G04
-SAMPLE-021,124.37,RFU,warwick,3,int,2,phyco_rfu,21,10,2021,50,G04
-SAMPLE-022,117.54,RFU,warwick,3,int,3,phyco_rfu,21,10,2021,50,G04
-SAMPLE-023,76.38,RFU,lower melville,blank,int,na,blank,9,11,2021,na,G04
-SAMPLE-024,73.52,RFU,lower melville,1,int,1,phyco_rfu,9,11,2021,100,G04
-SAMPLE-025,78.39,RFU,lower melville,1,int,2,phyco_rfu,9,11,2021,100,G04
-SAMPLE-026,76.68,RFU,lower melville,1,int,3,phyco_rfu,9,11,2021,100,G04
-SAMPLE-027,80.32,RFU,lower melville,2,int,1,phyco_rfu,9,11,2021,100,G04
-SAMPLE-028,98.77,RFU,lower melville,2,int,2,phyco_rfu,9,11,2021,100,G04
-SAMPLE-029,88.98,RFU,lower melville,2,int,3,phyco_rfu,9,11,2021,100,G04
-SAMPLE-030,73.88,RFU,lower melville,3,int,1,phyco_rfu,9,11,2021,100,G04
-SAMPLE-031,81.59,RFU,lower melville,3,int,2,phyco_rfu,9,11,2021,100,G04
-SAMPLE-032,83.22,RFU,lower melville,3,int,3,phyco_rfu,9,11,2021,100,G04
-SAMPLE-033,62.21,RFU,upper melville,blank,int,na,blank,9,11,2021,na,G04
-SAMPLE-034,82.63,RFU,upper melville,1,int,1,phyco_rfu,9,11,2021,100,G04
-SAMPLE-035,84.6,RFU,upper melville,1,int,2,phyco_rfu,9,11,2021,100,G04
-SAMPLE-036,81.08,RFU,upper melville,1,int,3,phyco_rfu,9,11,2021,100,G04
-SAMPLE-037,100.29,RFU,upper melville,2,int,1,phyco_rfu,9,11,2021,100,G04
-SAMPLE-038,82.65,RFU,upper melville,2,int,2,phyco_rfu,9,11,2021,100,G04
-SAMPLE-039,90.23,RFU,upper melville,2,int,3,phyco_rfu,9,11,2021,100,G04
-SAMPLE-040,87.46,RFU,upper melville,3,int,1,phyco_rfu,9,11,2021,100,G04
-SAMPLE-041,80.72,RFU,upper melville,3,int,2,phyco_rfu,9,11,2021,100,G04
-SAMPLE-042,77.58,RFU,upper melville,3,int,3,phyco_rfu,9,11,2021,100,G04
-SAMPLE-043,59.05,RFU,windmist farm,blank,int,na,blank,9,11,2021,na,G04
-SAMPLE-045,70.05,RFU,windmist farm,1,int,1,phyco_rfu,9,11,2021,50,G04
-SAMPLE-046,68.68,RFU,windmist farm,1,int,2,phyco_rfu,9,11,2021,50,G04
-SAMPLE-047,71.66,RFU,windmist farm,1,int,3,phyco_rfu,9,11,2021,50,G04
-SAMPLE-048,85.09,RFU,windmist farm,2,int,1,phyco_rfu,9,11,2021,50,G04
-SAMPLE-049,89.7,RFU,windmist farm,2,int,2,phyco_rfu,9,11,2021,50,G04
-SAMPLE-050,83.54,RFU,windmist farm,2,int,3,phyco_rfu,9,11,2021,50,G04
-SAMPLE-051,84.68,RFU,windmist farm,3,int,1,phyco_rfu,9,11,2021,50,G04
-SAMPLE-052,70.98,RFU,windmist farm,3,int,2,phyco_rfu,9,11,2021,50,G04
-SAMPLE-053,65.34,RFU,windmist farm,3,int,3,phyco_rfu,9,11,2021,50,G04
-SAMPLE-054,9910.71,RFU,na,solid std,na,na,phyco_rfu,1,12,2021,na,G04
+﻿,value,units,waterbody,site,depth,dup,reps,variable,day,month,year,filter_vol,fluorometer
+SAMPLE-001,9692.22,RFU,na,solid std,na,,na,phyco_rfu,2,12,2021,na,G04
+SAMPLE-002,61.33,RFU,mashapaug,blank,int,,na,blank,21,10,2021,na,G04
+SAMPLE-004,263.89,RFU,mashapaug,1,int,1,1,phyco_rfu,21,10,2021,50,G04
+SAMPLE-005,338.86,RFU,mashapaug,1,int,1,2,phyco_rfu,21,10,2021,50,G04
+SAMPLE-006,339.42,RFU,mashapaug,1,int,1,3,phyco_rfu,21,10,2021,50,G04
+SAMPLE-007,414.25,RFU,mashapaug,1,int,2,1,phyco_rfu,21,10,2021,50,G04
+SAMPLE-008,389.37,RFU,mashapaug,1,int,2,2,phyco_rfu,21,10,2021,50,G04
+SAMPLE-009,525.45,RFU,mashapaug,1,int,2,3,phyco_rfu,21,10,2021,50,G04
+SAMPLE-010,423.53,RFU,mashapaug,1,int,3,1,phyco_rfu,21,10,2021,50,G04
+SAMPLE-011,561.65,RFU,mashapaug,1,int,3,2,phyco_rfu,21,10,2021,50,G04
+SAMPLE-012,436.14,RFU,mashapaug,1,int,3,3,phyco_rfu,21,10,2021,50,G04
+SAMPLE-013,59.96,RFU,warwick,blank,int,,na,blank,21,10,2021,na,G04
+SAMPLE-014,142.4,RFU,warwick,1,int,1,1,phyco_rfu,21,10,2021,50,G04
+SAMPLE-015,147.79,RFU,warwick,1,int,1,2,phyco_rfu,21,10,2021,50,G04
+SAMPLE-016,168.64,RFU,warwick,1,int,1,3,phyco_rfu,21,10,2021,50,G04
+SAMPLE-017,152.23,RFU,warwick,1,int,2,1,phyco_rfu,21,10,2021,50,G04
+SAMPLE-018,144.88,RFU,warwick,1,int,2,2,phyco_rfu,21,10,2021,50,G04
+SAMPLE-019,134.33,RFU,warwick,1,int,2,3,phyco_rfu,21,10,2021,50,G04
+SAMPLE-020,127.49,RFU,warwick,1,int,3,1,phyco_rfu,21,10,2021,50,G04
+SAMPLE-021,124.37,RFU,warwick,1,int,3,2,phyco_rfu,21,10,2021,50,G04
+SAMPLE-022,117.54,RFU,warwick,1,int,3,3,phyco_rfu,21,10,2021,50,G04
+SAMPLE-023,76.38,RFU,lower melville,blank,int,,na,blank,9,11,2021,na,G04
+SAMPLE-024,73.52,RFU,lower melville,1,int,1,1,phyco_rfu,9,11,2021,100,G04
+SAMPLE-025,78.39,RFU,lower melville,1,int,1,2,phyco_rfu,9,11,2021,100,G04
+SAMPLE-026,76.68,RFU,lower melville,1,int,1,3,phyco_rfu,9,11,2021,100,G04
+SAMPLE-027,80.32,RFU,lower melville,1,int,2,1,phyco_rfu,9,11,2021,100,G04
+SAMPLE-028,98.77,RFU,lower melville,1,int,2,2,phyco_rfu,9,11,2021,100,G04
+SAMPLE-029,88.98,RFU,lower melville,1,int,2,3,phyco_rfu,9,11,2021,100,G04
+SAMPLE-030,73.88,RFU,lower melville,1,int,3,1,phyco_rfu,9,11,2021,100,G04
+SAMPLE-031,81.59,RFU,lower melville,1,int,3,2,phyco_rfu,9,11,2021,100,G04
+SAMPLE-032,83.22,RFU,lower melville,1,int,3,3,phyco_rfu,9,11,2021,100,G04
+SAMPLE-033,62.21,RFU,upper melville,blank,int,,na,blank,9,11,2021,na,G04
+SAMPLE-034,82.63,RFU,upper melville,1,int,1,1,phyco_rfu,9,11,2021,100,G04
+SAMPLE-035,84.6,RFU,upper melville,1,int,1,2,phyco_rfu,9,11,2021,100,G04
+SAMPLE-036,81.08,RFU,upper melville,1,int,1,3,phyco_rfu,9,11,2021,100,G04
+SAMPLE-037,100.29,RFU,upper melville,1,int,2,1,phyco_rfu,9,11,2021,100,G04
+SAMPLE-038,82.65,RFU,upper melville,1,int,2,2,phyco_rfu,9,11,2021,100,G04
+SAMPLE-039,90.23,RFU,upper melville,1,int,2,3,phyco_rfu,9,11,2021,100,G04
+SAMPLE-040,87.46,RFU,upper melville,1,int,3,1,phyco_rfu,9,11,2021,100,G04
+SAMPLE-041,80.72,RFU,upper melville,1,int,3,2,phyco_rfu,9,11,2021,100,G04
+SAMPLE-042,77.58,RFU,upper melville,1,int,3,3,phyco_rfu,9,11,2021,100,G04
+SAMPLE-043,59.05,RFU,windmist farm,blank,int,,na,blank,9,11,2021,na,G04
+SAMPLE-045,70.05,RFU,windmist farm,1,int,1,1,phyco_rfu,9,11,2021,50,G04
+SAMPLE-046,68.68,RFU,windmist farm,1,int,1,2,phyco_rfu,9,11,2021,50,G04
+SAMPLE-047,71.66,RFU,windmist farm,1,int,1,3,phyco_rfu,9,11,2021,50,G04
+SAMPLE-048,85.09,RFU,windmist farm,1,int,2,1,phyco_rfu,9,11,2021,50,G04
+SAMPLE-049,89.7,RFU,windmist farm,1,int,2,2,phyco_rfu,9,11,2021,50,G04
+SAMPLE-050,83.54,RFU,windmist farm,1,int,2,3,phyco_rfu,9,11,2021,50,G04
+SAMPLE-051,84.68,RFU,windmist farm,1,int,3,1,phyco_rfu,9,11,2021,50,G04
+SAMPLE-052,70.98,RFU,windmist farm,1,int,3,2,phyco_rfu,9,11,2021,50,G04
+SAMPLE-053,65.34,RFU,windmist farm,1,int,3,3,phyco_rfu,9,11,2021,50,G04
+SAMPLE-054,9910.71,RFU,na,solid std,na,,na,phyco_rfu,1,12,2021,na,G04

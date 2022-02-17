@@ -26,11 +26,10 @@ merge_extracted_phyco <- function(){
 #' 
 merge_phycoprobe <- function(){
   files <- list.files(here("data/raw/phycoprobe/"), ".csv", full.names = TRUE)
-  #phycoprobe_header <- read_csv(files[1], n_max = 1)
   phycoprobe_data <- purrr::map_df(files,  
                                    function(x) 
                                      read_csv(x, na = c("", "NA", "na", "--"))[-1,])
-  #phycoprobe_data <- bind_rows(phycoprobe_header, phycoprobe_data)
+  
   phycoprobe_data
 }   
 
@@ -92,9 +91,14 @@ clean_phycoprobe <- function(df){
                             chl = `total conc.`, bluegreen = `bluegreen...8`)
   phycoprobe_data <- pivot_longer(phycoprobe_data, cols = chl:bluegreen, 
                                   names_to = "variable", values_to = "value")
+  phycoprobe_data <- mutate(phycoprobe_data, value = as.numeric(value))
+  phycoprobe_data <- group_by(phycoprobe_data, date, waterbody, dups, reps, 
+                              instrument, method, units, variable)
+  phycoprobe_data <- summarize(phycoprobe_data, value = mean(value, na.rm = TRUE))
+  phycoprobe_data <- ungroup(phycoprobe_data)
   phycoprobe_data <- select(phycoprobe_data, date:method, variable, units, 
                             value)
-  phycoprobe_data <- mutate(phycoprobe_data, value = as.numeric(value))
+  
   #borrowed from https://stackoverflow.com/questions/54221280/how-to-declare-encoding-for-all-character-columns-in-a-data-frame
   phycoprobe_data <- dplyr::mutate_if(phycoprobe_data, is.character, .funs = 
                                   function(x){return(`Encoding<-`(x, "UTF-8"))})
