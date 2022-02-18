@@ -31,21 +31,14 @@ fluoroproj_data <- mutate(fluoroproj_data, units = case_when(units == "µg/l" ~
                                                  "phyco",
                                                TRUE ~ variable))
 
-x <- fluoroproj_data %>% 
-  group_by(date, waterbody, instrument, variable, units) %>%
-  summarize(value = mean(value, na.rm = TRUE)) %>%
-  ungroup() %>%
-  #group_by(waterbody,instrument, units) %>%
-  #summarize(chl = mean(chl)) %>%
-  #ungroup() %>%
-  filter(units == "rfu") #%>%
-  #select(-units) %>%
-  #tidyr::pivot_wider(id_cols = c("date", "waterbody", "instrument"), names_from = "variable", 
-  #                   values_from = "value")
-  #select(waterbody,trilogy, everything()) %>%
-  #arrange(trilogy)
 
-x <- pivot_wider(fluoroproj_data, date:reps, names_from = instrument:units, values_from = value)
-x <- filter(x, !is.na(`cyanofluor_fresh_pc:chl_ratio`))
+x <- filter(fluoroproj_data, method %in% c("fresh", "extracted"), 
+            units == "rfu", variable %in% c("chl", "ch1 hi", "ch1 lo", "ch2 hi", 
+                                            "ch2 lo")) %>%
+  group_by(date, waterbody, instrument, method, variable,units) %>%
+  summarize(value = mean(value)) %>%
+  ungroup() %>%
+  pivot_wider(date:waterbody, names_from = instrument:units, values_from = value)
+  
 trilogy <- select(x, date:reps, contains("trilogy"))
 plot(trilogy[,5:10])
