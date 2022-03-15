@@ -1,44 +1,68 @@
 source(here::here("R/packages.R"))
 source(here::here("R/functions.R"))
 
-################################################################################
-# Data prep
-################################################################################
+fp_data_wb <- read_csv(here("data/cleaned_fluoroproj_data_dups.csv"))
 
-# Read in data
-handheld_data <- read_csv(here("data/raw/cyanofluor_fluoroquik_data.csv"))
-phycoprobe_data <- merge_phycoprobe()
-extracted_chla_data <- merge_extracted_chla()
-extracted_phyco_data <- merge_extracted_phyco()
-invivo_data <- merge_invivo()
-
-# Clean up data
-handheld_data <- clean_handheld(handheld_data)
-phycoprobe_data <- clean_phycoprobe(phycoprobe_data)
-extracted_data <- bind_rows(extracted_chla_data, extracted_phyco_data)
-extracted_data <- clean_extracted(extracted_data)
-invivo_data <- clean_invivo(invivo_data)
-
-
-fluoroproj_data <- bind_rows(handheld_data, phycoprobe_data, extracted_data,
-                             invivo_data)
-fluoroproj_data <- mutate(fluoroproj_data, units = case_when(units == "µg/l" ~
-                                              "µg/L",
-                                            TRUE ~ units),
-                          variable = case_when(variable == "bluegreen" ~
-                                                 "phyco",
-                                               variable == "pc" ~
-                                                 "phyco",
-                                               TRUE ~ variable))
-
-
-x <- filter(fluoroproj_data, method %in% c("fresh", "extracted"), 
-            units == "rfu", variable %in% c("chl", "ch1 hi", "ch1 lo", "ch2 hi", 
-                                            "ch2 lo")) %>%
-  group_by(date, waterbody, instrument, method, variable,units) %>%
-  summarize(value = mean(value)) %>%
-  ungroup() %>%
-  pivot_wider(date:waterbody, names_from = instrument:units, values_from = value)
+inst_avg <- fp_data_wb %>%
+  filter(method %in% c("frozen","extracted"), units == "µg/L", 
+         variable == "chl") %>%
+  group_by(instrument, variable) %>%
+  summarize(instrument_avg_conc = mean(avg_value)) %>%
+  ungroup() 
   
-trilogy <- select(x, date:reps, contains("trilogy"))
-plot(trilogy[,5:10])
+tril_fq_data <- fp_data_wb %>%
+  filter(method %in% c("frozen", "extracted"),
+         instrument %in% c("trilogy", "duluth fluoroquik"),
+         variable %in% c("chl", "ch1 hi", "ch1 lo", "ch2 hi", "ch2 lo")) %>%
+  select(date, waterbody, dups, instrument, variable, units, avg_value) %>%
+  filter(!(instrument == "trilogy" & units == "rfu")) %>%
+  pivot_wider(date:dups, names_from = c("instrument", "variable", "units"), 
+              values_from = avg_value)
+
+trilogy_conc_vs_fluoroquick_conc <- tril_fq_data %>%
+  ggplot(aes(x = `trilogy_chl_µg/L`, y = `duluth fluoroquik_chl_µg/L`, 
+             color = waterbody)) +
+  geom_point(size = 3) 
+
+trilogy_conc_vs_fluoroquick_ch1_hi <- tril_fq_data %>%
+  ggplot(aes(x = `trilogy_chl_µg/L`, y = `duluth fluoroquik_ch1 hi_rfu`, 
+             color = waterbody)) +
+  geom_point(size = 3) 
+
+trilogy_conc_vs_fluoroquick_ch1_lo <- tril_fq_data %>%
+  ggplot(aes(x = `trilogy_chl_µg/L`, y = `duluth fluoroquik_ch1 lo_rfu`, 
+             color = waterbody)) +
+  geom_point(size = 3)  
+
+trilogy_conc_vs_fluoroquick_ch1_hi <- tril_fq_data %>%
+  ggplot(aes(x = `trilogy_chl_µg/L`, y = `duluth fluoroquik_ch1 hi_rfu`, 
+             color = waterbody)) +
+  geom_point(size = 3) 
+
+trilogy_conc_vs_fluoroquick_ch1_lo <- tril_fq_data %>%
+  ggplot(aes(x = `trilogy_chl_µg/L`, y = `duluth fluoroquik_ch1 lo_rfu`, 
+             color = waterbody)) +
+  geom_point(size = 3) 
+
+trilogy_conc_vs_fluoroquick_ch2_hi <- tril_fq_data %>%
+  ggplot(aes(x = `trilogy_chl_µg/L`, y = `duluth fluoroquik_ch2 hi_rfu`, 
+             color = waterbody)) +
+  geom_point(size = 3) 
+
+trilogy_conc_vs_fluoroquick_ch2_lo <- tril_fq_data %>%
+  ggplot(aes(x = `trilogy_chl_µg/L`, y = `duluth fluoroquik_ch2 lo_rfu`, 
+             color = waterbody)) +
+  geom_point(size = 3) 
+
+combined_plot <- cowplot::plot_grid(trilogy_conc_vs_fluoroquick_conc,
+                   trilogy_conc_vs_fluoroquick_ch2_lo,
+                   trilogy_conc_vs_fluoroquick_ch2_hi,
+                   trilogy_conc_vs_fluoroquick_conc,
+                   trilogy_conc_vs_fluoroquick_ch1_lo,
+                   trilogy_conc_vs_fluoroquick_ch1_hi,
+                   nrow = 2, ncol = 3)
+
+combined_plot
+
+
+  

@@ -4,9 +4,10 @@ merge_extracted_chla <- function(){
   files <- c(list.files(here("data/raw/extracted chl/"), ".csv", 
                         full.names = TRUE))
   extracted_data <- purrr::map_df(files, 
-                                  function(x) 
-                                    ce_convert_rfus(x, "ext_chla", "2021", 
-                                                    "ours", std_check = FALSE))
+                                  function(x) {
+                                    xdf <- read_csv(x, na = c("", "NA", "na"))
+                                    ce_convert_rfus(xdf, "ext_chla", "2022", 
+                                                    "ours", std_check = TRUE)})
   extracted_data
 }
 
@@ -16,9 +17,10 @@ merge_extracted_phyco <- function(){
   files <- c(list.files(here("data/raw/extracted phyco/"), ".csv", 
                         full.names = TRUE))
   extracted_data <- purrr::map_df(files, 
-                                  function(x) 
-                                    ce_convert_rfus(x, "phyco", "2021", 
-                                                    "ours", std_check = TRUE))
+                                  function(x) {
+                                    xdf <- read_csv(x, na = c("", "NA", "na"))
+                                    ce_convert_rfus(xdf, "phyco", "2021", 
+                                                    "ours", std_check = TRUE)})
   extracted_data
 }
 
@@ -38,19 +40,22 @@ merge_phycoprobe <- function(){
 merge_invivo <- function(){
   files_fresh <- list.files(here("data/raw/trilogy in vivo/"), "fresh.csv", full.names = TRUE)
   files_frozen <- list.files(here("data/raw/trilogy in vivo/"), "frozen1.csv", full.names = TRUE)
+  
   # Need to add in fresh/frozen method here.
   invivo_data_fresh <- purrr::map_df(files_fresh,  
-                               function(x) 
-                                 ce_convert_rfus(x, "invivo_chla", "2021", 
-                                                 "ours", std_check = FALSE))
+                               function(x) {
+                                 xdf <- read_csv(x, na = c("", "NA", "na"))
+                                 ce_convert_rfus(xdf, "invivo_chla", "2021", 
+                                                 "ours", std_check = FALSE)})
   invivo_data_frozen <- purrr::map_df(files_frozen,  
-                                     function(x) 
-                                       ce_convert_rfus(x, "invivo_chla", "2021", 
-                                                       "ours", std_check = FALSE))
+                                     function(x) {
+                                       xdf <- read_csv(x, na = c("", "NA", "na")) 
+                                       ce_convert_rfus(xdf, "invivo_chla", "2021", 
+                                                       "ours", std_check = FALSE)})
   invivo_data_fresh <- mutate(invivo_data_fresh, method = "fresh")
   invivo_data_frozen <- mutate(invivo_data_frozen, method = "frozen")
   invivo_data <- bind_rows(invivo_data_fresh, invivo_data_frozen)
-  invivo_data$units <- "rfu"
+  invivo_data <- filter(invivo_data, units == "rfu")
   invivo_data <- unique(invivo_data)
   invivo_data
 }   
@@ -64,8 +69,7 @@ clean_handheld <- function(df){
   handheld_data <- select(handheld_data, date, waterbody, dups = dup, reps, 
                           instrument, method = `fresh/frozen1/frozen3`, 
                           variable, units, value)
-  #handheld_data <- filter(handheld_data, variable %in% c("chl", "chl blk", 
-  #                                                        "pc", "pc blk"))
+  handheld_data <- filter(handheld_data, !variable %in% c("chl blk", "pc blk"))
   handheld_data <- mutate(handheld_data, units = case_when(units == "ug/l" ~
                                                              "µg/L",
                                                            TRUE ~ units))
@@ -109,7 +113,7 @@ clean_phycoprobe <- function(df){
 #' 
 #' @param df merged extracted data
 clean_extracted <- function(df){
-  #browser()
+  
   extracted_data <- mutate(df, method = "extracted", instrument = "trilogy")
   extracted_data <- select(extracted_data, date, waterbody, dups, reps, 
                            instrument, method, variable, units, value)
@@ -121,6 +125,18 @@ clean_extracted <- function(df){
                                                    "windmist", 
                                                  TRUE ~ waterbody),
                            units = tolower(units))
+
+  extracted_ratio <- pivot_wider(extracted_data, 
+                                 names_from = c("variable", "units"), 
+                                 values_from = value)
+  
+  extracted_ratio <- mutate(extracted_ratio, 
+                            `pc:chl_ratio` = phyco_rfu/chl_rfu)
+  extracted_ratio <- select(extracted_ratio, date:method, `pc:chl_ratio`)
+  extracted_ratio <- pivot_longer(extracted_ratio, `pc:chl_ratio`, 
+                                  names_to = c("variable", "units"), 
+                                  names_sep = "_", values_to = "value")
+  extracted_data <- bind_rows(extracted_data, extracted_ratio)
   extracted_data
 }
 
