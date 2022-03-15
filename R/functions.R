@@ -156,3 +156,47 @@ clean_invivo <- function(df){
                                                  TRUE ~ waterbody))
   invivo_data
 }
+
+#' Clean field data
+#' 
+#' @param df merged extracted data
+clean_field <- function(df){
+  
+  field_data <- mutate(df, date = ymd(paste0(year, month, day)),
+                       variable = case_when(variable == "PC" ~
+                                              "pc",
+                                            variable == "cyano" ~
+                                              "pc",
+                                            variable == "total" ~
+                                              "chl",
+                                            TRUE ~ variable),
+                       units = case_when(variable == "pc" & instrument == "fluorosense" ~
+                                           "µg/L",
+                                         variable == "pc" & instrument == "algaetorch" ~
+                                           "chlorophyll from cyanobacteria",
+                                         variable == "chl" ~
+                                           "µg/L",
+                                         variable == "turb" ~
+                                           "FTU",
+                                         variable == "%do" ~
+                                           "%",
+                                         variable == "do" ~
+                                           "mg/L",
+                                         variable == "spc" ~
+                                           "µS/cm",
+                                         variable == "salinity" ~
+                                           "ppt",
+                                         variable == "temp" ~
+                                           "°C",
+                                         variable == "ph" ~
+                                           "ph",
+                                         TRUE ~ NA_character_
+                                         ),
+                       dups = reps, method = "fresh")
+  field_data <- select(field_data, date, waterbody, dups, reps, instrument, 
+                       method, variable, units, value)
+  field_data <- dplyr::mutate_if(field_data, is.character, .funs = 
+                                        function(x){return(`Encoding<-`(x, "UTF-8"))})
+  field_data
+  
+}

@@ -1,4 +1,13 @@
 date,waterbody,instrument,method,variable,units,dups,avg_value,sd_value
+2021-10-06,barber,algaetorch,fresh,chl,µg/L,1,8.4,NA
+2021-10-06,barber,algaetorch,fresh,chl,µg/L,2,7.4,NA
+2021-10-06,barber,algaetorch,fresh,chl,µg/L,3,7.5,NA
+2021-10-06,barber,algaetorch,fresh,phyco,chlorophyll from cyanobacteria,1,1.7,NA
+2021-10-06,barber,algaetorch,fresh,phyco,chlorophyll from cyanobacteria,2,0.9,NA
+2021-10-06,barber,algaetorch,fresh,phyco,chlorophyll from cyanobacteria,3,0.8,NA
+2021-10-06,barber,algaetorch,fresh,turb,FTU,1,2.4,NA
+2021-10-06,barber,algaetorch,fresh,turb,FTU,2,2.4,NA
+2021-10-06,barber,algaetorch,fresh,turb,FTU,3,2.5,NA
 2021-10-06,barber,cyanofluor,fresh,chl,rfu,1,669.2733333333333,147.79058100343647
 2021-10-06,barber,cyanofluor,fresh,chl,rfu,2,687.4366666666667,51.14807653600801
 2021-10-06,barber,cyanofluor,fresh,chl,rfu,3,790.5933333333334,27.274415361897958
@@ -80,6 +89,9 @@ date,waterbody,instrument,method,variable,units,dups,avg_value,sd_value
 2021-10-06,barber,duluth fluoroquik,frozen3,phyco,µg/L,1,0.1,0
 2021-10-06,barber,duluth fluoroquik,frozen3,phyco,µg/L,2,0.1,0
 2021-10-06,barber,duluth fluoroquik,frozen3,phyco,µg/L,3,0.1,0
+2021-10-06,barber,fluorosense,fresh,phyco,µg/L,1,3,NA
+2021-10-06,barber,fluorosense,fresh,phyco,µg/L,2,2,NA
+2021-10-06,barber,fluorosense,fresh,phyco,µg/L,3,2,NA
 2021-10-06,barber,phycoprobe,fresh,chl,µg/L,1,7.0633333333333335,0.2685764943797825
 2021-10-06,barber,phycoprobe,fresh,chl,µg/L,2,6.96,0.29938826518975914
 2021-10-06,barber,phycoprobe,fresh,chl,µg/L,3,7.112222222222222,0.3518890818509801
@@ -92,6 +104,12 @@ date,waterbody,instrument,method,variable,units,dups,avg_value,sd_value
 2021-10-06,barber,phycoprobe,frozen,phyco,µg/L,1,0.5955555555555555,0.29486971385367494
 2021-10-06,barber,phycoprobe,frozen,phyco,µg/L,2,0.48333333333333334,0.41866188956934897
 2021-10-06,barber,phycoprobe,frozen,phyco,µg/L,3,0.5022222222222222,0.21282056430850985
+2021-10-06,barber,sonde,fresh,%do,%,1,71.7,NA
+2021-10-06,barber,sonde,fresh,do,mg/L,1,6.74,NA
+2021-10-06,barber,sonde,fresh,ph,ph,1,6.22,NA
+2021-10-06,barber,sonde,fresh,salinity,ppt,1,0.04,NA
+2021-10-06,barber,sonde,fresh,spc,µS/cm,1,80,NA
+2021-10-06,barber,sonde,fresh,temp,°C,1,18.3,NA
 2021-10-06,barber,trilogy,extracted,chl,µg/L,1,4.6763077069214996,0.2963856074620414
 2021-10-06,barber,trilogy,extracted,chl,µg/L,2,4.455715506992792,0.037481847685810483
 2021-10-06,barber,trilogy,extracted,chl,µg/L,3,4.273562321006887,0.16709027929962866
@@ -176,6 +194,15 @@ date,waterbody,instrument,method,variable,units,dups,avg_value,sd_value
 2021-10-06,barber,uri fluoroquik,frozen3,phyco,µg/L,1,0.1,0
 2021-10-06,barber,uri fluoroquik,frozen3,phyco,µg/L,2,0.1,0
 2021-10-06,barber,uri fluoroquik,frozen3,phyco,µg/L,3,0.1,0
+2021-10-06,indian,algaetorch,fresh,chl,µg/L,1,2.5,NA
+2021-10-06,indian,algaetorch,fresh,chl,µg/L,2,2.9,NA
+2021-10-06,indian,algaetorch,fresh,chl,µg/L,3,2.8,NA
+2021-10-06,indian,algaetorch,fresh,phyco,chlorophyll from cyanobacteria,1,0.7,NA
+2021-10-06,indian,algaetorch,fresh,phyco,chlorophyll from cyanobacteria,2,0.9,NA
+2021-10-06,indian,algaetorch,fresh,phyco,chlorophyll from cyanobacteria,3,1.1,NA
+2021-10-06,indian,algaetorch,fresh,turb,FTU,1,1.3,NA
+2021-10-06,indian,algaetorch,fresh,turb,FTU,2,1.3,NA
+2021-10-06,indian,algaetorch,fresh,turb,FTU,3,1.3,NA
 2021-10-06,indian,cyanofluor,fresh,chl,rfu,1,218.79333333333332,32.973641493370636
 2021-10-06,indian,cyanofluor,fresh,chl,rfu,2,203.23333333333332,6.485524908080561
 2021-10-06,indian,cyanofluor,fresh,chl,rfu,3,214.60333333333332,47.49800136146082
@@ -257,6 +284,9 @@ date,waterbody,instrument,method,variable,units,dups,avg_value,sd_value
 2021-10-06,indian,duluth fluoroquik,frozen3,phyco,µg/L,1,0.1,0
 2021-10-06,indian,duluth fluoroquik,frozen3,phyco,µg/L,2,0.1,0
 2021-10-06,indian,duluth fluoroquik,frozen3,phyco,µg/L,3,0.1,0
+2021-10-06,indian,fluorosense,fresh,phyco,µg/L,1,1,NA
+2021-10-06,indian,fluorosense,fresh,phyco,µg/L,2,1,NA
+2021-10-06,indian,fluorosense,fresh,phyco,µg/L,3,1,NA
 2021-10-06,indian,phycoprobe,fresh,chl,µg/L,1,3.367777777777778,0.220260788191668
 2021-10-06,indian,phycoprobe,fresh,chl,µg/L,2,3.258888888888889,0.1417483424685896
 2021-10-06,indian,phycoprobe,fresh,chl,µg/L,3,3.4566666666666666,0.053333333333333455
@@ -269,6 +299,12 @@ date,waterbody,instrument,method,variable,units,dups,avg_value,sd_value
 2021-10-06,indian,phycoprobe,frozen,phyco,µg/L,1,0.7433333333333334,0.0924361641590803
 2021-10-06,indian,phycoprobe,frozen,phyco,µg/L,2,0.9344444444444444,0.09674326467128994
 2021-10-06,indian,phycoprobe,frozen,phyco,µg/L,3,0.7655555555555555,0.032885885748775004
+2021-10-06,indian,sonde,fresh,%do,%,1,88.6,NA
+2021-10-06,indian,sonde,fresh,do,mg/L,1,8.21,NA
+2021-10-06,indian,sonde,fresh,ph,ph,1,6.39,NA
+2021-10-06,indian,sonde,fresh,salinity,ppt,1,0.08,NA
+2021-10-06,indian,sonde,fresh,spc,µS/cm,1,173.6,NA
+2021-10-06,indian,sonde,fresh,temp,°C,1,19,NA
 2021-10-06,indian,trilogy,extracted,chl,µg/L,1,1.2317275808257986,0.1031289501332977
 2021-10-06,indian,trilogy,extracted,chl,µg/L,2,1.299452678624806,0.018197499492580534
 2021-10-06,indian,trilogy,extracted,chl,µg/L,3,1.222772195992872,0.15669605103659218
@@ -353,6 +389,9 @@ date,waterbody,instrument,method,variable,units,dups,avg_value,sd_value
 2021-10-06,indian,uri fluoroquik,frozen3,phyco,µg/L,1,0.1,0
 2021-10-06,indian,uri fluoroquik,frozen3,phyco,µg/L,2,0.1,0
 2021-10-06,indian,uri fluoroquik,frozen3,phyco,µg/L,3,0.1,0
+2021-10-06,yawgoo,algaetorch,fresh,chl,µg/L,1,3.5,NA
+2021-10-06,yawgoo,algaetorch,fresh,phyco,chlorophyll from cyanobacteria,1,2.5,NA
+2021-10-06,yawgoo,algaetorch,fresh,turb,FTU,1,4.4,NA
 2021-10-06,yawgoo,cyanofluor,fresh,chl,rfu,1,309.49666666666667,36.935525356130135
 2021-10-06,yawgoo,cyanofluor,fresh,chl,rfu,2,296.44666666666666,37.98134585995255
 2021-10-06,yawgoo,cyanofluor,fresh,chl,rfu,3,321.74,46.59515103527407
@@ -434,6 +473,9 @@ date,waterbody,instrument,method,variable,units,dups,avg_value,sd_value
 2021-10-06,yawgoo,duluth fluoroquik,frozen3,phyco,µg/L,1,0.1,0
 2021-10-06,yawgoo,duluth fluoroquik,frozen3,phyco,µg/L,2,0.1,0
 2021-10-06,yawgoo,duluth fluoroquik,frozen3,phyco,µg/L,3,0.1,0
+2021-10-06,yawgoo,fluorosense,fresh,phyco,µg/L,1,2,NA
+2021-10-06,yawgoo,fluorosense,fresh,phyco,µg/L,2,2,NA
+2021-10-06,yawgoo,fluorosense,fresh,phyco,µg/L,3,2,NA
 2021-10-06,yawgoo,phycoprobe,fresh,chl,µg/L,1,4.3822222222222225,0.8176479365522474
 2021-10-06,yawgoo,phycoprobe,fresh,chl,µg/L,2,4.615555555555556,0.3326715653168608
 2021-10-06,yawgoo,phycoprobe,fresh,chl,µg/L,3,4.384444444444444,0.2004809033114939
@@ -446,6 +488,12 @@ date,waterbody,instrument,method,variable,units,dups,avg_value,sd_value
 2021-10-06,yawgoo,phycoprobe,frozen,phyco,µg/L,1,3.2833333333333337,0.4026716335234511
 2021-10-06,yawgoo,phycoprobe,frozen,phyco,µg/L,2,2.4155555555555557,0.8885589665503562
 2021-10-06,yawgoo,phycoprobe,frozen,phyco,µg/L,3,3.132222222222222,0.1982235924217716
+2021-10-06,yawgoo,sonde,fresh,%do,%,1,86.7,NA
+2021-10-06,yawgoo,sonde,fresh,do,mg/L,1,7.83,NA
+2021-10-06,yawgoo,sonde,fresh,ph,ph,1,6.67,NA
+2021-10-06,yawgoo,sonde,fresh,salinity,ppt,1,0.03,NA
+2021-10-06,yawgoo,sonde,fresh,spc,µS/cm,1,63.7,NA
+2021-10-06,yawgoo,sonde,fresh,temp,°C,1,21.1,NA
 2021-10-06,yawgoo,trilogy,extracted,chl,µg/L,1,2.9709818425323458,0.07398346677263397
 2021-10-06,yawgoo,trilogy,extracted,chl,µg/L,2,2.7667529744490973,0.0035672282647710206
 2021-10-06,yawgoo,trilogy,extracted,chl,µg/L,3,2.6642269877956655,0.03725657571548121
@@ -538,6 +586,24 @@ date,waterbody,instrument,method,variable,units,dups,avg_value,sd_value
 2021-10-18,200ppb standard,phycoprobe,NA,phyco,µg/L,NA,0,NA
 2021-10-18,800ppb standard,phycoprobe,NA,chl,µg/L,NA,547.85,NA
 2021-10-18,800ppb standard,phycoprobe,NA,phyco,µg/L,NA,0,NA
+2021-10-21,curan,algaetorch,fresh,chl,µg/L,1,11.7,NA
+2021-10-21,curan,algaetorch,fresh,chl,µg/L,2,13.2,NA
+2021-10-21,curan,algaetorch,fresh,chl,µg/L,3,17.6,NA
+2021-10-21,curan,algaetorch,fresh,phyco,chlorophyll from cyanobacteria,1,3,NA
+2021-10-21,curan,algaetorch,fresh,phyco,chlorophyll from cyanobacteria,2,3.5,NA
+2021-10-21,curan,algaetorch,fresh,phyco,chlorophyll from cyanobacteria,3,5,NA
+2021-10-21,curan,algaetorch,fresh,turb,FTU,1,3.8,NA
+2021-10-21,curan,algaetorch,fresh,turb,FTU,2,3.8,NA
+2021-10-21,curan,algaetorch,fresh,turb,FTU,3,4.2,NA
+2021-10-21,curan,fluorosense,fresh,phyco,µg/L,1,4,NA
+2021-10-21,curan,fluorosense,fresh,phyco,µg/L,2,4,NA
+2021-10-21,curan,fluorosense,fresh,phyco,µg/L,3,6,NA
+2021-10-21,curan,sonde,fresh,%do,%,1,81.4,NA
+2021-10-21,curan,sonde,fresh,do,mg/L,1,7.78,NA
+2021-10-21,curan,sonde,fresh,ph,ph,1,7.52,NA
+2021-10-21,curan,sonde,fresh,salinity,ppt,1,0.06,NA
+2021-10-21,curan,sonde,fresh,spc,µS/cm,1,133,NA
+2021-10-21,curan,sonde,fresh,temp,°C,1,17.5,NA
 2021-10-21,curran,cyanofluor,fresh,chl,rfu,1,3701.833333333333,596.9318246946909
 2021-10-21,curran,cyanofluor,fresh,chl,rfu,2,3212.4,152.60344032819174
 2021-10-21,curran,cyanofluor,fresh,chl,rfu,3,3701.766666666667,491.27365422270844
@@ -715,6 +781,15 @@ date,waterbody,instrument,method,variable,units,dups,avg_value,sd_value
 2021-10-21,curran,uri fluoroquik,frozen3,phyco,µg/L,1,0.1,0
 2021-10-21,curran,uri fluoroquik,frozen3,phyco,µg/L,2,0.1,0
 2021-10-21,curran,uri fluoroquik,frozen3,phyco,µg/L,3,0.1,0
+2021-10-21,mashapaug,algaetorch,fresh,chl,µg/L,1,24.8,NA
+2021-10-21,mashapaug,algaetorch,fresh,chl,µg/L,2,25.5,NA
+2021-10-21,mashapaug,algaetorch,fresh,chl,µg/L,3,21.1,NA
+2021-10-21,mashapaug,algaetorch,fresh,phyco,chlorophyll from cyanobacteria,1,17.6,NA
+2021-10-21,mashapaug,algaetorch,fresh,phyco,chlorophyll from cyanobacteria,2,17.3,NA
+2021-10-21,mashapaug,algaetorch,fresh,phyco,chlorophyll from cyanobacteria,3,15.8,NA
+2021-10-21,mashapaug,algaetorch,fresh,turb,FTU,1,8,NA
+2021-10-21,mashapaug,algaetorch,fresh,turb,FTU,2,8.6,NA
+2021-10-21,mashapaug,algaetorch,fresh,turb,FTU,3,11.7,NA
 2021-10-21,mashapaug,cyanofluor,fresh,chl,rfu,1,958.01,125.56508790264904
 2021-10-21,mashapaug,cyanofluor,fresh,chl,rfu,2,1268.8666666666668,263.75466504563167
 2021-10-21,mashapaug,cyanofluor,fresh,chl,rfu,3,1659.3666666666668,238.38660476908797
@@ -796,6 +871,9 @@ date,waterbody,instrument,method,variable,units,dups,avg_value,sd_value
 2021-10-21,mashapaug,duluth fluoroquik,frozen3,phyco,µg/L,1,0.1,0
 2021-10-21,mashapaug,duluth fluoroquik,frozen3,phyco,µg/L,2,0.1,0
 2021-10-21,mashapaug,duluth fluoroquik,frozen3,phyco,µg/L,3,0.1,0
+2021-10-21,mashapaug,fluorosense,fresh,phyco,µg/L,1,25,NA
+2021-10-21,mashapaug,fluorosense,fresh,phyco,µg/L,2,30,NA
+2021-10-21,mashapaug,fluorosense,fresh,phyco,µg/L,3,34,NA
 2021-10-21,mashapaug,phycoprobe,fresh,chl,µg/L,1,27.79,0.41005419695991935
 2021-10-21,mashapaug,phycoprobe,fresh,chl,µg/L,2,27.121111111111112,2.3029843762034172
 2021-10-21,mashapaug,phycoprobe,fresh,chl,µg/L,3,34.425555555555555,0.637410850701955
@@ -808,6 +886,12 @@ date,waterbody,instrument,method,variable,units,dups,avg_value,sd_value
 2021-10-21,mashapaug,phycoprobe,frozen,phyco,µg/L,1,25.07111111111111,0.49668158068584756
 2021-10-21,mashapaug,phycoprobe,frozen,phyco,µg/L,2,22.644444444444446,0.766958881509253
 2021-10-21,mashapaug,phycoprobe,frozen,phyco,µg/L,3,24.273333333333333,0.8379604870026862
+2021-10-21,mashapaug,sonde,fresh,%do,%,1,84.8,NA
+2021-10-21,mashapaug,sonde,fresh,do,mg/L,1,8.06,NA
+2021-10-21,mashapaug,sonde,fresh,ph,ph,1,7.44,NA
+2021-10-21,mashapaug,sonde,fresh,salinity,ppt,1,0.2,NA
+2021-10-21,mashapaug,sonde,fresh,spc,µS/cm,1,411.8,NA
+2021-10-21,mashapaug,sonde,fresh,temp,°C,1,17.8,NA
 2021-10-21,mashapaug,trilogy,extracted,chl,µg/L,1,29.70109350995314,0.29854601743555104
 2021-10-21,mashapaug,trilogy,extracted,chl,µg/L,2,30.634165591442624,2.5992010808302446
 2021-10-21,mashapaug,trilogy,extracted,chl,µg/L,3,36.27885659394668,1.1155629604360824
@@ -892,6 +976,15 @@ date,waterbody,instrument,method,variable,units,dups,avg_value,sd_value
 2021-10-21,mashapaug,uri fluoroquik,frozen3,phyco,µg/L,1,1.05,0.6763874629234341
 2021-10-21,mashapaug,uri fluoroquik,frozen3,phyco,µg/L,2,1.1233333333333333,0.21361959960016158
 2021-10-21,mashapaug,uri fluoroquik,frozen3,phyco,µg/L,3,2.1233333333333335,0.9902693236354105
+2021-10-21,warwick,algaetorch,fresh,chl,µg/L,1,22.3,NA
+2021-10-21,warwick,algaetorch,fresh,chl,µg/L,2,23.1,NA
+2021-10-21,warwick,algaetorch,fresh,chl,µg/L,3,22.7,NA
+2021-10-21,warwick,algaetorch,fresh,phyco,chlorophyll from cyanobacteria,1,8.1,NA
+2021-10-21,warwick,algaetorch,fresh,phyco,chlorophyll from cyanobacteria,2,8.2,NA
+2021-10-21,warwick,algaetorch,fresh,phyco,chlorophyll from cyanobacteria,3,8.3,NA
+2021-10-21,warwick,algaetorch,fresh,turb,FTU,1,7.1,NA
+2021-10-21,warwick,algaetorch,fresh,turb,FTU,2,7,NA
+2021-10-21,warwick,algaetorch,fresh,turb,FTU,3,6.9,NA
 2021-10-21,warwick,cyanofluor,fresh,chl,rfu,1,3235.766666666667,189.77803701517553
 2021-10-21,warwick,cyanofluor,fresh,chl,rfu,2,3687.0666666666666,66.07346920915631
 2021-10-21,warwick,cyanofluor,fresh,chl,rfu,3,4221.5999999999995,83.60932962295519
@@ -973,6 +1066,9 @@ date,waterbody,instrument,method,variable,units,dups,avg_value,sd_value
 2021-10-21,warwick,duluth fluoroquik,frozen3,phyco,µg/L,1,0.1,0
 2021-10-21,warwick,duluth fluoroquik,frozen3,phyco,µg/L,2,0.1,0
 2021-10-21,warwick,duluth fluoroquik,frozen3,phyco,µg/L,3,0.1,0
+2021-10-21,warwick,fluorosense,fresh,phyco,µg/L,1,11,NA
+2021-10-21,warwick,fluorosense,fresh,phyco,µg/L,2,11,NA
+2021-10-21,warwick,fluorosense,fresh,phyco,µg/L,3,11,NA
 2021-10-21,warwick,phycoprobe,fresh,chl,µg/L,1,35.16111111111111,0.5370426564201549
 2021-10-21,warwick,phycoprobe,fresh,chl,µg/L,2,35.501111111111115,0.4448387140093402
 2021-10-21,warwick,phycoprobe,fresh,chl,µg/L,3,36.55222222222222,0.06866450913547033
@@ -985,6 +1081,12 @@ date,waterbody,instrument,method,variable,units,dups,avg_value,sd_value
 2021-10-21,warwick,phycoprobe,frozen,phyco,µg/L,1,11.11,0.5184056755519221
 2021-10-21,warwick,phycoprobe,frozen,phyco,µg/L,2,11.86888888888889,0.20801531282665267
 2021-10-21,warwick,phycoprobe,frozen,phyco,µg/L,3,8.915555555555555,0.5373425695373825
+2021-10-21,warwick,sonde,fresh,%do,%,1,68.4,NA
+2021-10-21,warwick,sonde,fresh,do,mg/L,1,6.44,NA
+2021-10-21,warwick,sonde,fresh,ph,ph,1,7.08,NA
+2021-10-21,warwick,sonde,fresh,salinity,ppt,1,0.12,NA
+2021-10-21,warwick,sonde,fresh,spc,µS/cm,1,260.3,NA
+2021-10-21,warwick,sonde,fresh,temp,°C,1,18.2,NA
 2021-10-21,warwick,trilogy,extracted,chl,µg/L,1,19.039905411607688,1.6249348235959558
 2021-10-21,warwick,trilogy,extracted,chl,µg/L,2,20.066811488589234,0.7091723855288101
 2021-10-21,warwick,trilogy,extracted,chl,µg/L,3,20.982104497248645,0.8261245809674881
@@ -1073,6 +1175,24 @@ date,waterbody,instrument,method,variable,units,dups,avg_value,sd_value
 2021-10-22,200ppb standard,phycoprobe,NA,phyco,µg/L,NA,0,NA
 2021-10-22,800ppb standard,phycoprobe,NA,chl,µg/L,NA,541.8,NA
 2021-10-22,800ppb standard,phycoprobe,NA,phyco,µg/L,NA,0,NA
+2021-11-09,lower melvile,algaetorch,fresh,chl,µg/L,1,6.3,NA
+2021-11-09,lower melvile,algaetorch,fresh,chl,µg/L,2,5.6,NA
+2021-11-09,lower melvile,algaetorch,fresh,chl,µg/L,3,5.5,NA
+2021-11-09,lower melvile,algaetorch,fresh,phyco,chlorophyll from cyanobacteria,1,4.6,NA
+2021-11-09,lower melvile,algaetorch,fresh,phyco,chlorophyll from cyanobacteria,2,4,NA
+2021-11-09,lower melvile,algaetorch,fresh,phyco,chlorophyll from cyanobacteria,3,4.1,NA
+2021-11-09,lower melvile,algaetorch,fresh,turb,FTU,1,4.9,NA
+2021-11-09,lower melvile,algaetorch,fresh,turb,FTU,2,5.2,NA
+2021-11-09,lower melvile,algaetorch,fresh,turb,FTU,3,4.9,NA
+2021-11-09,lower melvile,fluorosense,fresh,phyco,µg/L,1,7,NA
+2021-11-09,lower melvile,fluorosense,fresh,phyco,µg/L,2,6,NA
+2021-11-09,lower melvile,fluorosense,fresh,phyco,µg/L,3,7,NA
+2021-11-09,lower melvile,sonde,fresh,%do,%,1,100.7,NA
+2021-11-09,lower melvile,sonde,fresh,do,mg/L,1,11.25,NA
+2021-11-09,lower melvile,sonde,fresh,ph,ph,1,6.96,NA
+2021-11-09,lower melvile,sonde,fresh,salinity,ppt,1,0.15,NA
+2021-11-09,lower melvile,sonde,fresh,spc,µS/cm,1,320,NA
+2021-11-09,lower melvile,sonde,fresh,temp,°C,1,10.4,NA
 2021-11-09,lower melville,cyanofluor,fresh,chl,rfu,1,236.26333333333332,19.2278452597615
 2021-11-09,lower melville,cyanofluor,fresh,chl,rfu,2,252.1,93.79078686097051
 2021-11-09,lower melville,cyanofluor,fresh,chl,rfu,3,236.75,55.955275890661106
@@ -1250,6 +1370,15 @@ date,waterbody,instrument,method,variable,units,dups,avg_value,sd_value
 2021-11-09,Lower melville,trilogy in vivo,fresh,chl,rfu,1,131.3,16.388279348363564
 2021-11-09,Lower melville,trilogy in vivo,fresh,chl,rfu,2,130.1,10.884590024433601
 2021-11-09,Lower melville,trilogy in vivo,fresh,chl,rfu,3,116.33000000000003,16.621708696761605
+2021-11-09,upper melville,algaetorch,fresh,chl,µg/L,1,4.1,NA
+2021-11-09,upper melville,algaetorch,fresh,chl,µg/L,2,3.3,NA
+2021-11-09,upper melville,algaetorch,fresh,chl,µg/L,3,3.3,NA
+2021-11-09,upper melville,algaetorch,fresh,phyco,chlorophyll from cyanobacteria,1,2.8,NA
+2021-11-09,upper melville,algaetorch,fresh,phyco,chlorophyll from cyanobacteria,2,1.7,NA
+2021-11-09,upper melville,algaetorch,fresh,phyco,chlorophyll from cyanobacteria,3,1.7,NA
+2021-11-09,upper melville,algaetorch,fresh,turb,FTU,1,4.2,NA
+2021-11-09,upper melville,algaetorch,fresh,turb,FTU,2,4.1,NA
+2021-11-09,upper melville,algaetorch,fresh,turb,FTU,3,4.4,NA
 2021-11-09,upper melville,cyanofluor,fresh,chl,rfu,1,492.7633333333333,30.29916225464551
 2021-11-09,upper melville,cyanofluor,fresh,chl,rfu,2,456.43666666666667,30.41453654641696
 2021-11-09,upper melville,cyanofluor,fresh,chl,rfu,3,338.5,24.478384342108875
@@ -1331,6 +1460,9 @@ date,waterbody,instrument,method,variable,units,dups,avg_value,sd_value
 2021-11-09,upper melville,duluth fluoroquik,frozen3,phyco,µg/L,1,0.1,0
 2021-11-09,upper melville,duluth fluoroquik,frozen3,phyco,µg/L,2,0.1,0
 2021-11-09,upper melville,duluth fluoroquik,frozen3,phyco,µg/L,3,0.1,0
+2021-11-09,upper melville,fluorosense,fresh,phyco,µg/L,1,5,NA
+2021-11-09,upper melville,fluorosense,fresh,phyco,µg/L,2,9,NA
+2021-11-09,upper melville,fluorosense,fresh,phyco,µg/L,3,10,NA
 2021-11-09,upper melville,phycoprobe,fresh,chl,µg/L,1,7.927222222222222,0.03267403545007269
 2021-11-09,upper melville,phycoprobe,fresh,chl,µg/L,2,7.86,0.16746475582773937
 2021-11-09,upper melville,phycoprobe,fresh,chl,µg/L,3,9.703333333333333,0.19341952101872062
@@ -1343,6 +1475,12 @@ date,waterbody,instrument,method,variable,units,dups,avg_value,sd_value
 2021-11-09,upper melville,phycoprobe,frozen,phyco,µg/L,1,3.8944444444444444,0.518516402112083
 2021-11-09,upper melville,phycoprobe,frozen,phyco,µg/L,2,2.9733333333333336,0.5400720116593506
 2021-11-09,upper melville,phycoprobe,frozen,phyco,µg/L,3,8.227777777777778,0.7210049570898577
+2021-11-09,upper melville,sonde,fresh,%do,%,1,120.4,NA
+2021-11-09,upper melville,sonde,fresh,do,mg/L,1,13.02,NA
+2021-11-09,upper melville,sonde,fresh,ph,ph,1,6.84,NA
+2021-11-09,upper melville,sonde,fresh,salinity,ppt,1,0.13,NA
+2021-11-09,upper melville,sonde,fresh,spc,µS/cm,1,269.8,NA
+2021-11-09,upper melville,sonde,fresh,temp,°C,1,11.8,NA
 2021-11-09,upper melville,trilogy,extracted,chl,µg/L,1,6.898774121203219,0.17080740391420782
 2021-11-09,upper melville,trilogy,extracted,chl,µg/L,2,7.476100125046485,0.31505565025686183
 2021-11-09,upper melville,trilogy,extracted,chl,µg/L,3,5.755234034035488,0.2705334512058417
@@ -1427,6 +1565,18 @@ date,waterbody,instrument,method,variable,units,dups,avg_value,sd_value
 2021-11-09,upper melville,uri fluoroquik,frozen3,phyco,µg/L,1,0.1,0
 2021-11-09,upper melville,uri fluoroquik,frozen3,phyco,µg/L,2,0.1,0
 2021-11-09,upper melville,uri fluoroquik,frozen3,phyco,µg/L,3,0.1,0
+2021-11-09,windmist,algaetorch,fresh,chl,µg/L,1,5.8,NA
+2021-11-09,windmist,algaetorch,fresh,chl,µg/L,2,10.1,NA
+2021-11-09,windmist,algaetorch,fresh,chl,µg/L,3,7.1,NA
+2021-11-09,windmist,algaetorch,fresh,chl,µg/L,4,48.2,NA
+2021-11-09,windmist,algaetorch,fresh,phyco,chlorophyll from cyanobacteria,1,1.1,NA
+2021-11-09,windmist,algaetorch,fresh,phyco,chlorophyll from cyanobacteria,2,3.1,NA
+2021-11-09,windmist,algaetorch,fresh,phyco,chlorophyll from cyanobacteria,3,1.4,NA
+2021-11-09,windmist,algaetorch,fresh,phyco,chlorophyll from cyanobacteria,4,8.6,NA
+2021-11-09,windmist,algaetorch,fresh,turb,FTU,1,47.4,NA
+2021-11-09,windmist,algaetorch,fresh,turb,FTU,2,41.3,NA
+2021-11-09,windmist,algaetorch,fresh,turb,FTU,3,43.3,NA
+2021-11-09,windmist,algaetorch,fresh,turb,FTU,4,100.8,NA
 2021-11-09,windmist,cyanofluor,fresh,chl,rfu,1,537.3866666666667,83.97195623143085
 2021-11-09,windmist,cyanofluor,fresh,chl,rfu,2,535.6833333333334,44.69123105636423
 2021-11-09,windmist,cyanofluor,fresh,chl,rfu,3,550.7966666666666,98.53041374790496
@@ -1508,6 +1658,9 @@ date,waterbody,instrument,method,variable,units,dups,avg_value,sd_value
 2021-11-09,windmist,duluth fluoroquik,frozen3,phyco,µg/L,1,0.1,0
 2021-11-09,windmist,duluth fluoroquik,frozen3,phyco,µg/L,2,0.1,0
 2021-11-09,windmist,duluth fluoroquik,frozen3,phyco,µg/L,3,0.1,0
+2021-11-09,windmist,fluorosense,fresh,phyco,µg/L,1,2,NA
+2021-11-09,windmist,fluorosense,fresh,phyco,µg/L,2,2,NA
+2021-11-09,windmist,fluorosense,fresh,phyco,µg/L,3,2,NA
 2021-11-09,windmist,phycoprobe,fresh,chl,µg/L,1,4.596666666666667,0.08504900548115386
 2021-11-09,windmist,phycoprobe,fresh,chl,µg/L,2,4.968888888888889,0.29863268655905945
 2021-11-09,windmist,phycoprobe,fresh,chl,µg/L,3,4.555555555555555,0.3400054465794682
@@ -1520,6 +1673,12 @@ date,waterbody,instrument,method,variable,units,dups,avg_value,sd_value
 2021-11-09,windmist,phycoprobe,frozen,phyco,µg/L,1,0.46444444444444444,0.2864016863182302
 2021-11-09,windmist,phycoprobe,frozen,phyco,µg/L,2,0.5,0.4571773300494143
 2021-11-09,windmist,phycoprobe,frozen,phyco,µg/L,3,0.37,0.60654760736483
+2021-11-09,windmist,sonde,fresh,%do,%,1,28.2,NA
+2021-11-09,windmist,sonde,fresh,do,mg/L,1,3.05,NA
+2021-11-09,windmist,sonde,fresh,ph,ph,1,7.21,NA
+2021-11-09,windmist,sonde,fresh,salinity,ppt,1,0.33,NA
+2021-11-09,windmist,sonde,fresh,spc,µS/cm,1,672,NA
+2021-11-09,windmist,sonde,fresh,temp,°C,1,11.8,NA
 2021-11-09,windmist,trilogy,extracted,chl,µg/L,1,3.7974782596682153,0.2137613615573413
 2021-11-09,windmist,trilogy,extracted,chl,µg/L,2,15.058545444983976,1.7441394746029817
 2021-11-09,windmist,trilogy,extracted,chl,µg/L,3,3.031661159617212,0.17935075630289465

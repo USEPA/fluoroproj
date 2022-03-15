@@ -11,6 +11,7 @@ phycoprobe_data <- merge_phycoprobe()
 extracted_chla_data <- merge_extracted_chla()
 extracted_phyco_data <- merge_extracted_phyco()
 invivo_data <- merge_invivo()
+field_data <- read_csv(here("data/raw/field data.csv"))
 
 # Clean up data
 handheld_data <- clean_handheld(handheld_data)
@@ -18,10 +19,11 @@ phycoprobe_data <- clean_phycoprobe(phycoprobe_data)
 extracted_data <- bind_rows(extracted_chla_data, extracted_phyco_data)
 extracted_data <- clean_extracted(extracted_data)
 invivo_data <- clean_invivo(invivo_data)
+field_data <- clean_field(field_data)
 
 
 fluoroproj_data <- bind_rows(handheld_data, phycoprobe_data, extracted_data,
-                             invivo_data)
+                             invivo_data, field_data)
 fluoroproj_data <- mutate(fluoroproj_data, units = case_when(units == "µg/l" ~
                                               "µg/L",
                                             TRUE ~ units),
