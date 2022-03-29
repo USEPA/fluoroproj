@@ -1,4 +1,4 @@
-date,waterbody,dups,reps,instrument,method,variable,units,value
+date,waterbody,field_dups,lab_reps,instrument,method,variable,units,value
 2021-10-06,yawgoo,1,1,cyanofluor,fresh,pc:chl,ratio,0.3414
 2021-10-06,yawgoo,1,2,cyanofluor,fresh,pc:chl,ratio,0.644
 2021-10-06,yawgoo,1,3,cyanofluor,fresh,pc:chl,ratio,0.6984

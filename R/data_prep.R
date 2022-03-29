@@ -37,7 +37,7 @@ fluoroproj_data <- mutate(fluoroproj_data, units = case_when(units == "µg/l" ~
                                              TRUE ~ method))
 
 fluoroproj_data_dups <- fluoroproj_data %>%
-  group_by(date, waterbody, instrument, method, variable, units, dups) %>%
+  group_by(date, waterbody, instrument, method, variable, units, field_dups) %>%
   summarize(avg_value = mean(value, na.rm = TRUE),
             sd_value = sd(value, na.rm = TRUE)) %>%
   ungroup()

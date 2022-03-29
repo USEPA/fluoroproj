@@ -66,9 +66,9 @@ merge_invivo <- function(){
 clean_handheld <- function(df){
   handheld_data <- mutate(df, date = ymd(paste0(year, month, day)),
                           variable = tolower(parameter))
-  handheld_data <- select(handheld_data, date, waterbody, dups = dup, reps, 
-                          instrument, method = `fresh/frozen1/frozen3`, 
-                          variable, units, value)
+  handheld_data <- select(handheld_data, date, waterbody, field_dups = dup, 
+                          lab_reps = reps, instrument, 
+                          method = `fresh/frozen1/frozen3`, variable, units, value)
   handheld_data <- filter(handheld_data, !variable %in% c("chl blk", "pc blk"))
   handheld_data <- mutate(handheld_data, units = case_when(units == "ug/l" ~
                                                              "µg/L",
@@ -90,14 +90,15 @@ clean_phycoprobe <- function(df){
   phycoprobe_data <- mutate(phycoprobe_data, date = ymd(paste0(year, month, day)),
                             instrument = "phycoprobe", units = "µg/L")
   #Assuming this data is what we want from phycoprobe
-  phycoprobe_data <- select(phycoprobe_data, date, waterbody, dups = dup, reps, 
-                            instrument, method = `fresh/frozen1`, units,
+  phycoprobe_data <- select(phycoprobe_data, date, waterbody, field_dups = dup, 
+                            lab_reps = reps, instrument, 
+                            method = `fresh/frozen1`, units, 
                             chl = `total conc.`, bluegreen = `bluegreen...8`)
   phycoprobe_data <- pivot_longer(phycoprobe_data, cols = chl:bluegreen, 
                                   names_to = "variable", values_to = "value")
   phycoprobe_data <- mutate(phycoprobe_data, value = as.numeric(value))
-  phycoprobe_data <- group_by(phycoprobe_data, date, waterbody, dups, reps, 
-                              instrument, method, units, variable)
+  phycoprobe_data <- group_by(phycoprobe_data, date, waterbody, field_dups, 
+                              lab_reps, instrument, method, units, variable)
   phycoprobe_data <- summarize(phycoprobe_data, value = mean(value, na.rm = TRUE))
   phycoprobe_data <- ungroup(phycoprobe_data)
   phycoprobe_data <- select(phycoprobe_data, date:method, variable, units, 
@@ -115,7 +116,7 @@ clean_phycoprobe <- function(df){
 clean_extracted <- function(df){
   
   extracted_data <- mutate(df, method = "extracted", instrument = "trilogy")
-  extracted_data <- select(extracted_data, date, waterbody, dups, reps, 
+  extracted_data <- select(extracted_data, date, waterbody, field_dups, lab_reps, 
                            instrument, method, variable, units, value)
   extracted_data <- mutate(extracted_data, 
                            variable = case_when(variable == "ext_chla" ~
@@ -145,7 +146,7 @@ clean_extracted <- function(df){
 #' @param df merged extracted data
 clean_invivo <- function(df){
   invivo_data <- mutate(df, instrument = "trilogy in vivo")
-  invivo_data <- select(invivo_data, date, waterbody, dups, reps, 
+  invivo_data <- select(invivo_data, date, waterbody, field_dups, lab_reps, 
                            instrument, method, variable, units, value)
   invivo_data <- mutate(invivo_data, 
                            variable = case_when(variable == "invivo_chla" ~
@@ -192,8 +193,8 @@ clean_field <- function(df){
                                            "ph",
                                          TRUE ~ NA_character_
                                          ),
-                       dups = reps, method = "fresh")
-  field_data <- select(field_data, date, waterbody, dups, reps, instrument, 
+                       field_dups = reps, method = "fresh")
+  field_data <- select(field_data, date, waterbody, field_dups, lab_reps = reps, instrument, 
                        method, variable, units, value)
   field_data <- dplyr::mutate_if(field_data, is.character, .funs = 
                                         function(x){return(`Encoding<-`(x, "UTF-8"))})

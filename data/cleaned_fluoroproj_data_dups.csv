@@ -1,4 +1,4 @@
-date,waterbody,instrument,method,variable,units,dups,avg_value,sd_value
+date,waterbody,instrument,method,variable,units,field_dups,avg_value,sd_value
 2021-10-06,barber,algaetorch,fresh,chl,µg/L,1,8.4,NA
 2021-10-06,barber,algaetorch,fresh,chl,µg/L,2,7.4,NA
 2021-10-06,barber,algaetorch,fresh,chl,µg/L,3,7.5,NA
