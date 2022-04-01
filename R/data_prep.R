@@ -34,7 +34,19 @@ fluoroproj_data <- mutate(fluoroproj_data, units = case_when(units == "µg/l" ~
                                                TRUE ~ variable),
                           method = case_when(method == "frozen1" ~
                                                "frozen",
-                                             TRUE ~ method))
+                                             TRUE ~ method),
+                          waterbody = case_when(waterbody == "curan" ~
+                                                  "curran",
+                                                waterbody == "lower melvile" ~
+                                                  "lower melville",
+                                                waterbody == "Lower melville" ~
+                                                  "lower melville",
+                                                TRUE ~ waterbody)) %>%
+  # Remove known data entry mistake
+  filter(!(waterbody == "warwick" & method == "frozen3" & field_dups == 2 & 
+             variable == "ch1 lo")) %>%
+  # Remove oddball Windmist
+  filter(!(waterbody == "windmist" & field_dups == 2))
 
 fluoroproj_data_dups <- fluoroproj_data %>%
   group_by(date, waterbody, instrument, method, variable, units, field_dups) %>%

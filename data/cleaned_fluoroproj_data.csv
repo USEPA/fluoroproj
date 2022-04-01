@@ -1505,63 +1505,42 @@ date,waterbody,field_dups,lab_reps,instrument,method,variable,units,value
 2021-11-09,windmist,1,1,uri fluoroquik,fresh,pc:chl,ratio,0
 2021-11-09,windmist,1,2,uri fluoroquik,fresh,pc:chl,ratio,0
 2021-11-09,windmist,1,3,uri fluoroquik,fresh,pc:chl,ratio,0
-2021-11-09,windmist,2,1,uri fluoroquik,fresh,pc:chl,ratio,0
-2021-11-09,windmist,2,2,uri fluoroquik,fresh,pc:chl,ratio,0
-2021-11-09,windmist,2,3,uri fluoroquik,fresh,pc:chl,ratio,0
 2021-11-09,windmist,3,1,uri fluoroquik,fresh,pc:chl,ratio,0
 2021-11-09,windmist,3,2,uri fluoroquik,fresh,pc:chl,ratio,0
 2021-11-09,windmist,3,3,uri fluoroquik,fresh,pc:chl,ratio,0
 2021-11-09,windmist,1,1,uri fluoroquik,fresh,phyco,µg/L,0.1
 2021-11-09,windmist,1,2,uri fluoroquik,fresh,phyco,µg/L,0.1
 2021-11-09,windmist,1,3,uri fluoroquik,fresh,phyco,µg/L,0.1
-2021-11-09,windmist,2,1,uri fluoroquik,fresh,phyco,µg/L,0.1
-2021-11-09,windmist,2,2,uri fluoroquik,fresh,phyco,µg/L,0.1
-2021-11-09,windmist,2,3,uri fluoroquik,fresh,phyco,µg/L,0.1
 2021-11-09,windmist,3,1,uri fluoroquik,fresh,phyco,µg/L,0.1
 2021-11-09,windmist,3,2,uri fluoroquik,fresh,phyco,µg/L,0.1
 2021-11-09,windmist,3,3,uri fluoroquik,fresh,phyco,µg/L,0.1
 2021-11-09,windmist,1,1,uri fluoroquik,fresh,chl,µg/L,66.04
 2021-11-09,windmist,1,2,uri fluoroquik,fresh,chl,µg/L,65.72
 2021-11-09,windmist,1,3,uri fluoroquik,fresh,chl,µg/L,65.72
-2021-11-09,windmist,2,1,uri fluoroquik,fresh,chl,µg/L,64.12
-2021-11-09,windmist,2,2,uri fluoroquik,fresh,chl,µg/L,66.04
-2021-11-09,windmist,2,3,uri fluoroquik,fresh,chl,µg/L,67.01
 2021-11-09,windmist,3,1,uri fluoroquik,fresh,chl,µg/L,63.8
 2021-11-09,windmist,3,2,uri fluoroquik,fresh,chl,µg/L,64.76
 2021-11-09,windmist,3,3,uri fluoroquik,fresh,chl,µg/L,65.08
 2021-11-09,windmist,1,1,uri fluoroquik,fresh,ch1 hi,rfu,28
 2021-11-09,windmist,1,2,uri fluoroquik,fresh,ch1 hi,rfu,28
 2021-11-09,windmist,1,3,uri fluoroquik,fresh,ch1 hi,rfu,28
-2021-11-09,windmist,2,1,uri fluoroquik,fresh,ch1 hi,rfu,32
-2021-11-09,windmist,2,2,uri fluoroquik,fresh,ch1 hi,rfu,29
-2021-11-09,windmist,2,3,uri fluoroquik,fresh,ch1 hi,rfu,28
 2021-11-09,windmist,3,1,uri fluoroquik,fresh,ch1 hi,rfu,29
 2021-11-09,windmist,3,2,uri fluoroquik,fresh,ch1 hi,rfu,30
 2021-11-09,windmist,3,3,uri fluoroquik,fresh,ch1 hi,rfu,30
 2021-11-09,windmist,1,1,uri fluoroquik,fresh,ch1 lo,rfu,2
 2021-11-09,windmist,1,2,uri fluoroquik,fresh,ch1 lo,rfu,2
 2021-11-09,windmist,1,3,uri fluoroquik,fresh,ch1 lo,rfu,2
-2021-11-09,windmist,2,1,uri fluoroquik,fresh,ch1 lo,rfu,2
-2021-11-09,windmist,2,2,uri fluoroquik,fresh,ch1 lo,rfu,2
-2021-11-09,windmist,2,3,uri fluoroquik,fresh,ch1 lo,rfu,2
 2021-11-09,windmist,3,1,uri fluoroquik,fresh,ch1 lo,rfu,2
 2021-11-09,windmist,3,2,uri fluoroquik,fresh,ch1 lo,rfu,2
 2021-11-09,windmist,3,3,uri fluoroquik,fresh,ch1 lo,rfu,2
 2021-11-09,windmist,1,1,uri fluoroquik,fresh,ch2 hi,rfu,226
 2021-11-09,windmist,1,2,uri fluoroquik,fresh,ch2 hi,rfu,226
 2021-11-09,windmist,1,3,uri fluoroquik,fresh,ch2 hi,rfu,225
-2021-11-09,windmist,2,1,uri fluoroquik,fresh,ch2 hi,rfu,226
-2021-11-09,windmist,2,2,uri fluoroquik,fresh,ch2 hi,rfu,233
-2021-11-09,windmist,2,3,uri fluoroquik,fresh,ch2 hi,rfu,236
 2021-11-09,windmist,3,1,uri fluoroquik,fresh,ch2 hi,rfu,220
 2021-11-09,windmist,3,2,uri fluoroquik,fresh,ch2 hi,rfu,222
 2021-11-09,windmist,3,3,uri fluoroquik,fresh,ch2 hi,rfu,224
 2021-11-09,windmist,1,1,uri fluoroquik,fresh,ch2 lo,rfu,35
 2021-11-09,windmist,1,2,uri fluoroquik,fresh,ch2 lo,rfu,35
 2021-11-09,windmist,1,3,uri fluoroquik,fresh,ch2 lo,rfu,35
-2021-11-09,windmist,2,1,uri fluoroquik,fresh,ch2 lo,rfu,36
-2021-11-09,windmist,2,2,uri fluoroquik,fresh,ch2 lo,rfu,36
-2021-11-09,windmist,2,3,uri fluoroquik,fresh,ch2 lo,rfu,36
 2021-11-09,windmist,3,1,uri fluoroquik,fresh,ch2 lo,rfu,35
 2021-11-09,windmist,3,2,uri fluoroquik,fresh,ch2 lo,rfu,35
 2021-11-09,windmist,3,3,uri fluoroquik,fresh,ch2 lo,rfu,35
@@ -1694,63 +1673,42 @@ date,waterbody,field_dups,lab_reps,instrument,method,variable,units,value
 2021-11-09,windmist,1,1,duluth fluoroquik,fresh,pc:chl,ratio,0.06
 2021-11-09,windmist,1,2,duluth fluoroquik,fresh,pc:chl,ratio,0.05
 2021-11-09,windmist,1,3,duluth fluoroquik,fresh,pc:chl,ratio,0.05
-2021-11-09,windmist,2,1,duluth fluoroquik,fresh,pc:chl,ratio,0.05
-2021-11-09,windmist,2,2,duluth fluoroquik,fresh,pc:chl,ratio,0.05
-2021-11-09,windmist,2,3,duluth fluoroquik,fresh,pc:chl,ratio,0.05
 2021-11-09,windmist,3,1,duluth fluoroquik,fresh,pc:chl,ratio,0.05
 2021-11-09,windmist,3,2,duluth fluoroquik,fresh,pc:chl,ratio,0.05
 2021-11-09,windmist,3,3,duluth fluoroquik,fresh,pc:chl,ratio,0.05
 2021-11-09,windmist,1,1,duluth fluoroquik,fresh,phyco,µg/L,0.1
 2021-11-09,windmist,1,2,duluth fluoroquik,fresh,phyco,µg/L,0.1
 2021-11-09,windmist,1,3,duluth fluoroquik,fresh,phyco,µg/L,0.1
-2021-11-09,windmist,2,1,duluth fluoroquik,fresh,phyco,µg/L,0.1
-2021-11-09,windmist,2,2,duluth fluoroquik,fresh,phyco,µg/L,0.1
-2021-11-09,windmist,2,3,duluth fluoroquik,fresh,phyco,µg/L,0.1
 2021-11-09,windmist,3,1,duluth fluoroquik,fresh,phyco,µg/L,0.1
 2021-11-09,windmist,3,2,duluth fluoroquik,fresh,phyco,µg/L,0.1
 2021-11-09,windmist,3,3,duluth fluoroquik,fresh,phyco,µg/L,0.1
 2021-11-09,windmist,1,1,duluth fluoroquik,fresh,chl,µg/L,1.66
 2021-11-09,windmist,1,2,duluth fluoroquik,fresh,chl,µg/L,0.174
 2021-11-09,windmist,1,3,duluth fluoroquik,fresh,chl,µg/L,1.74
-2021-11-09,windmist,2,1,duluth fluoroquik,fresh,chl,µg/L,1.72
-2021-11-09,windmist,2,2,duluth fluoroquik,fresh,chl,µg/L,1.78
-2021-11-09,windmist,2,3,duluth fluoroquik,fresh,chl,µg/L,1.77
 2021-11-09,windmist,3,1,duluth fluoroquik,fresh,chl,µg/L,1.73
 2021-11-09,windmist,3,2,duluth fluoroquik,fresh,chl,µg/L,1.77
 2021-11-09,windmist,3,3,duluth fluoroquik,fresh,chl,µg/L,1.8
 2021-11-09,windmist,1,1,duluth fluoroquik,fresh,ch1 hi,rfu,50
 2021-11-09,windmist,1,2,duluth fluoroquik,fresh,ch1 hi,rfu,51
 2021-11-09,windmist,1,3,duluth fluoroquik,fresh,ch1 hi,rfu,51
-2021-11-09,windmist,2,1,duluth fluoroquik,fresh,ch1 hi,rfu,55
-2021-11-09,windmist,2,2,duluth fluoroquik,fresh,ch1 hi,rfu,53
-2021-11-09,windmist,2,3,duluth fluoroquik,fresh,ch1 hi,rfu,56
 2021-11-09,windmist,3,1,duluth fluoroquik,fresh,ch1 hi,rfu,53
 2021-11-09,windmist,3,2,duluth fluoroquik,fresh,ch1 hi,rfu,53
 2021-11-09,windmist,3,3,duluth fluoroquik,fresh,ch1 hi,rfu,53
 2021-11-09,windmist,1,1,duluth fluoroquik,fresh,ch1 lo,rfu,10
 2021-11-09,windmist,1,2,duluth fluoroquik,fresh,ch1 lo,rfu,9
 2021-11-09,windmist,1,3,duluth fluoroquik,fresh,ch1 lo,rfu,9
-2021-11-09,windmist,2,1,duluth fluoroquik,fresh,ch1 lo,rfu,10
-2021-11-09,windmist,2,2,duluth fluoroquik,fresh,ch1 lo,rfu,10
-2021-11-09,windmist,2,3,duluth fluoroquik,fresh,ch1 lo,rfu,11
 2021-11-09,windmist,3,1,duluth fluoroquik,fresh,ch1 lo,rfu,10
 2021-11-09,windmist,3,2,duluth fluoroquik,fresh,ch1 lo,rfu,10
 2021-11-09,windmist,3,3,duluth fluoroquik,fresh,ch1 lo,rfu,9
 2021-11-09,windmist,1,1,duluth fluoroquik,fresh,ch2 hi,rfu,241
 2021-11-09,windmist,1,2,duluth fluoroquik,fresh,ch2 hi,rfu,236
 2021-11-09,windmist,1,3,duluth fluoroquik,fresh,ch2 hi,rfu,242
-2021-11-09,windmist,2,1,duluth fluoroquik,fresh,ch2 hi,rfu,239
-2021-11-09,windmist,2,2,duluth fluoroquik,fresh,ch2 hi,rfu,235
-2021-11-09,windmist,2,3,duluth fluoroquik,fresh,ch2 hi,rfu,237
 2021-11-09,windmist,3,1,duluth fluoroquik,fresh,ch2 hi,rfu,246
 2021-11-09,windmist,3,2,duluth fluoroquik,fresh,ch2 hi,rfu,245
 2021-11-09,windmist,3,3,duluth fluoroquik,fresh,ch2 hi,rfu,246
 2021-11-09,windmist,1,1,duluth fluoroquik,fresh,ch2 lo,rfu,30
 2021-11-09,windmist,1,2,duluth fluoroquik,fresh,ch2 lo,rfu,30
 2021-11-09,windmist,1,3,duluth fluoroquik,fresh,ch2 lo,rfu,30
-2021-11-09,windmist,2,1,duluth fluoroquik,fresh,ch2 lo,rfu,30
-2021-11-09,windmist,2,2,duluth fluoroquik,fresh,ch2 lo,rfu,30
-2021-11-09,windmist,2,3,duluth fluoroquik,fresh,ch2 lo,rfu,30
 2021-11-09,windmist,3,1,duluth fluoroquik,fresh,ch2 lo,rfu,30
 2021-11-09,windmist,3,2,duluth fluoroquik,fresh,ch2 lo,rfu,31
 2021-11-09,windmist,3,3,duluth fluoroquik,fresh,ch2 lo,rfu,31
@@ -1811,27 +1769,18 @@ date,waterbody,field_dups,lab_reps,instrument,method,variable,units,value
 2021-11-09,windmist,1,1,cyanofluor,fresh,pc:chl,ratio,0.3169
 2021-11-09,windmist,1,2,cyanofluor,fresh,pc:chl,ratio,0.2957
 2021-11-09,windmist,1,3,cyanofluor,fresh,pc:chl,ratio,0.3006
-2021-11-09,windmist,2,1,cyanofluor,fresh,pc:chl,ratio,0.4126
-2021-11-09,windmist,2,2,cyanofluor,fresh,pc:chl,ratio,0.2771
-2021-11-09,windmist,2,3,cyanofluor,fresh,pc:chl,ratio,0.3723
 2021-11-09,windmist,3,1,cyanofluor,fresh,pc:chl,ratio,0.269
 2021-11-09,windmist,3,2,cyanofluor,fresh,pc:chl,ratio,0.3088
 2021-11-09,windmist,3,3,cyanofluor,fresh,pc:chl,ratio,0.2923
 2021-11-09,windmist,1,1,cyanofluor,fresh,phyco,rfu,146.2
 2021-11-09,windmist,1,2,cyanofluor,fresh,phyco,rfu,154.25
 2021-11-09,windmist,1,3,cyanofluor,fresh,phyco,rfu,188.61
-2021-11-09,windmist,2,1,cyanofluor,fresh,phyco,rfu,200.89
-2021-11-09,windmist,2,2,cyanofluor,fresh,phyco,rfu,159.22
-2021-11-09,windmist,2,3,cyanofluor,fresh,phyco,rfu,203.13
 2021-11-09,windmist,3,1,cyanofluor,fresh,phyco,rfu,119.03
 2021-11-09,windmist,3,2,cyanofluor,fresh,phyco,rfu,177.45
 2021-11-09,windmist,3,3,cyanofluor,fresh,phyco,rfu,185.64
 2021-11-09,windmist,1,1,cyanofluor,fresh,chl,rfu,461.28
 2021-11-09,windmist,1,2,cyanofluor,fresh,chl,rfu,523.41
 2021-11-09,windmist,1,3,cyanofluor,fresh,chl,rfu,627.47
-2021-11-09,windmist,2,1,cyanofluor,fresh,chl,rfu,486.87
-2021-11-09,windmist,2,2,cyanofluor,fresh,chl,rfu,574.59
-2021-11-09,windmist,2,3,cyanofluor,fresh,chl,rfu,545.59
 2021-11-09,windmist,3,1,cyanofluor,fresh,chl,rfu,442.52
 2021-11-09,windmist,3,2,cyanofluor,fresh,chl,rfu,574.68
 2021-11-09,windmist,3,3,cyanofluor,fresh,chl,rfu,635.19
@@ -2801,63 +2750,42 @@ date,waterbody,field_dups,lab_reps,instrument,method,variable,units,value
 2021-11-09,windmist,1,1,duluth fluoroquik,frozen,pc:chl,ratio,0.05
 2021-11-09,windmist,1,2,duluth fluoroquik,frozen,pc:chl,ratio,0.05
 2021-11-09,windmist,1,3,duluth fluoroquik,frozen,pc:chl,ratio,0.05
-2021-11-09,windmist,2,1,duluth fluoroquik,frozen,pc:chl,ratio,0.05
-2021-11-09,windmist,2,2,duluth fluoroquik,frozen,pc:chl,ratio,0.05
-2021-11-09,windmist,2,3,duluth fluoroquik,frozen,pc:chl,ratio,0.05
 2021-11-09,windmist,3,1,duluth fluoroquik,frozen,pc:chl,ratio,0.05
 2021-11-09,windmist,3,2,duluth fluoroquik,frozen,pc:chl,ratio,0.05
 2021-11-09,windmist,3,3,duluth fluoroquik,frozen,pc:chl,ratio,0.05
 2021-11-09,windmist,1,1,duluth fluoroquik,frozen,phyco,µg/L,0.1
 2021-11-09,windmist,1,2,duluth fluoroquik,frozen,phyco,µg/L,0.1
 2021-11-09,windmist,1,3,duluth fluoroquik,frozen,phyco,µg/L,0.1
-2021-11-09,windmist,2,1,duluth fluoroquik,frozen,phyco,µg/L,0.1
-2021-11-09,windmist,2,2,duluth fluoroquik,frozen,phyco,µg/L,0.1
-2021-11-09,windmist,2,3,duluth fluoroquik,frozen,phyco,µg/L,0.1
 2021-11-09,windmist,3,1,duluth fluoroquik,frozen,phyco,µg/L,0.1
 2021-11-09,windmist,3,2,duluth fluoroquik,frozen,phyco,µg/L,0.1
 2021-11-09,windmist,3,3,duluth fluoroquik,frozen,phyco,µg/L,0.1
 2021-11-09,windmist,1,1,duluth fluoroquik,frozen,chl,µg/L,1.94
 2021-11-09,windmist,1,2,duluth fluoroquik,frozen,chl,µg/L,1.91
 2021-11-09,windmist,1,3,duluth fluoroquik,frozen,chl,µg/L,1.95
-2021-11-09,windmist,2,1,duluth fluoroquik,frozen,chl,µg/L,1.94
-2021-11-09,windmist,2,2,duluth fluoroquik,frozen,chl,µg/L,2
-2021-11-09,windmist,2,3,duluth fluoroquik,frozen,chl,µg/L,2
 2021-11-09,windmist,3,1,duluth fluoroquik,frozen,chl,µg/L,1.83
 2021-11-09,windmist,3,2,duluth fluoroquik,frozen,chl,µg/L,1.9
 2021-11-09,windmist,3,3,duluth fluoroquik,frozen,chl,µg/L,1.91
 2021-11-09,windmist,1,1,duluth fluoroquik,frozen,ch1 hi,rfu,43
 2021-11-09,windmist,1,2,duluth fluoroquik,frozen,ch1 hi,rfu,43
 2021-11-09,windmist,1,3,duluth fluoroquik,frozen,ch1 hi,rfu,43
-2021-11-09,windmist,2,1,duluth fluoroquik,frozen,ch1 hi,rfu,47
-2021-11-09,windmist,2,2,duluth fluoroquik,frozen,ch1 hi,rfu,46
-2021-11-09,windmist,2,3,duluth fluoroquik,frozen,ch1 hi,rfu,46
 2021-11-09,windmist,3,1,duluth fluoroquik,frozen,ch1 hi,rfu,41
 2021-11-09,windmist,3,2,duluth fluoroquik,frozen,ch1 hi,rfu,42
 2021-11-09,windmist,3,3,duluth fluoroquik,frozen,ch1 hi,rfu,43
 2021-11-09,windmist,1,1,duluth fluoroquik,frozen,ch1 lo,rfu,9
 2021-11-09,windmist,1,2,duluth fluoroquik,frozen,ch1 lo,rfu,9
 2021-11-09,windmist,1,3,duluth fluoroquik,frozen,ch1 lo,rfu,9
-2021-11-09,windmist,2,1,duluth fluoroquik,frozen,ch1 lo,rfu,9
-2021-11-09,windmist,2,2,duluth fluoroquik,frozen,ch1 lo,rfu,12
-2021-11-09,windmist,2,3,duluth fluoroquik,frozen,ch1 lo,rfu,9
 2021-11-09,windmist,3,1,duluth fluoroquik,frozen,ch1 lo,rfu,10
 2021-11-09,windmist,3,2,duluth fluoroquik,frozen,ch1 lo,rfu,10
 2021-11-09,windmist,3,3,duluth fluoroquik,frozen,ch1 lo,rfu,9
 2021-11-09,windmist,1,1,duluth fluoroquik,frozen,ch2 hi,rfu,247
 2021-11-09,windmist,1,2,duluth fluoroquik,frozen,ch2 hi,rfu,246
 2021-11-09,windmist,1,3,duluth fluoroquik,frozen,ch2 hi,rfu,244
-2021-11-09,windmist,2,1,duluth fluoroquik,frozen,ch2 hi,rfu,252
-2021-11-09,windmist,2,2,duluth fluoroquik,frozen,ch2 hi,rfu,251
-2021-11-09,windmist,2,3,duluth fluoroquik,frozen,ch2 hi,rfu,252
 2021-11-09,windmist,3,1,duluth fluoroquik,frozen,ch2 hi,rfu,245
 2021-11-09,windmist,3,2,duluth fluoroquik,frozen,ch2 hi,rfu,247
 2021-11-09,windmist,3,3,duluth fluoroquik,frozen,ch2 hi,rfu,248
 2021-11-09,windmist,1,1,duluth fluoroquik,frozen,ch2 lo,rfu,31
 2021-11-09,windmist,1,2,duluth fluoroquik,frozen,ch2 lo,rfu,32
 2021-11-09,windmist,1,3,duluth fluoroquik,frozen,ch2 lo,rfu,32
-2021-11-09,windmist,2,1,duluth fluoroquik,frozen,ch2 lo,rfu,31
-2021-11-09,windmist,2,2,duluth fluoroquik,frozen,ch2 lo,rfu,33
-2021-11-09,windmist,2,3,duluth fluoroquik,frozen,ch2 lo,rfu,32
 2021-11-09,windmist,3,1,duluth fluoroquik,frozen,ch2 lo,rfu,32
 2021-11-09,windmist,3,2,duluth fluoroquik,frozen,ch2 lo,rfu,31
 2021-11-09,windmist,3,3,duluth fluoroquik,frozen,ch2 lo,rfu,32
@@ -2990,63 +2918,42 @@ date,waterbody,field_dups,lab_reps,instrument,method,variable,units,value
 2021-11-09,windmist,1,1,uri fluoroquik,frozen,pc:chl,ratio,0
 2021-11-09,windmist,1,2,uri fluoroquik,frozen,pc:chl,ratio,0
 2021-11-09,windmist,1,3,uri fluoroquik,frozen,pc:chl,ratio,0
-2021-11-09,windmist,2,1,uri fluoroquik,frozen,pc:chl,ratio,0
-2021-11-09,windmist,2,2,uri fluoroquik,frozen,pc:chl,ratio,0
-2021-11-09,windmist,2,3,uri fluoroquik,frozen,pc:chl,ratio,0
 2021-11-09,windmist,3,1,uri fluoroquik,frozen,pc:chl,ratio,0
 2021-11-09,windmist,3,2,uri fluoroquik,frozen,pc:chl,ratio,0
 2021-11-09,windmist,3,3,uri fluoroquik,frozen,pc:chl,ratio,0
 2021-11-09,windmist,1,1,uri fluoroquik,frozen,phyco,µg/L,0.1
 2021-11-09,windmist,1,2,uri fluoroquik,frozen,phyco,µg/L,0.1
 2021-11-09,windmist,1,3,uri fluoroquik,frozen,phyco,µg/L,0.1
-2021-11-09,windmist,2,1,uri fluoroquik,frozen,phyco,µg/L,0.1
-2021-11-09,windmist,2,2,uri fluoroquik,frozen,phyco,µg/L,0.1
-2021-11-09,windmist,2,3,uri fluoroquik,frozen,phyco,µg/L,0.1
 2021-11-09,windmist,3,1,uri fluoroquik,frozen,phyco,µg/L,0.1
 2021-11-09,windmist,3,2,uri fluoroquik,frozen,phyco,µg/L,0.1
 2021-11-09,windmist,3,3,uri fluoroquik,frozen,phyco,µg/L,0.1
 2021-11-09,windmist,1,1,uri fluoroquik,frozen,chl,µg/L,67.97
 2021-11-09,windmist,1,2,uri fluoroquik,frozen,chl,µg/L,70.53
 2021-11-09,windmist,1,3,uri fluoroquik,frozen,chl,µg/L,70.21
-2021-11-09,windmist,2,1,uri fluoroquik,frozen,chl,µg/L,72.45
-2021-11-09,windmist,2,2,uri fluoroquik,frozen,chl,µg/L,70.21
-2021-11-09,windmist,2,3,uri fluoroquik,frozen,chl,µg/L,70.21
 2021-11-09,windmist,3,1,uri fluoroquik,frozen,chl,µg/L,67.01
 2021-11-09,windmist,3,2,uri fluoroquik,frozen,chl,µg/L,68.93
 2021-11-09,windmist,3,3,uri fluoroquik,frozen,chl,µg/L,70.53
 2021-11-09,windmist,1,1,uri fluoroquik,frozen,ch1 hi,rfu,31
 2021-11-09,windmist,1,2,uri fluoroquik,frozen,ch1 hi,rfu,34
 2021-11-09,windmist,1,3,uri fluoroquik,frozen,ch1 hi,rfu,34
-2021-11-09,windmist,2,1,uri fluoroquik,frozen,ch1 hi,rfu,36
-2021-11-09,windmist,2,2,uri fluoroquik,frozen,ch1 hi,rfu,35
-2021-11-09,windmist,2,3,uri fluoroquik,frozen,ch1 hi,rfu,34
 2021-11-09,windmist,3,1,uri fluoroquik,frozen,ch1 hi,rfu,33
 2021-11-09,windmist,3,2,uri fluoroquik,frozen,ch1 hi,rfu,31
 2021-11-09,windmist,3,3,uri fluoroquik,frozen,ch1 hi,rfu,33
 2021-11-09,windmist,1,1,uri fluoroquik,frozen,ch1 lo,rfu,3
 2021-11-09,windmist,1,2,uri fluoroquik,frozen,ch1 lo,rfu,1
 2021-11-09,windmist,1,3,uri fluoroquik,frozen,ch1 lo,rfu,3
-2021-11-09,windmist,2,1,uri fluoroquik,frozen,ch1 lo,rfu,2
-2021-11-09,windmist,2,2,uri fluoroquik,frozen,ch1 lo,rfu,2
-2021-11-09,windmist,2,3,uri fluoroquik,frozen,ch1 lo,rfu,2
 2021-11-09,windmist,3,1,uri fluoroquik,frozen,ch1 lo,rfu,3
 2021-11-09,windmist,3,2,uri fluoroquik,frozen,ch1 lo,rfu,3
 2021-11-09,windmist,3,3,uri fluoroquik,frozen,ch1 lo,rfu,2
 2021-11-09,windmist,1,1,uri fluoroquik,frozen,ch2 hi,rfu,235
 2021-11-09,windmist,1,2,uri fluoroquik,frozen,ch2 hi,rfu,237
 2021-11-09,windmist,1,3,uri fluoroquik,frozen,ch2 hi,rfu,239
-2021-11-09,windmist,2,1,uri fluoroquik,frozen,ch2 hi,rfu,239
-2021-11-09,windmist,2,2,uri fluoroquik,frozen,ch2 hi,rfu,240
-2021-11-09,windmist,2,3,uri fluoroquik,frozen,ch2 hi,rfu,240
 2021-11-09,windmist,3,1,uri fluoroquik,frozen,ch2 hi,rfu,237
 2021-11-09,windmist,3,2,uri fluoroquik,frozen,ch2 hi,rfu,236
 2021-11-09,windmist,3,3,uri fluoroquik,frozen,ch2 hi,rfu,240
 2021-11-09,windmist,1,1,uri fluoroquik,frozen,ch2 lo,rfu,35
 2021-11-09,windmist,1,2,uri fluoroquik,frozen,ch2 lo,rfu,36
 2021-11-09,windmist,1,3,uri fluoroquik,frozen,ch2 lo,rfu,36
-2021-11-09,windmist,2,1,uri fluoroquik,frozen,ch2 lo,rfu,36
-2021-11-09,windmist,2,2,uri fluoroquik,frozen,ch2 lo,rfu,36
-2021-11-09,windmist,2,3,uri fluoroquik,frozen,ch2 lo,rfu,36
 2021-11-09,windmist,3,1,uri fluoroquik,frozen,ch2 lo,rfu,36
 2021-11-09,windmist,3,2,uri fluoroquik,frozen,ch2 lo,rfu,36
 2021-11-09,windmist,3,3,uri fluoroquik,frozen,ch2 lo,rfu,35
@@ -3107,27 +3014,18 @@ date,waterbody,field_dups,lab_reps,instrument,method,variable,units,value
 2021-11-09,windmist,1,1,cyanofluor,frozen,pc:chl,ratio,0.4988
 2021-11-09,windmist,1,2,cyanofluor,frozen,pc:chl,ratio,0.478
 2021-11-09,windmist,1,3,cyanofluor,frozen,pc:chl,ratio,0.5671
-2021-11-09,windmist,2,1,cyanofluor,frozen,pc:chl,ratio,0.2988
-2021-11-09,windmist,2,2,cyanofluor,frozen,pc:chl,ratio,0.3917
-2021-11-09,windmist,2,3,cyanofluor,frozen,pc:chl,ratio,0.3869
 2021-11-09,windmist,3,1,cyanofluor,frozen,pc:chl,ratio,0.4854
 2021-11-09,windmist,3,2,cyanofluor,frozen,pc:chl,ratio,0.3145
 2021-11-09,windmist,3,3,cyanofluor,frozen,pc:chl,ratio,0.4261
 2021-11-09,windmist,1,1,cyanofluor,frozen,phyco,rfu,133.54
 2021-11-09,windmist,1,2,cyanofluor,frozen,phyco,rfu,153.64
 2021-11-09,windmist,1,3,cyanofluor,frozen,phyco,rfu,183.74
-2021-11-09,windmist,2,1,cyanofluor,frozen,phyco,rfu,84.06
-2021-11-09,windmist,2,2,cyanofluor,frozen,phyco,rfu,146.57
-2021-11-09,windmist,2,3,cyanofluor,frozen,phyco,rfu,154.38
 2021-11-09,windmist,3,1,cyanofluor,frozen,phyco,rfu,99.31
 2021-11-09,windmist,3,2,cyanofluor,frozen,phyco,rfu,87.78
 2021-11-09,windmist,3,3,cyanofluor,frozen,phyco,rfu,123.87
 2021-11-09,windmist,1,1,cyanofluor,frozen,chl,rfu,267.72
 2021-11-09,windmist,1,2,cyanofluor,frozen,chl,rfu,321.41
 2021-11-09,windmist,1,3,cyanofluor,frozen,chl,rfu,324.01
-2021-11-09,windmist,2,1,cyanofluor,frozen,chl,rfu,286.37
-2021-11-09,windmist,2,2,cyanofluor,frozen,chl,rfu,374.2
-2021-11-09,windmist,2,3,cyanofluor,frozen,chl,rfu,398.98
 2021-11-09,windmist,3,1,cyanofluor,frozen,chl,rfu,204.61
 2021-11-09,windmist,3,2,cyanofluor,frozen,chl,rfu,278.76
 2021-11-09,windmist,3,3,cyanofluor,frozen,chl,rfu,290.7
@@ -3296,9 +3194,6 @@ date,waterbody,field_dups,lab_reps,instrument,method,variable,units,value
 2021-10-21,warwick,1,1,duluth fluoroquik,frozen3,ch1 lo,rfu,10
 2021-10-21,warwick,1,2,duluth fluoroquik,frozen3,ch1 lo,rfu,9
 2021-10-21,warwick,1,3,duluth fluoroquik,frozen3,ch1 lo,rfu,9
-2021-10-21,warwick,2,1,duluth fluoroquik,frozen3,ch1 lo,rfu,81
-2021-10-21,warwick,2,2,duluth fluoroquik,frozen3,ch1 lo,rfu,76
-2021-10-21,warwick,2,3,duluth fluoroquik,frozen3,ch1 lo,rfu,82
 2021-10-21,warwick,3,1,duluth fluoroquik,frozen3,ch1 lo,rfu,11
 2021-10-21,warwick,3,2,duluth fluoroquik,frozen3,ch1 lo,rfu,9
 2021-10-21,warwick,3,3,duluth fluoroquik,frozen3,ch1 lo,rfu,9
@@ -3485,9 +3380,6 @@ date,waterbody,field_dups,lab_reps,instrument,method,variable,units,value
 2021-10-21,warwick,1,1,uri fluoroquik,frozen3,ch1 lo,rfu,2
 2021-10-21,warwick,1,2,uri fluoroquik,frozen3,ch1 lo,rfu,2
 2021-10-21,warwick,1,3,uri fluoroquik,frozen3,ch1 lo,rfu,2
-2021-10-21,warwick,2,1,uri fluoroquik,frozen3,ch1 lo,rfu,2
-2021-10-21,warwick,2,2,uri fluoroquik,frozen3,ch1 lo,rfu,1
-2021-10-21,warwick,2,3,uri fluoroquik,frozen3,ch1 lo,rfu,1
 2021-10-21,warwick,3,1,uri fluoroquik,frozen3,ch1 lo,rfu,2
 2021-10-21,warwick,3,2,uri fluoroquik,frozen3,ch1 lo,rfu,2
 2021-10-21,warwick,3,3,uri fluoroquik,frozen3,ch1 lo,rfu,2
@@ -3638,63 +3530,42 @@ date,waterbody,field_dups,lab_reps,instrument,method,variable,units,value
 2021-11-09,windmist,1,1,uri fluoroquik,frozen3,pc:chl,ratio,0
 2021-11-09,windmist,1,2,uri fluoroquik,frozen3,pc:chl,ratio,0
 2021-11-09,windmist,1,3,uri fluoroquik,frozen3,pc:chl,ratio,0
-2021-11-09,windmist,2,1,uri fluoroquik,frozen3,pc:chl,ratio,0
-2021-11-09,windmist,2,2,uri fluoroquik,frozen3,pc:chl,ratio,0
-2021-11-09,windmist,2,3,uri fluoroquik,frozen3,pc:chl,ratio,0
 2021-11-09,windmist,3,1,uri fluoroquik,frozen3,pc:chl,ratio,0
 2021-11-09,windmist,3,2,uri fluoroquik,frozen3,pc:chl,ratio,0
 2021-11-09,windmist,3,3,uri fluoroquik,frozen3,pc:chl,ratio,0
 2021-11-09,windmist,1,1,uri fluoroquik,frozen3,phyco,µg/L,0.1
 2021-11-09,windmist,1,2,uri fluoroquik,frozen3,phyco,µg/L,0.1
 2021-11-09,windmist,1,3,uri fluoroquik,frozen3,phyco,µg/L,0.1
-2021-11-09,windmist,2,1,uri fluoroquik,frozen3,phyco,µg/L,0.1
-2021-11-09,windmist,2,2,uri fluoroquik,frozen3,phyco,µg/L,0.1
-2021-11-09,windmist,2,3,uri fluoroquik,frozen3,phyco,µg/L,0.1
 2021-11-09,windmist,3,1,uri fluoroquik,frozen3,phyco,µg/L,0.1
 2021-11-09,windmist,3,2,uri fluoroquik,frozen3,phyco,µg/L,0.1
 2021-11-09,windmist,3,3,uri fluoroquik,frozen3,phyco,µg/L,0.1
 2021-11-09,windmist,1,1,uri fluoroquik,frozen3,chl,µg/L,69.25
 2021-11-09,windmist,1,2,uri fluoroquik,frozen3,chl,µg/L,68.93
 2021-11-09,windmist,1,3,uri fluoroquik,frozen3,chl,µg/L,68.93
-2021-11-09,windmist,2,1,uri fluoroquik,frozen3,chl,µg/L,68.93
-2021-11-09,windmist,2,2,uri fluoroquik,frozen3,chl,µg/L,69.57
-2021-11-09,windmist,2,3,uri fluoroquik,frozen3,chl,µg/L,70.53
 2021-11-09,windmist,3,1,uri fluoroquik,frozen3,chl,µg/L,70.21
 2021-11-09,windmist,3,2,uri fluoroquik,frozen3,chl,µg/L,71.17
 2021-11-09,windmist,3,3,uri fluoroquik,frozen3,chl,µg/L,70.21
 2021-11-09,windmist,1,1,uri fluoroquik,frozen3,ch1 hi,rfu,24
 2021-11-09,windmist,1,2,uri fluoroquik,frozen3,ch1 hi,rfu,25
 2021-11-09,windmist,1,3,uri fluoroquik,frozen3,ch1 hi,rfu,24
-2021-11-09,windmist,2,1,uri fluoroquik,frozen3,ch1 hi,rfu,24
-2021-11-09,windmist,2,2,uri fluoroquik,frozen3,ch1 hi,rfu,24
-2021-11-09,windmist,2,3,uri fluoroquik,frozen3,ch1 hi,rfu,23
 2021-11-09,windmist,3,1,uri fluoroquik,frozen3,ch1 hi,rfu,23
 2021-11-09,windmist,3,2,uri fluoroquik,frozen3,ch1 hi,rfu,23
 2021-11-09,windmist,3,3,uri fluoroquik,frozen3,ch1 hi,rfu,23
 2021-11-09,windmist,1,1,uri fluoroquik,frozen3,ch1 lo,rfu,2
 2021-11-09,windmist,1,2,uri fluoroquik,frozen3,ch1 lo,rfu,2
 2021-11-09,windmist,1,3,uri fluoroquik,frozen3,ch1 lo,rfu,2
-2021-11-09,windmist,2,1,uri fluoroquik,frozen3,ch1 lo,rfu,2
-2021-11-09,windmist,2,2,uri fluoroquik,frozen3,ch1 lo,rfu,2
-2021-11-09,windmist,2,3,uri fluoroquik,frozen3,ch1 lo,rfu,1
 2021-11-09,windmist,3,1,uri fluoroquik,frozen3,ch1 lo,rfu,2
 2021-11-09,windmist,3,2,uri fluoroquik,frozen3,ch1 lo,rfu,1
 2021-11-09,windmist,3,3,uri fluoroquik,frozen3,ch1 lo,rfu,2
 2021-11-09,windmist,1,1,uri fluoroquik,frozen3,ch2 hi,rfu,236
 2021-11-09,windmist,1,2,uri fluoroquik,frozen3,ch2 hi,rfu,240
 2021-11-09,windmist,1,3,uri fluoroquik,frozen3,ch2 hi,rfu,240
-2021-11-09,windmist,2,1,uri fluoroquik,frozen3,ch2 hi,rfu,242
-2021-11-09,windmist,2,2,uri fluoroquik,frozen3,ch2 hi,rfu,242
-2021-11-09,windmist,2,3,uri fluoroquik,frozen3,ch2 hi,rfu,243
 2021-11-09,windmist,3,1,uri fluoroquik,frozen3,ch2 hi,rfu,240
 2021-11-09,windmist,3,2,uri fluoroquik,frozen3,ch2 hi,rfu,244
 2021-11-09,windmist,3,3,uri fluoroquik,frozen3,ch2 hi,rfu,244
 2021-11-09,windmist,1,1,uri fluoroquik,frozen3,ch2 lo,rfu,35
 2021-11-09,windmist,1,2,uri fluoroquik,frozen3,ch2 lo,rfu,36
 2021-11-09,windmist,1,3,uri fluoroquik,frozen3,ch2 lo,rfu,36
-2021-11-09,windmist,2,1,uri fluoroquik,frozen3,ch2 lo,rfu,37
-2021-11-09,windmist,2,2,uri fluoroquik,frozen3,ch2 lo,rfu,37
-2021-11-09,windmist,2,3,uri fluoroquik,frozen3,ch2 lo,rfu,37
 2021-11-09,windmist,3,1,uri fluoroquik,frozen3,ch2 lo,rfu,37
 2021-11-09,windmist,3,2,uri fluoroquik,frozen3,ch2 lo,rfu,37
 2021-11-09,windmist,3,3,uri fluoroquik,frozen3,ch2 lo,rfu,36
@@ -3827,414 +3698,381 @@ date,waterbody,field_dups,lab_reps,instrument,method,variable,units,value
 2021-11-09,windmist,1,1,duluth fluoroquik,frozen3,pc:chl,ratio,0.05
 2021-11-09,windmist,1,2,duluth fluoroquik,frozen3,pc:chl,ratio,0.05
 2021-11-09,windmist,1,3,duluth fluoroquik,frozen3,pc:chl,ratio,0.05
-2021-11-09,windmist,2,1,duluth fluoroquik,frozen3,pc:chl,ratio,0.05
-2021-11-09,windmist,2,2,duluth fluoroquik,frozen3,pc:chl,ratio,0.05
-2021-11-09,windmist,2,3,duluth fluoroquik,frozen3,pc:chl,ratio,0.05
 2021-11-09,windmist,3,1,duluth fluoroquik,frozen3,pc:chl,ratio,0.05
 2021-11-09,windmist,3,2,duluth fluoroquik,frozen3,pc:chl,ratio,0.05
 2021-11-09,windmist,3,3,duluth fluoroquik,frozen3,pc:chl,ratio,0.05
 2021-11-09,windmist,1,1,duluth fluoroquik,frozen3,phyco,µg/L,0.1
 2021-11-09,windmist,1,2,duluth fluoroquik,frozen3,phyco,µg/L,0.1
 2021-11-09,windmist,1,3,duluth fluoroquik,frozen3,phyco,µg/L,0.1
-2021-11-09,windmist,2,1,duluth fluoroquik,frozen3,phyco,µg/L,0.1
-2021-11-09,windmist,2,2,duluth fluoroquik,frozen3,phyco,µg/L,0.1
-2021-11-09,windmist,2,3,duluth fluoroquik,frozen3,phyco,µg/L,0.1
 2021-11-09,windmist,3,1,duluth fluoroquik,frozen3,phyco,µg/L,0.1
 2021-11-09,windmist,3,2,duluth fluoroquik,frozen3,phyco,µg/L,0.1
 2021-11-09,windmist,3,3,duluth fluoroquik,frozen3,phyco,µg/L,0.1
 2021-11-09,windmist,1,1,duluth fluoroquik,frozen3,chl,µg/L,1.74
 2021-11-09,windmist,1,2,duluth fluoroquik,frozen3,chl,µg/L,1.79
 2021-11-09,windmist,1,3,duluth fluoroquik,frozen3,chl,µg/L,1.84
-2021-11-09,windmist,2,1,duluth fluoroquik,frozen3,chl,µg/L,1.85
-2021-11-09,windmist,2,2,duluth fluoroquik,frozen3,chl,µg/L,1.86
-2021-11-09,windmist,2,3,duluth fluoroquik,frozen3,chl,µg/L,1.87
 2021-11-09,windmist,3,1,duluth fluoroquik,frozen3,chl,µg/L,1.81
 2021-11-09,windmist,3,2,duluth fluoroquik,frozen3,chl,µg/L,1.88
 2021-11-09,windmist,3,3,duluth fluoroquik,frozen3,chl,µg/L,1.83
 2021-11-09,windmist,1,1,duluth fluoroquik,frozen3,ch1 hi,rfu,35
 2021-11-09,windmist,1,2,duluth fluoroquik,frozen3,ch1 hi,rfu,37
 2021-11-09,windmist,1,3,duluth fluoroquik,frozen3,ch1 hi,rfu,38
-2021-11-09,windmist,2,1,duluth fluoroquik,frozen3,ch1 hi,rfu,37
-2021-11-09,windmist,2,2,duluth fluoroquik,frozen3,ch1 hi,rfu,40
-2021-11-09,windmist,2,3,duluth fluoroquik,frozen3,ch1 hi,rfu,40
 2021-11-09,windmist,3,1,duluth fluoroquik,frozen3,ch1 hi,rfu,36
 2021-11-09,windmist,3,2,duluth fluoroquik,frozen3,ch1 hi,rfu,38
 2021-11-09,windmist,3,3,duluth fluoroquik,frozen3,ch1 hi,rfu,40
 2021-11-09,windmist,1,1,duluth fluoroquik,frozen3,ch1 lo,rfu,9
 2021-11-09,windmist,1,2,duluth fluoroquik,frozen3,ch1 lo,rfu,9
 2021-11-09,windmist,1,3,duluth fluoroquik,frozen3,ch1 lo,rfu,10
-2021-11-09,windmist,2,1,duluth fluoroquik,frozen3,ch1 lo,rfu,10
-2021-11-09,windmist,2,2,duluth fluoroquik,frozen3,ch1 lo,rfu,9
-2021-11-09,windmist,2,3,duluth fluoroquik,frozen3,ch1 lo,rfu,9
 2021-11-09,windmist,3,1,duluth fluoroquik,frozen3,ch1 lo,rfu,8
 2021-11-09,windmist,3,2,duluth fluoroquik,frozen3,ch1 lo,rfu,9
 2021-11-09,windmist,3,3,duluth fluoroquik,frozen3,ch1 lo,rfu,9
 2021-11-09,windmist,1,1,duluth fluoroquik,frozen3,ch2 hi,rfu,238
 2021-11-09,windmist,1,2,duluth fluoroquik,frozen3,ch2 hi,rfu,241
 2021-11-09,windmist,1,3,duluth fluoroquik,frozen3,ch2 hi,rfu,239
-2021-11-09,windmist,2,1,duluth fluoroquik,frozen3,ch2 hi,rfu,246
-2021-11-09,windmist,2,2,duluth fluoroquik,frozen3,ch2 hi,rfu,249
-2021-11-09,windmist,2,3,duluth fluoroquik,frozen3,ch2 hi,rfu,249
 2021-11-09,windmist,3,1,duluth fluoroquik,frozen3,ch2 hi,rfu,244
 2021-11-09,windmist,3,2,duluth fluoroquik,frozen3,ch2 hi,rfu,245
 2021-11-09,windmist,3,3,duluth fluoroquik,frozen3,ch2 hi,rfu,247
 2021-11-09,windmist,1,1,duluth fluoroquik,frozen3,ch2 lo,rfu,31
 2021-11-09,windmist,1,2,duluth fluoroquik,frozen3,ch2 lo,rfu,30
 2021-11-09,windmist,1,3,duluth fluoroquik,frozen3,ch2 lo,rfu,31
-2021-11-09,windmist,2,1,duluth fluoroquik,frozen3,ch2 lo,rfu,33
-2021-11-09,windmist,2,2,duluth fluoroquik,frozen3,ch2 lo,rfu,32
-2021-11-09,windmist,2,3,duluth fluoroquik,frozen3,ch2 lo,rfu,33
 2021-11-09,windmist,3,1,duluth fluoroquik,frozen3,ch2 lo,rfu,31
 2021-11-09,windmist,3,2,duluth fluoroquik,frozen3,ch2 lo,rfu,31
 2021-11-09,windmist,3,3,duluth fluoroquik,frozen3,ch2 lo,rfu,31
-2021-10-06,barber,1,1,phycoprobe,fresh,phyco,µg/L,0.11666666666666667
 2021-10-06,barber,1,1,phycoprobe,fresh,chl,µg/L,6.756666666666667
-2021-10-06,barber,1,1,phycoprobe,frozen,phyco,µg/L,0.26
+2021-10-06,barber,1,1,phycoprobe,fresh,phyco,µg/L of chlorophyll,0.11666666666666667
 2021-10-06,barber,1,1,phycoprobe,frozen,chl,µg/L,4.32
-2021-10-06,barber,1,2,phycoprobe,fresh,phyco,µg/L,0.6033333333333333
+2021-10-06,barber,1,1,phycoprobe,frozen,phyco,µg/L of chlorophyll,0.26
 2021-10-06,barber,1,2,phycoprobe,fresh,chl,µg/L,7.256666666666667
-2021-10-06,barber,1,2,phycoprobe,frozen,phyco,µg/L,0.7133333333333333
+2021-10-06,barber,1,2,phycoprobe,fresh,phyco,µg/L of chlorophyll,0.6033333333333333
 2021-10-06,barber,1,2,phycoprobe,frozen,chl,µg/L,4.693333333333333
-2021-10-06,barber,1,3,phycoprobe,fresh,phyco,µg/L,0.5066666666666667
+2021-10-06,barber,1,2,phycoprobe,frozen,phyco,µg/L of chlorophyll,0.7133333333333333
 2021-10-06,barber,1,3,phycoprobe,fresh,chl,µg/L,7.176666666666667
-2021-10-06,barber,1,3,phycoprobe,frozen,phyco,µg/L,0.8133333333333334
+2021-10-06,barber,1,3,phycoprobe,fresh,phyco,µg/L of chlorophyll,0.5066666666666667
 2021-10-06,barber,1,3,phycoprobe,frozen,chl,µg/L,4.513333333333334
-2021-10-06,barber,2,1,phycoprobe,fresh,phyco,µg/L,0.54
+2021-10-06,barber,1,3,phycoprobe,frozen,phyco,µg/L of chlorophyll,0.8133333333333334
 2021-10-06,barber,2,1,phycoprobe,fresh,chl,µg/L,7.166666666666667
-2021-10-06,barber,2,1,phycoprobe,frozen,phyco,µg/L,0
+2021-10-06,barber,2,1,phycoprobe,fresh,phyco,µg/L of chlorophyll,0.54
 2021-10-06,barber,2,1,phycoprobe,frozen,chl,µg/L,3.2733333333333334
-2021-10-06,barber,2,2,phycoprobe,fresh,phyco,µg/L,0.54
+2021-10-06,barber,2,1,phycoprobe,frozen,phyco,µg/L of chlorophyll,0
 2021-10-06,barber,2,2,phycoprobe,fresh,chl,µg/L,6.616666666666666
-2021-10-06,barber,2,2,phycoprobe,frozen,phyco,µg/L,0.7333333333333333
+2021-10-06,barber,2,2,phycoprobe,fresh,phyco,µg/L of chlorophyll,0.54
 2021-10-06,barber,2,2,phycoprobe,frozen,chl,µg/L,3.603333333333333
-2021-10-06,barber,2,3,phycoprobe,fresh,phyco,µg/L,0.5966666666666667
+2021-10-06,barber,2,2,phycoprobe,frozen,phyco,µg/L of chlorophyll,0.7333333333333333
 2021-10-06,barber,2,3,phycoprobe,fresh,chl,µg/L,7.096666666666667
-2021-10-06,barber,2,3,phycoprobe,frozen,phyco,µg/L,0.7166666666666667
+2021-10-06,barber,2,3,phycoprobe,fresh,phyco,µg/L of chlorophyll,0.5966666666666667
 2021-10-06,barber,2,3,phycoprobe,frozen,chl,µg/L,3.8533333333333335
-2021-10-06,barber,3,1,phycoprobe,fresh,phyco,µg/L,0.8466666666666667
+2021-10-06,barber,2,3,phycoprobe,frozen,phyco,µg/L of chlorophyll,0.7166666666666667
 2021-10-06,barber,3,1,phycoprobe,fresh,chl,µg/L,6.706666666666667
-2021-10-06,barber,3,1,phycoprobe,frozen,phyco,µg/L,0.2566666666666667
+2021-10-06,barber,3,1,phycoprobe,fresh,phyco,µg/L of chlorophyll,0.8466666666666667
 2021-10-06,barber,3,1,phycoprobe,frozen,chl,µg/L,3.716666666666667
-2021-10-06,barber,3,2,phycoprobe,fresh,phyco,µg/L,0.5766666666666667
+2021-10-06,barber,3,1,phycoprobe,frozen,phyco,µg/L of chlorophyll,0.2566666666666667
 2021-10-06,barber,3,2,phycoprobe,fresh,chl,µg/L,7.293333333333333
-2021-10-06,barber,3,2,phycoprobe,frozen,phyco,µg/L,0.6166666666666667
+2021-10-06,barber,3,2,phycoprobe,fresh,phyco,µg/L of chlorophyll,0.5766666666666667
 2021-10-06,barber,3,2,phycoprobe,frozen,chl,µg/L,3.89
-2021-10-06,barber,3,3,phycoprobe,fresh,phyco,µg/L,0.62
+2021-10-06,barber,3,2,phycoprobe,frozen,phyco,µg/L of chlorophyll,0.6166666666666667
 2021-10-06,barber,3,3,phycoprobe,fresh,chl,µg/L,7.336666666666667
-2021-10-06,barber,3,3,phycoprobe,frozen,phyco,µg/L,0.6333333333333333
+2021-10-06,barber,3,3,phycoprobe,fresh,phyco,µg/L of chlorophyll,0.62
 2021-10-06,barber,3,3,phycoprobe,frozen,chl,µg/L,4.1066666666666665
-2021-10-06,indian,1,1,phycoprobe,fresh,phyco,µg/L,0.46
+2021-10-06,barber,3,3,phycoprobe,frozen,phyco,µg/L of chlorophyll,0.6333333333333333
 2021-10-06,indian,1,1,phycoprobe,fresh,chl,µg/L,3.62
-2021-10-06,indian,1,1,phycoprobe,frozen,phyco,µg/L,0.7933333333333333
+2021-10-06,indian,1,1,phycoprobe,fresh,phyco,µg/L of chlorophyll,0.46
 2021-10-06,indian,1,1,phycoprobe,frozen,chl,µg/L,3.3533333333333335
-2021-10-06,indian,1,2,phycoprobe,fresh,phyco,µg/L,0.25
+2021-10-06,indian,1,1,phycoprobe,frozen,phyco,µg/L of chlorophyll,0.7933333333333333
 2021-10-06,indian,1,2,phycoprobe,fresh,chl,µg/L,3.2133333333333334
-2021-10-06,indian,1,2,phycoprobe,frozen,phyco,µg/L,0.6366666666666667
+2021-10-06,indian,1,2,phycoprobe,fresh,phyco,µg/L of chlorophyll,0.25
 2021-10-06,indian,1,2,phycoprobe,frozen,chl,µg/L,3.27
-2021-10-06,indian,1,3,phycoprobe,fresh,phyco,µg/L,0.45666666666666667
+2021-10-06,indian,1,2,phycoprobe,frozen,phyco,µg/L of chlorophyll,0.6366666666666667
 2021-10-06,indian,1,3,phycoprobe,fresh,chl,µg/L,3.27
-2021-10-06,indian,1,3,phycoprobe,frozen,phyco,µg/L,0.8
+2021-10-06,indian,1,3,phycoprobe,fresh,phyco,µg/L of chlorophyll,0.45666666666666667
 2021-10-06,indian,1,3,phycoprobe,frozen,chl,µg/L,3.2133333333333334
-2021-10-06,indian,2,1,phycoprobe,fresh,phyco,µg/L,0
+2021-10-06,indian,1,3,phycoprobe,frozen,phyco,µg/L of chlorophyll,0.8
 2021-10-06,indian,2,1,phycoprobe,fresh,chl,µg/L,3.1533333333333333
-2021-10-06,indian,2,1,phycoprobe,frozen,phyco,µg/L,1
+2021-10-06,indian,2,1,phycoprobe,fresh,phyco,µg/L of chlorophyll,0
 2021-10-06,indian,2,1,phycoprobe,frozen,chl,µg/L,3.29
-2021-10-06,indian,2,2,phycoprobe,fresh,phyco,µg/L,0.24000000000000002
+2021-10-06,indian,2,1,phycoprobe,frozen,phyco,µg/L of chlorophyll,1
 2021-10-06,indian,2,2,phycoprobe,fresh,chl,µg/L,3.2033333333333336
-2021-10-06,indian,2,2,phycoprobe,frozen,phyco,µg/L,0.8233333333333334
+2021-10-06,indian,2,2,phycoprobe,fresh,phyco,µg/L of chlorophyll,0.24000000000000002
 2021-10-06,indian,2,2,phycoprobe,frozen,chl,µg/L,3.2733333333333334
-2021-10-06,indian,2,3,phycoprobe,fresh,phyco,µg/L,0.4766666666666667
+2021-10-06,indian,2,2,phycoprobe,frozen,phyco,µg/L of chlorophyll,0.8233333333333334
 2021-10-06,indian,2,3,phycoprobe,fresh,chl,µg/L,3.42
-2021-10-06,indian,2,3,phycoprobe,frozen,phyco,µg/L,0.98
+2021-10-06,indian,2,3,phycoprobe,fresh,phyco,µg/L of chlorophyll,0.4766666666666667
 2021-10-06,indian,2,3,phycoprobe,frozen,chl,µg/L,3.4466666666666668
-2021-10-06,indian,3,1,phycoprobe,fresh,phyco,µg/L,0.6166666666666667
+2021-10-06,indian,2,3,phycoprobe,frozen,phyco,µg/L of chlorophyll,0.98
 2021-10-06,indian,3,1,phycoprobe,fresh,chl,µg/L,3.5100000000000002
-2021-10-06,indian,3,1,phycoprobe,frozen,phyco,µg/L,0.75
+2021-10-06,indian,3,1,phycoprobe,fresh,phyco,µg/L of chlorophyll,0.6166666666666667
 2021-10-06,indian,3,1,phycoprobe,frozen,chl,µg/L,3.216666666666667
-2021-10-06,indian,3,2,phycoprobe,fresh,phyco,µg/L,0.45
+2021-10-06,indian,3,1,phycoprobe,frozen,phyco,µg/L of chlorophyll,0.75
 2021-10-06,indian,3,2,phycoprobe,fresh,chl,µg/L,3.4033333333333333
-2021-10-06,indian,3,2,phycoprobe,frozen,phyco,µg/L,0.8033333333333333
+2021-10-06,indian,3,2,phycoprobe,fresh,phyco,µg/L of chlorophyll,0.45
 2021-10-06,indian,3,2,phycoprobe,frozen,chl,µg/L,3.21
-2021-10-06,indian,3,3,phycoprobe,fresh,phyco,µg/L,0.45666666666666667
+2021-10-06,indian,3,2,phycoprobe,frozen,phyco,µg/L of chlorophyll,0.8033333333333333
 2021-10-06,indian,3,3,phycoprobe,fresh,chl,µg/L,3.4566666666666666
-2021-10-06,indian,3,3,phycoprobe,frozen,phyco,µg/L,0.7433333333333333
+2021-10-06,indian,3,3,phycoprobe,fresh,phyco,µg/L of chlorophyll,0.45666666666666667
 2021-10-06,indian,3,3,phycoprobe,frozen,chl,µg/L,3.163333333333333
-2021-10-06,yawgoo,1,1,phycoprobe,fresh,phyco,µg/L,1.66
+2021-10-06,indian,3,3,phycoprobe,frozen,phyco,µg/L of chlorophyll,0.7433333333333333
 2021-10-06,yawgoo,1,1,phycoprobe,fresh,chl,µg/L,4.74
-2021-10-06,yawgoo,1,1,phycoprobe,frozen,phyco,µg/L,3.72
+2021-10-06,yawgoo,1,1,phycoprobe,fresh,phyco,µg/L of chlorophyll,1.66
 2021-10-06,yawgoo,1,1,phycoprobe,frozen,chl,µg/L,5.543333333333333
-2021-10-06,yawgoo,1,2,phycoprobe,fresh,phyco,µg/L,2.0233333333333334
+2021-10-06,yawgoo,1,1,phycoprobe,frozen,phyco,µg/L of chlorophyll,3.72
 2021-10-06,yawgoo,1,2,phycoprobe,fresh,chl,µg/L,4.96
-2021-10-06,yawgoo,1,2,phycoprobe,frozen,phyco,µg/L,2.9266666666666667
+2021-10-06,yawgoo,1,2,phycoprobe,fresh,phyco,µg/L of chlorophyll,2.0233333333333334
 2021-10-06,yawgoo,1,2,phycoprobe,frozen,chl,µg/L,4.963333333333334
-2021-10-06,yawgoo,1,3,phycoprobe,fresh,phyco,µg/L,0.32666666666666666
+2021-10-06,yawgoo,1,2,phycoprobe,frozen,phyco,µg/L of chlorophyll,2.9266666666666667
 2021-10-06,yawgoo,1,3,phycoprobe,fresh,chl,µg/L,3.4466666666666668
-2021-10-06,yawgoo,1,3,phycoprobe,frozen,phyco,µg/L,3.2033333333333336
+2021-10-06,yawgoo,1,3,phycoprobe,fresh,phyco,µg/L of chlorophyll,0.32666666666666666
 2021-10-06,yawgoo,1,3,phycoprobe,frozen,chl,µg/L,5
-2021-10-06,yawgoo,2,1,phycoprobe,fresh,phyco,µg/L,1.9233333333333333
+2021-10-06,yawgoo,1,3,phycoprobe,frozen,phyco,µg/L of chlorophyll,3.2033333333333336
 2021-10-06,yawgoo,2,1,phycoprobe,fresh,chl,µg/L,4.996666666666667
-2021-10-06,yawgoo,2,1,phycoprobe,frozen,phyco,µg/L,1.4766666666666666
+2021-10-06,yawgoo,2,1,phycoprobe,fresh,phyco,µg/L of chlorophyll,1.9233333333333333
 2021-10-06,yawgoo,2,1,phycoprobe,frozen,chl,µg/L,3.603333333333333
-2021-10-06,yawgoo,2,2,phycoprobe,fresh,phyco,µg/L,1.25
+2021-10-06,yawgoo,2,1,phycoprobe,frozen,phyco,µg/L of chlorophyll,1.4766666666666666
 2021-10-06,yawgoo,2,2,phycoprobe,fresh,chl,µg/L,4.383333333333334
-2021-10-06,yawgoo,2,2,phycoprobe,frozen,phyco,µg/L,2.526666666666667
+2021-10-06,yawgoo,2,2,phycoprobe,fresh,phyco,µg/L of chlorophyll,1.25
 2021-10-06,yawgoo,2,2,phycoprobe,frozen,chl,µg/L,4.426666666666667
-2021-10-06,yawgoo,2,3,phycoprobe,fresh,phyco,µg/L,1.51
+2021-10-06,yawgoo,2,2,phycoprobe,frozen,phyco,µg/L of chlorophyll,2.526666666666667
 2021-10-06,yawgoo,2,3,phycoprobe,fresh,chl,µg/L,4.466666666666667
-2021-10-06,yawgoo,2,3,phycoprobe,frozen,phyco,µg/L,3.243333333333333
+2021-10-06,yawgoo,2,3,phycoprobe,fresh,phyco,µg/L of chlorophyll,1.51
 2021-10-06,yawgoo,2,3,phycoprobe,frozen,chl,µg/L,5.046666666666667
-2021-10-06,yawgoo,3,1,phycoprobe,fresh,phyco,µg/L,0.7533333333333333
+2021-10-06,yawgoo,2,3,phycoprobe,frozen,phyco,µg/L of chlorophyll,3.243333333333333
 2021-10-06,yawgoo,3,1,phycoprobe,fresh,chl,µg/L,4.24
-2021-10-06,yawgoo,3,1,phycoprobe,frozen,phyco,µg/L,3.3066666666666666
+2021-10-06,yawgoo,3,1,phycoprobe,fresh,phyco,µg/L of chlorophyll,0.7533333333333333
 2021-10-06,yawgoo,3,1,phycoprobe,frozen,chl,µg/L,5.8566666666666665
-2021-10-06,yawgoo,3,2,phycoprobe,fresh,phyco,µg/L,0.7533333333333333
+2021-10-06,yawgoo,3,1,phycoprobe,frozen,phyco,µg/L of chlorophyll,3.3066666666666666
 2021-10-06,yawgoo,3,2,phycoprobe,fresh,chl,µg/L,4.3
-2021-10-06,yawgoo,3,2,phycoprobe,frozen,phyco,µg/L,2.9166666666666665
+2021-10-06,yawgoo,3,2,phycoprobe,fresh,phyco,µg/L of chlorophyll,0.7533333333333333
 2021-10-06,yawgoo,3,2,phycoprobe,frozen,chl,µg/L,5.65
-2021-10-06,yawgoo,3,3,phycoprobe,fresh,phyco,µg/L,1.46
+2021-10-06,yawgoo,3,2,phycoprobe,frozen,phyco,µg/L of chlorophyll,2.9166666666666665
 2021-10-06,yawgoo,3,3,phycoprobe,fresh,chl,µg/L,4.613333333333333
-2021-10-06,yawgoo,3,3,phycoprobe,frozen,phyco,µg/L,3.1733333333333333
+2021-10-06,yawgoo,3,3,phycoprobe,fresh,phyco,µg/L of chlorophyll,1.46
 2021-10-06,yawgoo,3,3,phycoprobe,frozen,chl,µg/L,6.036666666666667
-2021-10-07,200ppb standard,NA,NA,phycoprobe,NA,phyco,µg/L,0
+2021-10-06,yawgoo,3,3,phycoprobe,frozen,phyco,µg/L of chlorophyll,3.1733333333333333
 2021-10-07,200ppb standard,NA,NA,phycoprobe,NA,chl,µg/L,259.8
-2021-10-07,800ppb standard,NA,NA,phycoprobe,NA,phyco,µg/L,0
+2021-10-07,200ppb standard,NA,NA,phycoprobe,NA,phyco,µg/L of chlorophyll,0
 2021-10-07,800ppb standard,NA,NA,phycoprobe,NA,chl,µg/L,567.2
-2021-10-18,200ppb standard,NA,NA,phycoprobe,NA,phyco,µg/L,0
+2021-10-07,800ppb standard,NA,NA,phycoprobe,NA,phyco,µg/L of chlorophyll,0
 2021-10-18,200ppb standard,NA,NA,phycoprobe,NA,chl,µg/L,252.85
-2021-10-18,800ppb standard,NA,NA,phycoprobe,NA,phyco,µg/L,0
+2021-10-18,200ppb standard,NA,NA,phycoprobe,NA,phyco,µg/L of chlorophyll,0
 2021-10-18,800ppb standard,NA,NA,phycoprobe,NA,chl,µg/L,547.85
-2021-10-21,curran,1,1,phycoprobe,fresh,phyco,µg/L,2.9899999999999998
+2021-10-18,800ppb standard,NA,NA,phycoprobe,NA,phyco,µg/L of chlorophyll,0
 2021-10-21,curran,1,1,phycoprobe,fresh,chl,µg/L,29.233333333333334
-2021-10-21,curran,1,1,phycoprobe,frozen,phyco,µg/L,0
+2021-10-21,curran,1,1,phycoprobe,fresh,phyco,µg/L of chlorophyll,2.9899999999999998
 2021-10-21,curran,1,1,phycoprobe,frozen,chl,µg/L,7.49
-2021-10-21,curran,1,2,phycoprobe,fresh,phyco,µg/L,3.086666666666667
+2021-10-21,curran,1,1,phycoprobe,frozen,phyco,µg/L of chlorophyll,0
 2021-10-21,curran,1,2,phycoprobe,fresh,chl,µg/L,29.61
-2021-10-21,curran,1,2,phycoprobe,frozen,phyco,µg/L,0.49
+2021-10-21,curran,1,2,phycoprobe,fresh,phyco,µg/L of chlorophyll,3.086666666666667
 2021-10-21,curran,1,2,phycoprobe,frozen,chl,µg/L,8.27
-2021-10-21,curran,1,3,phycoprobe,fresh,phyco,µg/L,2.896666666666667
+2021-10-21,curran,1,2,phycoprobe,frozen,phyco,µg/L of chlorophyll,0.49
 2021-10-21,curran,1,3,phycoprobe,fresh,chl,µg/L,28.82
-2021-10-21,curran,1,3,phycoprobe,frozen,phyco,µg/L,0.6366666666666667
+2021-10-21,curran,1,3,phycoprobe,fresh,phyco,µg/L of chlorophyll,2.896666666666667
 2021-10-21,curran,1,3,phycoprobe,frozen,chl,µg/L,8.38
-2021-10-21,curran,2,1,phycoprobe,fresh,phyco,µg/L,3.1466666666666665
+2021-10-21,curran,1,3,phycoprobe,frozen,phyco,µg/L of chlorophyll,0.6366666666666667
 2021-10-21,curran,2,1,phycoprobe,fresh,chl,µg/L,26.64
-2021-10-21,curran,2,1,phycoprobe,frozen,phyco,µg/L,1.4733333333333334
+2021-10-21,curran,2,1,phycoprobe,fresh,phyco,µg/L of chlorophyll,3.1466666666666665
 2021-10-21,curran,2,1,phycoprobe,frozen,chl,µg/L,8.62
-2021-10-21,curran,2,2,phycoprobe,fresh,phyco,µg/L,3.1166666666666667
+2021-10-21,curran,2,1,phycoprobe,frozen,phyco,µg/L of chlorophyll,1.4733333333333334
 2021-10-21,curran,2,2,phycoprobe,fresh,chl,µg/L,27.169999999999998
-2021-10-21,curran,2,2,phycoprobe,frozen,phyco,µg/L,2.586666666666667
+2021-10-21,curran,2,2,phycoprobe,fresh,phyco,µg/L of chlorophyll,3.1166666666666667
 2021-10-21,curran,2,2,phycoprobe,frozen,chl,µg/L,9.276666666666667
-2021-10-21,curran,2,3,phycoprobe,fresh,phyco,µg/L,2.8833333333333333
+2021-10-21,curran,2,2,phycoprobe,frozen,phyco,µg/L of chlorophyll,2.586666666666667
 2021-10-21,curran,2,3,phycoprobe,fresh,chl,µg/L,26.123333333333335
-2021-10-21,curran,2,3,phycoprobe,frozen,phyco,µg/L,2.4
+2021-10-21,curran,2,3,phycoprobe,fresh,phyco,µg/L of chlorophyll,2.8833333333333333
 2021-10-21,curran,2,3,phycoprobe,frozen,chl,µg/L,9.74
-2021-10-21,curran,3,1,phycoprobe,fresh,phyco,µg/L,2.533333333333333
+2021-10-21,curran,2,3,phycoprobe,frozen,phyco,µg/L of chlorophyll,2.4
 2021-10-21,curran,3,1,phycoprobe,fresh,chl,µg/L,25.82
-2021-10-21,curran,3,1,phycoprobe,frozen,phyco,µg/L,0.6966666666666667
+2021-10-21,curran,3,1,phycoprobe,fresh,phyco,µg/L of chlorophyll,2.533333333333333
 2021-10-21,curran,3,1,phycoprobe,frozen,chl,µg/L,10.106666666666667
-2021-10-21,curran,3,2,phycoprobe,fresh,phyco,µg/L,2.6333333333333333
+2021-10-21,curran,3,1,phycoprobe,frozen,phyco,µg/L of chlorophyll,0.6966666666666667
 2021-10-21,curran,3,2,phycoprobe,fresh,chl,µg/L,26.81
-2021-10-21,curran,3,2,phycoprobe,frozen,phyco,µg/L,1.2966666666666666
+2021-10-21,curran,3,2,phycoprobe,fresh,phyco,µg/L of chlorophyll,2.6333333333333333
 2021-10-21,curran,3,2,phycoprobe,frozen,chl,µg/L,10.456666666666667
-2021-10-21,curran,3,3,phycoprobe,fresh,phyco,µg/L,2.5633333333333335
+2021-10-21,curran,3,2,phycoprobe,frozen,phyco,µg/L of chlorophyll,1.2966666666666666
 2021-10-21,curran,3,3,phycoprobe,fresh,chl,µg/L,26.566666666666666
-2021-10-21,curran,3,3,phycoprobe,frozen,phyco,µg/L,0.31
+2021-10-21,curran,3,3,phycoprobe,fresh,phyco,µg/L of chlorophyll,2.5633333333333335
 2021-10-21,curran,3,3,phycoprobe,frozen,chl,µg/L,9.98
-2021-10-21,mashapaug,1,1,phycoprobe,fresh,phyco,µg/L,19.65
+2021-10-21,curran,3,3,phycoprobe,frozen,phyco,µg/L of chlorophyll,0.31
 2021-10-21,mashapaug,1,1,phycoprobe,fresh,chl,µg/L,27.36
-2021-10-21,mashapaug,1,1,phycoprobe,frozen,phyco,µg/L,25.57
+2021-10-21,mashapaug,1,1,phycoprobe,fresh,phyco,µg/L of chlorophyll,19.65
 2021-10-21,mashapaug,1,1,phycoprobe,frozen,chl,µg/L,29.263333333333332
-2021-10-21,mashapaug,1,2,phycoprobe,fresh,phyco,µg/L,20.386666666666667
+2021-10-21,mashapaug,1,1,phycoprobe,frozen,phyco,µg/L of chlorophyll,25.57
 2021-10-21,mashapaug,1,2,phycoprobe,fresh,chl,µg/L,28.176666666666666
-2021-10-21,mashapaug,1,2,phycoprobe,frozen,phyco,µg/L,24.576666666666668
+2021-10-21,mashapaug,1,2,phycoprobe,fresh,phyco,µg/L of chlorophyll,20.386666666666667
 2021-10-21,mashapaug,1,2,phycoprobe,frozen,chl,µg/L,28.323333333333334
-2021-10-21,mashapaug,1,3,phycoprobe,fresh,phyco,µg/L,19.996666666666666
+2021-10-21,mashapaug,1,2,phycoprobe,frozen,phyco,µg/L of chlorophyll,24.576666666666668
 2021-10-21,mashapaug,1,3,phycoprobe,fresh,chl,µg/L,27.833333333333332
-2021-10-21,mashapaug,1,3,phycoprobe,frozen,phyco,µg/L,25.066666666666666
+2021-10-21,mashapaug,1,3,phycoprobe,fresh,phyco,µg/L of chlorophyll,19.996666666666666
 2021-10-21,mashapaug,1,3,phycoprobe,frozen,chl,µg/L,28.776666666666667
-2021-10-21,mashapaug,2,1,phycoprobe,fresh,phyco,µg/L,20.256666666666668
+2021-10-21,mashapaug,1,3,phycoprobe,frozen,phyco,µg/L of chlorophyll,25.066666666666666
 2021-10-21,mashapaug,2,1,phycoprobe,fresh,chl,µg/L,25.83
-2021-10-21,mashapaug,2,1,phycoprobe,frozen,phyco,µg/L,21.78
+2021-10-21,mashapaug,2,1,phycoprobe,fresh,phyco,µg/L of chlorophyll,20.256666666666668
 2021-10-21,mashapaug,2,1,phycoprobe,frozen,chl,µg/L,25.703333333333333
-2021-10-21,mashapaug,2,2,phycoprobe,fresh,phyco,µg/L,21.076666666666668
+2021-10-21,mashapaug,2,1,phycoprobe,frozen,phyco,µg/L of chlorophyll,21.78
 2021-10-21,mashapaug,2,2,phycoprobe,fresh,chl,µg/L,25.753333333333334
-2021-10-21,mashapaug,2,2,phycoprobe,frozen,phyco,µg/L,23.243333333333332
+2021-10-21,mashapaug,2,2,phycoprobe,fresh,phyco,µg/L of chlorophyll,21.076666666666668
 2021-10-21,mashapaug,2,2,phycoprobe,frozen,chl,µg/L,27.62
-2021-10-21,mashapaug,2,3,phycoprobe,fresh,phyco,µg/L,22.12
+2021-10-21,mashapaug,2,2,phycoprobe,frozen,phyco,µg/L of chlorophyll,23.243333333333332
 2021-10-21,mashapaug,2,3,phycoprobe,fresh,chl,µg/L,29.78
-2021-10-21,mashapaug,2,3,phycoprobe,frozen,phyco,µg/L,22.91
+2021-10-21,mashapaug,2,3,phycoprobe,fresh,phyco,µg/L of chlorophyll,22.12
 2021-10-21,mashapaug,2,3,phycoprobe,frozen,chl,µg/L,27.313333333333333
-2021-10-21,mashapaug,3,1,phycoprobe,fresh,phyco,µg/L,23.423333333333332
+2021-10-21,mashapaug,2,3,phycoprobe,frozen,phyco,µg/L of chlorophyll,22.91
 2021-10-21,mashapaug,3,1,phycoprobe,fresh,chl,µg/L,34.1
-2021-10-21,mashapaug,3,1,phycoprobe,frozen,phyco,µg/L,24.093333333333334
+2021-10-21,mashapaug,3,1,phycoprobe,fresh,phyco,µg/L of chlorophyll,23.423333333333332
 2021-10-21,mashapaug,3,1,phycoprobe,frozen,chl,µg/L,28.55
-2021-10-21,mashapaug,3,2,phycoprobe,fresh,phyco,µg/L,22.886666666666667
+2021-10-21,mashapaug,3,1,phycoprobe,frozen,phyco,µg/L of chlorophyll,24.093333333333334
 2021-10-21,mashapaug,3,2,phycoprobe,fresh,chl,µg/L,34.016666666666666
-2021-10-21,mashapaug,3,2,phycoprobe,frozen,phyco,µg/L,23.54
+2021-10-21,mashapaug,3,2,phycoprobe,fresh,phyco,µg/L of chlorophyll,22.886666666666667
 2021-10-21,mashapaug,3,2,phycoprobe,frozen,chl,µg/L,28.013333333333332
-2021-10-21,mashapaug,3,3,phycoprobe,fresh,phyco,µg/L,23.79
+2021-10-21,mashapaug,3,2,phycoprobe,frozen,phyco,µg/L of chlorophyll,23.54
 2021-10-21,mashapaug,3,3,phycoprobe,fresh,chl,µg/L,35.16
-2021-10-21,mashapaug,3,3,phycoprobe,frozen,phyco,µg/L,25.186666666666667
+2021-10-21,mashapaug,3,3,phycoprobe,fresh,phyco,µg/L of chlorophyll,23.79
 2021-10-21,mashapaug,3,3,phycoprobe,frozen,chl,µg/L,29.293333333333333
-2021-10-21,warwick,1,1,phycoprobe,fresh,phyco,µg/L,12.746666666666666
+2021-10-21,mashapaug,3,3,phycoprobe,frozen,phyco,µg/L of chlorophyll,25.186666666666667
 2021-10-21,warwick,1,1,phycoprobe,fresh,chl,µg/L,34.54333333333333
-2021-10-21,warwick,1,1,phycoprobe,frozen,phyco,µg/L,10.853333333333333
+2021-10-21,warwick,1,1,phycoprobe,fresh,phyco,µg/L of chlorophyll,12.746666666666666
 2021-10-21,warwick,1,1,phycoprobe,frozen,chl,µg/L,16.62666666666667
-2021-10-21,warwick,1,2,phycoprobe,fresh,phyco,µg/L,13.203333333333333
+2021-10-21,warwick,1,1,phycoprobe,frozen,phyco,µg/L of chlorophyll,10.853333333333333
 2021-10-21,warwick,1,2,phycoprobe,fresh,chl,µg/L,35.516666666666666
-2021-10-21,warwick,1,2,phycoprobe,frozen,phyco,µg/L,11.706666666666667
+2021-10-21,warwick,1,2,phycoprobe,fresh,phyco,µg/L of chlorophyll,13.203333333333333
 2021-10-21,warwick,1,2,phycoprobe,frozen,chl,µg/L,18.143333333333334
-2021-10-21,warwick,1,3,phycoprobe,fresh,phyco,µg/L,13.053333333333333
+2021-10-21,warwick,1,2,phycoprobe,frozen,phyco,µg/L of chlorophyll,11.706666666666667
 2021-10-21,warwick,1,3,phycoprobe,fresh,chl,µg/L,35.42333333333333
-2021-10-21,warwick,1,3,phycoprobe,frozen,phyco,µg/L,10.77
+2021-10-21,warwick,1,3,phycoprobe,fresh,phyco,µg/L of chlorophyll,13.053333333333333
 2021-10-21,warwick,1,3,phycoprobe,frozen,chl,µg/L,17.21
-2021-10-21,warwick,2,1,phycoprobe,fresh,phyco,µg/L,12.61
+2021-10-21,warwick,1,3,phycoprobe,frozen,phyco,µg/L of chlorophyll,10.77
 2021-10-21,warwick,2,1,phycoprobe,fresh,chl,µg/L,35.343333333333334
-2021-10-21,warwick,2,1,phycoprobe,frozen,phyco,µg/L,12.01
+2021-10-21,warwick,2,1,phycoprobe,fresh,phyco,µg/L of chlorophyll,12.61
 2021-10-21,warwick,2,1,phycoprobe,frozen,chl,µg/L,19.476666666666667
-2021-10-21,warwick,2,2,phycoprobe,fresh,phyco,µg/L,12.743333333333334
+2021-10-21,warwick,2,1,phycoprobe,frozen,phyco,µg/L of chlorophyll,12.01
 2021-10-21,warwick,2,2,phycoprobe,fresh,chl,µg/L,36.00333333333334
-2021-10-21,warwick,2,2,phycoprobe,frozen,phyco,µg/L,11.966666666666667
+2021-10-21,warwick,2,2,phycoprobe,fresh,phyco,µg/L of chlorophyll,12.743333333333334
 2021-10-21,warwick,2,2,phycoprobe,frozen,chl,µg/L,19.37
-2021-10-21,warwick,2,3,phycoprobe,fresh,phyco,µg/L,12.186666666666667
+2021-10-21,warwick,2,2,phycoprobe,frozen,phyco,µg/L of chlorophyll,11.966666666666667
 2021-10-21,warwick,2,3,phycoprobe,fresh,chl,µg/L,35.156666666666666
-2021-10-21,warwick,2,3,phycoprobe,frozen,phyco,µg/L,11.63
+2021-10-21,warwick,2,3,phycoprobe,fresh,phyco,µg/L of chlorophyll,12.186666666666667
 2021-10-21,warwick,2,3,phycoprobe,frozen,chl,µg/L,18.883333333333333
-2021-10-21,warwick,3,1,phycoprobe,fresh,phyco,µg/L,11.72
+2021-10-21,warwick,2,3,phycoprobe,frozen,phyco,µg/L of chlorophyll,11.63
 2021-10-21,warwick,3,1,phycoprobe,fresh,chl,µg/L,36.5
-2021-10-21,warwick,3,1,phycoprobe,frozen,phyco,µg/L,8.306666666666667
+2021-10-21,warwick,3,1,phycoprobe,fresh,phyco,µg/L of chlorophyll,11.72
 2021-10-21,warwick,3,1,phycoprobe,frozen,chl,µg/L,17.113333333333333
-2021-10-21,warwick,3,2,phycoprobe,fresh,phyco,µg/L,11.63
+2021-10-21,warwick,3,1,phycoprobe,frozen,phyco,µg/L of chlorophyll,8.306666666666667
 2021-10-21,warwick,3,2,phycoprobe,fresh,chl,µg/L,36.63
-2021-10-21,warwick,3,2,phycoprobe,frozen,phyco,µg/L,9.323333333333332
+2021-10-21,warwick,3,2,phycoprobe,fresh,phyco,µg/L of chlorophyll,11.63
 2021-10-21,warwick,3,2,phycoprobe,frozen,chl,µg/L,18.016666666666666
-2021-10-21,warwick,3,3,phycoprobe,fresh,phyco,µg/L,11.39
+2021-10-21,warwick,3,2,phycoprobe,frozen,phyco,µg/L of chlorophyll,9.323333333333332
 2021-10-21,warwick,3,3,phycoprobe,fresh,chl,µg/L,36.526666666666664
-2021-10-21,warwick,3,3,phycoprobe,frozen,phyco,µg/L,9.116666666666667
+2021-10-21,warwick,3,3,phycoprobe,fresh,phyco,µg/L of chlorophyll,11.39
 2021-10-21,warwick,3,3,phycoprobe,frozen,chl,µg/L,18.143333333333334
-2021-10-22,200ppb standard,NA,NA,phycoprobe,NA,phyco,µg/L,0
+2021-10-21,warwick,3,3,phycoprobe,frozen,phyco,µg/L of chlorophyll,9.116666666666667
 2021-10-22,200ppb standard,NA,NA,phycoprobe,NA,chl,µg/L,233.96666666666667
-2021-10-22,800ppb standard,NA,NA,phycoprobe,NA,phyco,µg/L,0
+2021-10-22,200ppb standard,NA,NA,phycoprobe,NA,phyco,µg/L of chlorophyll,0
 2021-10-22,800ppb standard,NA,NA,phycoprobe,NA,chl,µg/L,541.8
-2021-11-09,lower melville,1,1,phycoprobe,fresh,phyco,µg/L,5.773333333333333
+2021-10-22,800ppb standard,NA,NA,phycoprobe,NA,phyco,µg/L of chlorophyll,0
 2021-11-09,lower melville,1,1,phycoprobe,fresh,chl,µg/L,7.13
-2021-11-09,lower melville,1,1,phycoprobe,frozen,phyco,µg/L,9.5
+2021-11-09,lower melville,1,1,phycoprobe,fresh,phyco,µg/L of chlorophyll,5.773333333333333
 2021-11-09,lower melville,1,1,phycoprobe,frozen,chl,µg/L,9.883333333333333
-2021-11-09,lower melville,1,2,phycoprobe,fresh,phyco,µg/L,6.136666666666667
+2021-11-09,lower melville,1,1,phycoprobe,frozen,phyco,µg/L of chlorophyll,9.5
 2021-11-09,lower melville,1,2,phycoprobe,fresh,chl,µg/L,7.53
-2021-11-09,lower melville,1,2,phycoprobe,frozen,phyco,µg/L,10.576666666666666
+2021-11-09,lower melville,1,2,phycoprobe,fresh,phyco,µg/L of chlorophyll,6.136666666666667
 2021-11-09,lower melville,1,2,phycoprobe,frozen,chl,µg/L,10.853333333333333
-2021-11-09,lower melville,1,3,phycoprobe,fresh,phyco,µg/L,5.91
+2021-11-09,lower melville,1,2,phycoprobe,frozen,phyco,µg/L of chlorophyll,10.576666666666666
 2021-11-09,lower melville,1,3,phycoprobe,fresh,chl,µg/L,7.273333333333333
-2021-11-09,lower melville,1,3,phycoprobe,frozen,phyco,µg/L,10.906666666666666
+2021-11-09,lower melville,1,3,phycoprobe,fresh,phyco,µg/L of chlorophyll,5.91
 2021-11-09,lower melville,1,3,phycoprobe,frozen,chl,µg/L,11.286666666666667
-2021-11-09,lower melville,2,1,phycoprobe,fresh,phyco,µg/L,5.056666666666667
+2021-11-09,lower melville,1,3,phycoprobe,frozen,phyco,µg/L of chlorophyll,10.906666666666666
 2021-11-09,lower melville,2,1,phycoprobe,fresh,chl,µg/L,6.433333333333334
-2021-11-09,lower melville,2,1,phycoprobe,frozen,phyco,µg/L,8.406666666666666
+2021-11-09,lower melville,2,1,phycoprobe,fresh,phyco,µg/L of chlorophyll,5.056666666666667
 2021-11-09,lower melville,2,1,phycoprobe,frozen,chl,µg/L,8.756666666666666
-2021-11-09,lower melville,2,2,phycoprobe,fresh,phyco,µg/L,5.84
+2021-11-09,lower melville,2,1,phycoprobe,frozen,phyco,µg/L of chlorophyll,8.406666666666666
 2021-11-09,lower melville,2,2,phycoprobe,fresh,chl,µg/L,7.02
-2021-11-09,lower melville,2,2,phycoprobe,frozen,phyco,µg/L,8.166666666666666
+2021-11-09,lower melville,2,2,phycoprobe,fresh,phyco,µg/L of chlorophyll,5.84
 2021-11-09,lower melville,2,2,phycoprobe,frozen,chl,µg/L,8.473333333333333
-2021-11-09,lower melville,2,3,phycoprobe,fresh,phyco,µg/L,5.183333333333334
+2021-11-09,lower melville,2,2,phycoprobe,frozen,phyco,µg/L of chlorophyll,8.166666666666666
 2021-11-09,lower melville,2,3,phycoprobe,fresh,chl,µg/L,6.943333333333333
-2021-11-09,lower melville,2,3,phycoprobe,frozen,phyco,µg/L,7.5600000000000005
+2021-11-09,lower melville,2,3,phycoprobe,fresh,phyco,µg/L of chlorophyll,5.183333333333334
 2021-11-09,lower melville,2,3,phycoprobe,frozen,chl,µg/L,8.06
-2021-11-09,lower melville,3,1,phycoprobe,fresh,phyco,µg/L,4.793333333333334
+2021-11-09,lower melville,2,3,phycoprobe,frozen,phyco,µg/L of chlorophyll,7.5600000000000005
 2021-11-09,lower melville,3,1,phycoprobe,fresh,chl,µg/L,6.1866666666666665
-2021-11-09,lower melville,3,1,phycoprobe,frozen,phyco,µg/L,7.819999999999999
+2021-11-09,lower melville,3,1,phycoprobe,fresh,phyco,µg/L of chlorophyll,4.793333333333334
 2021-11-09,lower melville,3,1,phycoprobe,frozen,chl,µg/L,8.143333333333334
-2021-11-09,lower melville,3,2,phycoprobe,fresh,phyco,µg/L,5.413333333333333
+2021-11-09,lower melville,3,1,phycoprobe,frozen,phyco,µg/L of chlorophyll,7.819999999999999
 2021-11-09,lower melville,3,2,phycoprobe,fresh,chl,µg/L,7.013333333333334
-2021-11-09,lower melville,3,2,phycoprobe,frozen,phyco,µg/L,7.953333333333333
+2021-11-09,lower melville,3,2,phycoprobe,fresh,phyco,µg/L of chlorophyll,5.413333333333333
 2021-11-09,lower melville,3,2,phycoprobe,frozen,chl,µg/L,8.32
-2021-11-09,lower melville,3,3,phycoprobe,fresh,phyco,µg/L,4.836666666666667
+2021-11-09,lower melville,3,2,phycoprobe,frozen,phyco,µg/L of chlorophyll,7.953333333333333
 2021-11-09,lower melville,3,3,phycoprobe,fresh,chl,µg/L,6.13
-2021-11-09,lower melville,3,3,phycoprobe,frozen,phyco,µg/L,7.193333333333333
+2021-11-09,lower melville,3,3,phycoprobe,fresh,phyco,µg/L of chlorophyll,4.836666666666667
 2021-11-09,lower melville,3,3,phycoprobe,frozen,chl,µg/L,7.6066666666666665
-2021-11-09,upper melville,1,1,phycoprobe,fresh,phyco,µg/L,3.086666666666667
+2021-11-09,lower melville,3,3,phycoprobe,frozen,phyco,µg/L of chlorophyll,7.193333333333333
 2021-11-09,upper melville,1,1,phycoprobe,fresh,chl,µg/L,7.8966666666666665
-2021-11-09,upper melville,1,1,phycoprobe,frozen,phyco,µg/L,3.65
+2021-11-09,upper melville,1,1,phycoprobe,fresh,phyco,µg/L of chlorophyll,3.086666666666667
 2021-11-09,upper melville,1,1,phycoprobe,frozen,chl,µg/L,5.64
-2021-11-09,upper melville,1,2,phycoprobe,fresh,phyco,µg/L,2.8
+2021-11-09,upper melville,1,1,phycoprobe,frozen,phyco,µg/L of chlorophyll,3.65
 2021-11-09,upper melville,1,2,phycoprobe,fresh,chl,µg/L,7.923333333333333
-2021-11-09,upper melville,1,2,phycoprobe,frozen,phyco,µg/L,3.5433333333333334
+2021-11-09,upper melville,1,2,phycoprobe,fresh,phyco,µg/L of chlorophyll,2.8
 2021-11-09,upper melville,1,2,phycoprobe,frozen,chl,µg/L,5.573333333333333
-2021-11-09,upper melville,1,3,phycoprobe,fresh,phyco,µg/L,2.78
+2021-11-09,upper melville,1,2,phycoprobe,frozen,phyco,µg/L of chlorophyll,3.5433333333333334
 2021-11-09,upper melville,1,3,phycoprobe,fresh,chl,µg/L,7.961666666666667
-2021-11-09,upper melville,1,3,phycoprobe,frozen,phyco,µg/L,4.49
+2021-11-09,upper melville,1,3,phycoprobe,fresh,phyco,µg/L of chlorophyll,2.78
 2021-11-09,upper melville,1,3,phycoprobe,frozen,chl,µg/L,6.359999999999999
-2021-11-09,upper melville,2,1,phycoprobe,fresh,phyco,µg/L,3.2033333333333336
+2021-11-09,upper melville,1,3,phycoprobe,frozen,phyco,µg/L of chlorophyll,4.49
 2021-11-09,upper melville,2,1,phycoprobe,fresh,chl,µg/L,7.953333333333333
-2021-11-09,upper melville,2,1,phycoprobe,frozen,phyco,µg/L,3.486666666666667
+2021-11-09,upper melville,2,1,phycoprobe,fresh,phyco,µg/L of chlorophyll,3.2033333333333336
 2021-11-09,upper melville,2,1,phycoprobe,frozen,chl,µg/L,5.086666666666667
-2021-11-09,upper melville,2,2,phycoprobe,fresh,phyco,µg/L,2.98
+2021-11-09,upper melville,2,1,phycoprobe,frozen,phyco,µg/L of chlorophyll,3.486666666666667
 2021-11-09,upper melville,2,2,phycoprobe,fresh,chl,µg/L,7.666666666666667
-2021-11-09,upper melville,2,2,phycoprobe,frozen,phyco,µg/L,3.0233333333333334
+2021-11-09,upper melville,2,2,phycoprobe,fresh,phyco,µg/L of chlorophyll,2.98
 2021-11-09,upper melville,2,2,phycoprobe,frozen,chl,µg/L,4.6899999999999995
-2021-11-09,upper melville,2,3,phycoprobe,fresh,phyco,µg/L,3.3266666666666667
+2021-11-09,upper melville,2,2,phycoprobe,frozen,phyco,µg/L of chlorophyll,3.0233333333333334
 2021-11-09,upper melville,2,3,phycoprobe,fresh,chl,µg/L,7.96
-2021-11-09,upper melville,2,3,phycoprobe,frozen,phyco,µg/L,2.41
+2021-11-09,upper melville,2,3,phycoprobe,fresh,phyco,µg/L of chlorophyll,3.3266666666666667
 2021-11-09,upper melville,2,3,phycoprobe,frozen,chl,µg/L,4.32
-2021-11-09,upper melville,3,1,phycoprobe,fresh,phyco,µg/L,6.266666666666667
+2021-11-09,upper melville,2,3,phycoprobe,frozen,phyco,µg/L of chlorophyll,2.41
 2021-11-09,upper melville,3,1,phycoprobe,fresh,chl,µg/L,9.593333333333334
-2021-11-09,upper melville,3,1,phycoprobe,frozen,phyco,µg/L,7.663333333333333
+2021-11-09,upper melville,3,1,phycoprobe,fresh,phyco,µg/L of chlorophyll,6.266666666666667
 2021-11-09,upper melville,3,1,phycoprobe,frozen,chl,µg/L,9.4
-2021-11-09,upper melville,3,2,phycoprobe,fresh,phyco,µg/L,6.44
+2021-11-09,upper melville,3,1,phycoprobe,frozen,phyco,µg/L of chlorophyll,7.663333333333333
 2021-11-09,upper melville,3,2,phycoprobe,fresh,chl,µg/L,9.59
-2021-11-09,upper melville,3,2,phycoprobe,frozen,phyco,µg/L,9.04
+2021-11-09,upper melville,3,2,phycoprobe,fresh,phyco,µg/L of chlorophyll,6.44
 2021-11-09,upper melville,3,2,phycoprobe,frozen,chl,µg/L,10.646666666666667
-2021-11-09,upper melville,3,3,phycoprobe,fresh,phyco,µg/L,6.79
+2021-11-09,upper melville,3,2,phycoprobe,frozen,phyco,µg/L of chlorophyll,9.04
 2021-11-09,upper melville,3,3,phycoprobe,fresh,chl,µg/L,9.926666666666668
-2021-11-09,upper melville,3,3,phycoprobe,frozen,phyco,µg/L,7.98
+2021-11-09,upper melville,3,3,phycoprobe,fresh,phyco,µg/L of chlorophyll,6.79
 2021-11-09,upper melville,3,3,phycoprobe,frozen,chl,µg/L,9.56
-2021-11-09,windmist,1,1,phycoprobe,fresh,phyco,µg/L,1.4133333333333333
+2021-11-09,upper melville,3,3,phycoprobe,frozen,phyco,µg/L of chlorophyll,7.98
 2021-11-09,windmist,1,1,phycoprobe,fresh,chl,µg/L,4.533333333333333
-2021-11-09,windmist,1,1,phycoprobe,frozen,phyco,µg/L,0.27
+2021-11-09,windmist,1,1,phycoprobe,fresh,phyco,µg/L of chlorophyll,1.4133333333333333
 2021-11-09,windmist,1,1,phycoprobe,frozen,chl,µg/L,3.9566666666666666
-2021-11-09,windmist,1,2,phycoprobe,fresh,phyco,µg/L,1.32
+2021-11-09,windmist,1,1,phycoprobe,frozen,phyco,µg/L of chlorophyll,0.27
 2021-11-09,windmist,1,2,phycoprobe,fresh,chl,µg/L,4.693333333333333
-2021-11-09,windmist,1,2,phycoprobe,frozen,phyco,µg/L,0.7933333333333333
+2021-11-09,windmist,1,2,phycoprobe,fresh,phyco,µg/L of chlorophyll,1.32
 2021-11-09,windmist,1,2,phycoprobe,frozen,chl,µg/L,4.23
-2021-11-09,windmist,1,3,phycoprobe,fresh,phyco,µg/L,1.2733333333333334
+2021-11-09,windmist,1,2,phycoprobe,frozen,phyco,µg/L of chlorophyll,0.7933333333333333
 2021-11-09,windmist,1,3,phycoprobe,fresh,chl,µg/L,4.5633333333333335
-2021-11-09,windmist,1,3,phycoprobe,frozen,phyco,µg/L,0.33
+2021-11-09,windmist,1,3,phycoprobe,fresh,phyco,µg/L of chlorophyll,1.2733333333333334
 2021-11-09,windmist,1,3,phycoprobe,frozen,chl,µg/L,4.556666666666667
-2021-11-09,windmist,2,1,phycoprobe,fresh,phyco,µg/L,1.15
-2021-11-09,windmist,2,1,phycoprobe,fresh,chl,µg/L,4.626666666666667
-2021-11-09,windmist,2,1,phycoprobe,frozen,phyco,µg/L,0.6033333333333333
-2021-11-09,windmist,2,1,phycoprobe,frozen,chl,µg/L,4.36
-2021-11-09,windmist,2,2,phycoprobe,fresh,phyco,µg/L,1.4233333333333333
-2021-11-09,windmist,2,2,phycoprobe,fresh,chl,µg/L,5.1033333333333335
-2021-11-09,windmist,2,2,phycoprobe,frozen,phyco,µg/L,0.8966666666666667
-2021-11-09,windmist,2,2,phycoprobe,frozen,chl,µg/L,4.723333333333334
-2021-11-09,windmist,2,3,phycoprobe,fresh,phyco,µg/L,1.4066666666666665
-2021-11-09,windmist,2,3,phycoprobe,fresh,chl,µg/L,5.176666666666667
-2021-11-09,windmist,2,3,phycoprobe,frozen,phyco,µg/L,0
-2021-11-09,windmist,2,3,phycoprobe,frozen,chl,µg/L,4.286666666666667
-2021-11-09,windmist,3,1,phycoprobe,fresh,phyco,µg/L,1.3266666666666667
+2021-11-09,windmist,1,3,phycoprobe,frozen,phyco,µg/L of chlorophyll,0.33
 2021-11-09,windmist,3,1,phycoprobe,fresh,chl,µg/L,4.553333333333334
-2021-11-09,windmist,3,1,phycoprobe,frozen,phyco,µg/L,0
+2021-11-09,windmist,3,1,phycoprobe,fresh,phyco,µg/L of chlorophyll,1.3266666666666667
 2021-11-09,windmist,3,1,phycoprobe,frozen,chl,µg/L,3.4466666666666668
-2021-11-09,windmist,3,2,phycoprobe,fresh,phyco,µg/L,0.6633333333333333
+2021-11-09,windmist,3,1,phycoprobe,frozen,phyco,µg/L of chlorophyll,0
 2021-11-09,windmist,3,2,phycoprobe,fresh,chl,µg/L,4.216666666666667
-2021-11-09,windmist,3,2,phycoprobe,frozen,phyco,µg/L,1.07
+2021-11-09,windmist,3,2,phycoprobe,fresh,phyco,µg/L of chlorophyll,0.6633333333333333
 2021-11-09,windmist,3,2,phycoprobe,frozen,chl,µg/L,4.276666666666666
-2021-11-09,windmist,3,3,phycoprobe,fresh,phyco,µg/L,1.3933333333333333
+2021-11-09,windmist,3,2,phycoprobe,frozen,phyco,µg/L of chlorophyll,1.07
 2021-11-09,windmist,3,3,phycoprobe,fresh,chl,µg/L,4.8966666666666665
-2021-11-09,windmist,3,3,phycoprobe,frozen,phyco,µg/L,0.04
+2021-11-09,windmist,3,3,phycoprobe,fresh,phyco,µg/L of chlorophyll,1.3933333333333333
 2021-11-09,windmist,3,3,phycoprobe,frozen,chl,µg/L,3.92
-2021-11-10,200ppb standard,NA,NA,phycoprobe,NA,phyco,µg/L,0
+2021-11-09,windmist,3,3,phycoprobe,frozen,phyco,µg/L of chlorophyll,0.04
 2021-11-10,200ppb standard,NA,NA,phycoprobe,NA,chl,µg/L,256.0233333333333
-2021-11-10,800ppb standard,NA,NA,phycoprobe,NA,phyco,µg/L,0
+2021-11-10,200ppb standard,NA,NA,phycoprobe,NA,phyco,µg/L of chlorophyll,0
 2021-11-10,800ppb standard,NA,NA,phycoprobe,NA,chl,µg/L,538.3833333333333
-2021-12-06,200ppb standard,NA,NA,phycoprobe,NA,phyco,µg/L,0
+2021-11-10,800ppb standard,NA,NA,phycoprobe,NA,phyco,µg/L of chlorophyll,0
 2021-12-06,200ppb standard,NA,NA,phycoprobe,NA,chl,µg/L,245.49333333333334
-2021-12-06,800ppb standard,NA,NA,phycoprobe,NA,phyco,µg/L,0
+2021-12-06,200ppb standard,NA,NA,phycoprobe,NA,phyco,µg/L of chlorophyll,0
 2021-12-06,800ppb standard,NA,NA,phycoprobe,NA,chl,µg/L,543.95
-2021-12-08,200ppb standard,NA,NA,phycoprobe,NA,phyco,µg/L,0
+2021-12-06,800ppb standard,NA,NA,phycoprobe,NA,phyco,µg/L of chlorophyll,0
 2021-12-08,200ppb standard,NA,NA,phycoprobe,NA,chl,µg/L,257.59333333333336
-2021-12-08,800ppb standard,NA,NA,phycoprobe,NA,phyco,µg/L,0
+2021-12-08,200ppb standard,NA,NA,phycoprobe,NA,phyco,µg/L of chlorophyll,0
 2021-12-08,800ppb standard,NA,NA,phycoprobe,NA,chl,µg/L,564.2133333333334
+2021-12-08,800ppb standard,NA,NA,phycoprobe,NA,phyco,µg/L of chlorophyll,0
 2021-10-06,barber,1,1,trilogy,extracted,chl,rfu,20.266
 2021-10-06,barber,1,2,trilogy,extracted,chl,rfu,18.616
 2021-10-06,barber,1,3,trilogy,extracted,chl,rfu,17.930999999999997
@@ -4310,9 +4148,6 @@ date,waterbody,field_dups,lab_reps,instrument,method,variable,units,value
 2021-11-09,windmist,1,1,trilogy,extracted,chl,rfu,14.493999999999998
 2021-11-09,windmist,1,2,trilogy,extracted,chl,rfu,15.418
 2021-11-09,windmist,1,3,trilogy,extracted,chl,rfu,16.223999999999997
-2021-11-09,windmist,2,1,trilogy,extracted,chl,rfu,53.954
-2021-11-09,windmist,2,2,trilogy,extracted,chl,rfu,68.08
-2021-11-09,windmist,2,3,trilogy,extracted,chl,rfu,60.913999999999994
 2021-11-09,windmist,3,1,trilogy,extracted,chl,rfu,11.652
 2021-11-09,windmist,3,2,trilogy,extracted,chl,rfu,12.105999999999998
 2021-11-09,windmist,3,3,trilogy,extracted,chl,rfu,13.073999999999996
@@ -4391,9 +4226,6 @@ date,waterbody,field_dups,lab_reps,instrument,method,variable,units,value
 2021-11-09,windmist,1,1,trilogy,extracted,chl,µg/L,3.5790261333209066
 2021-11-09,windmist,1,2,trilogy,extracted,chl,µg/L,3.807190901306867
 2021-11-09,windmist,1,3,trilogy,extracted,chl,µg/L,4.006217744376872
-2021-11-09,windmist,2,1,trilogy,extracted,chl,µg/L,13.322945770470277
-2021-11-09,windmist,2,2,trilogy,extracted,chl,µg/L,16.811101087104134
-2021-11-09,windmist,2,3,trilogy,extracted,chl,µg/L,15.041589477377515
 2021-11-09,windmist,3,1,trilogy,extracted,chl,µg/L,2.877246619667117
 2021-11-09,windmist,3,2,trilogy,extracted,chl,µg/L,2.989353551123423
 2021-11-09,windmist,3,3,trilogy,extracted,chl,µg/L,3.2283833080610957
@@ -4436,9 +4268,6 @@ date,waterbody,field_dups,lab_reps,instrument,method,variable,units,value
 2021-11-09,windmist,1,1,trilogy,extracted,phyco,rfu,4.3999999999999995
 2021-11-09,windmist,1,2,trilogy,extracted,phyco,rfu,3.8520000000000034
 2021-11-09,windmist,1,3,trilogy,extracted,phyco,rfu,5.044
-2021-11-09,windmist,2,1,trilogy,extracted,phyco,rfu,10.416000000000002
-2021-11-09,windmist,2,2,trilogy,extracted,phyco,rfu,12.260000000000002
-2021-11-09,windmist,2,3,trilogy,extracted,phyco,rfu,9.796000000000003
 2021-11-09,windmist,3,1,trilogy,extracted,phyco,rfu,10.252000000000002
 2021-11-09,windmist,3,2,trilogy,extracted,phyco,rfu,4.772000000000002
 2021-11-09,windmist,3,3,trilogy,extracted,phyco,rfu,2.5160000000000022
@@ -4481,9 +4310,6 @@ date,waterbody,field_dups,lab_reps,instrument,method,variable,units,value
 2021-11-09,windmist,1,1,trilogy,extracted,phyco,µg/L,0.33152374040179794
 2021-11-09,windmist,1,2,trilogy,extracted,phyco,µg/L,0.290233965460847
 2021-11-09,windmist,1,3,trilogy,extracted,phyco,µg/L,0.38004676058787923
-2021-11-09,windmist,2,1,trilogy,extracted,phyco,µg/L,0.78480710909662
-2021-11-09,windmist,2,2,trilogy,extracted,phyco,µg/L,0.9237456948468281
-2021-11-09,windmist,2,3,trilogy,extracted,phyco,µg/L,0.7380924002218213
 2021-11-09,windmist,3,1,trilogy,extracted,phyco,µg/L,0.7724503151361894
 2021-11-09,windmist,3,2,trilogy,extracted,phyco,µg/L,0.35955256572667743
 2021-11-09,windmist,3,3,trilogy,extracted,phyco,µg/L,0.18957130246611917
@@ -4634,9 +4460,6 @@ date,waterbody,field_dups,lab_reps,instrument,method,variable,units,value
 2021-11-09,windmist,1,1,trilogy,extracted,pc:chl,ratio,0.3035738926452325
 2021-11-09,windmist,1,2,trilogy,extracted,pc:chl,ratio,0.24983785186146087
 2021-11-09,windmist,1,3,trilogy,extracted,pc:chl,ratio,0.31089743589743596
-2021-11-09,windmist,2,1,trilogy,extracted,pc:chl,ratio,0.19305334173555255
-2021-11-09,windmist,2,2,trilogy,extracted,pc:chl,ratio,0.18008225616921272
-2021-11-09,windmist,2,3,trilogy,extracted,pc:chl,ratio,0.1608168893850347
 2021-11-09,windmist,3,1,trilogy,extracted,pc:chl,ratio,0.8798489529694475
 2021-11-09,windmist,3,2,trilogy,extracted,pc:chl,ratio,0.3941847018007602
 2021-11-09,windmist,3,3,trilogy,extracted,pc:chl,ratio,0.19244301667431565
@@ -4694,15 +4517,15 @@ date,waterbody,field_dups,lab_reps,instrument,method,variable,units,value
 2021-10-06,indian,3,1,trilogy in vivo,fresh,chl,rfu,134.11
 2021-10-06,indian,3,2,trilogy in vivo,fresh,chl,rfu,136.7
 2021-10-06,indian,3,3,trilogy in vivo,fresh,chl,rfu,187.76999999999998
-2021-11-09,Lower melville,1,1,trilogy in vivo,fresh,chl,rfu,138.53000000000003
-2021-11-09,Lower melville,1,2,trilogy in vivo,fresh,chl,rfu,112.54000000000002
-2021-11-09,Lower melville,1,3,trilogy in vivo,fresh,chl,rfu,142.82999999999998
-2021-11-09,Lower melville,2,1,trilogy in vivo,fresh,chl,rfu,127.88999999999999
-2021-11-09,Lower melville,2,2,trilogy in vivo,fresh,chl,rfu,141.91999999999996
-2021-11-09,Lower melville,2,3,trilogy in vivo,fresh,chl,rfu,120.49000000000001
-2021-11-09,Lower melville,3,1,trilogy in vivo,fresh,chl,rfu,98.75
-2021-11-09,Lower melville,3,2,trilogy in vivo,fresh,chl,rfu,131.79000000000002
-2021-11-09,Lower melville,3,3,trilogy in vivo,fresh,chl,rfu,118.45000000000005
+2021-11-09,lower melville,1,1,trilogy in vivo,fresh,chl,rfu,138.53000000000003
+2021-11-09,lower melville,1,2,trilogy in vivo,fresh,chl,rfu,112.54000000000002
+2021-11-09,lower melville,1,3,trilogy in vivo,fresh,chl,rfu,142.82999999999998
+2021-11-09,lower melville,2,1,trilogy in vivo,fresh,chl,rfu,127.88999999999999
+2021-11-09,lower melville,2,2,trilogy in vivo,fresh,chl,rfu,141.91999999999996
+2021-11-09,lower melville,2,3,trilogy in vivo,fresh,chl,rfu,120.49000000000001
+2021-11-09,lower melville,3,1,trilogy in vivo,fresh,chl,rfu,98.75
+2021-11-09,lower melville,3,2,trilogy in vivo,fresh,chl,rfu,131.79000000000002
+2021-11-09,lower melville,3,3,trilogy in vivo,fresh,chl,rfu,118.45000000000005
 2021-11-09,upper melville,1,1,trilogy in vivo,fresh,chl,rfu,275.05
 2021-11-09,upper melville,1,2,trilogy in vivo,fresh,chl,rfu,281.28000000000003
 2021-11-09,upper melville,1,3,trilogy in vivo,fresh,chl,rfu,344.24000000000007
@@ -4715,9 +4538,6 @@ date,waterbody,field_dups,lab_reps,instrument,method,variable,units,value
 2021-11-09,windmist,1,1,trilogy in vivo,fresh,chl,rfu,426.81000000000006
 2021-11-09,windmist,1,2,trilogy in vivo,fresh,chl,rfu,396.12
 2021-11-09,windmist,1,3,trilogy in vivo,fresh,chl,rfu,416.35
-2021-11-09,windmist,2,1,trilogy in vivo,fresh,chl,rfu,361.33000000000004
-2021-11-09,windmist,2,2,trilogy in vivo,fresh,chl,rfu,347.19000000000005
-2021-11-09,windmist,2,3,trilogy in vivo,fresh,chl,rfu,367.5300000000001
 2021-11-09,windmist,3,1,trilogy in vivo,fresh,chl,rfu,301.81000000000006
 2021-11-09,windmist,3,2,trilogy in vivo,fresh,chl,rfu,297.33000000000004
 2021-11-09,windmist,3,3,trilogy in vivo,fresh,chl,rfu,263.14
@@ -4796,16 +4616,13 @@ date,waterbody,field_dups,lab_reps,instrument,method,variable,units,value
 2021-11-09,windmist,1,1,trilogy in vivo,frozen,chl,rfu,149.85000000000002
 2021-11-09,windmist,1,2,trilogy in vivo,frozen,chl,rfu,141.86
 2021-11-09,windmist,1,3,trilogy in vivo,frozen,chl,rfu,176.12
-2021-11-09,windmist,2,1,trilogy in vivo,frozen,chl,rfu,201.66999999999996
-2021-11-09,windmist,2,2,trilogy in vivo,frozen,chl,rfu,225.89999999999998
-2021-11-09,windmist,2,3,trilogy in vivo,frozen,chl,rfu,222.45000000000005
 2021-11-09,windmist,3,1,trilogy in vivo,frozen,chl,rfu,136.88
 2021-11-09,windmist,3,2,trilogy in vivo,frozen,chl,rfu,180.9799999999999
 2021-11-09,windmist,3,3,trilogy in vivo,frozen,chl,rfu,179.83999999999992
 2021-10-06,yawgoo,1,1,fluorosense,fresh,phyco,µg/L,2
 2021-10-06,yawgoo,2,2,fluorosense,fresh,phyco,µg/L,2
 2021-10-06,yawgoo,3,3,fluorosense,fresh,phyco,µg/L,2
-2021-10-06,yawgoo,1,1,algaetorch,fresh,phyco,chlorophyll from cyanobacteria,2.5
+2021-10-06,yawgoo,1,1,algaetorch,fresh,phyco,µg/L of chlorophyll,2.5
 2021-10-06,yawgoo,1,1,algaetorch,fresh,chl,µg/L,3.5
 2021-10-06,yawgoo,1,1,algaetorch,fresh,turb,FTU,4.4
 2021-10-06,yawgoo,1,1,sonde,fresh,temp,°C,21.1
@@ -4817,9 +4634,9 @@ date,waterbody,field_dups,lab_reps,instrument,method,variable,units,value
 2021-10-06,barber,1,1,fluorosense,fresh,phyco,µg/L,3
 2021-10-06,barber,2,2,fluorosense,fresh,phyco,µg/L,2
 2021-10-06,barber,3,3,fluorosense,fresh,phyco,µg/L,2
-2021-10-06,barber,1,1,algaetorch,fresh,phyco,chlorophyll from cyanobacteria,1.7
-2021-10-06,barber,2,2,algaetorch,fresh,phyco,chlorophyll from cyanobacteria,0.9
-2021-10-06,barber,3,3,algaetorch,fresh,phyco,chlorophyll from cyanobacteria,0.8
+2021-10-06,barber,1,1,algaetorch,fresh,phyco,µg/L of chlorophyll,1.7
+2021-10-06,barber,2,2,algaetorch,fresh,phyco,µg/L of chlorophyll,0.9
+2021-10-06,barber,3,3,algaetorch,fresh,phyco,µg/L of chlorophyll,0.8
 2021-10-06,barber,1,1,algaetorch,fresh,chl,µg/L,8.4
 2021-10-06,barber,2,2,algaetorch,fresh,chl,µg/L,7.4
 2021-10-06,barber,3,3,algaetorch,fresh,chl,µg/L,7.5
@@ -4835,9 +4652,9 @@ date,waterbody,field_dups,lab_reps,instrument,method,variable,units,value
 2021-10-06,indian,1,1,fluorosense,fresh,phyco,µg/L,1
 2021-10-06,indian,2,2,fluorosense,fresh,phyco,µg/L,1
 2021-10-06,indian,3,3,fluorosense,fresh,phyco,µg/L,1
-2021-10-06,indian,1,1,algaetorch,fresh,phyco,chlorophyll from cyanobacteria,0.7
-2021-10-06,indian,2,2,algaetorch,fresh,phyco,chlorophyll from cyanobacteria,0.9
-2021-10-06,indian,3,3,algaetorch,fresh,phyco,chlorophyll from cyanobacteria,1.1
+2021-10-06,indian,1,1,algaetorch,fresh,phyco,µg/L of chlorophyll,0.7
+2021-10-06,indian,2,2,algaetorch,fresh,phyco,µg/L of chlorophyll,0.9
+2021-10-06,indian,3,3,algaetorch,fresh,phyco,µg/L of chlorophyll,1.1
 2021-10-06,indian,1,1,algaetorch,fresh,chl,µg/L,2.5
 2021-10-06,indian,2,2,algaetorch,fresh,chl,µg/L,2.9
 2021-10-06,indian,3,3,algaetorch,fresh,chl,µg/L,2.8
@@ -4850,30 +4667,30 @@ date,waterbody,field_dups,lab_reps,instrument,method,variable,units,value
 2021-10-06,indian,1,1,sonde,fresh,spc,µS/cm,173.6
 2021-10-06,indian,1,1,sonde,fresh,salinity,ppt,0.08
 2021-10-06,indian,1,1,sonde,fresh,ph,ph,6.39
-2021-10-21,curan,1,1,fluorosense,fresh,phyco,µg/L,4
-2021-10-21,curan,2,2,fluorosense,fresh,phyco,µg/L,4
-2021-10-21,curan,3,3,fluorosense,fresh,phyco,µg/L,6
-2021-10-21,curan,1,1,algaetorch,fresh,phyco,chlorophyll from cyanobacteria,3
-2021-10-21,curan,2,2,algaetorch,fresh,phyco,chlorophyll from cyanobacteria,3.5
-2021-10-21,curan,3,3,algaetorch,fresh,phyco,chlorophyll from cyanobacteria,5
-2021-10-21,curan,1,1,algaetorch,fresh,chl,µg/L,11.7
-2021-10-21,curan,2,2,algaetorch,fresh,chl,µg/L,13.2
-2021-10-21,curan,3,3,algaetorch,fresh,chl,µg/L,17.6
-2021-10-21,curan,1,1,algaetorch,fresh,turb,FTU,3.8
-2021-10-21,curan,2,2,algaetorch,fresh,turb,FTU,3.8
-2021-10-21,curan,3,3,algaetorch,fresh,turb,FTU,4.2
-2021-10-21,curan,1,1,sonde,fresh,temp,°C,17.5
-2021-10-21,curan,1,1,sonde,fresh,%do,%,81.4
-2021-10-21,curan,1,1,sonde,fresh,do,mg/L,7.78
-2021-10-21,curan,1,1,sonde,fresh,spc,µS/cm,133
-2021-10-21,curan,1,1,sonde,fresh,salinity,ppt,0.06
-2021-10-21,curan,1,1,sonde,fresh,ph,ph,7.52
+2021-10-21,curran,1,1,fluorosense,fresh,phyco,µg/L,4
+2021-10-21,curran,2,2,fluorosense,fresh,phyco,µg/L,4
+2021-10-21,curran,3,3,fluorosense,fresh,phyco,µg/L,6
+2021-10-21,curran,1,1,algaetorch,fresh,phyco,µg/L of chlorophyll,3
+2021-10-21,curran,2,2,algaetorch,fresh,phyco,µg/L of chlorophyll,3.5
+2021-10-21,curran,3,3,algaetorch,fresh,phyco,µg/L of chlorophyll,5
+2021-10-21,curran,1,1,algaetorch,fresh,chl,µg/L,11.7
+2021-10-21,curran,2,2,algaetorch,fresh,chl,µg/L,13.2
+2021-10-21,curran,3,3,algaetorch,fresh,chl,µg/L,17.6
+2021-10-21,curran,1,1,algaetorch,fresh,turb,FTU,3.8
+2021-10-21,curran,2,2,algaetorch,fresh,turb,FTU,3.8
+2021-10-21,curran,3,3,algaetorch,fresh,turb,FTU,4.2
+2021-10-21,curran,1,1,sonde,fresh,temp,°C,17.5
+2021-10-21,curran,1,1,sonde,fresh,%do,%,81.4
+2021-10-21,curran,1,1,sonde,fresh,do,mg/L,7.78
+2021-10-21,curran,1,1,sonde,fresh,spc,µS/cm,133
+2021-10-21,curran,1,1,sonde,fresh,salinity,ppt,0.06
+2021-10-21,curran,1,1,sonde,fresh,ph,ph,7.52
 2021-10-21,mashapaug,1,1,fluorosense,fresh,phyco,µg/L,25
 2021-10-21,mashapaug,2,2,fluorosense,fresh,phyco,µg/L,30
 2021-10-21,mashapaug,3,3,fluorosense,fresh,phyco,µg/L,34
-2021-10-21,mashapaug,1,1,algaetorch,fresh,phyco,chlorophyll from cyanobacteria,17.6
-2021-10-21,mashapaug,2,2,algaetorch,fresh,phyco,chlorophyll from cyanobacteria,17.3
-2021-10-21,mashapaug,3,3,algaetorch,fresh,phyco,chlorophyll from cyanobacteria,15.8
+2021-10-21,mashapaug,1,1,algaetorch,fresh,phyco,µg/L of chlorophyll,17.6
+2021-10-21,mashapaug,2,2,algaetorch,fresh,phyco,µg/L of chlorophyll,17.3
+2021-10-21,mashapaug,3,3,algaetorch,fresh,phyco,µg/L of chlorophyll,15.8
 2021-10-21,mashapaug,1,1,algaetorch,fresh,chl,µg/L,24.8
 2021-10-21,mashapaug,2,2,algaetorch,fresh,chl,µg/L,25.5
 2021-10-21,mashapaug,3,3,algaetorch,fresh,chl,µg/L,21.1
@@ -4889,9 +4706,9 @@ date,waterbody,field_dups,lab_reps,instrument,method,variable,units,value
 2021-10-21,warwick,1,1,fluorosense,fresh,phyco,µg/L,11
 2021-10-21,warwick,2,2,fluorosense,fresh,phyco,µg/L,11
 2021-10-21,warwick,3,3,fluorosense,fresh,phyco,µg/L,11
-2021-10-21,warwick,1,1,algaetorch,fresh,phyco,chlorophyll from cyanobacteria,8.1
-2021-10-21,warwick,2,2,algaetorch,fresh,phyco,chlorophyll from cyanobacteria,8.2
-2021-10-21,warwick,3,3,algaetorch,fresh,phyco,chlorophyll from cyanobacteria,8.3
+2021-10-21,warwick,1,1,algaetorch,fresh,phyco,µg/L of chlorophyll,8.1
+2021-10-21,warwick,2,2,algaetorch,fresh,phyco,µg/L of chlorophyll,8.2
+2021-10-21,warwick,3,3,algaetorch,fresh,phyco,µg/L of chlorophyll,8.3
 2021-10-21,warwick,1,1,algaetorch,fresh,chl,µg/L,22.3
 2021-10-21,warwick,2,2,algaetorch,fresh,chl,µg/L,23.1
 2021-10-21,warwick,3,3,algaetorch,fresh,chl,µg/L,22.7
@@ -4904,30 +4721,30 @@ date,waterbody,field_dups,lab_reps,instrument,method,variable,units,value
 2021-10-21,warwick,1,1,sonde,fresh,spc,µS/cm,260.3
 2021-10-21,warwick,1,1,sonde,fresh,salinity,ppt,0.12
 2021-10-21,warwick,1,1,sonde,fresh,ph,ph,7.08
-2021-11-09,lower melvile,1,1,fluorosense,fresh,phyco,µg/L,7
-2021-11-09,lower melvile,2,2,fluorosense,fresh,phyco,µg/L,6
-2021-11-09,lower melvile,3,3,fluorosense,fresh,phyco,µg/L,7
-2021-11-09,lower melvile,1,1,algaetorch,fresh,phyco,chlorophyll from cyanobacteria,4.6
-2021-11-09,lower melvile,2,2,algaetorch,fresh,phyco,chlorophyll from cyanobacteria,4
-2021-11-09,lower melvile,3,3,algaetorch,fresh,phyco,chlorophyll from cyanobacteria,4.1
-2021-11-09,lower melvile,1,1,algaetorch,fresh,chl,µg/L,6.3
-2021-11-09,lower melvile,2,2,algaetorch,fresh,chl,µg/L,5.6
-2021-11-09,lower melvile,3,3,algaetorch,fresh,chl,µg/L,5.5
-2021-11-09,lower melvile,1,1,algaetorch,fresh,turb,FTU,4.9
-2021-11-09,lower melvile,2,2,algaetorch,fresh,turb,FTU,5.2
-2021-11-09,lower melvile,3,3,algaetorch,fresh,turb,FTU,4.9
-2021-11-09,lower melvile,1,1,sonde,fresh,temp,°C,10.4
-2021-11-09,lower melvile,1,1,sonde,fresh,%do,%,100.7
-2021-11-09,lower melvile,1,1,sonde,fresh,do,mg/L,11.25
-2021-11-09,lower melvile,1,1,sonde,fresh,spc,µS/cm,320
-2021-11-09,lower melvile,1,1,sonde,fresh,salinity,ppt,0.15
-2021-11-09,lower melvile,1,1,sonde,fresh,ph,ph,6.96
+2021-11-09,lower melville,1,1,fluorosense,fresh,phyco,µg/L,7
+2021-11-09,lower melville,2,2,fluorosense,fresh,phyco,µg/L,6
+2021-11-09,lower melville,3,3,fluorosense,fresh,phyco,µg/L,7
+2021-11-09,lower melville,1,1,algaetorch,fresh,phyco,µg/L of chlorophyll,4.6
+2021-11-09,lower melville,2,2,algaetorch,fresh,phyco,µg/L of chlorophyll,4
+2021-11-09,lower melville,3,3,algaetorch,fresh,phyco,µg/L of chlorophyll,4.1
+2021-11-09,lower melville,1,1,algaetorch,fresh,chl,µg/L,6.3
+2021-11-09,lower melville,2,2,algaetorch,fresh,chl,µg/L,5.6
+2021-11-09,lower melville,3,3,algaetorch,fresh,chl,µg/L,5.5
+2021-11-09,lower melville,1,1,algaetorch,fresh,turb,FTU,4.9
+2021-11-09,lower melville,2,2,algaetorch,fresh,turb,FTU,5.2
+2021-11-09,lower melville,3,3,algaetorch,fresh,turb,FTU,4.9
+2021-11-09,lower melville,1,1,sonde,fresh,temp,°C,10.4
+2021-11-09,lower melville,1,1,sonde,fresh,%do,%,100.7
+2021-11-09,lower melville,1,1,sonde,fresh,do,mg/L,11.25
+2021-11-09,lower melville,1,1,sonde,fresh,spc,µS/cm,320
+2021-11-09,lower melville,1,1,sonde,fresh,salinity,ppt,0.15
+2021-11-09,lower melville,1,1,sonde,fresh,ph,ph,6.96
 2021-11-09,upper melville,1,1,fluorosense,fresh,phyco,µg/L,5
 2021-11-09,upper melville,2,2,fluorosense,fresh,phyco,µg/L,9
 2021-11-09,upper melville,3,3,fluorosense,fresh,phyco,µg/L,10
-2021-11-09,upper melville,1,1,algaetorch,fresh,phyco,chlorophyll from cyanobacteria,2.8
-2021-11-09,upper melville,2,2,algaetorch,fresh,phyco,chlorophyll from cyanobacteria,1.7
-2021-11-09,upper melville,3,3,algaetorch,fresh,phyco,chlorophyll from cyanobacteria,1.7
+2021-11-09,upper melville,1,1,algaetorch,fresh,phyco,µg/L of chlorophyll,2.8
+2021-11-09,upper melville,2,2,algaetorch,fresh,phyco,µg/L of chlorophyll,1.7
+2021-11-09,upper melville,3,3,algaetorch,fresh,phyco,µg/L of chlorophyll,1.7
 2021-11-09,upper melville,1,1,algaetorch,fresh,chl,µg/L,4.1
 2021-11-09,upper melville,2,2,algaetorch,fresh,chl,µg/L,3.3
 2021-11-09,upper melville,3,3,algaetorch,fresh,chl,µg/L,3.3
@@ -4941,18 +4758,14 @@ date,waterbody,field_dups,lab_reps,instrument,method,variable,units,value
 2021-11-09,upper melville,1,1,sonde,fresh,salinity,ppt,0.13
 2021-11-09,upper melville,1,1,sonde,fresh,ph,ph,6.84
 2021-11-09,windmist,1,1,fluorosense,fresh,phyco,µg/L,2
-2021-11-09,windmist,2,2,fluorosense,fresh,phyco,µg/L,2
 2021-11-09,windmist,3,3,fluorosense,fresh,phyco,µg/L,2
-2021-11-09,windmist,1,1,algaetorch,fresh,phyco,chlorophyll from cyanobacteria,1.1
-2021-11-09,windmist,2,2,algaetorch,fresh,phyco,chlorophyll from cyanobacteria,3.1
-2021-11-09,windmist,3,3,algaetorch,fresh,phyco,chlorophyll from cyanobacteria,1.4
-2021-11-09,windmist,4,4,algaetorch,fresh,phyco,chlorophyll from cyanobacteria,8.6
+2021-11-09,windmist,1,1,algaetorch,fresh,phyco,µg/L of chlorophyll,1.1
+2021-11-09,windmist,3,3,algaetorch,fresh,phyco,µg/L of chlorophyll,1.4
+2021-11-09,windmist,4,4,algaetorch,fresh,phyco,µg/L of chlorophyll,8.6
 2021-11-09,windmist,1,1,algaetorch,fresh,chl,µg/L,5.8
-2021-11-09,windmist,2,2,algaetorch,fresh,chl,µg/L,10.1
 2021-11-09,windmist,3,3,algaetorch,fresh,chl,µg/L,7.1
 2021-11-09,windmist,4,4,algaetorch,fresh,chl,µg/L,48.2
 2021-11-09,windmist,1,1,algaetorch,fresh,turb,FTU,47.4
-2021-11-09,windmist,2,2,algaetorch,fresh,turb,FTU,41.3
 2021-11-09,windmist,3,3,algaetorch,fresh,turb,FTU,43.3
 2021-11-09,windmist,4,4,algaetorch,fresh,turb,FTU,100.8
 2021-11-09,windmist,1,1,sonde,fresh,temp,°C,11.8

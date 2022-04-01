@@ -86,6 +86,7 @@ clean_handheld <- function(df){
 #' 
 #' @param df phycoprobe data frame
 clean_phycoprobe <- function(df){  
+  
   phycoprobe_data <- rename_all(df, tolower)
   phycoprobe_data <- mutate(phycoprobe_data, date = ymd(paste0(year, month, day)),
                             instrument = "phycoprobe", units = "µg/L")
@@ -93,10 +94,13 @@ clean_phycoprobe <- function(df){
   phycoprobe_data <- select(phycoprobe_data, date, waterbody, field_dups = dup, 
                             lab_reps = reps, instrument, 
                             method = `fresh/frozen1`, units, 
-                            chl = `total conc.`, bluegreen = `bluegreen...8`)
+                            chl = `total conc.`, bluegreen = `bluegreen...8`, unbound_phyco = )
   phycoprobe_data <- pivot_longer(phycoprobe_data, cols = chl:bluegreen, 
                                   names_to = "variable", values_to = "value")
-  phycoprobe_data <- mutate(phycoprobe_data, value = as.numeric(value))
+  phycoprobe_data <- mutate(phycoprobe_data, value = as.numeric(value),
+                            units = case_when(variable == "bluegreen" ~
+                                                "µg/L of chlorophyll",
+                                              TRUE ~ units))
   phycoprobe_data <- group_by(phycoprobe_data, date, waterbody, field_dups, 
                               lab_reps, instrument, method, units, variable)
   phycoprobe_data <- summarize(phycoprobe_data, value = mean(value, na.rm = TRUE))
@@ -174,7 +178,7 @@ clean_field <- function(df){
                        units = case_when(variable == "pc" & instrument == "fluorosense" ~
                                            "µg/L",
                                          variable == "pc" & instrument == "algaetorch" ~
-                                           "chlorophyll from cyanobacteria",
+                                           "µg/L of chlorophyll",
                                          variable == "chl" ~
                                            "µg/L",
                                          variable == "turb" ~
@@ -200,4 +204,88 @@ clean_field <- function(df){
                                         function(x){return(`Encoding<-`(x, "UTF-8"))})
   field_data
   
+}
+
+ext_vs_all_plot <- function(fpdata, var, meth, x_order = NULL){
+  
+  
+  
+  if(var == "chl"){
+    xvar <- sprintf("extracted chlorophyll (\u03BCg/L)")
+  } else if (var == "phyco"){
+    xvar <- sprintf("extracted phycocyanin (\u03BCg/L)")
+  }
+  
+  extracted_data <- fpdata %>%
+    filter(method %in% meth, instrument == "trilogy",
+           units != "rfu" , variable == var) %>%
+    select(date, waterbody, extracted_value = avg_value)
+  
+  plot_data <- fpdata %>%
+    filter(method %in% meth, instrument != "trilogy",
+           variable == var) %>%
+    left_join(extracted_data) %>%
+    mutate(instrument_unit = paste0(instrument, " (", units, ")")) 
+  if(is.null(x_order)){
+    x_order <- unique(plot_data$instrument_unit)
+  }
+  plot_data <- plot_data %>%
+    filter(instrument_unit %in% x_order) %>%
+    mutate(instrument_unit = factor(instrument_unit, levels = x_order))
+  
+  
+  myplot <- plot_data %>%
+    ggplot(aes(x = extracted_value, y = avg_value, color = waterbody)) +
+    geom_point(size = 3) +
+    facet_wrap(instrument_unit ~ ., scales = "free", strip.position = "left") +
+    theme_ipsum_rc() +
+    scale_color_brewer(type = "qual", palette = "Set1") +
+    theme(axis.title.y = element_blank(), 
+          strip.text.y.left = element_text(angle=90, hjust = 1), 
+          strip.placement = "outside",
+          axis.text.x = element_text(size = 14),
+          axis.title.x = element_text(size = 14, hjust = 0.5, vjust = -1),
+          legend.text=element_text(size=14)) +
+    labs(x = xvar)
+  myplot
+}
+
+beeswarm_plot <- function(fpdata, var, units, x_order = NULL){
+  
+  if(var == "chl" & units != "rfu"){
+    yvar <- sprintf("chlorophyll (\u03BCg/L)")
+  } else if (var == "phyco" & units != "rfu"){
+    yvar <- sprintf("phycocyanin (\u03BCg/L)")
+  } else if (var == "chl" & units == "rfu"){
+    yvar <- sprintf("chlorophyll (rfu)")
+  } else if (var == "phyco" & units == "rfu"){
+    yvar <- sprintf("phycocyanin (rfu)")
+  }
+  
+  if(units != "rfu"){
+    fp_swarm_data <- fpdata %>% 
+      filter(variable == var, units != "rfu") %>%
+      mutate(instrument_method = paste0(instrument, " : ", method))
+  } else {
+    fp_swarm_data <- fpdata %>% 
+      filter(variable == var, units == "rfu") %>%
+      mutate(instrument_method = paste0(instrument, " : ", method))
+  }
+  if(is.null(x_order)){
+    x_order <- unique(fp_swarm_data$instrument_method)
+  }
+  
+  fp_swarm_data <- fp_swarm_data %>%
+    filter(instrument_method %in% x_order) %>%
+    mutate(instrument_method = factor(instrument_method, levels = x_order))
+  
+  swarm  <- fp_swarm_data  %>%
+    ggplot(aes(y = avg_value, x = instrument_method, color = waterbody)) +
+    geom_beeswarm(cex = 2, size = 3) +
+    theme_ipsum_rc() +
+    scale_color_brewer(type = "qual", palette = "Set1") +
+    labs(x = "", y = yvar) +
+    theme(axis.title.y = element_text(size = 14, vjust = 3),
+          axis.text.x = element_text(size = 14))
+  swarm
 }
