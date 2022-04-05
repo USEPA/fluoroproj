@@ -29,12 +29,11 @@ phyco_compare_plot <- ext_vs_all_plot(fp_data, "phyco", c("fresh", "extracted"),
 
 # Plot #3 - chl, instrument, and fresh frozen avg bar chart
 chla_swarm_ugl <- fp_data %>%
-  filter(instrument != "fluoroquik") %>%
+  #filter(instrument != "fluoroquik") %>%
   group_by(waterbody,instrument,method,variable,units) %>%
   summarize(avg_value = mean(avg_value)) %>%
   ungroup() %>%
-  beeswarm_plot("chl", "µg/L", c("trilogy : extracted", "algaetorch : fresh",
-                          "phycoprobe : fresh", "phycoprobe : frozen"))
+  beeswarm_plot("chl", "µg/L", c("trilogy : extracted","phycoprobe : fresh", "phycoprobe : frozen", "fluoroquik : fresh", "fluoroquik : frozen"))
 
 chla_swarm_rfu <- fp_data %>%
   filter(instrument != "fluoroquik") %>%
@@ -49,10 +48,7 @@ phyco_swarm_ugl <- fp_data %>%
   group_by(waterbody,instrument,method,variable,units) %>%
   summarize(avg_value = mean(avg_value)) %>%
   ungroup() %>%
-  beeswarm_plot("phyco", "µg/L", c("trilogy : extracted", "fluorosense : fresh", 
-                                   "algaetorch : fresh","phycoprobe : fresh", 
-                                   "phycoprobe : frozen", "fluoroquik : fresh",
-                                   "fluoroquik : frozen"))
+  beeswarm_plot("phyco", "µg/L", c("trilogy : extracted","phycoprobe : fresh", "phycoprobe : frozen", "fluoroquik : fresh","fluoroquik : frozen"))
 phyco_swarm_rfu <- fp_data %>%
   group_by(waterbody,instrument,method,variable,units) %>%
   summarize(avg_value = mean(avg_value)) %>%
@@ -70,4 +66,35 @@ ggsave(here("figures/chla_rfu_fresh_frozen.png"), chla_swarm_rfu,
 ggsave(here("figures/phyco_ugl_fresh_frozen.png"), phyco_swarm_ugl, 
        width = 15, height = 8.5)
 ggsave(here("figures/phyco_rfu_fresh_frozen.png"), phyco_swarm_rfu, 
+       width = 15, height = 8.5)
+
+
+# Fluoroquik only plots
+
+fq_compare_fresh_chla_plot <- fp_data %>%
+  fq_plot("chl", c("fresh", "frozen"), c("chl"))
+fq_compare_fresh_chla_plot
+
+fq_compare_frozen_chla_plot <- fp_data %>%
+  fq_plot("chl", "frozen", c("ch1 hi", "ch1 lo", "chl", "ch2 hi", "ch2 lo"))
+fq_compare_frozen_chla_plot
+
+fq_compare_fresh_phyco_plot <- fp_data %>%
+  fq_plot("phyco", "fresh", c("ch1 hi", "ch1 lo", "phyco", "ch2 hi", "ch2 lo"))
+fq_compare_fresh_phyco_plot
+
+fq_compare_frozen_phyco_plot <- fp_data %>%
+  fq_plot("phyco", "frozen", c("ch1 hi", "ch1 lo", "phyco", "ch2 hi", "ch2 lo"))
+fq_compare_frozen_phyco_plot
+
+fq_compare_chl_fresh_frozen_plot <- fp_data %>%
+  fq_fresh_frozen_plot("chl")
+fq_compare_phyco_fresh_frozen_plot <- fp_data %>%
+  fq_fresh_frozen_plot("phyco")
+
+ggsave(here("figures/fluoroquik_chl_fresh_frozen.png"),
+       fq_compare_chl_fresh_frozen_plot, 
+       width = 15, height = 8.5)
+ggsave(here("figures/fluoroquik_phyco_fresh_frozen.png"),
+       fq_compare_phyco_fresh_frozen_plot, 
        width = 15, height = 8.5)

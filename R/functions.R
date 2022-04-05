@@ -212,12 +212,14 @@ ext_vs_all_plot <- function(fpdata, var, meth, x_order = NULL){
   
   if(var == "chl"){
     xvar <- sprintf("extracted chlorophyll (\u03BCg/L)")
+    my_breaks <- c(0, 15, 30)
   } else if (var == "phyco"){
     xvar <- sprintf("extracted phycocyanin (\u03BCg/L)")
+    my_breaks <- c(0, 5, 10)
   }
   
   extracted_data <- fpdata %>%
-    filter(method %in% meth, instrument == "trilogy",
+    filter(method == "extracted", instrument == "trilogy",
            units != "rfu" , variable == var) %>%
     select(date, waterbody, extracted_value = avg_value)
   
@@ -236,16 +238,19 @@ ext_vs_all_plot <- function(fpdata, var, meth, x_order = NULL){
   
   myplot <- plot_data %>%
     ggplot(aes(x = extracted_value, y = avg_value, color = waterbody)) +
-    geom_point(size = 3) +
+    geom_point(size = 4) +
     facet_wrap(instrument_unit ~ ., scales = "free", strip.position = "left") +
     theme_ipsum_rc() +
     scale_color_brewer(type = "qual", palette = "Set1") +
+    scale_x_continuous(breaks = my_breaks) +
     theme(axis.title.y = element_blank(), 
-          strip.text.y.left = element_text(angle=90, hjust = 1), 
+          strip.text.y.left = element_text(angle=90, hjust = 1, size = 14), 
           strip.placement = "outside",
           axis.text.x = element_text(size = 14),
           axis.title.x = element_text(size = 14, hjust = 0.5, vjust = -1),
-          legend.text=element_text(size=14)) +
+          legend.text=element_text(size = 14),
+          axis.text.y = element_text(size = 14),
+          legend.title = element_text(size = 14)) +
     labs(x = xvar)
   myplot
 }
@@ -281,11 +286,106 @@ beeswarm_plot <- function(fpdata, var, units, x_order = NULL){
   
   swarm  <- fp_swarm_data  %>%
     ggplot(aes(y = avg_value, x = instrument_method, color = waterbody)) +
-    geom_beeswarm(cex = 2, size = 3) +
+    geom_beeswarm(cex = 1.5, size = 4) +
     theme_ipsum_rc() +
     scale_color_brewer(type = "qual", palette = "Set1") +
     labs(x = "", y = yvar) +
     theme(axis.title.y = element_text(size = 14, vjust = 3),
-          axis.text.x = element_text(size = 14))
+          axis.title.x = element_text(size = 14),
+          axis.text.x = element_text(size = 14),
+          axis.text.y = element_text(size = 14),
+          legend.text = element_text(size = 14),
+          legend.title = element_text(size = 14))
   swarm
+}
+
+
+fq_plot <- function(fpdata, var, meth, x_order = NULL){
+  
+  if(var == "chl"){
+    xvar <- sprintf("extracted chlorophyll (\u03BCg/L)")
+  } else if (var == "phyco"){
+    xvar <- sprintf("extracted phycocyanin (\u03BCg/L)")
+  }
+  
+  extracted_data <- fpdata %>%
+    filter(method == "extracted", instrument == "trilogy",
+           units != "rfu" , variable == var) %>%
+    select(date, waterbody, extracted_value = avg_value)
+  
+  plot_data <- fpdata %>%
+    filter(method %in% meth, instrument == "fluoroquik") %>%
+    left_join(extracted_data, by = c("date", "waterbody"))  
+  if(is.null(x_order)){
+    x_order <- unique(plot_data$variable)
+  }
+  plot_data <- plot_data %>%
+    filter(variable %in% x_order) %>%
+    mutate(variable = factor(variable, levels = x_order))
+  
+  
+  myplot <- plot_data %>%
+    ggplot(aes(x = extracted_value, y = avg_value, color = waterbody)) +
+    geom_point(size = 3) +
+    facet_wrap(variable ~ ., scales = "free", strip.position = "left") +
+    theme_ipsum_rc() +
+    scale_color_brewer(type = "qual", palette = "Set1") +
+    theme(axis.title.y = element_blank(), 
+          strip.text.y.left = element_text(angle=90, hjust = 1), 
+          strip.placement = "outside",
+          axis.text.x = element_text(size = 14),
+          axis.title.x = element_text(size = 14, hjust = 0.5, vjust = -1),
+          legend.text=element_text(size=14)) +
+    labs(x = xvar)
+  myplot
+}
+
+fq_fresh_frozen_plot <- function(fpdata, var, x_order = NULL){
+  
+  
+  if(var == "chl"){
+    xvar <- sprintf("extracted chlorophyll (\u03BCg/L)")
+    yvar <- sprintf("chlorophyll (\u03BCg/L)")
+    my_breaks <- c(0, 15, 30)
+    my_y_breaks <- c(0, 1, 2)
+    
+  } else if (var == "phyco"){
+    xvar <- sprintf("extracted phycocyanin (\u03BCg/L)")
+    yvar <- sprintf("phycocyanin (\u03BCg/L)")
+    my_breaks <- c(0, 5, 10)
+    my_y_breaks <- c(0, 50, 100)
+  }
+  
+  extracted_data <- fpdata %>%
+    filter(method == "extracted", instrument == "trilogy",
+           units != "rfu" , variable == var) %>%
+    select(date, waterbody, extracted_value = avg_value)
+  
+  plot_data <- fpdata %>%
+    filter(method %in% c("fresh", "frozen"), instrument == "fluoroquik", 
+           variable == var) %>%
+    left_join(extracted_data, by = c("date", "waterbody"))  
+  if(is.null(x_order)){
+    x_order <- unique(plot_data$variable)
+  }
+  plot_data <- plot_data %>%
+    filter(variable %in% x_order) %>%
+    mutate(variable = factor(variable, levels = x_order))
+  
+  
+  myplot <- plot_data %>%
+    ggplot(aes(x = extracted_value, y = avg_value, color = waterbody)) +
+    geom_point(size = 3) +
+    facet_wrap(. ~ method, strip.position = "top") +
+    theme_ipsum_rc() +
+    scale_color_brewer(type = "qual", palette = "Set1") +
+    scale_x_continuous(breaks = my_breaks) +
+    scale_y_continuous(breaks = my_y_breaks, labels = my_y_breaks, 
+                       limits = range(my_y_breaks)*1.1) +
+    theme(axis.text.x = element_text(size = 14),
+          axis.title.x = element_text(size = 14, hjust = 0.5, vjust = -1),
+          axis.title.y = element_text(size = 14, hjust = 0.5, vjust = 2),
+          legend.text=element_text(size=14)) +
+    labs(x = xvar, y = yvar)
+  myplot
 }
