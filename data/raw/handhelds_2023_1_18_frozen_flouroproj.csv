@@ -1,0 +1,149 @@
+value,culture,reps,variable,day,month,year,fresh_frozen,machine
+313.14,mic,1,PC:CHL,18,1,2023,frozen,flouroquik
+306.39,mic,2,PC:CHL,18,1,2023,frozen,flouroquik
+306.8,mic,3,PC:CHL,18,1,2023,frozen,flouroquik
+303.75,mic,1,PC (ug/L),18,1,2023,frozen,flouroquik
+300.27,mic,2,PC (ug/L),18,1,2023,frozen,flouroquik
+294.53,mic,3,PC (ug/L),18,1,2023,frozen,flouroquik
+0.97,mic,1,chl (ug/L),18,1,2023,frozen,flouroquik
+0.98,mic,2,chl (ug/L),18,1,2023,frozen,flouroquik
+0.96,mic,3,chl (ug/L),18,1,2023,frozen,flouroquik
+1569,mic,1,chl1 hi (rfu),18,1,2023,frozen,flouroquik
+1546,mic,2,chl1 hi (rfu),18,1,2023,frozen,flouroquik
+1516,mic,3,chl1 hi (rfu),18,1,2023,frozen,flouroquik
+159,mic,1,chl1 lo (rfu),18,1,2023,frozen,flouroquik
+157,mic,2,chl1 lo (rfu),18,1,2023,frozen,flouroquik
+150,mic,3,chl1 lo (rfu),18,1,2023,frozen,flouroquik
+162,mic,1,chl2 hi (rfu),18,1,2023,frozen,flouroquik
+182,mic,2,chl2 hi (rfu),18,1,2023,frozen,flouroquik
+183,mic,3,chl2 hi (rfu),18,1,2023,frozen,flouroquik
+21,mic,1,chl2 lo (rfu),18,1,2023,frozen,flouroquik
+21,mic,2,chl2 lo (rfu),18,1,2023,frozen,flouroquik
+20,mic,3,chl2 lo (rfu),18,1,2023,frozen,flouroquik
+250.96,ana,1,PC:CHL,18,1,2023,frozen,flouroquik
+241.78,ana,2,PC:CHL,18,1,2023,frozen,flouroquik
+237.82,ana,3,PC:CHL,18,1,2023,frozen,flouroquik
+514.47,ana,1,PC (ug/L),18,1,2023,frozen,flouroquik
+498.08,ana,2,PC (ug/L),18,1,2023,frozen,flouroquik
+497.06,ana,3,PC (ug/L),18,1,2023,frozen,flouroquik
+2.05,ana,1,chl (ug/L),18,1,2023,frozen,flouroquik
+2.06,ana,2,chl (ug/L),18,1,2023,frozen,flouroquik
+2.09,ana,3,chl (ug/L),18,1,2023,frozen,flouroquik
+2578,ana,1,chl1 hi (rfu),18,1,2023,frozen,flouroquik
+2541,ana,2,chl1 hi (rfu),18,1,2023,frozen,flouroquik
+2484,ana,3,chl1 hi (rfu),18,1,2023,frozen,flouroquik
+254,ana,1,chl1 lo (rfu),18,1,2023,frozen,flouroquik
+251,ana,2,chl1 lo (rfu),18,1,2023,frozen,flouroquik
+242,ana,3,chl1 lo (rfu),18,1,2023,frozen,flouroquik
+260,ana,1,chl2 hi (rfu),18,1,2023,frozen,flouroquik
+261,ana,2,chl2 hi (rfu),18,1,2023,frozen,flouroquik
+260,ana,3,chl2 hi (rfu),18,1,2023,frozen,flouroquik
+32,ana,1,chl2 lo (rfu),18,1,2023,frozen,flouroquik
+32,ana,2,chl2 lo (rfu),18,1,2023,frozen,flouroquik
+31,ana,3,chl2 lo (rfu),18,1,2023,frozen,flouroquik
+258.26,mic+ana,1,PC:CHL,18,1,2023,frozen,flouroquik
+250.31,mic+ana,2,PC:CHL,18,1,2023,frozen,flouroquik
+248.46,mic+ana,3,PC:CHL,18,1,2023,frozen,flouroquik
+410.64,mic+ana,1,PC (ug/L),18,1,2023,frozen,flouroquik
+395.49,mic+ana,2,PC (ug/L),18,1,2023,frozen,flouroquik
+397.54,mic+ana,3,PC (ug/L),18,1,2023,frozen,flouroquik
+1.59,mic+ana,1,chl (ug/L),18,1,2023,frozen,flouroquik
+1.58,mic+ana,2,chl (ug/L),18,1,2023,frozen,flouroquik
+1.6,mic+ana,3,chl (ug/L),18,1,2023,frozen,flouroquik
+2035,mic+ana,1,chl1 hi (rfu),18,1,2023,frozen,flouroquik
+2025,mic+ana,2,chl1 hi (rfu),18,1,2023,frozen,flouroquik
+2017,mic+ana,3,chl1 hi (rfu),18,1,2023,frozen,flouroquik
+206,mic+ana,1,chl1 lo (rfu),18,1,2023,frozen,flouroquik
+204,mic+ana,2,chl1 lo (rfu),18,1,2023,frozen,flouroquik
+250,mic+ana,3,chl1 lo (rfu),18,1,2023,frozen,flouroquik
+216,mic+ana,1,chl2 hi (rfu),18,1,2023,frozen,flouroquik
+215,mic+ana,2,chl2 hi (rfu),18,1,2023,frozen,flouroquik
+219,mic+ana,3,chl2 hi (rfu),18,1,2023,frozen,flouroquik
+26,mic+ana,1,chl2 lo (rfu),18,1,2023,frozen,flouroquik
+27,mic+ana,2,chl2 lo (rfu),18,1,2023,frozen,flouroquik
+27,mic+ana,3,chl2 lo (rfu),18,1,2023,frozen,flouroquik
+277.28,mixed,1,PC:CHL,18,1,2023,frozen,flouroquik
+221.09,mixed,2,PC:CHL,18,1,2023,frozen,flouroquik
+239.84,mixed,3,PC:CHL,18,1,2023,frozen,flouroquik
+192.96,mixed,1,PC (ug/L),18,1,2023,frozen,flouroquik
+192.35,mixed,2,PC (ug/L),18,1,2023,frozen,flouroquik
+189.48,mixed,3,PC (ug/L),18,1,2023,frozen,flouroquik
+0.75,mixed,1,chl (ug/L),18,1,2023,frozen,flouroquik
+0.87,mixed,2,chl (ug/L),18,1,2023,frozen,flouroquik
+0.79,mixed,3,chl (ug/L),18,1,2023,frozen,flouroquik
+1027,mixed,1,chl1 hi (rfu),18,1,2023,frozen,flouroquik
+1017,mixed,2,chl1 hi (rfu),18,1,2023,frozen,flouroquik
+985,mixed,3,chl1 hi (rfu),18,1,2023,frozen,flouroquik
+104,mixed,1,chl1 lo (rfu),18,1,2023,frozen,flouroquik
+104,mixed,2,chl1 lo (rfu),18,1,2023,frozen,flouroquik
+103,mixed,3,chl1 lo (rfu),18,1,2023,frozen,flouroquik
+151,mixed,1,chl2 hi (rfu),18,1,2023,frozen,flouroquik
+145,mixed,2,chl2 hi (rfu),18,1,2023,frozen,flouroquik
+143,mixed,3,chl2 hi (rfu),18,1,2023,frozen,flouroquik
+19,mixed,1,chl2 lo (rfu),18,1,2023,frozen,flouroquik
+20,mixed,2,chl2 lo (rfu),18,1,2023,frozen,flouroquik
+20,mixed,3,chl2 lo (rfu),18,1,2023,frozen,flouroquik
+199,mic,1,PC (ug/L),18,1,2023,frozen,flourosense
+199,mic,2,PC (ug/L),18,1,2023,frozen,flourosense
+199,mic,3,PC (ug/L),18,1,2023,frozen,flourosense
+199,ana,1,PC (ug/L),18,1,2023,frozen,flourosense
+199,ana,2,PC (ug/L),18,1,2023,frozen,flourosense
+199,ana,3,PC (ug/L),18,1,2023,frozen,flourosense
+199,mic+ana,1,PC (ug/L),18,1,2023,frozen,flourosense
+199,mic+ana,2,PC (ug/L),18,1,2023,frozen,flourosense
+199,mic+ana,3,PC (ug/L),18,1,2023,frozen,flourosense
+97,mixed,1,PC (ug/L),18,1,2023,frozen,flourosense
+117,mixed,2,PC (ug/L),18,1,2023,frozen,flourosense
+123,mixed,3,PC (ug/L),18,1,2023,frozen,flourosense
+19.0285,mic,1,PC:CHL,18,1,2023,frozen,cyanoflour
+19.0553,mic,2,PC:CHL,18,1,2023,frozen,cyanoflour
+18.9157,mic,3,PC:CHL,18,1,2023,frozen,cyanoflour
+16904,mic,1,pc (rfu),18,1,2023,frozen,cyanoflour
+17105,mic,2,pc (rfu),18,1,2023,frozen,cyanoflour
+16803,mic,3,pc (rfu),18,1,2023,frozen,cyanoflour
+888.36,mic,1,chl (rfu),18,1,2023,frozen,cyanoflour
+898.6,mic,2,chl (rfu),18,1,2023,frozen,cyanoflour
+886.66,mic,3,chl (rfu),18,1,2023,frozen,cyanoflour
+17.195,ana,1,PC:CHL,18,1,2023,frozen,cyanoflour
+17.4053,ana,2,PC:CHL,18,1,2023,frozen,cyanoflour
+17.2792,ana,3,PC:CHL,18,1,2023,frozen,cyanoflour
+30991,ana,1,pc (rfu),18,1,2023,frozen,cyanoflour
+30861,ana,2,pc (rfu),18,1,2023,frozen,cyanoflour
+30303,ana,3,pc (rfu),18,1,2023,frozen,cyanoflour
+1802.3,ana,1,chl (rfu),18,1,2023,frozen,cyanoflour
+17773.3,ana,2,chl (rfu),18,1,2023,frozen,cyanoflour
+1753.7,ana,3,chl (rfu),18,1,2023,frozen,cyanoflour
+16.7536,mic+ana,1,PC:CHL,18,1,2023,frozen,cyanoflour
+17.1576,mic+ana,2,PC:CHL,18,1,2023,frozen,cyanoflour
+16.7911,mic+ana,3,PC:CHL,18,1,2023,frozen,cyanoflour
+23181,mic+ana,1,pc (rfu),18,1,2023,frozen,cyanoflour
+23404,mic+ana,2,pc (rfu),18,1,2023,frozen,cyanoflour
+23821,mic+ana,3,pc (rfu),18,1,2023,frozen,cyanoflour
+1383.6,mic+ana,1,chl (rfu),18,1,2023,frozen,cyanoflour
+1364.1,mic+ana,2,chl (rfu),18,1,2023,frozen,cyanoflour
+1418.6,mic+ana,3,chl (rfu),18,1,2023,frozen,cyanoflour
+6.3112,mixed,1,PC:CHL,18,1,2023,frozen,cyanoflour
+6.6122,mixed,2,PC:CHL,18,1,2023,frozen,cyanoflour
+7.3132,mixed,3,PC:CHL,18,1,2023,frozen,cyanoflour
+10965,mixed,1,pc (rfu),18,1,2023,frozen,cyanoflour
+11787,mixed,2,pc (rfu),18,1,2023,frozen,cyanoflour
+11475,mixed,3,pc (rfu),18,1,2023,frozen,cyanoflour
+1737.4,mixed,1,chl (rfu),18,1,2023,frozen,cyanoflour
+1782.7,mixed,2,chl (rfu),18,1,2023,frozen,cyanoflour
+1658.7,mixed,3,chl (rfu),18,1,2023,frozen,cyanoflour
+322.2,blank,na,chl(rfu),18,1,2023,frozen,in vivo 
+558.51,mic,1,chl(rfu),18,1,2023,frozen,in vivo 
+564.71,mic,2,chl(rfu),18,1,2023,frozen,in vivo 
+567.7,mic,3,chl(rfu),18,1,2023,frozen,in vivo 
+460.08,blank,na,chl(rfu),18,1,2023,frozen,in vivo 
+1024.82,ana,1,chl(rfu),18,1,2023,frozen,in vivo 
+1007.61,ana,2,chl(rfu),18,1,2023,frozen,in vivo 
+1076.59,ana,3,chl(rfu),18,1,2023,frozen,in vivo 
+395.78,blank,na,chl(rfu),18,1,2023,frozen,in vivo 
+809.12,mic+ana,1,chl(rfu),18,1,2023,frozen,in vivo 
+823.59,mic+ana,2,chl(rfu),18,1,2023,frozen,in vivo 
+882.88,mic+ana,3,chl(rfu),18,1,2023,frozen,in vivo 
+222.14,blank,na,chl(rfu),18,1,2023,frozen,in vivo 
+901.38,mixed,1,chl(rfu),18,1,2023,frozen,in vivo 
+992.94,mixed,2,chl(rfu),18,1,2023,frozen,in vivo 
+1092.79,mixed,3,chl(rfu),18,1,2023,frozen,in vivo 
