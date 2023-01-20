@@ -1,0 +1,17 @@
+value,waterbody,site,dup,reps,variable,day,month,year,fresh/frozen,fluorometer
+61.43,blank,,,NA,blank,4,1,2023,fresh,G04
+432.81,culture_mic,,,1,chla_invivo_rfu,4,1,2023,fresh,G04
+450.73,culture_mic,,,2,chla_invivo_rfu,4,1,2023,fresh,G04
+454.49,culture_mic,,,3,chla_invivo_rfu,4,1,2023,fresh,G04
+141.65,blank,,,NA,blank,5,1,2023,fresh,G04
+652.88,culture_ana,,,1,chla_invivo_rfu,5,1,2023,fresh,G04
+617.34,culture_ana,,,2,chla_invivo_rfu,5,1,2023,fresh,G04
+606.23,culture_ana,,,3,chla_invivo_rfu,5,1,2023,fresh,G04
+110.6,blank,,,NA,blank,5,1,2023,fresh,G04
+571.37,culture_mic_ana,,,1,chla_invivo_rfu,5,1,2023,fresh,G04
+559.59,culture_mic_ana,,,2,chla_invivo_rfu,5,1,2023,fresh,G04
+559.56,culture_mic_ana,,,3,chla_invivo_rfu,5,1,2023,fresh,G04
+78.12,blank,,,NA,blank,5,1,2023,fresh,G04
+4698.17,culture_mic_ana_pando_pedia,,,1,chla_invivo_rfu,5,1,2023,fresh,G04
+3808.32,culture_mic_ana_pando_pedia,,,2,chla_invivo_rfu,5,1,2023,fresh,G04
+3328.26,culture_mic_ana_pando_pedia,,,3,chla_invivo_rfu,5,1,2023,fresh,G04
