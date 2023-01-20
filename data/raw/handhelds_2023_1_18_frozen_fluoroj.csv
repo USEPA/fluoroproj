@@ -83,18 +83,18 @@ value,culture,reps,variable,day,month,year,fresh_frozen,machine
 19,mixed,1,chl2 lo (rfu),18,1,2023,frozen,flouroquik
 20,mixed,2,chl2 lo (rfu),18,1,2023,frozen,flouroquik
 20,mixed,3,chl2 lo (rfu),18,1,2023,frozen,flouroquik
-199,mic,1,PC (ug/L),18,1,2023,frozen,flourosense
-199,mic,2,PC (ug/L),18,1,2023,frozen,flourosense
-199,mic,3,PC (ug/L),18,1,2023,frozen,flourosense
-199,ana,1,PC (ug/L),18,1,2023,frozen,flourosense
-199,ana,2,PC (ug/L),18,1,2023,frozen,flourosense
-199,ana,3,PC (ug/L),18,1,2023,frozen,flourosense
-199,mic+ana,1,PC (ug/L),18,1,2023,frozen,flourosense
-199,mic+ana,2,PC (ug/L),18,1,2023,frozen,flourosense
-199,mic+ana,3,PC (ug/L),18,1,2023,frozen,flourosense
-97,mixed,1,PC (ug/L),18,1,2023,frozen,flourosense
-117,mixed,2,PC (ug/L),18,1,2023,frozen,flourosense
-123,mixed,3,PC (ug/L),18,1,2023,frozen,flourosense
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
 19.0285,mic,1,PC:CHL,18,1,2023,frozen,cyanoflour
 19.0553,mic,2,PC:CHL,18,1,2023,frozen,cyanoflour
 18.9157,mic,3,PC:CHL,18,1,2023,frozen,cyanoflour
