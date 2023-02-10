@@ -8,7 +8,7 @@ source(here::here("R/functions.R"))
 # Read in data
 handheld_data <- read_csv(here("data/raw/cyanofluor_fluoroquik_data.csv"))
 phycoprobe_data <- merge_phycoprobe()
-extracted_chla_data <- merge_extracted_chla()
+extracted_chla_data <- merge_extracted_chla() #On Feb 10, 2023 - blanks in new files are all at top and might be resulting in NA on RFU convert.  Browser in place in jeffs local compeco as starting point
 extracted_phyco_data <- merge_extracted_phyco() #On Feb 10. 2023 - checking on solid standard, appeared to have typo (1044, should be 10044?)
 invivo_data <- merge_invivo()
 field_data <- read_csv(here("data/raw/field data.csv"))
