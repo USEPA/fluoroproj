@@ -3737,6 +3737,246 @@ date,waterbody,field_dups,lab_reps,instrument,method,variable,units,value
 2021-11-09,windmist,3,1,duluth fluoroquik,frozen3,ch2 lo,rfu,31
 2021-11-09,windmist,3,2,duluth fluoroquik,frozen3,ch2 lo,rfu,31
 2021-11-09,windmist,3,3,duluth fluoroquik,frozen3,ch2 lo,rfu,31
+2023-01-04,culture_mic,1,1,duluth fluoroquik,fresh,pc:chl,ratio,122.88
+2023-01-04,culture_mic,1,2,duluth fluoroquik,fresh,pc:chl,ratio,122.43
+2023-01-04,culture_mic,1,3,duluth fluoroquik,fresh,pc:chl,ratio,121.9
+2023-01-04,culture_mic,1,1,duluth fluoroquik,fresh,phyco,µg/L,52.84
+2023-01-04,culture_mic,1,2,duluth fluoroquik,fresh,phyco,µg/L,53.87
+2023-01-04,culture_mic,1,3,duluth fluoroquik,fresh,phyco,µg/L,51.2
+2023-01-04,culture_mic,1,1,duluth fluoroquik,fresh,chl,µg/L,0.43
+2023-01-04,culture_mic,1,2,duluth fluoroquik,fresh,chl,µg/L,0.44
+2023-01-04,culture_mic,1,3,duluth fluoroquik,fresh,chl,µg/L,0.42
+2023-01-04,culture_mic,1,1,duluth fluoroquik,fresh,ch1 hi,rfu,333
+2023-01-04,culture_mic,1,2,duluth fluoroquik,fresh,ch1 hi,rfu,327
+2023-01-04,culture_mic,1,3,duluth fluoroquik,fresh,ch1 hi,rfu,315
+2023-01-04,culture_mic,1,1,duluth fluoroquik,fresh,ch1 lo,rfu,35
+2023-01-04,culture_mic,1,2,duluth fluoroquik,fresh,ch1 lo,rfu,36
+2023-01-04,culture_mic,1,3,duluth fluoroquik,fresh,ch1 lo,rfu,33
+2023-01-04,culture_mic,1,1,duluth fluoroquik,fresh,ch2 hi,rfu,91
+2023-01-04,culture_mic,1,2,duluth fluoroquik,fresh,ch2 hi,rfu,91
+2023-01-04,culture_mic,1,3,duluth fluoroquik,fresh,ch2 hi,rfu,87
+2023-01-04,culture_mic,1,1,duluth fluoroquik,fresh,ch2 lo,rfu,11
+2023-01-04,culture_mic,1,2,duluth fluoroquik,fresh,ch2 lo,rfu,12
+2023-01-04,culture_mic,1,3,duluth fluoroquik,fresh,ch2 lo,rfu,12
+2023-01-05,culture_ana,1,1,duluth fluoroquik,fresh,pc:chl,ratio,215.1
+2023-01-05,culture_ana,1,2,duluth fluoroquik,fresh,pc:chl,ratio,203.77
+2023-01-05,culture_ana,1,3,duluth fluoroquik,fresh,pc:chl,ratio,197.31
+2023-01-05,culture_ana,1,1,duluth fluoroquik,fresh,phyco,µg/L,137.67
+2023-01-05,culture_ana,1,2,duluth fluoroquik,fresh,phyco,µg/L,152.83
+2023-01-05,culture_ana,1,3,duluth fluoroquik,fresh,phyco,µg/L,154.06
+2023-01-05,culture_ana,1,1,duluth fluoroquik,fresh,chl,µg/L,0.64
+2023-01-05,culture_ana,1,2,duluth fluoroquik,fresh,chl,µg/L,0.75
+2023-01-05,culture_ana,1,3,duluth fluoroquik,fresh,chl,µg/L,0.78
+2023-01-05,culture_ana,1,1,duluth fluoroquik,fresh,ch1 hi,rfu,788
+2023-01-05,culture_ana,1,2,duluth fluoroquik,fresh,ch1 hi,rfu,847
+2023-01-05,culture_ana,1,3,duluth fluoroquik,fresh,ch1 hi,rfu,785
+2023-01-05,culture_ana,1,1,duluth fluoroquik,fresh,ch1 lo,rfu,75
+2023-01-05,culture_ana,1,2,duluth fluoroquik,fresh,ch1 lo,rfu,79
+2023-01-05,culture_ana,1,3,duluth fluoroquik,fresh,ch1 lo,rfu,83
+2023-01-05,culture_ana,1,1,duluth fluoroquik,fresh,ch2 hi,rfu,116
+2023-01-05,culture_ana,1,2,duluth fluoroquik,fresh,ch2 hi,rfu,127
+2023-01-05,culture_ana,1,3,duluth fluoroquik,fresh,ch2 hi,rfu,121
+2023-01-05,culture_ana,1,1,duluth fluoroquik,fresh,ch2 lo,rfu,15
+2023-01-05,culture_ana,1,2,duluth fluoroquik,fresh,ch2 lo,rfu,18
+2023-01-05,culture_ana,1,3,duluth fluoroquik,fresh,ch2 lo,rfu,16
+2023-01-05,culture_mic_ana,1,1,duluth fluoroquik,fresh,pc:chl,ratio,159.36
+2023-01-05,culture_mic_ana,1,2,duluth fluoroquik,fresh,pc:chl,ratio,153.01
+2023-01-05,culture_mic_ana,1,3,duluth fluoroquik,fresh,pc:chl,ratio,160.37
+2023-01-05,culture_mic_ana,1,1,duluth fluoroquik,fresh,phyco,µg/L,100.4
+2023-01-05,culture_mic_ana,1,2,duluth fluoroquik,fresh,phyco,µg/L,94.87
+2023-01-05,culture_mic_ana,1,3,duluth fluoroquik,fresh,phyco,µg/L,93.02
+2023-01-05,culture_mic_ana,1,1,duluth fluoroquik,fresh,chl,µg/L,0.63
+2023-01-05,culture_mic_ana,1,2,duluth fluoroquik,fresh,chl,µg/L,0.62
+2023-01-05,culture_mic_ana,1,3,duluth fluoroquik,fresh,chl,µg/L,0.58
+2023-01-05,culture_mic_ana,1,1,duluth fluoroquik,fresh,ch1 hi,rfu,68
+2023-01-05,culture_mic_ana,1,2,duluth fluoroquik,fresh,ch1 hi,rfu,585
+2023-01-05,culture_mic_ana,1,3,duluth fluoroquik,fresh,ch1 hi,rfu,570
+2023-01-05,culture_mic_ana,1,1,duluth fluoroquik,fresh,ch1 lo,rfu,53
+2023-01-05,culture_mic_ana,1,2,duluth fluoroquik,fresh,ch1 lo,rfu,54
+2023-01-05,culture_mic_ana,1,3,duluth fluoroquik,fresh,ch1 lo,rfu,50
+2023-01-05,culture_mic_ana,1,1,duluth fluoroquik,fresh,ch2 hi,rfu,108
+2023-01-05,culture_mic_ana,1,2,duluth fluoroquik,fresh,ch2 hi,rfu,104
+2023-01-05,culture_mic_ana,1,3,duluth fluoroquik,fresh,ch2 hi,rfu,103
+2023-01-05,culture_mic_ana,1,1,duluth fluoroquik,fresh,ch2 lo,rfu,14
+2023-01-05,culture_mic_ana,1,2,duluth fluoroquik,fresh,ch2 lo,rfu,14
+2023-01-05,culture_mic_ana,1,3,duluth fluoroquik,fresh,ch2 lo,rfu,14
+2023-01-05,culture_mic_ana_pando_pedia,1,1,duluth fluoroquik,fresh,pc:chl,ratio,17.6
+2023-01-05,culture_mic_ana_pando_pedia,1,2,duluth fluoroquik,fresh,pc:chl,ratio,22.73
+2023-01-05,culture_mic_ana_pando_pedia,1,3,duluth fluoroquik,fresh,pc:chl,ratio,22.53
+2023-01-05,culture_mic_ana_pando_pedia,1,1,duluth fluoroquik,fresh,phyco,µg/L,32.75
+2023-01-05,culture_mic_ana_pando_pedia,1,2,duluth fluoroquik,fresh,phyco,µg/L,39.11
+2023-01-05,culture_mic_ana_pando_pedia,1,3,duluth fluoroquik,fresh,phyco,µg/L,38.08
+2023-01-05,culture_mic_ana_pando_pedia,1,1,duluth fluoroquik,fresh,chl,µg/L,1.86
+2023-01-05,culture_mic_ana_pando_pedia,1,2,duluth fluoroquik,fresh,chl,µg/L,1.72
+2023-01-05,culture_mic_ana_pando_pedia,1,3,duluth fluoroquik,fresh,chl,µg/L,1.69
+2023-01-05,culture_mic_ana_pando_pedia,1,1,duluth fluoroquik,fresh,ch1 hi,rfu,278
+2023-01-05,culture_mic_ana_pando_pedia,1,2,duluth fluoroquik,fresh,ch1 hi,rfu,252
+2023-01-05,culture_mic_ana_pando_pedia,1,3,duluth fluoroquik,fresh,ch1 hi,rfu,276
+2023-01-05,culture_mic_ana_pando_pedia,1,1,duluth fluoroquik,fresh,ch1 lo,rfu,31
+2023-01-05,culture_mic_ana_pando_pedia,1,2,duluth fluoroquik,fresh,ch1 lo,rfu,31
+2023-01-05,culture_mic_ana_pando_pedia,1,3,duluth fluoroquik,fresh,ch1 lo,rfu,31
+2023-01-05,culture_mic_ana_pando_pedia,1,1,duluth fluoroquik,fresh,ch2 hi,rfu,252
+2023-01-05,culture_mic_ana_pando_pedia,1,2,duluth fluoroquik,fresh,ch2 hi,rfu,226
+2023-01-05,culture_mic_ana_pando_pedia,1,3,duluth fluoroquik,fresh,ch2 hi,rfu,255
+2023-01-05,culture_mic_ana_pando_pedia,1,1,duluth fluoroquik,fresh,ch2 lo,rfu,28
+2023-01-05,culture_mic_ana_pando_pedia,1,2,duluth fluoroquik,fresh,ch2 lo,rfu,31
+2023-01-05,culture_mic_ana_pando_pedia,1,3,duluth fluoroquik,fresh,ch2 lo,rfu,28
+2023-01-18,culture_mic,1,1,duluth fluoroquik,frozen,pc:chl,ratio,313.14
+2023-01-18,culture_mic,1,2,duluth fluoroquik,frozen,pc:chl,ratio,306.39
+2023-01-18,culture_mic,1,3,duluth fluoroquik,frozen,pc:chl,ratio,306.8
+2023-01-18,culture_mic,1,1,duluth fluoroquik,frozen,phyco,µg/L,303.75
+2023-01-18,culture_mic,1,2,duluth fluoroquik,frozen,phyco,µg/L,300.27
+2023-01-18,culture_mic,1,3,duluth fluoroquik,frozen,phyco,µg/L,294.53
+2023-01-18,culture_mic,1,1,duluth fluoroquik,frozen,chl,µg/L,0.97
+2023-01-18,culture_mic,1,2,duluth fluoroquik,frozen,chl,µg/L,0.98
+2023-01-18,culture_mic,1,3,duluth fluoroquik,frozen,chl,µg/L,0.96
+2023-01-18,culture_mic,1,1,duluth fluoroquik,frozen,ch1 hi,rfu,1569
+2023-01-18,culture_mic,1,2,duluth fluoroquik,frozen,ch1 hi,rfu,1546
+2023-01-18,culture_mic,1,3,duluth fluoroquik,frozen,ch1 hi,rfu,1516
+2023-01-18,culture_mic,1,1,duluth fluoroquik,frozen,ch1 lo,rfu,159
+2023-01-18,culture_mic,1,2,duluth fluoroquik,frozen,ch1 lo,rfu,157
+2023-01-18,culture_mic,1,3,duluth fluoroquik,frozen,ch1 lo,rfu,150
+2023-01-18,culture_mic,1,1,duluth fluoroquik,frozen,ch2 hi,rfu,162
+2023-01-18,culture_mic,1,2,duluth fluoroquik,frozen,ch2 hi,rfu,182
+2023-01-18,culture_mic,1,3,duluth fluoroquik,frozen,ch2 hi,rfu,183
+2023-01-18,culture_mic,1,1,duluth fluoroquik,frozen,ch2 lo,rfu,21
+2023-01-18,culture_mic,1,2,duluth fluoroquik,frozen,ch2 lo,rfu,21
+2023-01-18,culture_mic,1,3,duluth fluoroquik,frozen,ch2 lo,rfu,20
+2023-01-18,culture_ana,1,1,duluth fluoroquik,frozen,pc:chl,ratio,250.96
+2023-01-18,culture_ana,1,2,duluth fluoroquik,frozen,pc:chl,ratio,241.78
+2023-01-18,culture_ana,1,3,duluth fluoroquik,frozen,pc:chl,ratio,237.82
+2023-01-18,culture_ana,1,1,duluth fluoroquik,frozen,phyco,µg/L,514.47
+2023-01-18,culture_ana,1,2,duluth fluoroquik,frozen,phyco,µg/L,498.08
+2023-01-18,culture_ana,1,3,duluth fluoroquik,frozen,phyco,µg/L,497.06
+2023-01-18,culture_ana,1,1,duluth fluoroquik,frozen,chl,µg/L,2.05
+2023-01-18,culture_ana,1,2,duluth fluoroquik,frozen,chl,µg/L,2.06
+2023-01-18,culture_ana,1,3,duluth fluoroquik,frozen,chl,µg/L,2.09
+2023-01-18,culture_ana,1,1,duluth fluoroquik,frozen,ch1 hi,rfu,2578
+2023-01-18,culture_ana,1,2,duluth fluoroquik,frozen,ch1 hi,rfu,2541
+2023-01-18,culture_ana,1,3,duluth fluoroquik,frozen,ch1 hi,rfu,2484
+2023-01-18,culture_ana,1,1,duluth fluoroquik,frozen,ch1 lo,rfu,254
+2023-01-18,culture_ana,1,2,duluth fluoroquik,frozen,ch1 lo,rfu,251
+2023-01-18,culture_ana,1,3,duluth fluoroquik,frozen,ch1 lo,rfu,242
+2023-01-18,culture_ana,1,1,duluth fluoroquik,frozen,ch2 hi,rfu,260
+2023-01-18,culture_ana,1,2,duluth fluoroquik,frozen,ch2 hi,rfu,261
+2023-01-18,culture_ana,1,3,duluth fluoroquik,frozen,ch2 hi,rfu,260
+2023-01-18,culture_ana,1,1,duluth fluoroquik,frozen,ch2 lo,rfu,32
+2023-01-18,culture_ana,1,2,duluth fluoroquik,frozen,ch2 lo,rfu,32
+2023-01-18,culture_ana,1,3,duluth fluoroquik,frozen,ch2 lo,rfu,31
+2023-01-18,culture_mic_ana,1,1,duluth fluoroquik,frozen,pc:chl,ratio,258.26
+2023-01-18,culture_mic_ana,1,2,duluth fluoroquik,frozen,pc:chl,ratio,250.31
+2023-01-18,culture_mic_ana,1,3,duluth fluoroquik,frozen,pc:chl,ratio,248.46
+2023-01-18,culture_mic_ana,1,1,duluth fluoroquik,frozen,phyco,µg/L,410.64
+2023-01-18,culture_mic_ana,1,2,duluth fluoroquik,frozen,phyco,µg/L,395.49
+2023-01-18,culture_mic_ana,1,3,duluth fluoroquik,frozen,phyco,µg/L,397.54
+2023-01-18,culture_mic_ana,1,1,duluth fluoroquik,frozen,chl,µg/L,1.59
+2023-01-18,culture_mic_ana,1,2,duluth fluoroquik,frozen,chl,µg/L,1.58
+2023-01-18,culture_mic_ana,1,3,duluth fluoroquik,frozen,chl,µg/L,1.6
+2023-01-18,culture_mic_ana,1,1,duluth fluoroquik,frozen,ch1 hi,rfu,2035
+2023-01-18,culture_mic_ana,1,2,duluth fluoroquik,frozen,ch1 hi,rfu,2025
+2023-01-18,culture_mic_ana,1,3,duluth fluoroquik,frozen,ch1 hi,rfu,2017
+2023-01-18,culture_mic_ana,1,1,duluth fluoroquik,frozen,ch1 lo,rfu,206
+2023-01-18,culture_mic_ana,1,2,duluth fluoroquik,frozen,ch1 lo,rfu,204
+2023-01-18,culture_mic_ana,1,3,duluth fluoroquik,frozen,ch1 lo,rfu,250
+2023-01-18,culture_mic_ana,1,1,duluth fluoroquik,frozen,ch2 hi,rfu,216
+2023-01-18,culture_mic_ana,1,2,duluth fluoroquik,frozen,ch2 hi,rfu,215
+2023-01-18,culture_mic_ana,1,3,duluth fluoroquik,frozen,ch2 hi,rfu,219
+2023-01-18,culture_mic_ana,1,1,duluth fluoroquik,frozen,ch2 lo,rfu,26
+2023-01-18,culture_mic_ana,1,2,duluth fluoroquik,frozen,ch2 lo,rfu,27
+2023-01-18,culture_mic_ana,1,3,duluth fluoroquik,frozen,ch2 lo,rfu,27
+2023-01-18,culture_mic_ana_pando_pedia,1,1,duluth fluoroquik,frozen,pc:chl,ratio,277.28
+2023-01-18,culture_mic_ana_pando_pedia,1,2,duluth fluoroquik,frozen,pc:chl,ratio,221.09
+2023-01-18,culture_mic_ana_pando_pedia,1,3,duluth fluoroquik,frozen,pc:chl,ratio,239.84
+2023-01-18,culture_mic_ana_pando_pedia,1,1,duluth fluoroquik,frozen,phyco,µg/L,192.96
+2023-01-18,culture_mic_ana_pando_pedia,1,2,duluth fluoroquik,frozen,phyco,µg/L,192.35
+2023-01-18,culture_mic_ana_pando_pedia,1,3,duluth fluoroquik,frozen,phyco,µg/L,189.48
+2023-01-18,culture_mic_ana_pando_pedia,1,1,duluth fluoroquik,frozen,chl,µg/L,0.75
+2023-01-18,culture_mic_ana_pando_pedia,1,2,duluth fluoroquik,frozen,chl,µg/L,0.87
+2023-01-18,culture_mic_ana_pando_pedia,1,3,duluth fluoroquik,frozen,chl,µg/L,0.79
+2023-01-18,culture_mic_ana_pando_pedia,1,1,duluth fluoroquik,frozen,ch1 hi,rfu,1027
+2023-01-18,culture_mic_ana_pando_pedia,1,2,duluth fluoroquik,frozen,ch1 hi,rfu,1017
+2023-01-18,culture_mic_ana_pando_pedia,1,3,duluth fluoroquik,frozen,ch1 hi,rfu,985
+2023-01-18,culture_mic_ana_pando_pedia,1,1,duluth fluoroquik,frozen,ch1 lo,rfu,104
+2023-01-18,culture_mic_ana_pando_pedia,1,2,duluth fluoroquik,frozen,ch1 lo,rfu,104
+2023-01-18,culture_mic_ana_pando_pedia,1,3,duluth fluoroquik,frozen,ch1 lo,rfu,103
+2023-01-18,culture_mic_ana_pando_pedia,1,1,duluth fluoroquik,frozen,ch2 hi,rfu,151
+2023-01-18,culture_mic_ana_pando_pedia,1,2,duluth fluoroquik,frozen,ch2 hi,rfu,145
+2023-01-18,culture_mic_ana_pando_pedia,1,3,duluth fluoroquik,frozen,ch2 hi,rfu,143
+2023-01-18,culture_mic_ana_pando_pedia,1,1,duluth fluoroquik,frozen,ch2 lo,rfu,19
+2023-01-18,culture_mic_ana_pando_pedia,1,2,duluth fluoroquik,frozen,ch2 lo,rfu,20
+2023-01-18,culture_mic_ana_pando_pedia,1,3,duluth fluoroquik,frozen,ch2 lo,rfu,20
+2023-01-04,culture_mic,1,1,cyanofluor,fresh,pc:chl,ratio,6.469
+2023-01-04,culture_mic,1,2,cyanofluor,fresh,pc:chl,ratio,6.1216
+2023-01-04,culture_mic,1,3,cyanofluor,fresh,pc:chl,ratio,6.4632
+2023-01-04,culture_mic,1,1,cyanofluor,fresh,phyco,rfu,4483.5
+2023-01-04,culture_mic,1,2,cyanofluor,fresh,phyco,rfu,4409.9
+2023-01-04,culture_mic,1,3,cyanofluor,fresh,phyco,rfu,4666.9
+2023-01-04,culture_mic,1,1,cyanofluor,fresh,chl,rfu,693.09
+2023-01-04,culture_mic,1,2,cyanofluor,fresh,chl,rfu,720.39
+2023-01-04,culture_mic,1,3,cyanofluor,fresh,chl,rfu,722.09
+2023-01-05,culture_ana,1,1,cyanofluor,fresh,pc:chl,ratio,10.54
+2023-01-05,culture_ana,1,2,cyanofluor,fresh,pc:chl,ratio,9.7305
+2023-01-05,culture_ana,1,3,cyanofluor,fresh,pc:chl,ratio,9.375
+2023-01-05,culture_ana,1,1,cyanofluor,fresh,phyco,rfu,9458.6
+2023-01-05,culture_ana,1,2,cyanofluor,fresh,phyco,rfu,9756.2
+2023-01-05,culture_ana,1,3,cyanofluor,fresh,phyco,rfu,9071.6
+2023-01-05,culture_ana,1,1,cyanofluor,fresh,chl,rfu,896.89
+2023-01-05,culture_ana,1,2,cyanofluor,fresh,chl,rfu,1002.6
+2023-01-05,culture_ana,1,3,cyanofluor,fresh,chl,rfu,967.04
+2023-01-05,culture_mic_ana,1,1,cyanofluor,fresh,pc:chl,ratio,8.7728
+2023-01-05,culture_mic_ana,1,2,cyanofluor,fresh,pc:chl,ratio,8.1824
+2023-01-05,culture_mic_ana,1,3,cyanofluor,fresh,pc:chl,ratio,8.2182
+2023-01-05,culture_mic_ana,1,1,cyanofluor,fresh,phyco,rfu,7397.2
+2023-01-05,culture_mic_ana,1,2,cyanofluor,fresh,phyco,rfu,7304.1
+2023-01-05,culture_mic_ana,1,3,cyanofluor,fresh,phyco,rfu,7426.9
+2023-01-05,culture_mic_ana,1,1,cyanofluor,fresh,chl,rfu,843.2
+2023-01-05,culture_mic_ana,1,2,cyanofluor,fresh,chl,rfu,892.67
+2023-01-05,culture_mic_ana,1,3,cyanofluor,fresh,chl,rfu,903.73
+2023-01-05,culture_mic_ana_pando_pedia,1,1,cyanofluor,fresh,pc:chl,ratio,0.6037
+2023-01-05,culture_mic_ana_pando_pedia,1,2,cyanofluor,fresh,pc:chl,ratio,0.5314
+2023-01-05,culture_mic_ana_pando_pedia,1,3,cyanofluor,fresh,pc:chl,ratio,0.5647
+2023-01-05,culture_mic_ana_pando_pedia,1,1,cyanofluor,fresh,phyco,rfu,3958.3
+2023-01-05,culture_mic_ana_pando_pedia,1,2,cyanofluor,fresh,phyco,rfu,4758.3
+2023-01-05,culture_mic_ana_pando_pedia,1,3,cyanofluor,fresh,phyco,rfu,4697.4
+2023-01-05,culture_mic_ana_pando_pedia,1,1,cyanofluor,fresh,chl,rfu,6556.2
+2023-01-05,culture_mic_ana_pando_pedia,1,2,cyanofluor,fresh,chl,rfu,8417
+2023-01-05,culture_mic_ana_pando_pedia,1,3,cyanofluor,fresh,chl,rfu,8518.5
+2023-01-18,culture_mic,1,1,cyanofluor,frozen,pc:chl,ratio,19.0285
+2023-01-18,culture_mic,1,2,cyanofluor,frozen,pc:chl,ratio,19.0553
+2023-01-18,culture_mic,1,3,cyanofluor,frozen,pc:chl,ratio,18.9157
+2023-01-18,culture_mic,1,1,cyanofluor,frozen,phyco,rfu,16904
+2023-01-18,culture_mic,1,2,cyanofluor,frozen,phyco,rfu,17105
+2023-01-18,culture_mic,1,3,cyanofluor,frozen,phyco,rfu,16803
+2023-01-18,culture_mic,1,1,cyanofluor,frozen,chl,rfu,888.36
+2023-01-18,culture_mic,1,2,cyanofluor,frozen,chl,rfu,898.6
+2023-01-18,culture_mic,1,3,cyanofluor,frozen,chl,rfu,886.66
+2023-01-18,culture_ana,1,1,cyanofluor,frozen,pc:chl,ratio,17.195
+2023-01-18,culture_ana,1,2,cyanofluor,frozen,pc:chl,ratio,17.4053
+2023-01-18,culture_ana,1,3,cyanofluor,frozen,pc:chl,ratio,17.2792
+2023-01-18,culture_ana,1,1,cyanofluor,frozen,phyco,rfu,30991
+2023-01-18,culture_ana,1,2,cyanofluor,frozen,phyco,rfu,30861
+2023-01-18,culture_ana,1,3,cyanofluor,frozen,phyco,rfu,30303
+2023-01-18,culture_ana,1,1,cyanofluor,frozen,chl,rfu,1802.3
+2023-01-18,culture_ana,1,2,cyanofluor,frozen,chl,rfu,17773.3
+2023-01-18,culture_ana,1,3,cyanofluor,frozen,chl,rfu,1753.7
+2023-01-18,culture_mic_ana,1,1,cyanofluor,frozen,pc:chl,ratio,16.7536
+2023-01-18,culture_mic_ana,1,2,cyanofluor,frozen,pc:chl,ratio,17.1576
+2023-01-18,culture_mic_ana,1,3,cyanofluor,frozen,pc:chl,ratio,16.7911
+2023-01-18,culture_mic_ana,1,1,cyanofluor,frozen,phyco,rfu,23181
+2023-01-18,culture_mic_ana,1,2,cyanofluor,frozen,phyco,rfu,23404
+2023-01-18,culture_mic_ana,1,3,cyanofluor,frozen,phyco,rfu,23821
+2023-01-18,culture_mic_ana,1,1,cyanofluor,frozen,chl,rfu,1383.6
+2023-01-18,culture_mic_ana,1,2,cyanofluor,frozen,chl,rfu,1364.1
+2023-01-18,culture_mic_ana,1,3,cyanofluor,frozen,chl,rfu,1418.6
+2023-01-18,culture_mic_ana_pando_pedia,1,1,cyanofluor,frozen,pc:chl,ratio,6.3112
+2023-01-18,culture_mic_ana_pando_pedia,1,2,cyanofluor,frozen,pc:chl,ratio,6.6122
+2023-01-18,culture_mic_ana_pando_pedia,1,3,cyanofluor,frozen,pc:chl,ratio,7.3132
+2023-01-18,culture_mic_ana_pando_pedia,1,1,cyanofluor,frozen,phyco,rfu,10965
+2023-01-18,culture_mic_ana_pando_pedia,1,2,cyanofluor,frozen,phyco,rfu,11787
+2023-01-18,culture_mic_ana_pando_pedia,1,3,cyanofluor,frozen,phyco,rfu,11475
+2023-01-18,culture_mic_ana_pando_pedia,1,1,cyanofluor,frozen,chl,rfu,1737.4
+2023-01-18,culture_mic_ana_pando_pedia,1,2,cyanofluor,frozen,chl,rfu,1782.7
+2023-01-18,culture_mic_ana_pando_pedia,1,3,cyanofluor,frozen,chl,rfu,1658.7
 2021-10-06,barber,1,1,phycoprobe,fresh,chl,µg/L,6.756666666666667
 2021-10-06,barber,1,1,phycoprobe,fresh,phyco,µg/L of chlorophyll,0.11666666666666667
 2021-10-06,barber,1,1,phycoprobe,frozen,chl,µg/L,4.32
@@ -3845,14 +4085,14 @@ date,waterbody,field_dups,lab_reps,instrument,method,variable,units,value
 2021-10-06,yawgoo,3,3,phycoprobe,fresh,phyco,µg/L of chlorophyll,1.46
 2021-10-06,yawgoo,3,3,phycoprobe,frozen,chl,µg/L,6.036666666666667
 2021-10-06,yawgoo,3,3,phycoprobe,frozen,phyco,µg/L of chlorophyll,3.1733333333333333
-2021-10-07,200ppb standard,NA,NA,phycoprobe,NA,chl,µg/L,259.8
-2021-10-07,200ppb standard,NA,NA,phycoprobe,NA,phyco,µg/L of chlorophyll,0
-2021-10-07,800ppb standard,NA,NA,phycoprobe,NA,chl,µg/L,567.2
-2021-10-07,800ppb standard,NA,NA,phycoprobe,NA,phyco,µg/L of chlorophyll,0
-2021-10-18,200ppb standard,NA,NA,phycoprobe,NA,chl,µg/L,252.85
-2021-10-18,200ppb standard,NA,NA,phycoprobe,NA,phyco,µg/L of chlorophyll,0
-2021-10-18,800ppb standard,NA,NA,phycoprobe,NA,chl,µg/L,547.85
-2021-10-18,800ppb standard,NA,NA,phycoprobe,NA,phyco,µg/L of chlorophyll,0
+2021-10-07,200ppb standard,1,NA,phycoprobe,NA,chl,µg/L,259.8
+2021-10-07,200ppb standard,1,NA,phycoprobe,NA,phyco,µg/L of chlorophyll,0
+2021-10-07,800ppb standard,1,NA,phycoprobe,NA,chl,µg/L,567.2
+2021-10-07,800ppb standard,1,NA,phycoprobe,NA,phyco,µg/L of chlorophyll,0
+2021-10-18,200ppb standard,1,NA,phycoprobe,NA,chl,µg/L,252.85
+2021-10-18,200ppb standard,1,NA,phycoprobe,NA,phyco,µg/L of chlorophyll,0
+2021-10-18,800ppb standard,1,NA,phycoprobe,NA,chl,µg/L,547.85
+2021-10-18,800ppb standard,1,NA,phycoprobe,NA,phyco,µg/L of chlorophyll,0
 2021-10-21,curran,1,1,phycoprobe,fresh,chl,µg/L,29.233333333333334
 2021-10-21,curran,1,1,phycoprobe,fresh,phyco,µg/L of chlorophyll,2.9899999999999998
 2021-10-21,curran,1,1,phycoprobe,frozen,chl,µg/L,7.49
@@ -3961,10 +4201,10 @@ date,waterbody,field_dups,lab_reps,instrument,method,variable,units,value
 2021-10-21,warwick,3,3,phycoprobe,fresh,phyco,µg/L of chlorophyll,11.39
 2021-10-21,warwick,3,3,phycoprobe,frozen,chl,µg/L,18.143333333333334
 2021-10-21,warwick,3,3,phycoprobe,frozen,phyco,µg/L of chlorophyll,9.116666666666667
-2021-10-22,200ppb standard,NA,NA,phycoprobe,NA,chl,µg/L,233.96666666666667
-2021-10-22,200ppb standard,NA,NA,phycoprobe,NA,phyco,µg/L of chlorophyll,0
-2021-10-22,800ppb standard,NA,NA,phycoprobe,NA,chl,µg/L,541.8
-2021-10-22,800ppb standard,NA,NA,phycoprobe,NA,phyco,µg/L of chlorophyll,0
+2021-10-22,200ppb standard,1,NA,phycoprobe,NA,chl,µg/L,233.96666666666667
+2021-10-22,200ppb standard,1,NA,phycoprobe,NA,phyco,µg/L of chlorophyll,0
+2021-10-22,800ppb standard,1,NA,phycoprobe,NA,chl,µg/L,541.8
+2021-10-22,800ppb standard,1,NA,phycoprobe,NA,phyco,µg/L of chlorophyll,0
 2021-11-09,lower melville,1,1,phycoprobe,fresh,chl,µg/L,7.13
 2021-11-09,lower melville,1,1,phycoprobe,fresh,phyco,µg/L of chlorophyll,5.773333333333333
 2021-11-09,lower melville,1,1,phycoprobe,frozen,chl,µg/L,9.883333333333333
@@ -4061,18 +4301,112 @@ date,waterbody,field_dups,lab_reps,instrument,method,variable,units,value
 2021-11-09,windmist,3,3,phycoprobe,fresh,phyco,µg/L of chlorophyll,1.3933333333333333
 2021-11-09,windmist,3,3,phycoprobe,frozen,chl,µg/L,3.92
 2021-11-09,windmist,3,3,phycoprobe,frozen,phyco,µg/L of chlorophyll,0.04
-2021-11-10,200ppb standard,NA,NA,phycoprobe,NA,chl,µg/L,256.0233333333333
-2021-11-10,200ppb standard,NA,NA,phycoprobe,NA,phyco,µg/L of chlorophyll,0
-2021-11-10,800ppb standard,NA,NA,phycoprobe,NA,chl,µg/L,538.3833333333333
-2021-11-10,800ppb standard,NA,NA,phycoprobe,NA,phyco,µg/L of chlorophyll,0
-2021-12-06,200ppb standard,NA,NA,phycoprobe,NA,chl,µg/L,245.49333333333334
-2021-12-06,200ppb standard,NA,NA,phycoprobe,NA,phyco,µg/L of chlorophyll,0
-2021-12-06,800ppb standard,NA,NA,phycoprobe,NA,chl,µg/L,543.95
-2021-12-06,800ppb standard,NA,NA,phycoprobe,NA,phyco,µg/L of chlorophyll,0
-2021-12-08,200ppb standard,NA,NA,phycoprobe,NA,chl,µg/L,257.59333333333336
-2021-12-08,200ppb standard,NA,NA,phycoprobe,NA,phyco,µg/L of chlorophyll,0
-2021-12-08,800ppb standard,NA,NA,phycoprobe,NA,chl,µg/L,564.2133333333334
-2021-12-08,800ppb standard,NA,NA,phycoprobe,NA,phyco,µg/L of chlorophyll,0
+2021-11-10,200ppb standard,1,NA,phycoprobe,NA,chl,µg/L,256.0233333333333
+2021-11-10,200ppb standard,1,NA,phycoprobe,NA,phyco,µg/L of chlorophyll,0
+2021-11-10,800ppb standard,1,NA,phycoprobe,NA,chl,µg/L,538.3833333333333
+2021-11-10,800ppb standard,1,NA,phycoprobe,NA,phyco,µg/L of chlorophyll,0
+2021-12-06,200ppb standard,1,NA,phycoprobe,NA,chl,µg/L,245.49333333333334
+2021-12-06,200ppb standard,1,NA,phycoprobe,NA,phyco,µg/L of chlorophyll,0
+2021-12-06,800ppb standard,1,NA,phycoprobe,NA,chl,µg/L,543.95
+2021-12-06,800ppb standard,1,NA,phycoprobe,NA,phyco,µg/L of chlorophyll,0
+2021-12-08,200ppb standard,1,NA,phycoprobe,NA,chl,µg/L,257.59333333333336
+2021-12-08,200ppb standard,1,NA,phycoprobe,NA,phyco,µg/L of chlorophyll,0
+2021-12-08,800ppb standard,1,NA,phycoprobe,NA,chl,µg/L,564.2133333333334
+2021-12-08,800ppb standard,1,NA,phycoprobe,NA,phyco,µg/L of chlorophyll,0
+2023-01-05,culture_ana,1,1,phycoprobe,fresh,chl,µg/L,96.45333333333333
+2023-01-05,culture_ana,1,1,phycoprobe,fresh,phyco,µg/L of chlorophyll,90.53333333333333
+2023-01-05,culture_ana,1,2,phycoprobe,fresh,chl,µg/L,96.41
+2023-01-05,culture_ana,1,2,phycoprobe,fresh,phyco,µg/L of chlorophyll,90.34
+2023-01-05,culture_ana,1,3,phycoprobe,fresh,chl,µg/L,78.48
+2023-01-05,culture_ana,1,3,phycoprobe,fresh,phyco,µg/L of chlorophyll,61.0275
+2023-01-05,culture_mic,1,1,phycoprobe,fresh,chl,µg/L,38.42
+2023-01-05,culture_mic,1,1,phycoprobe,fresh,phyco,µg/L of chlorophyll,33.303333333333335
+2023-01-05,culture_mic,1,2,phycoprobe,fresh,chl,µg/L,38.50333333333334
+2023-01-05,culture_mic,1,2,phycoprobe,fresh,phyco,µg/L of chlorophyll,33.29333333333333
+2023-01-05,culture_mic,1,3,phycoprobe,fresh,chl,µg/L,37.42
+2023-01-05,culture_mic,1,3,phycoprobe,fresh,phyco,µg/L of chlorophyll,32.315
+2023-01-05,culture_mic_ana,1,1,phycoprobe,fresh,chl,µg/L,66.85333333333334
+2023-01-05,culture_mic_ana,1,1,phycoprobe,fresh,phyco,µg/L of chlorophyll,61.443333333333335
+2023-01-05,culture_mic_ana,1,2,phycoprobe,fresh,chl,µg/L,67.21000000000001
+2023-01-05,culture_mic_ana,1,2,phycoprobe,fresh,phyco,µg/L of chlorophyll,61.720000000000006
+2023-01-05,culture_mic_ana,1,3,phycoprobe,fresh,chl,µg/L,76.62
+2023-01-05,culture_mic_ana,1,3,phycoprobe,fresh,phyco,µg/L of chlorophyll,71.04333333333334
+2023-01-05,culture_mixed,1,1,phycoprobe,fresh,chl,µg/L,81.62333333333333
+2023-01-05,culture_mixed,1,1,phycoprobe,fresh,phyco,µg/L of chlorophyll,29.753333333333334
+2023-01-05,culture_mixed,1,2,phycoprobe,fresh,chl,µg/L,81.73666666666666
+2023-01-05,culture_mixed,1,2,phycoprobe,fresh,phyco,µg/L of chlorophyll,29.583333333333332
+2023-01-05,culture_mixed,1,3,phycoprobe,fresh,chl,µg/L,78.01
+2023-01-05,culture_mixed,1,3,phycoprobe,fresh,phyco,µg/L of chlorophyll,41.346666666666664
+2023-01-18,culture_ana,1,1,phycoprobe,frozen,chl,µg/L,118.35
+2023-01-18,culture_ana,1,1,phycoprobe,frozen,phyco,µg/L of chlorophyll,98.92
+2023-01-18,culture_ana,1,1,phycoprobe,frozen4,chl,µg/L,124
+2023-01-18,culture_ana,1,1,phycoprobe,frozen4,phyco,µg/L of chlorophyll,103.35
+2023-01-18,culture_ana,1,1,phycoprobe,frozen7,chl,µg/L,119.93
+2023-01-18,culture_ana,1,1,phycoprobe,frozen7,phyco,µg/L of chlorophyll,98.93
+2023-01-18,culture_ana,1,2,phycoprobe,frozen2,chl,µg/L,118.38
+2023-01-18,culture_ana,1,2,phycoprobe,frozen2,phyco,µg/L of chlorophyll,98.92
+2023-01-18,culture_ana,1,2,phycoprobe,frozen5,chl,µg/L,124.39
+2023-01-18,culture_ana,1,2,phycoprobe,frozen5,phyco,µg/L of chlorophyll,103.77
+2023-01-18,culture_ana,1,2,phycoprobe,frozen8,chl,µg/L,120.22
+2023-01-18,culture_ana,1,2,phycoprobe,frozen8,phyco,µg/L of chlorophyll,99.06
+2023-01-18,culture_ana,1,3,phycoprobe,frozen3,chl,µg/L,118.2
+2023-01-18,culture_ana,1,3,phycoprobe,frozen3,phyco,µg/L of chlorophyll,98.8
+2023-01-18,culture_ana,1,3,phycoprobe,frozen6,chl,µg/L,123.53
+2023-01-18,culture_ana,1,3,phycoprobe,frozen6,phyco,µg/L of chlorophyll,102.84
+2023-01-18,culture_mic,1,1,phycoprobe,frozen19,chl,µg/L,49.57
+2023-01-18,culture_mic,1,1,phycoprobe,frozen19,phyco,µg/L of chlorophyll,40.64
+2023-01-18,culture_mic,1,1,phycoprobe,frozen22,chl,µg/L,37.35
+2023-01-18,culture_mic,1,1,phycoprobe,frozen22,phyco,µg/L of chlorophyll,28.07
+2023-01-18,culture_mic,1,1,phycoprobe,frozen25,chl,µg/L,39.67
+2023-01-18,culture_mic,1,1,phycoprobe,frozen25,phyco,µg/L of chlorophyll,30.7
+2023-01-18,culture_mic,1,2,phycoprobe,frozen20,chl,µg/L,49.51
+2023-01-18,culture_mic,1,2,phycoprobe,frozen20,phyco,µg/L of chlorophyll,40.5
+2023-01-18,culture_mic,1,2,phycoprobe,frozen23,chl,µg/L,37.22
+2023-01-18,culture_mic,1,2,phycoprobe,frozen23,phyco,µg/L of chlorophyll,27.83
+2023-01-18,culture_mic,1,2,phycoprobe,frozen26,chl,µg/L,39.7
+2023-01-18,culture_mic,1,2,phycoprobe,frozen26,phyco,µg/L of chlorophyll,30.54
+2023-01-18,culture_mic,1,3,phycoprobe,frozen18,chl,µg/L,78.37
+2023-01-18,culture_mic,1,3,phycoprobe,frozen18,phyco,µg/L of chlorophyll,59.06
+2023-01-18,culture_mic,1,3,phycoprobe,frozen21,chl,µg/L,49.63
+2023-01-18,culture_mic,1,3,phycoprobe,frozen21,phyco,µg/L of chlorophyll,40.54
+2023-01-18,culture_mic,1,3,phycoprobe,frozen24,chl,µg/L,37.41
+2023-01-18,culture_mic,1,3,phycoprobe,frozen24,phyco,µg/L of chlorophyll,28.11
+2023-01-18,culture_mic_ana,1,1,phycoprobe,frozen10,chl,µg/L,107.67
+2023-01-18,culture_mic_ana,1,1,phycoprobe,frozen10,phyco,µg/L of chlorophyll,88.02
+2023-01-18,culture_mic_ana,1,1,phycoprobe,frozen13,chl,µg/L,94.94
+2023-01-18,culture_mic_ana,1,1,phycoprobe,frozen13,phyco,µg/L of chlorophyll,75.34
+2023-01-18,culture_mic_ana,1,1,phycoprobe,frozen16,chl,µg/L,78.07
+2023-01-18,culture_mic_ana,1,1,phycoprobe,frozen16,phyco,µg/L of chlorophyll,58.82
+2023-01-18,culture_mic_ana,1,2,phycoprobe,frozen11,chl,µg/L,107.7
+2023-01-18,culture_mic_ana,1,2,phycoprobe,frozen11,phyco,µg/L of chlorophyll,87.95
+2023-01-18,culture_mic_ana,1,2,phycoprobe,frozen14,chl,µg/L,95.28
+2023-01-18,culture_mic_ana,1,2,phycoprobe,frozen14,phyco,µg/L of chlorophyll,75.63
+2023-01-18,culture_mic_ana,1,2,phycoprobe,frozen17,chl,µg/L,78.02
+2023-01-18,culture_mic_ana,1,2,phycoprobe,frozen17,phyco,µg/L of chlorophyll,58.64
+2023-01-18,culture_mic_ana,1,3,phycoprobe,frozen12,chl,µg/L,107.67
+2023-01-18,culture_mic_ana,1,3,phycoprobe,frozen12,phyco,µg/L of chlorophyll,88
+2023-01-18,culture_mic_ana,1,3,phycoprobe,frozen15,chl,µg/L,95.23
+2023-01-18,culture_mic_ana,1,3,phycoprobe,frozen15,phyco,µg/L of chlorophyll,75.49
+2023-01-18,culture_mic_ana,1,3,phycoprobe,frozen9,chl,µg/L,119.6
+2023-01-18,culture_mic_ana,1,3,phycoprobe,frozen9,phyco,µg/L of chlorophyll,98.46
+2023-01-18,culture_mixed,1,1,phycoprobe,frozen28,chl,µg/L,64.68
+2023-01-18,culture_mixed,1,1,phycoprobe,frozen28,phyco,µg/L of chlorophyll,36.84
+2023-01-18,culture_mixed,1,1,phycoprobe,frozen31,chl,µg/L,64.45
+2023-01-18,culture_mixed,1,1,phycoprobe,frozen31,phyco,µg/L of chlorophyll,37.2
+2023-01-18,culture_mixed,1,1,phycoprobe,frozen34,chl,µg/L,68.02
+2023-01-18,culture_mixed,1,1,phycoprobe,frozen34,phyco,µg/L of chlorophyll,39.66
+2023-01-18,culture_mixed,1,2,phycoprobe,frozen29,chl,µg/L,64.68
+2023-01-18,culture_mixed,1,2,phycoprobe,frozen29,phyco,µg/L of chlorophyll,37.07
+2023-01-18,culture_mixed,1,2,phycoprobe,frozen32,chl,µg/L,64.45
+2023-01-18,culture_mixed,1,2,phycoprobe,frozen32,phyco,µg/L of chlorophyll,37.12
+2023-01-18,culture_mixed,1,2,phycoprobe,frozen35,chl,µg/L,67.77
+2023-01-18,culture_mixed,1,2,phycoprobe,frozen35,phyco,µg/L of chlorophyll,39.51
+2023-01-18,culture_mixed,1,3,phycoprobe,frozen27,chl,µg/L,39.94
+2023-01-18,culture_mixed,1,3,phycoprobe,frozen27,phyco,µg/L of chlorophyll,30.63
+2023-01-18,culture_mixed,1,3,phycoprobe,frozen30,chl,µg/L,64.65
+2023-01-18,culture_mixed,1,3,phycoprobe,frozen30,phyco,µg/L of chlorophyll,36.98
+2023-01-18,culture_mixed,1,3,phycoprobe,frozen33,chl,µg/L,64.26
+2023-01-18,culture_mixed,1,3,phycoprobe,frozen33,phyco,µg/L of chlorophyll,36.96
 2021-10-06,barber,1,1,trilogy,extracted,chl,rfu,20.266
 2021-10-06,barber,1,2,trilogy,extracted,chl,rfu,18.616
 2021-10-06,barber,1,3,trilogy,extracted,chl,rfu,17.930999999999997
@@ -4229,6 +4563,70 @@ date,waterbody,field_dups,lab_reps,instrument,method,variable,units,value
 2021-11-09,windmist,3,1,trilogy,extracted,chl,µg/L,2.877246619667117
 2021-11-09,windmist,3,2,trilogy,extracted,chl,µg/L,2.989353551123423
 2021-11-09,windmist,3,3,trilogy,extracted,chl,µg/L,3.2283833080610957
+2023-01-10,culture_mic,1,1,trilogy,extracted,chl,rfu,NA
+2023-01-10,culture_mic,1,2,trilogy,extracted,chl,rfu,NA
+2023-01-10,culture_mic,1,3,trilogy,extracted,chl,rfu,NA
+2023-01-10,culture_mic,1,4,trilogy,extracted,chl,rfu,NA
+2023-01-10,culture_mic,1,5,trilogy,extracted,chl,rfu,NA
+2023-01-10,culture_mic,1,6,trilogy,extracted,chl,rfu,NA
+2023-01-10,culture_mic,1,7,trilogy,extracted,chl,rfu,NA
+2023-01-10,culture_mic,1,8,trilogy,extracted,chl,rfu,NA
+2023-01-10,culture_ana,1,1,trilogy,extracted,chl,rfu,NA
+2023-01-10,culture_ana,1,2,trilogy,extracted,chl,rfu,NA
+2023-01-10,culture_ana,1,3,trilogy,extracted,chl,rfu,NA
+2023-01-10,culture_ana,1,4,trilogy,extracted,chl,rfu,NA
+2023-01-10,culture_ana,1,5,trilogy,extracted,chl,rfu,NA
+2023-01-10,culture_ana,1,6,trilogy,extracted,chl,rfu,NA
+2023-01-10,culture_ana,1,7,trilogy,extracted,chl,rfu,NA
+2023-01-10,culture_ana,1,8,trilogy,extracted,chl,rfu,NA
+2023-01-10,culture_mic_ana,1,1,trilogy,extracted,chl,rfu,NA
+2023-01-10,culture_mic_ana,1,2,trilogy,extracted,chl,rfu,NA
+2023-01-10,culture_mic_ana,1,3,trilogy,extracted,chl,rfu,NA
+2023-01-10,culture_mic_ana,1,4,trilogy,extracted,chl,rfu,NA
+2023-01-10,culture_mic_ana,1,5,trilogy,extracted,chl,rfu,NA
+2023-01-10,culture_mic_ana,1,6,trilogy,extracted,chl,rfu,NA
+2023-01-10,culture_mic_ana,1,7,trilogy,extracted,chl,rfu,NA
+2023-01-10,culture_mic_ana,1,8,trilogy,extracted,chl,rfu,NA
+2023-01-10,culture_mic_ana_pando_pedia,1,1,trilogy,extracted,chl,rfu,NA
+2023-01-10,culture_mic_ana_pando_pedia,1,2,trilogy,extracted,chl,rfu,NA
+2023-01-10,culture_mic_ana_pando_pedia,1,3,trilogy,extracted,chl,rfu,NA
+2023-01-10,culture_mic_ana_pando_pedia,1,4,trilogy,extracted,chl,rfu,NA
+2023-01-10,culture_mic_ana_pando_pedia,1,5,trilogy,extracted,chl,rfu,NA
+2023-01-10,culture_mic_ana_pando_pedia,1,6,trilogy,extracted,chl,rfu,NA
+2023-01-10,culture_mic_ana_pando_pedia,1,7,trilogy,extracted,chl,rfu,NA
+2023-01-10,culture_mic_ana_pando_pedia,1,8,trilogy,extracted,chl,rfu,NA
+2023-01-10,culture_mic,1,1,trilogy,extracted,chl,µg/L,NA
+2023-01-10,culture_mic,1,2,trilogy,extracted,chl,µg/L,NA
+2023-01-10,culture_mic,1,3,trilogy,extracted,chl,µg/L,NA
+2023-01-10,culture_mic,1,4,trilogy,extracted,chl,µg/L,NA
+2023-01-10,culture_mic,1,5,trilogy,extracted,chl,µg/L,NA
+2023-01-10,culture_mic,1,6,trilogy,extracted,chl,µg/L,NA
+2023-01-10,culture_mic,1,7,trilogy,extracted,chl,µg/L,NA
+2023-01-10,culture_mic,1,8,trilogy,extracted,chl,µg/L,NA
+2023-01-10,culture_ana,1,1,trilogy,extracted,chl,µg/L,NA
+2023-01-10,culture_ana,1,2,trilogy,extracted,chl,µg/L,NA
+2023-01-10,culture_ana,1,3,trilogy,extracted,chl,µg/L,NA
+2023-01-10,culture_ana,1,4,trilogy,extracted,chl,µg/L,NA
+2023-01-10,culture_ana,1,5,trilogy,extracted,chl,µg/L,NA
+2023-01-10,culture_ana,1,6,trilogy,extracted,chl,µg/L,NA
+2023-01-10,culture_ana,1,7,trilogy,extracted,chl,µg/L,NA
+2023-01-10,culture_ana,1,8,trilogy,extracted,chl,µg/L,NA
+2023-01-10,culture_mic_ana,1,1,trilogy,extracted,chl,µg/L,NA
+2023-01-10,culture_mic_ana,1,2,trilogy,extracted,chl,µg/L,NA
+2023-01-10,culture_mic_ana,1,3,trilogy,extracted,chl,µg/L,NA
+2023-01-10,culture_mic_ana,1,4,trilogy,extracted,chl,µg/L,NA
+2023-01-10,culture_mic_ana,1,5,trilogy,extracted,chl,µg/L,NA
+2023-01-10,culture_mic_ana,1,6,trilogy,extracted,chl,µg/L,NA
+2023-01-10,culture_mic_ana,1,7,trilogy,extracted,chl,µg/L,NA
+2023-01-10,culture_mic_ana,1,8,trilogy,extracted,chl,µg/L,NA
+2023-01-10,culture_mic_ana_pando_pedia,1,1,trilogy,extracted,chl,µg/L,NA
+2023-01-10,culture_mic_ana_pando_pedia,1,2,trilogy,extracted,chl,µg/L,NA
+2023-01-10,culture_mic_ana_pando_pedia,1,3,trilogy,extracted,chl,µg/L,NA
+2023-01-10,culture_mic_ana_pando_pedia,1,4,trilogy,extracted,chl,µg/L,NA
+2023-01-10,culture_mic_ana_pando_pedia,1,5,trilogy,extracted,chl,µg/L,NA
+2023-01-10,culture_mic_ana_pando_pedia,1,6,trilogy,extracted,chl,µg/L,NA
+2023-01-10,culture_mic_ana_pando_pedia,1,7,trilogy,extracted,chl,µg/L,NA
+2023-01-10,culture_mic_ana_pando_pedia,1,8,trilogy,extracted,chl,µg/L,NA
 2021-10-21,mashapaug,1,1,trilogy,extracted,phyco,rfu,81.024
 2021-10-21,mashapaug,1,2,trilogy,extracted,phyco,rfu,111.012
 2021-10-21,mashapaug,1,3,trilogy,extracted,phyco,rfu,111.236
@@ -4385,6 +4783,70 @@ date,waterbody,field_dups,lab_reps,instrument,method,variable,units,value
 2021-10-21,curran,3,1,trilogy,extracted,phyco,µg/L,1.1763065079892885
 2021-10-21,curran,3,2,trilogy,extracted,phyco,µg/L,0.9761867228740214
 2021-10-21,curran,3,3,trilogy,extracted,phyco,µg/L,1.242912641288195
+2023-01-11,culture_mic,1,1,trilogy,extracted,phyco,rfu,NA
+2023-01-11,culture_mic,1,2,trilogy,extracted,phyco,rfu,NA
+2023-01-11,culture_mic,1,3,trilogy,extracted,phyco,rfu,NA
+2023-01-11,culture_mic,1,4,trilogy,extracted,phyco,rfu,NA
+2023-01-11,culture_mic,1,5,trilogy,extracted,phyco,rfu,NA
+2023-01-11,culture_mic,1,6,trilogy,extracted,phyco,rfu,NA
+2023-01-11,culture_mic,1,7,trilogy,extracted,phyco,rfu,NA
+2023-01-11,culture_mic,1,8,trilogy,extracted,phyco,rfu,NA
+2023-01-11,culture_ana,1,1,trilogy,extracted,phyco,rfu,NA
+2023-01-11,culture_ana,1,2,trilogy,extracted,phyco,rfu,NA
+2023-01-11,culture_ana,1,3,trilogy,extracted,phyco,rfu,NA
+2023-01-11,culture_ana,1,4,trilogy,extracted,phyco,rfu,NA
+2023-01-11,culture_ana,1,5,trilogy,extracted,phyco,rfu,NA
+2023-01-11,culture_ana,1,6,trilogy,extracted,phyco,rfu,NA
+2023-01-11,culture_ana,1,7,trilogy,extracted,phyco,rfu,NA
+2023-01-11,culture_ana,1,8,trilogy,extracted,phyco,rfu,NA
+2023-01-11,culture_mic_ana,1,1,trilogy,extracted,phyco,rfu,NA
+2023-01-11,culture_mic_ana,1,2,trilogy,extracted,phyco,rfu,NA
+2023-01-11,culture_mic_ana,1,3,trilogy,extracted,phyco,rfu,NA
+2023-01-11,culture_mic_ana,1,4,trilogy,extracted,phyco,rfu,NA
+2023-01-11,culture_mic_ana,1,5,trilogy,extracted,phyco,rfu,NA
+2023-01-11,culture_mic_ana,1,6,trilogy,extracted,phyco,rfu,NA
+2023-01-11,culture_mic_ana,1,7,trilogy,extracted,phyco,rfu,NA
+2023-01-11,culture_mic_ana,1,8,trilogy,extracted,phyco,rfu,NA
+2023-01-11,culture_mic_ana_pando_pedia,1,1,trilogy,extracted,phyco,rfu,NA
+2023-01-11,culture_mic_ana_pando_pedia,1,2,trilogy,extracted,phyco,rfu,NA
+2023-01-11,culture_mic_ana_pando_pedia,1,3,trilogy,extracted,phyco,rfu,NA
+2023-01-11,culture_mic_ana_pando_pedia,1,4,trilogy,extracted,phyco,rfu,NA
+2023-01-11,culture_mic_ana_pando_pedia,1,5,trilogy,extracted,phyco,rfu,NA
+2023-01-11,culture_mic_ana_pando_pedia,1,6,trilogy,extracted,phyco,rfu,NA
+2023-01-11,culture_mic_ana_pando_pedia,1,7,trilogy,extracted,phyco,rfu,NA
+2023-01-11,culture_mic_ana_pando_pedia,1,8,trilogy,extracted,phyco,rfu,NA
+2023-01-11,culture_mic,1,1,trilogy,extracted,phyco,µg/L,NA
+2023-01-11,culture_mic,1,2,trilogy,extracted,phyco,µg/L,NA
+2023-01-11,culture_mic,1,3,trilogy,extracted,phyco,µg/L,NA
+2023-01-11,culture_mic,1,4,trilogy,extracted,phyco,µg/L,NA
+2023-01-11,culture_mic,1,5,trilogy,extracted,phyco,µg/L,NA
+2023-01-11,culture_mic,1,6,trilogy,extracted,phyco,µg/L,NA
+2023-01-11,culture_mic,1,7,trilogy,extracted,phyco,µg/L,NA
+2023-01-11,culture_mic,1,8,trilogy,extracted,phyco,µg/L,NA
+2023-01-11,culture_ana,1,1,trilogy,extracted,phyco,µg/L,NA
+2023-01-11,culture_ana,1,2,trilogy,extracted,phyco,µg/L,NA
+2023-01-11,culture_ana,1,3,trilogy,extracted,phyco,µg/L,NA
+2023-01-11,culture_ana,1,4,trilogy,extracted,phyco,µg/L,NA
+2023-01-11,culture_ana,1,5,trilogy,extracted,phyco,µg/L,NA
+2023-01-11,culture_ana,1,6,trilogy,extracted,phyco,µg/L,NA
+2023-01-11,culture_ana,1,7,trilogy,extracted,phyco,µg/L,NA
+2023-01-11,culture_ana,1,8,trilogy,extracted,phyco,µg/L,NA
+2023-01-11,culture_mic_ana,1,1,trilogy,extracted,phyco,µg/L,NA
+2023-01-11,culture_mic_ana,1,2,trilogy,extracted,phyco,µg/L,NA
+2023-01-11,culture_mic_ana,1,3,trilogy,extracted,phyco,µg/L,NA
+2023-01-11,culture_mic_ana,1,4,trilogy,extracted,phyco,µg/L,NA
+2023-01-11,culture_mic_ana,1,5,trilogy,extracted,phyco,µg/L,NA
+2023-01-11,culture_mic_ana,1,6,trilogy,extracted,phyco,µg/L,NA
+2023-01-11,culture_mic_ana,1,7,trilogy,extracted,phyco,µg/L,NA
+2023-01-11,culture_mic_ana,1,8,trilogy,extracted,phyco,µg/L,NA
+2023-01-11,culture_mic_ana_pando_pedia,1,1,trilogy,extracted,phyco,µg/L,NA
+2023-01-11,culture_mic_ana_pando_pedia,1,2,trilogy,extracted,phyco,µg/L,NA
+2023-01-11,culture_mic_ana_pando_pedia,1,3,trilogy,extracted,phyco,µg/L,NA
+2023-01-11,culture_mic_ana_pando_pedia,1,4,trilogy,extracted,phyco,µg/L,NA
+2023-01-11,culture_mic_ana_pando_pedia,1,5,trilogy,extracted,phyco,µg/L,NA
+2023-01-11,culture_mic_ana_pando_pedia,1,6,trilogy,extracted,phyco,µg/L,NA
+2023-01-11,culture_mic_ana_pando_pedia,1,7,trilogy,extracted,phyco,µg/L,NA
+2023-01-11,culture_mic_ana_pando_pedia,1,8,trilogy,extracted,phyco,µg/L,NA
 2021-10-06,barber,1,1,trilogy,extracted,pc:chl,ratio,0.18819698016382116
 2021-10-06,barber,1,2,trilogy,extracted,pc:chl,ratio,0.1752256123764503
 2021-10-06,barber,1,3,trilogy,extracted,pc:chl,ratio,0.2340081423233506
@@ -4463,6 +4925,70 @@ date,waterbody,field_dups,lab_reps,instrument,method,variable,units,value
 2021-11-09,windmist,3,1,trilogy,extracted,pc:chl,ratio,0.8798489529694475
 2021-11-09,windmist,3,2,trilogy,extracted,pc:chl,ratio,0.3941847018007602
 2021-11-09,windmist,3,3,trilogy,extracted,pc:chl,ratio,0.19244301667431565
+2023-01-10,culture_mic,1,1,trilogy,extracted,pc:chl,ratio,NA
+2023-01-10,culture_mic,1,2,trilogy,extracted,pc:chl,ratio,NA
+2023-01-10,culture_mic,1,3,trilogy,extracted,pc:chl,ratio,NA
+2023-01-10,culture_mic,1,4,trilogy,extracted,pc:chl,ratio,NA
+2023-01-10,culture_mic,1,5,trilogy,extracted,pc:chl,ratio,NA
+2023-01-10,culture_mic,1,6,trilogy,extracted,pc:chl,ratio,NA
+2023-01-10,culture_mic,1,7,trilogy,extracted,pc:chl,ratio,NA
+2023-01-10,culture_mic,1,8,trilogy,extracted,pc:chl,ratio,NA
+2023-01-10,culture_ana,1,1,trilogy,extracted,pc:chl,ratio,NA
+2023-01-10,culture_ana,1,2,trilogy,extracted,pc:chl,ratio,NA
+2023-01-10,culture_ana,1,3,trilogy,extracted,pc:chl,ratio,NA
+2023-01-10,culture_ana,1,4,trilogy,extracted,pc:chl,ratio,NA
+2023-01-10,culture_ana,1,5,trilogy,extracted,pc:chl,ratio,NA
+2023-01-10,culture_ana,1,6,trilogy,extracted,pc:chl,ratio,NA
+2023-01-10,culture_ana,1,7,trilogy,extracted,pc:chl,ratio,NA
+2023-01-10,culture_ana,1,8,trilogy,extracted,pc:chl,ratio,NA
+2023-01-10,culture_mic_ana,1,1,trilogy,extracted,pc:chl,ratio,NA
+2023-01-10,culture_mic_ana,1,2,trilogy,extracted,pc:chl,ratio,NA
+2023-01-10,culture_mic_ana,1,3,trilogy,extracted,pc:chl,ratio,NA
+2023-01-10,culture_mic_ana,1,4,trilogy,extracted,pc:chl,ratio,NA
+2023-01-10,culture_mic_ana,1,5,trilogy,extracted,pc:chl,ratio,NA
+2023-01-10,culture_mic_ana,1,6,trilogy,extracted,pc:chl,ratio,NA
+2023-01-10,culture_mic_ana,1,7,trilogy,extracted,pc:chl,ratio,NA
+2023-01-10,culture_mic_ana,1,8,trilogy,extracted,pc:chl,ratio,NA
+2023-01-10,culture_mic_ana_pando_pedia,1,1,trilogy,extracted,pc:chl,ratio,NA
+2023-01-10,culture_mic_ana_pando_pedia,1,2,trilogy,extracted,pc:chl,ratio,NA
+2023-01-10,culture_mic_ana_pando_pedia,1,3,trilogy,extracted,pc:chl,ratio,NA
+2023-01-10,culture_mic_ana_pando_pedia,1,4,trilogy,extracted,pc:chl,ratio,NA
+2023-01-10,culture_mic_ana_pando_pedia,1,5,trilogy,extracted,pc:chl,ratio,NA
+2023-01-10,culture_mic_ana_pando_pedia,1,6,trilogy,extracted,pc:chl,ratio,NA
+2023-01-10,culture_mic_ana_pando_pedia,1,7,trilogy,extracted,pc:chl,ratio,NA
+2023-01-10,culture_mic_ana_pando_pedia,1,8,trilogy,extracted,pc:chl,ratio,NA
+2023-01-11,culture_mic,1,1,trilogy,extracted,pc:chl,ratio,NA
+2023-01-11,culture_mic,1,2,trilogy,extracted,pc:chl,ratio,NA
+2023-01-11,culture_mic,1,3,trilogy,extracted,pc:chl,ratio,NA
+2023-01-11,culture_mic,1,4,trilogy,extracted,pc:chl,ratio,NA
+2023-01-11,culture_mic,1,5,trilogy,extracted,pc:chl,ratio,NA
+2023-01-11,culture_mic,1,6,trilogy,extracted,pc:chl,ratio,NA
+2023-01-11,culture_mic,1,7,trilogy,extracted,pc:chl,ratio,NA
+2023-01-11,culture_mic,1,8,trilogy,extracted,pc:chl,ratio,NA
+2023-01-11,culture_ana,1,1,trilogy,extracted,pc:chl,ratio,NA
+2023-01-11,culture_ana,1,2,trilogy,extracted,pc:chl,ratio,NA
+2023-01-11,culture_ana,1,3,trilogy,extracted,pc:chl,ratio,NA
+2023-01-11,culture_ana,1,4,trilogy,extracted,pc:chl,ratio,NA
+2023-01-11,culture_ana,1,5,trilogy,extracted,pc:chl,ratio,NA
+2023-01-11,culture_ana,1,6,trilogy,extracted,pc:chl,ratio,NA
+2023-01-11,culture_ana,1,7,trilogy,extracted,pc:chl,ratio,NA
+2023-01-11,culture_ana,1,8,trilogy,extracted,pc:chl,ratio,NA
+2023-01-11,culture_mic_ana,1,1,trilogy,extracted,pc:chl,ratio,NA
+2023-01-11,culture_mic_ana,1,2,trilogy,extracted,pc:chl,ratio,NA
+2023-01-11,culture_mic_ana,1,3,trilogy,extracted,pc:chl,ratio,NA
+2023-01-11,culture_mic_ana,1,4,trilogy,extracted,pc:chl,ratio,NA
+2023-01-11,culture_mic_ana,1,5,trilogy,extracted,pc:chl,ratio,NA
+2023-01-11,culture_mic_ana,1,6,trilogy,extracted,pc:chl,ratio,NA
+2023-01-11,culture_mic_ana,1,7,trilogy,extracted,pc:chl,ratio,NA
+2023-01-11,culture_mic_ana,1,8,trilogy,extracted,pc:chl,ratio,NA
+2023-01-11,culture_mic_ana_pando_pedia,1,1,trilogy,extracted,pc:chl,ratio,NA
+2023-01-11,culture_mic_ana_pando_pedia,1,2,trilogy,extracted,pc:chl,ratio,NA
+2023-01-11,culture_mic_ana_pando_pedia,1,3,trilogy,extracted,pc:chl,ratio,NA
+2023-01-11,culture_mic_ana_pando_pedia,1,4,trilogy,extracted,pc:chl,ratio,NA
+2023-01-11,culture_mic_ana_pando_pedia,1,5,trilogy,extracted,pc:chl,ratio,NA
+2023-01-11,culture_mic_ana_pando_pedia,1,6,trilogy,extracted,pc:chl,ratio,NA
+2023-01-11,culture_mic_ana_pando_pedia,1,7,trilogy,extracted,pc:chl,ratio,NA
+2023-01-11,culture_mic_ana_pando_pedia,1,8,trilogy,extracted,pc:chl,ratio,NA
 2021-10-21,curran,1,1,trilogy in vivo,fresh,chl,rfu,2049.9799999999996
 2021-10-21,curran,1,2,trilogy in vivo,fresh,chl,rfu,2102.6400000000003
 2021-10-21,curran,1,3,trilogy in vivo,fresh,chl,rfu,2240.09
@@ -4541,6 +5067,18 @@ date,waterbody,field_dups,lab_reps,instrument,method,variable,units,value
 2021-11-09,windmist,3,1,trilogy in vivo,fresh,chl,rfu,301.81000000000006
 2021-11-09,windmist,3,2,trilogy in vivo,fresh,chl,rfu,297.33000000000004
 2021-11-09,windmist,3,3,trilogy in vivo,fresh,chl,rfu,263.14
+2023-01-04,culture_mic,1,1,trilogy in vivo,fresh,chl,rfu,NA
+2023-01-04,culture_mic,1,2,trilogy in vivo,fresh,chl,rfu,NA
+2023-01-04,culture_mic,1,3,trilogy in vivo,fresh,chl,rfu,NA
+2023-01-05,culture_ana,1,1,trilogy in vivo,fresh,chl,rfu,NA
+2023-01-05,culture_ana,1,2,trilogy in vivo,fresh,chl,rfu,NA
+2023-01-05,culture_ana,1,3,trilogy in vivo,fresh,chl,rfu,NA
+2023-01-05,culture_mic_ana,1,1,trilogy in vivo,fresh,chl,rfu,NA
+2023-01-05,culture_mic_ana,1,2,trilogy in vivo,fresh,chl,rfu,NA
+2023-01-05,culture_mic_ana,1,3,trilogy in vivo,fresh,chl,rfu,NA
+2023-01-05,culture_mic_ana_pando_pedia,1,1,trilogy in vivo,fresh,chl,rfu,NA
+2023-01-05,culture_mic_ana_pando_pedia,1,2,trilogy in vivo,fresh,chl,rfu,NA
+2023-01-05,culture_mic_ana_pando_pedia,1,3,trilogy in vivo,fresh,chl,rfu,NA
 2021-10-21,curran,1,1,trilogy in vivo,frozen,chl,rfu,258.58000000000004
 2021-10-21,curran,1,2,trilogy in vivo,frozen,chl,rfu,279.17999999999995
 2021-10-21,curran,1,3,trilogy in vivo,frozen,chl,rfu,289.30999999999995
@@ -4774,3 +5312,27 @@ date,waterbody,field_dups,lab_reps,instrument,method,variable,units,value
 2021-11-09,windmist,1,1,sonde,fresh,spc,µS/cm,672
 2021-11-09,windmist,1,1,sonde,fresh,salinity,ppt,0.33
 2021-11-09,windmist,1,1,sonde,fresh,ph,ph,7.21
+2023-01-04,culture_mic,1,1,fluorosense,fresh,phyco,µg/L,75
+2023-01-04,culture_mic,2,2,fluorosense,fresh,phyco,µg/L,76
+2023-01-04,culture_mic,3,3,fluorosense,fresh,phyco,µg/L,75
+2023-01-05,culture_ana,1,1,fluorosense,fresh,phyco,µg/L,156
+2023-01-05,culture_ana,2,2,fluorosense,fresh,phyco,µg/L,164
+2023-01-05,culture_ana,3,3,fluorosense,fresh,phyco,µg/L,160
+2023-01-05,culture_mic_ana,1,1,fluorosense,fresh,phyco,µg/L,124
+2023-01-05,culture_mic_ana,2,2,fluorosense,fresh,phyco,µg/L,122
+2023-01-05,culture_mic_ana,3,3,fluorosense,fresh,phyco,µg/L,121
+2023-01-05,culture_mic_ana_pando_pedia,1,1,fluorosense,fresh,phyco,µg/L,71
+2023-01-05,culture_mic_ana_pando_pedia,2,2,fluorosense,fresh,phyco,µg/L,75
+2023-01-05,culture_mic_ana_pando_pedia,3,3,fluorosense,fresh,phyco,µg/L,77
+2023-01-18,culture_mic,1,1,fluorosense,fresh,phyco,µg/L,199
+2023-01-18,culture_mic,2,2,fluorosense,fresh,phyco,µg/L,199
+2023-01-18,culture_mic,3,3,fluorosense,fresh,phyco,µg/L,199
+2023-01-18,culture_ana,1,1,fluorosense,fresh,phyco,µg/L,199
+2023-01-18,culture_ana,2,2,fluorosense,fresh,phyco,µg/L,199
+2023-01-18,culture_ana,3,3,fluorosense,fresh,phyco,µg/L,199
+2023-01-18,culture_mic_ana,1,1,fluorosense,fresh,phyco,µg/L,199
+2023-01-18,culture_mic_ana,2,2,fluorosense,fresh,phyco,µg/L,199
+2023-01-18,culture_mic_ana,3,3,fluorosense,fresh,phyco,µg/L,199
+2023-01-18,culture_mic_ana_pando_pedia,1,1,fluorosense,fresh,phyco,µg/L,97
+2023-01-18,culture_mic_ana_pando_pedia,2,2,fluorosense,fresh,phyco,µg/L,117
+2023-01-18,culture_mic_ana_pando_pedia,3,3,fluorosense,fresh,phyco,µg/L,123

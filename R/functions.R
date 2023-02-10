@@ -51,12 +51,12 @@ merge_invivo <- function(){
                                function(x) {
                                  xdf <- read_csv(x, na = c("", "NA", "na"))
                                  ce_convert_rfus(xdf, "invivo_chla", "2021", 
-                                                 "ours", std_check = FALSE)})
+                                                 "g04", std_check = FALSE)})
   invivo_data_frozen <- purrr::map_df(files_frozen,  
                                      function(x) {
                                        xdf <- read_csv(x, na = c("", "NA", "na")) 
                                        ce_convert_rfus(xdf, "invivo_chla", "2021", 
-                                                       "ours", std_check = FALSE)})
+                                                       "g04", std_check = FALSE)})
   invivo_data_fresh <- mutate(invivo_data_fresh, method = "fresh")
   invivo_data_frozen <- mutate(invivo_data_frozen, method = "frozen")
   invivo_data <- bind_rows(invivo_data_fresh, invivo_data_frozen)
@@ -69,7 +69,8 @@ merge_invivo <- function(){
 #' 
 #' @param df cyanoflour/fluoroquick data frame
 clean_handheld <- function(df){
-  handheld_data <- mutate(df, date = ymd(paste0(year, month, day)),
+  
+  handheld_data <- mutate(df, date = ymd(paste(year, month, day)),
                           variable = tolower(parameter))
   handheld_data <- select(handheld_data, date, waterbody, field_dups = dup, 
                           lab_reps = reps, instrument, 
@@ -93,7 +94,7 @@ clean_handheld <- function(df){
 clean_phycoprobe <- function(df){  
   
   phycoprobe_data <- rename_all(df, tolower)
-  phycoprobe_data <- mutate(phycoprobe_data, date = ymd(paste0(year, month, day)),
+  phycoprobe_data <- mutate(phycoprobe_data, date = ymd(paste(year, month, day)),
                             instrument = "phycoprobe", units = "µg/L")
   #Assuming this data is what we want from phycoprobe
   phycoprobe_data <- select(phycoprobe_data, date, waterbody, field_dups = dup, 
@@ -172,7 +173,7 @@ clean_invivo <- function(df){
 #' @param df merged extracted data
 clean_field <- function(df){
   
-  field_data <- mutate(df, date = ymd(paste0(year, month, day)),
+  field_data <- mutate(df, date = ymd(paste(year, month, day)),
                        variable = case_when(variable == "PC" ~
                                               "pc",
                                             variable == "cyano" ~

@@ -9,7 +9,7 @@ source(here::here("R/functions.R"))
 handheld_data <- read_csv(here("data/raw/cyanofluor_fluoroquik_data.csv"))
 phycoprobe_data <- merge_phycoprobe()
 extracted_chla_data <- merge_extracted_chla()
-extracted_phyco_data <- merge_extracted_phyco() #On Feb 3. 2023 - checking on solid standard
+extracted_phyco_data <- merge_extracted_phyco() #On Feb 10. 2023 - checking on solid standard, appeared to have typo (1044, should be 10044?)
 invivo_data <- merge_invivo()
 field_data <- read_csv(here("data/raw/field data.csv"))
 
@@ -42,6 +42,10 @@ fluoroproj_data <- mutate(fluoroproj_data, units = case_when(units == "µg/l" ~
                                                 waterbody == "Lower melville" ~
                                                   "lower melville",
                                                 TRUE ~ waterbody)) %>%
+  # Set NA field dups to 1
+  mutate(field_dups = case_when(is.na(field_dups) ~
+                                  1,
+                                TRUE ~ field_dups)) %>%
   # Remove known data entry mistake
   filter(!(waterbody == "warwick" & method == "frozen3" & field_dups == 2 & 
              variable == "ch1 lo")) %>%
