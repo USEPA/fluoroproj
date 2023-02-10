@@ -3,10 +3,14 @@
 merge_extracted_chla <- function(){
   files <- c(list.files(here("data/raw/extracted chl/"), ".csv", 
                         full.names = TRUE))
-  browser()
+ # browser()
   extracted_data <- purrr::map_df(files, 
                                   function(x) {
                                     xdf <- read_csv(x, na = c("", "NA", "na"))
+                                    xdf <- mutate(xdf, site = as.character(site),
+                                                  depth = as.character(depth),
+                                                  dup = as.numeric(dup),
+                                                  reps = as.numeric(reps))
                                     ce_convert_rfus(xdf, "ext_chla", "2022", 
                                                     "g04", std_check = TRUE)})
   extracted_data

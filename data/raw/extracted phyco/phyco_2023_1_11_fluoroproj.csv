@@ -1,5 +1,5 @@
 value,units,waterbody,site,depth,dup,reps,variable,day,month,year,filter_vol,fluorometer
-1044.23,RFU,solid std,,,,NA,phyco_rfu,11,1,2023,NA,G04
+1044.23,RFU,solid std,solid std,,,NA,phyco_rfu,11,1,2023,NA,G04
 38.91,RFU,blank,,,,1,blank,11,1,2023,20,G04
 37.2,RFU,blank,,,,2,blank,11,1,2023,20,G04
 38.7,RFU,blank,,,,3,blank,11,1,2023,20,G04

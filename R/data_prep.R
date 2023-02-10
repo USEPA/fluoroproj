@@ -9,7 +9,7 @@ source(here::here("R/functions.R"))
 handheld_data <- read_csv(here("data/raw/cyanofluor_fluoroquik_data.csv"))
 phycoprobe_data <- merge_phycoprobe()
 extracted_chla_data <- merge_extracted_chla()
-extracted_phyco_data <- merge_extracted_phyco()
+extracted_phyco_data <- merge_extracted_phyco() #On Feb 3. 2023 - checking on solid standard
 invivo_data <- merge_invivo()
 field_data <- read_csv(here("data/raw/field data.csv"))
 
