@@ -3,12 +3,7 @@
 merge_extracted_chla <- function(){
   files <- c(list.files(here("data/raw/extracted chl/"), ".csv", 
                         full.names = TRUE))
-  browser()
-  # Start here on Feb 17: Jeff thinks the issue is blank in the waterbody 
-  # column.  No way to link blanks with the values from the diff cultures...
-  # Maybe don't blank correct?  They are all small.  Or use mean of all blanks 
-  # to correct?  Or maybe we can figure out which blank goes with which culture?
-  x <- files[2]
+  
   extracted_data <- purrr::map_df(files, 
                                   function(x) {
                                     xdf <- read_csv(x, na = c("", "NA", "na"))

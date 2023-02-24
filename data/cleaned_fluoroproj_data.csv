@@ -4337,76 +4337,32 @@ date,waterbody,field_dups,lab_reps,instrument,method,variable,units,value
 2023-01-05,culture_mixed,1,2,phycoprobe,fresh,phyco,µg/L of chlorophyll,29.583333333333332
 2023-01-05,culture_mixed,1,3,phycoprobe,fresh,chl,µg/L,78.01
 2023-01-05,culture_mixed,1,3,phycoprobe,fresh,phyco,µg/L of chlorophyll,41.346666666666664
-2023-01-18,culture_ana,1,1,phycoprobe,frozen,chl,µg/L,118.35
-2023-01-18,culture_ana,1,1,phycoprobe,frozen,phyco,µg/L of chlorophyll,98.92
-2023-01-18,culture_ana,1,1,phycoprobe,frozen4,chl,µg/L,124
-2023-01-18,culture_ana,1,1,phycoprobe,frozen4,phyco,µg/L of chlorophyll,103.35
-2023-01-18,culture_ana,1,1,phycoprobe,frozen7,chl,µg/L,119.93
-2023-01-18,culture_ana,1,1,phycoprobe,frozen7,phyco,µg/L of chlorophyll,98.93
-2023-01-18,culture_ana,1,2,phycoprobe,frozen2,chl,µg/L,118.38
-2023-01-18,culture_ana,1,2,phycoprobe,frozen2,phyco,µg/L of chlorophyll,98.92
-2023-01-18,culture_ana,1,2,phycoprobe,frozen5,chl,µg/L,124.39
-2023-01-18,culture_ana,1,2,phycoprobe,frozen5,phyco,µg/L of chlorophyll,103.77
-2023-01-18,culture_ana,1,2,phycoprobe,frozen8,chl,µg/L,120.22
-2023-01-18,culture_ana,1,2,phycoprobe,frozen8,phyco,µg/L of chlorophyll,99.06
-2023-01-18,culture_ana,1,3,phycoprobe,frozen3,chl,µg/L,118.2
-2023-01-18,culture_ana,1,3,phycoprobe,frozen3,phyco,µg/L of chlorophyll,98.8
-2023-01-18,culture_ana,1,3,phycoprobe,frozen6,chl,µg/L,123.53
-2023-01-18,culture_ana,1,3,phycoprobe,frozen6,phyco,µg/L of chlorophyll,102.84
-2023-01-18,culture_mic,1,1,phycoprobe,frozen19,chl,µg/L,49.57
-2023-01-18,culture_mic,1,1,phycoprobe,frozen19,phyco,µg/L of chlorophyll,40.64
-2023-01-18,culture_mic,1,1,phycoprobe,frozen22,chl,µg/L,37.35
-2023-01-18,culture_mic,1,1,phycoprobe,frozen22,phyco,µg/L of chlorophyll,28.07
-2023-01-18,culture_mic,1,1,phycoprobe,frozen25,chl,µg/L,39.67
-2023-01-18,culture_mic,1,1,phycoprobe,frozen25,phyco,µg/L of chlorophyll,30.7
-2023-01-18,culture_mic,1,2,phycoprobe,frozen20,chl,µg/L,49.51
-2023-01-18,culture_mic,1,2,phycoprobe,frozen20,phyco,µg/L of chlorophyll,40.5
-2023-01-18,culture_mic,1,2,phycoprobe,frozen23,chl,µg/L,37.22
-2023-01-18,culture_mic,1,2,phycoprobe,frozen23,phyco,µg/L of chlorophyll,27.83
-2023-01-18,culture_mic,1,2,phycoprobe,frozen26,chl,µg/L,39.7
-2023-01-18,culture_mic,1,2,phycoprobe,frozen26,phyco,µg/L of chlorophyll,30.54
-2023-01-18,culture_mic,1,3,phycoprobe,frozen18,chl,µg/L,78.37
-2023-01-18,culture_mic,1,3,phycoprobe,frozen18,phyco,µg/L of chlorophyll,59.06
-2023-01-18,culture_mic,1,3,phycoprobe,frozen21,chl,µg/L,49.63
-2023-01-18,culture_mic,1,3,phycoprobe,frozen21,phyco,µg/L of chlorophyll,40.54
-2023-01-18,culture_mic,1,3,phycoprobe,frozen24,chl,µg/L,37.41
-2023-01-18,culture_mic,1,3,phycoprobe,frozen24,phyco,µg/L of chlorophyll,28.11
-2023-01-18,culture_mic_ana,1,1,phycoprobe,frozen10,chl,µg/L,107.67
-2023-01-18,culture_mic_ana,1,1,phycoprobe,frozen10,phyco,µg/L of chlorophyll,88.02
-2023-01-18,culture_mic_ana,1,1,phycoprobe,frozen13,chl,µg/L,94.94
-2023-01-18,culture_mic_ana,1,1,phycoprobe,frozen13,phyco,µg/L of chlorophyll,75.34
-2023-01-18,culture_mic_ana,1,1,phycoprobe,frozen16,chl,µg/L,78.07
-2023-01-18,culture_mic_ana,1,1,phycoprobe,frozen16,phyco,µg/L of chlorophyll,58.82
-2023-01-18,culture_mic_ana,1,2,phycoprobe,frozen11,chl,µg/L,107.7
-2023-01-18,culture_mic_ana,1,2,phycoprobe,frozen11,phyco,µg/L of chlorophyll,87.95
-2023-01-18,culture_mic_ana,1,2,phycoprobe,frozen14,chl,µg/L,95.28
-2023-01-18,culture_mic_ana,1,2,phycoprobe,frozen14,phyco,µg/L of chlorophyll,75.63
-2023-01-18,culture_mic_ana,1,2,phycoprobe,frozen17,chl,µg/L,78.02
-2023-01-18,culture_mic_ana,1,2,phycoprobe,frozen17,phyco,µg/L of chlorophyll,58.64
-2023-01-18,culture_mic_ana,1,3,phycoprobe,frozen12,chl,µg/L,107.67
-2023-01-18,culture_mic_ana,1,3,phycoprobe,frozen12,phyco,µg/L of chlorophyll,88
-2023-01-18,culture_mic_ana,1,3,phycoprobe,frozen15,chl,µg/L,95.23
-2023-01-18,culture_mic_ana,1,3,phycoprobe,frozen15,phyco,µg/L of chlorophyll,75.49
-2023-01-18,culture_mic_ana,1,3,phycoprobe,frozen9,chl,µg/L,119.6
-2023-01-18,culture_mic_ana,1,3,phycoprobe,frozen9,phyco,µg/L of chlorophyll,98.46
-2023-01-18,culture_mixed,1,1,phycoprobe,frozen28,chl,µg/L,64.68
-2023-01-18,culture_mixed,1,1,phycoprobe,frozen28,phyco,µg/L of chlorophyll,36.84
-2023-01-18,culture_mixed,1,1,phycoprobe,frozen31,chl,µg/L,64.45
-2023-01-18,culture_mixed,1,1,phycoprobe,frozen31,phyco,µg/L of chlorophyll,37.2
-2023-01-18,culture_mixed,1,1,phycoprobe,frozen34,chl,µg/L,68.02
-2023-01-18,culture_mixed,1,1,phycoprobe,frozen34,phyco,µg/L of chlorophyll,39.66
-2023-01-18,culture_mixed,1,2,phycoprobe,frozen29,chl,µg/L,64.68
-2023-01-18,culture_mixed,1,2,phycoprobe,frozen29,phyco,µg/L of chlorophyll,37.07
-2023-01-18,culture_mixed,1,2,phycoprobe,frozen32,chl,µg/L,64.45
-2023-01-18,culture_mixed,1,2,phycoprobe,frozen32,phyco,µg/L of chlorophyll,37.12
-2023-01-18,culture_mixed,1,2,phycoprobe,frozen35,chl,µg/L,67.77
-2023-01-18,culture_mixed,1,2,phycoprobe,frozen35,phyco,µg/L of chlorophyll,39.51
-2023-01-18,culture_mixed,1,3,phycoprobe,frozen27,chl,µg/L,39.94
-2023-01-18,culture_mixed,1,3,phycoprobe,frozen27,phyco,µg/L of chlorophyll,30.63
-2023-01-18,culture_mixed,1,3,phycoprobe,frozen30,chl,µg/L,64.65
-2023-01-18,culture_mixed,1,3,phycoprobe,frozen30,phyco,µg/L of chlorophyll,36.98
-2023-01-18,culture_mixed,1,3,phycoprobe,frozen33,chl,µg/L,64.26
-2023-01-18,culture_mixed,1,3,phycoprobe,frozen33,phyco,µg/L of chlorophyll,36.96
+2023-01-18,culture_ana,1,1,phycoprobe,frozen,chl,µg/L,120.76
+2023-01-18,culture_ana,1,1,phycoprobe,frozen,phyco,µg/L of chlorophyll,100.4
+2023-01-18,culture_ana,1,2,phycoprobe,frozen,chl,µg/L,120.99666666666667
+2023-01-18,culture_ana,1,2,phycoprobe,frozen,phyco,µg/L of chlorophyll,100.58333333333333
+2023-01-18,culture_ana,1,3,phycoprobe,frozen,chl,µg/L,120.86500000000001
+2023-01-18,culture_ana,1,3,phycoprobe,frozen,phyco,µg/L of chlorophyll,100.82
+2023-01-18,culture_mic,1,1,phycoprobe,frozen,chl,µg/L,42.196666666666665
+2023-01-18,culture_mic,1,1,phycoprobe,frozen,phyco,µg/L of chlorophyll,33.13666666666667
+2023-01-18,culture_mic,1,2,phycoprobe,frozen,chl,µg/L,42.14333333333333
+2023-01-18,culture_mic,1,2,phycoprobe,frozen,phyco,µg/L of chlorophyll,32.95666666666666
+2023-01-18,culture_mic,1,3,phycoprobe,frozen,chl,µg/L,55.13666666666667
+2023-01-18,culture_mic,1,3,phycoprobe,frozen,phyco,µg/L of chlorophyll,42.57
+2023-01-18,culture_mic_ana,1,1,phycoprobe,frozen,chl,µg/L,93.56
+2023-01-18,culture_mic_ana,1,1,phycoprobe,frozen,phyco,µg/L of chlorophyll,74.06
+2023-01-18,culture_mic_ana,1,2,phycoprobe,frozen,chl,µg/L,93.66666666666667
+2023-01-18,culture_mic_ana,1,2,phycoprobe,frozen,phyco,µg/L of chlorophyll,74.07333333333334
+2023-01-18,culture_mic_ana,1,3,phycoprobe,frozen,chl,µg/L,107.5
+2023-01-18,culture_mic_ana,1,3,phycoprobe,frozen,phyco,µg/L of chlorophyll,87.31666666666666
+2023-01-18,culture_mixed,1,1,phycoprobe,frozen,chl,µg/L,65.71666666666667
+2023-01-18,culture_mixed,1,1,phycoprobe,frozen,phyco,µg/L of chlorophyll,37.9
+2023-01-18,culture_mixed,1,2,phycoprobe,frozen,chl,µg/L,65.63333333333334
+2023-01-18,culture_mixed,1,2,phycoprobe,frozen,phyco,µg/L of chlorophyll,37.9
+2023-01-18,culture_mixed,1,3,phycoprobe,frozen,chl,µg/L,56.28333333333334
+2023-01-18,culture_mixed,1,3,phycoprobe,frozen,phyco,µg/L of chlorophyll,34.85666666666667
+2023-01-18,NA,1,3,phycoprobe,frozen,chl,µg/L,67.93
+2023-01-18,NA,1,3,phycoprobe,frozen,phyco,µg/L of chlorophyll,39.63
 2021-10-06,barber,1,1,trilogy,extracted,chl,rfu,20.266
 2021-10-06,barber,1,2,trilogy,extracted,chl,rfu,18.616
 2021-10-06,barber,1,3,trilogy,extracted,chl,rfu,17.930999999999997
@@ -4563,70 +4519,70 @@ date,waterbody,field_dups,lab_reps,instrument,method,variable,units,value
 2021-11-09,windmist,3,1,trilogy,extracted,chl,µg/L,2.877246619667117
 2021-11-09,windmist,3,2,trilogy,extracted,chl,µg/L,2.989353551123423
 2021-11-09,windmist,3,3,trilogy,extracted,chl,µg/L,3.2283833080610957
-2023-01-10,culture_mic,1,1,trilogy,extracted,chl,rfu,NA
-2023-01-10,culture_mic,1,2,trilogy,extracted,chl,rfu,NA
-2023-01-10,culture_mic,1,3,trilogy,extracted,chl,rfu,NA
-2023-01-10,culture_mic,1,4,trilogy,extracted,chl,rfu,NA
-2023-01-10,culture_mic,1,5,trilogy,extracted,chl,rfu,NA
-2023-01-10,culture_mic,1,6,trilogy,extracted,chl,rfu,NA
-2023-01-10,culture_mic,1,7,trilogy,extracted,chl,rfu,NA
-2023-01-10,culture_mic,1,8,trilogy,extracted,chl,rfu,NA
-2023-01-10,culture_ana,1,1,trilogy,extracted,chl,rfu,NA
-2023-01-10,culture_ana,1,2,trilogy,extracted,chl,rfu,NA
-2023-01-10,culture_ana,1,3,trilogy,extracted,chl,rfu,NA
-2023-01-10,culture_ana,1,4,trilogy,extracted,chl,rfu,NA
-2023-01-10,culture_ana,1,5,trilogy,extracted,chl,rfu,NA
-2023-01-10,culture_ana,1,6,trilogy,extracted,chl,rfu,NA
-2023-01-10,culture_ana,1,7,trilogy,extracted,chl,rfu,NA
-2023-01-10,culture_ana,1,8,trilogy,extracted,chl,rfu,NA
-2023-01-10,culture_mic_ana,1,1,trilogy,extracted,chl,rfu,NA
-2023-01-10,culture_mic_ana,1,2,trilogy,extracted,chl,rfu,NA
-2023-01-10,culture_mic_ana,1,3,trilogy,extracted,chl,rfu,NA
-2023-01-10,culture_mic_ana,1,4,trilogy,extracted,chl,rfu,NA
-2023-01-10,culture_mic_ana,1,5,trilogy,extracted,chl,rfu,NA
-2023-01-10,culture_mic_ana,1,6,trilogy,extracted,chl,rfu,NA
-2023-01-10,culture_mic_ana,1,7,trilogy,extracted,chl,rfu,NA
-2023-01-10,culture_mic_ana,1,8,trilogy,extracted,chl,rfu,NA
-2023-01-10,culture_mic_ana_pando_pedia,1,1,trilogy,extracted,chl,rfu,NA
-2023-01-10,culture_mic_ana_pando_pedia,1,2,trilogy,extracted,chl,rfu,NA
-2023-01-10,culture_mic_ana_pando_pedia,1,3,trilogy,extracted,chl,rfu,NA
-2023-01-10,culture_mic_ana_pando_pedia,1,4,trilogy,extracted,chl,rfu,NA
-2023-01-10,culture_mic_ana_pando_pedia,1,5,trilogy,extracted,chl,rfu,NA
-2023-01-10,culture_mic_ana_pando_pedia,1,6,trilogy,extracted,chl,rfu,NA
-2023-01-10,culture_mic_ana_pando_pedia,1,7,trilogy,extracted,chl,rfu,NA
-2023-01-10,culture_mic_ana_pando_pedia,1,8,trilogy,extracted,chl,rfu,NA
-2023-01-10,culture_mic,1,1,trilogy,extracted,chl,µg/L,NA
-2023-01-10,culture_mic,1,2,trilogy,extracted,chl,µg/L,NA
-2023-01-10,culture_mic,1,3,trilogy,extracted,chl,µg/L,NA
-2023-01-10,culture_mic,1,4,trilogy,extracted,chl,µg/L,NA
-2023-01-10,culture_mic,1,5,trilogy,extracted,chl,µg/L,NA
-2023-01-10,culture_mic,1,6,trilogy,extracted,chl,µg/L,NA
-2023-01-10,culture_mic,1,7,trilogy,extracted,chl,µg/L,NA
-2023-01-10,culture_mic,1,8,trilogy,extracted,chl,µg/L,NA
-2023-01-10,culture_ana,1,1,trilogy,extracted,chl,µg/L,NA
-2023-01-10,culture_ana,1,2,trilogy,extracted,chl,µg/L,NA
-2023-01-10,culture_ana,1,3,trilogy,extracted,chl,µg/L,NA
-2023-01-10,culture_ana,1,4,trilogy,extracted,chl,µg/L,NA
-2023-01-10,culture_ana,1,5,trilogy,extracted,chl,µg/L,NA
-2023-01-10,culture_ana,1,6,trilogy,extracted,chl,µg/L,NA
-2023-01-10,culture_ana,1,7,trilogy,extracted,chl,µg/L,NA
-2023-01-10,culture_ana,1,8,trilogy,extracted,chl,µg/L,NA
-2023-01-10,culture_mic_ana,1,1,trilogy,extracted,chl,µg/L,NA
-2023-01-10,culture_mic_ana,1,2,trilogy,extracted,chl,µg/L,NA
-2023-01-10,culture_mic_ana,1,3,trilogy,extracted,chl,µg/L,NA
-2023-01-10,culture_mic_ana,1,4,trilogy,extracted,chl,µg/L,NA
-2023-01-10,culture_mic_ana,1,5,trilogy,extracted,chl,µg/L,NA
-2023-01-10,culture_mic_ana,1,6,trilogy,extracted,chl,µg/L,NA
-2023-01-10,culture_mic_ana,1,7,trilogy,extracted,chl,µg/L,NA
-2023-01-10,culture_mic_ana,1,8,trilogy,extracted,chl,µg/L,NA
-2023-01-10,culture_mic_ana_pando_pedia,1,1,trilogy,extracted,chl,µg/L,NA
-2023-01-10,culture_mic_ana_pando_pedia,1,2,trilogy,extracted,chl,µg/L,NA
-2023-01-10,culture_mic_ana_pando_pedia,1,3,trilogy,extracted,chl,µg/L,NA
-2023-01-10,culture_mic_ana_pando_pedia,1,4,trilogy,extracted,chl,µg/L,NA
-2023-01-10,culture_mic_ana_pando_pedia,1,5,trilogy,extracted,chl,µg/L,NA
-2023-01-10,culture_mic_ana_pando_pedia,1,6,trilogy,extracted,chl,µg/L,NA
-2023-01-10,culture_mic_ana_pando_pedia,1,7,trilogy,extracted,chl,µg/L,NA
-2023-01-10,culture_mic_ana_pando_pedia,1,8,trilogy,extracted,chl,µg/L,NA
+2023-01-10,culture_mic,1,1,trilogy,extracted,chl,rfu,208.55124999999998
+2023-01-10,culture_mic,1,2,trilogy,extracted,chl,rfu,163.36624999999998
+2023-01-10,culture_mic,1,3,trilogy,extracted,chl,rfu,187.50625
+2023-01-10,culture_mic,1,4,trilogy,extracted,chl,rfu,182.99624999999997
+2023-01-10,culture_mic,1,5,trilogy,extracted,chl,rfu,152.15124999999998
+2023-01-10,culture_mic,1,6,trilogy,extracted,chl,rfu,180.06625
+2023-01-10,culture_mic,1,7,trilogy,extracted,chl,rfu,189.12124999999997
+2023-01-10,culture_mic,1,8,trilogy,extracted,chl,rfu,202.29125
+2023-01-10,culture_ana,1,1,trilogy,extracted,chl,rfu,363.84125
+2023-01-10,culture_ana,1,2,trilogy,extracted,chl,rfu,384.51625
+2023-01-10,culture_ana,1,3,trilogy,extracted,chl,rfu,368.83125
+2023-01-10,culture_ana,1,4,trilogy,extracted,chl,rfu,323.49125000000004
+2023-01-10,culture_ana,1,5,trilogy,extracted,chl,rfu,362.13625
+2023-01-10,culture_ana,1,6,trilogy,extracted,chl,rfu,353.71625
+2023-01-10,culture_ana,1,7,trilogy,extracted,chl,rfu,373.90125
+2023-01-10,culture_ana,1,8,trilogy,extracted,chl,rfu,364.05625000000003
+2023-01-10,culture_mic_ana,1,1,trilogy,extracted,chl,rfu,296.96750000000003
+2023-01-10,culture_mic_ana,1,2,trilogy,extracted,chl,rfu,246.42749999999998
+2023-01-10,culture_mic_ana,1,3,trilogy,extracted,chl,rfu,319.39250000000004
+2023-01-10,culture_mic_ana,1,4,trilogy,extracted,chl,rfu,290.21750000000003
+2023-01-10,culture_mic_ana,1,5,trilogy,extracted,chl,rfu,277.3025
+2023-01-10,culture_mic_ana,1,6,trilogy,extracted,chl,rfu,288.64750000000004
+2023-01-10,culture_mic_ana,1,7,trilogy,extracted,chl,rfu,273.9825
+2023-01-10,culture_mic_ana,1,8,trilogy,extracted,chl,rfu,284.4725
+2023-01-10,culture_mic_ana_pando_pedia,1,1,trilogy,extracted,chl,rfu,236.59375
+2023-01-10,culture_mic_ana_pando_pedia,1,2,trilogy,extracted,chl,rfu,242.32375
+2023-01-10,culture_mic_ana_pando_pedia,1,3,trilogy,extracted,chl,rfu,252.24375
+2023-01-10,culture_mic_ana_pando_pedia,1,4,trilogy,extracted,chl,rfu,228.78875
+2023-01-10,culture_mic_ana_pando_pedia,1,5,trilogy,extracted,chl,rfu,233.13875
+2023-01-10,culture_mic_ana_pando_pedia,1,6,trilogy,extracted,chl,rfu,292.60875
+2023-01-10,culture_mic_ana_pando_pedia,1,7,trilogy,extracted,chl,rfu,225.60375
+2023-01-10,culture_mic_ana_pando_pedia,1,8,trilogy,extracted,chl,rfu,260.89875
+2023-01-10,culture_mic,1,1,trilogy,extracted,chl,µg/L,51.497886979904905
+2023-01-10,culture_mic,1,2,trilogy,extracted,chl,µg/L,40.3402841211975
+2023-01-10,culture_mic,1,3,trilogy,extracted,chl,µg/L,46.30121215061427
+2023-01-10,culture_mic,1,4,trilogy,extracted,chl,µg/L,45.18755078306374
+2023-01-10,culture_mic,1,5,trilogy,extracted,chl,µg/L,37.570946596346246
+2023-01-10,culture_mic,1,6,trilogy,extracted,chl,µg/L,44.46404129150653
+2023-01-10,culture_mic,1,7,trilogy,extracted,chl,µg/L,46.70000663145553
+2023-01-10,culture_mic,1,8,trilogy,extracted,chl,µg/L,49.95209536995673
+2023-01-10,culture_ana,1,1,trilogy,extracted,chl,µg/L,89.84389003243724
+2023-01-10,culture_ana,1,2,trilogy,extracted,chl,µg/L,94.94920018190666
+2023-01-10,culture_ana,1,3,trilogy,extracted,chl,µg/L,91.07607855218826
+2023-01-10,culture_ana,1,4,trilogy,extracted,chl,µg/L,79.88020130058278
+2023-01-10,culture_ana,1,5,trilogy,extracted,chl,µg/L,89.42287171055838
+2023-01-10,culture_ana,1,6,trilogy,extracted,chl,µg/L,87.34370791570797
+2023-01-10,culture_ana,1,7,trilogy,extracted,chl,µg/L,92.32802159730603
+2023-01-10,culture_ana,1,8,trilogy,extracted,chl,µg/L,89.89698031936038
+2023-01-10,culture_mic_ana,1,1,trilogy,extracted,chl,µg/L,73.33065014812864
+2023-01-10,culture_mic_ana,1,2,trilogy,extracted,chl,µg/L,60.8507287476844
+2023-01-10,culture_mic_ana,1,3,trilogy,extracted,chl,µg/L,78.8680905399957
+2023-01-10,culture_mic_ana,1,4,trilogy,extracted,chl,µg/L,71.66386207030912
+2023-01-10,culture_mic_ana,1,5,trilogy,extracted,chl,µg/L,68.47474088141443
+2023-01-10,culture_mic_ana,1,6,trilogy,extracted,chl,µg/L,71.27617950998665
+2023-01-10,culture_mic_ana,1,7,trilogy,extracted,chl,µg/L,67.65492807869431
+2023-01-10,culture_mic_ana,1,8,trilogy,extracted,chl,µg/L,70.24524021740939
+2023-01-10,culture_mic_ana_pando_pedia,1,1,trilogy,extracted,chl,µg/L,58.42246544986845
+2023-01-10,culture_mic_ana_pando_pedia,1,2,trilogy,extracted,chl,µg/L,59.837383329261904
+2023-01-10,culture_mic_ana_pando_pedia,1,3,trilogy,extracted,chl,µg/L,62.28694447473889
+2023-01-10,culture_mic_ana_pando_pedia,1,4,trilogy,extracted,chl,µg/L,56.49516456877491
+2023-01-10,culture_mic_ana_pando_pedia,1,5,trilogy,extracted,chl,µg/L,57.56931688559193
+2023-01-10,culture_mic_ana_pando_pedia,1,6,trilogy,extracted,chl,µg/L,72.25433718009961
+2023-01-10,culture_mic_ana_pando_pedia,1,7,trilogy,extracted,chl,µg/L,55.70868752761118
+2023-01-10,culture_mic_ana_pando_pedia,1,8,trilogy,extracted,chl,µg/L,64.42413718785414
 2021-10-21,mashapaug,1,1,trilogy,extracted,phyco,rfu,81.024
 2021-10-21,mashapaug,1,2,trilogy,extracted,phyco,rfu,111.012
 2021-10-21,mashapaug,1,3,trilogy,extracted,phyco,rfu,111.236
@@ -4783,70 +4739,70 @@ date,waterbody,field_dups,lab_reps,instrument,method,variable,units,value
 2021-10-21,curran,3,1,trilogy,extracted,phyco,µg/L,1.1763065079892885
 2021-10-21,curran,3,2,trilogy,extracted,phyco,µg/L,0.9761867228740214
 2021-10-21,curran,3,3,trilogy,extracted,phyco,µg/L,1.242912641288195
-2023-01-11,culture_mic,1,1,trilogy,extracted,phyco,rfu,NA
-2023-01-11,culture_mic,1,2,trilogy,extracted,phyco,rfu,NA
-2023-01-11,culture_mic,1,3,trilogy,extracted,phyco,rfu,NA
-2023-01-11,culture_mic,1,4,trilogy,extracted,phyco,rfu,NA
-2023-01-11,culture_mic,1,5,trilogy,extracted,phyco,rfu,NA
-2023-01-11,culture_mic,1,6,trilogy,extracted,phyco,rfu,NA
-2023-01-11,culture_mic,1,7,trilogy,extracted,phyco,rfu,NA
-2023-01-11,culture_mic,1,8,trilogy,extracted,phyco,rfu,NA
-2023-01-11,culture_ana,1,1,trilogy,extracted,phyco,rfu,NA
-2023-01-11,culture_ana,1,2,trilogy,extracted,phyco,rfu,NA
-2023-01-11,culture_ana,1,3,trilogy,extracted,phyco,rfu,NA
-2023-01-11,culture_ana,1,4,trilogy,extracted,phyco,rfu,NA
-2023-01-11,culture_ana,1,5,trilogy,extracted,phyco,rfu,NA
-2023-01-11,culture_ana,1,6,trilogy,extracted,phyco,rfu,NA
-2023-01-11,culture_ana,1,7,trilogy,extracted,phyco,rfu,NA
-2023-01-11,culture_ana,1,8,trilogy,extracted,phyco,rfu,NA
-2023-01-11,culture_mic_ana,1,1,trilogy,extracted,phyco,rfu,NA
-2023-01-11,culture_mic_ana,1,2,trilogy,extracted,phyco,rfu,NA
-2023-01-11,culture_mic_ana,1,3,trilogy,extracted,phyco,rfu,NA
-2023-01-11,culture_mic_ana,1,4,trilogy,extracted,phyco,rfu,NA
-2023-01-11,culture_mic_ana,1,5,trilogy,extracted,phyco,rfu,NA
-2023-01-11,culture_mic_ana,1,6,trilogy,extracted,phyco,rfu,NA
-2023-01-11,culture_mic_ana,1,7,trilogy,extracted,phyco,rfu,NA
-2023-01-11,culture_mic_ana,1,8,trilogy,extracted,phyco,rfu,NA
-2023-01-11,culture_mic_ana_pando_pedia,1,1,trilogy,extracted,phyco,rfu,NA
-2023-01-11,culture_mic_ana_pando_pedia,1,2,trilogy,extracted,phyco,rfu,NA
-2023-01-11,culture_mic_ana_pando_pedia,1,3,trilogy,extracted,phyco,rfu,NA
-2023-01-11,culture_mic_ana_pando_pedia,1,4,trilogy,extracted,phyco,rfu,NA
-2023-01-11,culture_mic_ana_pando_pedia,1,5,trilogy,extracted,phyco,rfu,NA
-2023-01-11,culture_mic_ana_pando_pedia,1,6,trilogy,extracted,phyco,rfu,NA
-2023-01-11,culture_mic_ana_pando_pedia,1,7,trilogy,extracted,phyco,rfu,NA
-2023-01-11,culture_mic_ana_pando_pedia,1,8,trilogy,extracted,phyco,rfu,NA
-2023-01-11,culture_mic,1,1,trilogy,extracted,phyco,µg/L,NA
-2023-01-11,culture_mic,1,2,trilogy,extracted,phyco,µg/L,NA
-2023-01-11,culture_mic,1,3,trilogy,extracted,phyco,µg/L,NA
-2023-01-11,culture_mic,1,4,trilogy,extracted,phyco,µg/L,NA
-2023-01-11,culture_mic,1,5,trilogy,extracted,phyco,µg/L,NA
-2023-01-11,culture_mic,1,6,trilogy,extracted,phyco,µg/L,NA
-2023-01-11,culture_mic,1,7,trilogy,extracted,phyco,µg/L,NA
-2023-01-11,culture_mic,1,8,trilogy,extracted,phyco,µg/L,NA
-2023-01-11,culture_ana,1,1,trilogy,extracted,phyco,µg/L,NA
-2023-01-11,culture_ana,1,2,trilogy,extracted,phyco,µg/L,NA
-2023-01-11,culture_ana,1,3,trilogy,extracted,phyco,µg/L,NA
-2023-01-11,culture_ana,1,4,trilogy,extracted,phyco,µg/L,NA
-2023-01-11,culture_ana,1,5,trilogy,extracted,phyco,µg/L,NA
-2023-01-11,culture_ana,1,6,trilogy,extracted,phyco,µg/L,NA
-2023-01-11,culture_ana,1,7,trilogy,extracted,phyco,µg/L,NA
-2023-01-11,culture_ana,1,8,trilogy,extracted,phyco,µg/L,NA
-2023-01-11,culture_mic_ana,1,1,trilogy,extracted,phyco,µg/L,NA
-2023-01-11,culture_mic_ana,1,2,trilogy,extracted,phyco,µg/L,NA
-2023-01-11,culture_mic_ana,1,3,trilogy,extracted,phyco,µg/L,NA
-2023-01-11,culture_mic_ana,1,4,trilogy,extracted,phyco,µg/L,NA
-2023-01-11,culture_mic_ana,1,5,trilogy,extracted,phyco,µg/L,NA
-2023-01-11,culture_mic_ana,1,6,trilogy,extracted,phyco,µg/L,NA
-2023-01-11,culture_mic_ana,1,7,trilogy,extracted,phyco,µg/L,NA
-2023-01-11,culture_mic_ana,1,8,trilogy,extracted,phyco,µg/L,NA
-2023-01-11,culture_mic_ana_pando_pedia,1,1,trilogy,extracted,phyco,µg/L,NA
-2023-01-11,culture_mic_ana_pando_pedia,1,2,trilogy,extracted,phyco,µg/L,NA
-2023-01-11,culture_mic_ana_pando_pedia,1,3,trilogy,extracted,phyco,µg/L,NA
-2023-01-11,culture_mic_ana_pando_pedia,1,4,trilogy,extracted,phyco,µg/L,NA
-2023-01-11,culture_mic_ana_pando_pedia,1,5,trilogy,extracted,phyco,µg/L,NA
-2023-01-11,culture_mic_ana_pando_pedia,1,6,trilogy,extracted,phyco,µg/L,NA
-2023-01-11,culture_mic_ana_pando_pedia,1,7,trilogy,extracted,phyco,µg/L,NA
-2023-01-11,culture_mic_ana_pando_pedia,1,8,trilogy,extracted,phyco,µg/L,NA
+2023-01-11,culture_mic,1,1,trilogy,extracted,phyco,rfu,281.90999999999997
+2023-01-11,culture_mic,1,2,trilogy,extracted,phyco,rfu,178.61
+2023-01-11,culture_mic,1,3,trilogy,extracted,phyco,rfu,332.05999999999995
+2023-01-11,culture_mic,1,4,trilogy,extracted,phyco,rfu,285.11
+2023-01-11,culture_mic,1,5,trilogy,extracted,phyco,rfu,316.99
+2023-01-11,culture_mic,1,6,trilogy,extracted,phyco,rfu,289.90999999999997
+2023-01-11,culture_mic,1,7,trilogy,extracted,phyco,rfu,298.85
+2023-01-11,culture_mic,1,8,trilogy,extracted,phyco,rfu,222.07000000000002
+2023-01-11,culture_ana,1,1,trilogy,extracted,phyco,rfu,909.4350000000001
+2023-01-11,culture_ana,1,2,trilogy,extracted,phyco,rfu,1163.7749999999999
+2023-01-11,culture_ana,1,3,trilogy,extracted,phyco,rfu,1444.6049999999998
+2023-01-11,culture_ana,1,4,trilogy,extracted,phyco,rfu,998.475
+2023-01-11,culture_ana,1,5,trilogy,extracted,phyco,rfu,1415.195
+2023-01-11,culture_ana,1,6,trilogy,extracted,phyco,rfu,1377.8149999999998
+2023-01-11,culture_ana,1,7,trilogy,extracted,phyco,rfu,1233.5449999999998
+2023-01-11,culture_ana,1,8,trilogy,extracted,phyco,rfu,1296.7749999999999
+2023-01-11,culture_mic_ana,1,1,trilogy,extracted,phyco,rfu,838.3000000000001
+2023-01-11,culture_mic_ana,1,2,trilogy,extracted,phyco,rfu,862.1700000000001
+2023-01-11,culture_mic_ana,1,3,trilogy,extracted,phyco,rfu,905.87
+2023-01-11,culture_mic_ana,1,4,trilogy,extracted,phyco,rfu,780.4300000000001
+2023-01-11,culture_mic_ana,1,5,trilogy,extracted,phyco,rfu,903.0200000000001
+2023-01-11,culture_mic_ana,1,6,trilogy,extracted,phyco,rfu,832.5500000000001
+2023-01-11,culture_mic_ana,1,7,trilogy,extracted,phyco,rfu,918.97
+2023-01-11,culture_mic_ana,1,8,trilogy,extracted,phyco,rfu,786.5
+2023-01-11,culture_mic_ana_pando_pedia,1,1,trilogy,extracted,phyco,rfu,387.11
+2023-01-11,culture_mic_ana_pando_pedia,1,2,trilogy,extracted,phyco,rfu,398.28999999999996
+2023-01-11,culture_mic_ana_pando_pedia,1,3,trilogy,extracted,phyco,rfu,459.06
+2023-01-11,culture_mic_ana_pando_pedia,1,4,trilogy,extracted,phyco,rfu,390.15
+2023-01-11,culture_mic_ana_pando_pedia,1,5,trilogy,extracted,phyco,rfu,446.28999999999996
+2023-01-11,culture_mic_ana_pando_pedia,1,6,trilogy,extracted,phyco,rfu,316.59
+2023-01-11,culture_mic_ana_pando_pedia,1,7,trilogy,extracted,phyco,rfu,330.99
+2023-01-11,culture_mic_ana_pando_pedia,1,8,trilogy,extracted,phyco,rfu,323.63
+2023-01-11,culture_mic,1,1,trilogy,extracted,phyco,µg/L,21.240876740152466
+2023-01-11,culture_mic,1,2,trilogy,extracted,phyco,µg/L,13.457603471173895
+2023-01-11,culture_mic,1,3,trilogy,extracted,phyco,µg/L,25.019493917686592
+2023-01-11,culture_mic,1,4,trilogy,extracted,phyco,µg/L,21.48198491499014
+2023-01-11,culture_mic,1,5,trilogy,extracted,phyco,µg/L,23.88402510681044
+2023-01-11,culture_mic,1,6,trilogy,extracted,phyco,µg/L,21.843647177246645
+2023-01-11,culture_mic,1,7,trilogy,extracted,phyco,µg/L,22.517243140699392
+2023-01-11,culture_mic,1,8,trilogy,extracted,phyco,µg/L,16.73215387068802
+2023-01-11,culture_ana,1,1,trilogy,extracted,phyco,µg/L,68.52256655734298
+2023-01-11,culture_ana,1,2,trilogy,extracted,phyco,µg/L,87.68614567865963
+2023-01-11,culture_ana,1,3,trilogy,extracted,phyco,µg/L,108.84564840980438
+2023-01-11,culture_ana,1,4,trilogy,extracted,phyco,µg/L,75.23140152220118
+2023-01-11,culture_ana,1,5,trilogy,extracted,phyco,µg/L,106.62971359043692
+2023-01-11,culture_ana,1,6,trilogy,extracted,phyco,µg/L,103.81326872311436
+2023-01-11,culture_ana,1,7,trilogy,extracted,phyco,µg/L,92.94305735316723
+2023-01-11,culture_ana,1,8,trilogy,extracted,phyco,µg/L,97.70720419535034
+2023-01-11,culture_mic_ana,1,1,trilogy,extracted,phyco,µg/L,63.162807177006194
+2023-01-11,culture_mic_ana,1,2,trilogy,extracted,phyco,µg/L,64.96132346868595
+2023-01-11,culture_mic_ana,1,3,trilogy,extracted,phyco,µg/L,68.2539569813129
+2023-01-11,culture_mic_ana,1,4,trilogy,extracted,phyco,µg/L,58.80251652767618
+2023-01-11,culture_mic_ana,1,5,trilogy,extracted,phyco,µg/L,68.0392200130981
+2023-01-11,culture_mic_ana,1,6,trilogy,extracted,phyco,µg/L,62.72956592534475
+2023-01-11,culture_mic_ana,1,7,trilogy,extracted,phyco,µg/L,69.2409935720546
+2023-01-11,culture_mic_ana,1,8,trilogy,extracted,phyco,µg/L,59.259868596821384
+2023-01-11,culture_mic_ana_pando_pedia,1,1,trilogy,extracted,phyco,µg/L,29.167307987940912
+2023-01-11,culture_mic_ana_pando_pedia,1,2,trilogy,extracted,phyco,µg/L,30.00967967378002
+2023-01-11,culture_mic_ana_pando_pedia,1,3,trilogy,extracted,phyco,µg/L,34.58847460655667
+2023-01-11,culture_mic_ana_pando_pedia,1,4,trilogy,extracted,phyco,µg/L,29.396360754036696
+2023-01-11,culture_mic_ana_pando_pedia,1,5,trilogy,extracted,phyco,µg/L,33.62630229634509
+2023-01-11,culture_mic_ana_pando_pedia,1,6,trilogy,extracted,phyco,µg/L,23.853886584955728
+2023-01-11,culture_mic_ana_pando_pedia,1,7,trilogy,extracted,phyco,µg/L,24.93887337172525
+2023-01-11,culture_mic_ana_pando_pedia,1,8,trilogy,extracted,phyco,µg/L,24.384324569598608
 2021-10-06,barber,1,1,trilogy,extracted,pc:chl,ratio,0.18819698016382116
 2021-10-06,barber,1,2,trilogy,extracted,pc:chl,ratio,0.1752256123764503
 2021-10-06,barber,1,3,trilogy,extracted,pc:chl,ratio,0.2340081423233506
