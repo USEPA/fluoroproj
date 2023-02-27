@@ -43,6 +43,7 @@ merge_phycoprobe <- function(){
 #' Merge phycoprobe data
 #'  
 merge_invivo <- function(){
+  
   files_fresh <- list.files(here("data/raw/trilogy in vivo/"), "fresh.csv", full.names = TRUE)
   files_frozen <- list.files(here("data/raw/trilogy in vivo/"), "frozen1.csv", full.names = TRUE)
   
@@ -203,9 +204,15 @@ clean_field <- function(df){
                                            "ph",
                                          TRUE ~ NA_character_
                                          ),
-                       field_dups = reps, method = "fresh")
-  field_data <- select(field_data, date, waterbody, field_dups, lab_reps = reps, instrument, 
-                       method, variable, units, value)
+                       field_dups = reps, method = case_when(notes == "frozen1" ~
+                                                               "frozen",
+                                                             TRUE ~ "fresh"),
+                       lab_reps = case_when(grepl("culture", waterbody) ~
+                                              1,
+                                            TRUE ~ reps))
+  field_data <- select(field_data, date, waterbody, field_dups, 
+                       lab_reps, instrument, method, 
+                       variable, units, value)
   field_data <- dplyr::mutate_if(field_data, is.character, .funs = 
                                         function(x){return(`Encoding<-`(x, "UTF-8"))})
   field_data

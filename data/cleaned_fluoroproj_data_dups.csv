@@ -1723,7 +1723,7 @@ date,waterbody,instrument,method,variable,units,field_dups,avg_value,sd_value
 2023-01-04,culture_mic,fluorosense,fresh,phyco,µg/L,1,75,NA
 2023-01-04,culture_mic,fluorosense,fresh,phyco,µg/L,2,76,NA
 2023-01-04,culture_mic,fluorosense,fresh,phyco,µg/L,3,75,NA
-2023-01-04,culture_mic,trilogy in vivo,fresh,chl,rfu,1,NA,NA
+2023-01-04,culture_mic,trilogy in vivo,fresh,chl,rfu,1,384.58,11.585
 2023-01-05,culture_ana,cyanofluor,fresh,chl,rfu,1,955.51,53.79
 2023-01-05,culture_ana,cyanofluor,fresh,pc:chl,ratio,1,9.882,0.597
 2023-01-05,culture_ana,cyanofluor,fresh,phyco,rfu,1,9428.8,343.271
@@ -1739,7 +1739,7 @@ date,waterbody,instrument,method,variable,units,field_dups,avg_value,sd_value
 2023-01-05,culture_ana,fluorosense,fresh,phyco,µg/L,3,160,NA
 2023-01-05,culture_ana,phycoprobe,fresh,chl,µg/L,1,90.448,10.364
 2023-01-05,culture_ana,phycoprobe,fresh,phyco,µg/L of chlorophyll,1,80.634,16.98
-2023-01-05,culture_ana,trilogy in vivo,fresh,chl,rfu,1,NA,NA
+2023-01-05,culture_ana,trilogy in vivo,fresh,chl,rfu,1,483.833,24.368
 2023-01-05,culture_mic,phycoprobe,fresh,chl,µg/L,1,38.114,0.603
 2023-01-05,culture_mic,phycoprobe,fresh,phyco,µg/L of chlorophyll,1,32.971,0.568
 2023-01-05,culture_mic_ana,cyanofluor,fresh,chl,rfu,1,879.867,32.232
@@ -1757,7 +1757,7 @@ date,waterbody,instrument,method,variable,units,field_dups,avg_value,sd_value
 2023-01-05,culture_mic_ana,fluorosense,fresh,phyco,µg/L,3,121,NA
 2023-01-05,culture_mic_ana,phycoprobe,fresh,chl,µg/L,1,70.228,5.539
 2023-01-05,culture_mic_ana,phycoprobe,fresh,phyco,µg/L of chlorophyll,1,64.736,5.464
-2023-01-05,culture_mic_ana,trilogy in vivo,fresh,chl,rfu,1,NA,NA
+2023-01-05,culture_mic_ana,trilogy in vivo,fresh,chl,rfu,1,452.907,6.81
 2023-01-05,culture_mic_ana_pando_pedia,cyanofluor,fresh,chl,rfu,1,7830.567,1104.8
 2023-01-05,culture_mic_ana_pando_pedia,cyanofluor,fresh,pc:chl,ratio,1,0.567,0.036
 2023-01-05,culture_mic_ana_pando_pedia,cyanofluor,fresh,phyco,rfu,1,4471.333,445.342
@@ -1771,7 +1771,7 @@ date,waterbody,instrument,method,variable,units,field_dups,avg_value,sd_value
 2023-01-05,culture_mic_ana_pando_pedia,fluorosense,fresh,phyco,µg/L,1,71,NA
 2023-01-05,culture_mic_ana_pando_pedia,fluorosense,fresh,phyco,µg/L,2,75,NA
 2023-01-05,culture_mic_ana_pando_pedia,fluorosense,fresh,phyco,µg/L,3,77,NA
-2023-01-05,culture_mic_ana_pando_pedia,trilogy in vivo,fresh,chl,rfu,1,NA,NA
+2023-01-05,culture_mic_ana_pando_pedia,trilogy in vivo,fresh,chl,rfu,1,3866.797,695.095
 2023-01-05,culture_mixed,phycoprobe,fresh,chl,µg/L,1,80.457,2.12
 2023-01-05,culture_mixed,phycoprobe,fresh,phyco,µg/L of chlorophyll,1,33.561,6.743
 2023-01-10,culture_ana,trilogy,extracted,chl,rfu,1,361.811,17.945
@@ -1808,11 +1808,12 @@ date,waterbody,instrument,method,variable,units,field_dups,avg_value,sd_value
 2023-01-18,culture_ana,duluth fluoroquik,frozen,chl,µg/L,1,2.067,0.021
 2023-01-18,culture_ana,duluth fluoroquik,frozen,pc:chl,ratio,1,243.52,6.741
 2023-01-18,culture_ana,duluth fluoroquik,frozen,phyco,µg/L,1,503.203,9.771
-2023-01-18,culture_ana,fluorosense,fresh,phyco,µg/L,1,199,NA
-2023-01-18,culture_ana,fluorosense,fresh,phyco,µg/L,2,199,NA
-2023-01-18,culture_ana,fluorosense,fresh,phyco,µg/L,3,199,NA
+2023-01-18,culture_ana,fluorosense,frozen,phyco,µg/L,1,199,NA
+2023-01-18,culture_ana,fluorosense,frozen,phyco,µg/L,2,199,NA
+2023-01-18,culture_ana,fluorosense,frozen,phyco,µg/L,3,199,NA
 2023-01-18,culture_ana,phycoprobe,frozen,chl,µg/L,1,120.874,0.119
 2023-01-18,culture_ana,phycoprobe,frozen,phyco,µg/L of chlorophyll,1,100.601,0.211
+2023-01-18,culture_ana,trilogy in vivo,frozen,chl,rfu,1,576.26,35.904
 2023-01-18,culture_mic,cyanofluor,frozen,chl,rfu,1,891.207,6.459
 2023-01-18,culture_mic,cyanofluor,frozen,pc:chl,ratio,1,19,0.074
 2023-01-18,culture_mic,cyanofluor,frozen,phyco,rfu,1,16937.333,153.735
@@ -1823,11 +1824,12 @@ date,waterbody,instrument,method,variable,units,field_dups,avg_value,sd_value
 2023-01-18,culture_mic,duluth fluoroquik,frozen,chl,µg/L,1,0.97,0.01
 2023-01-18,culture_mic,duluth fluoroquik,frozen,pc:chl,ratio,1,308.777,3.784
 2023-01-18,culture_mic,duluth fluoroquik,frozen,phyco,µg/L,1,299.517,4.656
-2023-01-18,culture_mic,fluorosense,fresh,phyco,µg/L,1,199,NA
-2023-01-18,culture_mic,fluorosense,fresh,phyco,µg/L,2,199,NA
-2023-01-18,culture_mic,fluorosense,fresh,phyco,µg/L,3,199,NA
+2023-01-18,culture_mic,fluorosense,frozen,phyco,µg/L,1,199,NA
+2023-01-18,culture_mic,fluorosense,frozen,phyco,µg/L,2,199,NA
+2023-01-18,culture_mic,fluorosense,frozen,phyco,µg/L,3,199,NA
 2023-01-18,culture_mic,phycoprobe,frozen,chl,µg/L,1,46.492,7.486
 2023-01-18,culture_mic,phycoprobe,frozen,phyco,µg/L of chlorophyll,1,36.221,5.499
+2023-01-18,culture_mic,trilogy in vivo,frozen,chl,rfu,1,241.44,4.688
 2023-01-18,culture_mic_ana,cyanofluor,frozen,chl,rfu,1,1388.767,27.615
 2023-01-18,culture_mic_ana,cyanofluor,frozen,pc:chl,ratio,1,16.901,0.223
 2023-01-18,culture_mic_ana,cyanofluor,frozen,phyco,rfu,1,23468.667,324.864
@@ -1838,11 +1840,12 @@ date,waterbody,instrument,method,variable,units,field_dups,avg_value,sd_value
 2023-01-18,culture_mic_ana,duluth fluoroquik,frozen,chl,µg/L,1,1.59,0.01
 2023-01-18,culture_mic_ana,duluth fluoroquik,frozen,pc:chl,ratio,1,252.343,5.207
 2023-01-18,culture_mic_ana,duluth fluoroquik,frozen,phyco,µg/L,1,401.223,8.219
-2023-01-18,culture_mic_ana,fluorosense,fresh,phyco,µg/L,1,199,NA
-2023-01-18,culture_mic_ana,fluorosense,fresh,phyco,µg/L,2,199,NA
-2023-01-18,culture_mic_ana,fluorosense,fresh,phyco,µg/L,3,199,NA
+2023-01-18,culture_mic_ana,fluorosense,frozen,phyco,µg/L,1,199,NA
+2023-01-18,culture_mic_ana,fluorosense,frozen,phyco,µg/L,2,199,NA
+2023-01-18,culture_mic_ana,fluorosense,frozen,phyco,µg/L,3,199,NA
 2023-01-18,culture_mic_ana,phycoprobe,frozen,chl,µg/L,1,98.242,8.018
 2023-01-18,culture_mic_ana,phycoprobe,frozen,phyco,µg/L of chlorophyll,1,78.483,7.65
+2023-01-18,culture_mic_ana,trilogy in vivo,frozen,chl,rfu,1,442.75,39.084
 2023-01-18,culture_mic_ana_pando_pedia,cyanofluor,frozen,chl,rfu,1,1726.267,62.745
 2023-01-18,culture_mic_ana_pando_pedia,cyanofluor,frozen,pc:chl,ratio,1,6.746,0.514
 2023-01-18,culture_mic_ana_pando_pedia,cyanofluor,frozen,phyco,rfu,1,11409,414.955
@@ -1853,9 +1856,10 @@ date,waterbody,instrument,method,variable,units,field_dups,avg_value,sd_value
 2023-01-18,culture_mic_ana_pando_pedia,duluth fluoroquik,frozen,chl,µg/L,1,0.803,0.061
 2023-01-18,culture_mic_ana_pando_pedia,duluth fluoroquik,frozen,pc:chl,ratio,1,246.07,28.608
 2023-01-18,culture_mic_ana_pando_pedia,duluth fluoroquik,frozen,phyco,µg/L,1,191.597,1.858
-2023-01-18,culture_mic_ana_pando_pedia,fluorosense,fresh,phyco,µg/L,1,97,NA
-2023-01-18,culture_mic_ana_pando_pedia,fluorosense,fresh,phyco,µg/L,2,117,NA
-2023-01-18,culture_mic_ana_pando_pedia,fluorosense,fresh,phyco,µg/L,3,123,NA
+2023-01-18,culture_mic_ana_pando_pedia,fluorosense,frozen,phyco,µg/L,1,97,NA
+2023-01-18,culture_mic_ana_pando_pedia,fluorosense,frozen,phyco,µg/L,2,117,NA
+2023-01-18,culture_mic_ana_pando_pedia,fluorosense,frozen,phyco,µg/L,3,123,NA
+2023-01-18,culture_mic_ana_pando_pedia,trilogy in vivo,frozen,chl,rfu,1,773.563,95.735
 2023-01-18,culture_mixed,phycoprobe,frozen,chl,µg/L,1,62.544,5.422
 2023-01-18,culture_mixed,phycoprobe,frozen,phyco,µg/L of chlorophyll,1,36.886,1.757
 2023-01-18,NA,phycoprobe,frozen,chl,µg/L,1,67.93,NA
