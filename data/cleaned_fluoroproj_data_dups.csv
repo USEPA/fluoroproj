@@ -1723,6 +1723,11 @@ date,waterbody,instrument,method,variable,units,field_dups,avg_value,sd_value
 2023-01-04,culture_mic,fluorosense,fresh,phyco,µg/L,1,75,NA
 2023-01-04,culture_mic,fluorosense,fresh,phyco,µg/L,2,76,NA
 2023-01-04,culture_mic,fluorosense,fresh,phyco,µg/L,3,75,NA
+2023-01-04,culture_mic,trilogy,extracted,chl,rfu,1,183.256,18.624
+2023-01-04,culture_mic,trilogy,extracted,chl,µg/L,1,45.252,4.599
+2023-01-04,culture_mic,trilogy,extracted,pc:chl,ratio,1,1.518,0.334
+2023-01-04,culture_mic,trilogy,extracted,phyco,rfu,1,275.689,50.778
+2023-01-04,culture_mic,trilogy,extracted,phyco,µg/L,1,20.772,3.826
 2023-01-04,culture_mic,trilogy in vivo,fresh,chl,rfu,1,384.58,11.585
 2023-01-05,culture_ana,cyanofluor,fresh,chl,rfu,1,955.51,53.79
 2023-01-05,culture_ana,cyanofluor,fresh,pc:chl,ratio,1,9.882,0.597
@@ -1739,6 +1744,11 @@ date,waterbody,instrument,method,variable,units,field_dups,avg_value,sd_value
 2023-01-05,culture_ana,fluorosense,fresh,phyco,µg/L,3,160,NA
 2023-01-05,culture_ana,phycoprobe,fresh,chl,µg/L,1,96.497,0.115
 2023-01-05,culture_ana,phycoprobe,fresh,phyco,µg/L of chlorophyll,1,90.501,0.148
+2023-01-05,culture_ana,trilogy,extracted,chl,rfu,1,361.811,17.945
+2023-01-05,culture_ana,trilogy,extracted,chl,µg/L,1,89.343,4.431
+2023-01-05,culture_ana,trilogy,extracted,pc:chl,ratio,1,3.399,0.515
+2023-01-05,culture_ana,trilogy,extracted,phyco,rfu,1,1229.952,195.457
+2023-01-05,culture_ana,trilogy,extracted,phyco,µg/L,1,92.672,14.727
 2023-01-05,culture_ana,trilogy in vivo,fresh,chl,rfu,1,483.833,24.368
 2023-01-05,culture_mic,phycoprobe,fresh,chl,µg/L,1,38.453,0.044
 2023-01-05,culture_mic,phycoprobe,fresh,phyco,µg/L of chlorophyll,1,33.294,0.008
@@ -1757,6 +1767,11 @@ date,waterbody,instrument,method,variable,units,field_dups,avg_value,sd_value
 2023-01-05,culture_mic_ana,fluorosense,fresh,phyco,µg/L,3,121,NA
 2023-01-05,culture_mic_ana,phycoprobe,fresh,chl,µg/L,1,67.062,0.186
 2023-01-05,culture_mic_ana,phycoprobe,fresh,phyco,µg/L of chlorophyll,1,61.606,0.144
+2023-01-05,culture_mic_ana,trilogy,extracted,chl,rfu,1,284.676,20.821
+2023-01-05,culture_mic_ana,trilogy,extracted,chl,µg/L,1,70.296,5.141
+2023-01-05,culture_mic_ana,trilogy,extracted,pc:chl,ratio,1,3.013,0.308
+2023-01-05,culture_mic_ana,trilogy,extracted,phyco,rfu,1,853.476,53.525
+2023-01-05,culture_mic_ana,trilogy,extracted,phyco,µg/L,1,64.306,4.033
 2023-01-05,culture_mic_ana,trilogy in vivo,fresh,chl,rfu,1,452.907,6.81
 2023-01-05,culture_mic_ana_pando_pedia,cyanofluor,fresh,chl,rfu,1,7830.567,1104.8
 2023-01-05,culture_mic_ana_pando_pedia,cyanofluor,fresh,pc:chl,ratio,1,0.567,0.036
@@ -1773,31 +1788,12 @@ date,waterbody,instrument,method,variable,units,field_dups,avg_value,sd_value
 2023-01-05,culture_mic_ana_pando_pedia,fluorosense,fresh,phyco,µg/L,3,77,NA
 2023-01-05,culture_mic_ana_pando_pedia,phycoprobe,fresh,chl,µg/L,1,81.797,0.21
 2023-01-05,culture_mic_ana_pando_pedia,phycoprobe,fresh,phyco,µg/L of chlorophyll,1,29.69,0.093
+2023-01-05,culture_mic_ana_pando_pedia,trilogy,extracted,chl,rfu,1,246.525,22.074
+2023-01-05,culture_mic_ana_pando_pedia,trilogy,extracted,chl,µg/L,1,60.875,5.451
+2023-01-05,culture_mic_ana_pando_pedia,trilogy,extracted,pc:chl,ratio,1,1.564,0.284
+2023-01-05,culture_mic_ana_pando_pedia,trilogy,extracted,phyco,rfu,1,381.514,54.399
+2023-01-05,culture_mic_ana_pando_pedia,trilogy,extracted,phyco,µg/L,1,28.746,4.099
 2023-01-05,culture_mic_ana_pando_pedia,trilogy in vivo,fresh,chl,rfu,1,3866.797,695.095
-2023-01-10,culture_ana,trilogy,extracted,chl,rfu,1,361.811,17.945
-2023-01-10,culture_ana,trilogy,extracted,chl,µg/L,1,89.343,4.431
-2023-01-10,culture_ana,trilogy,extracted,pc:chl,ratio,1,NA,NA
-2023-01-10,culture_mic,trilogy,extracted,chl,rfu,1,183.256,18.624
-2023-01-10,culture_mic,trilogy,extracted,chl,µg/L,1,45.252,4.599
-2023-01-10,culture_mic,trilogy,extracted,pc:chl,ratio,1,NA,NA
-2023-01-10,culture_mic_ana,trilogy,extracted,chl,rfu,1,284.676,20.821
-2023-01-10,culture_mic_ana,trilogy,extracted,chl,µg/L,1,70.296,5.141
-2023-01-10,culture_mic_ana,trilogy,extracted,pc:chl,ratio,1,NA,NA
-2023-01-10,culture_mic_ana_pando_pedia,trilogy,extracted,chl,rfu,1,246.525,22.074
-2023-01-10,culture_mic_ana_pando_pedia,trilogy,extracted,chl,µg/L,1,60.875,5.451
-2023-01-10,culture_mic_ana_pando_pedia,trilogy,extracted,pc:chl,ratio,1,NA,NA
-2023-01-11,culture_ana,trilogy,extracted,pc:chl,ratio,1,NA,NA
-2023-01-11,culture_ana,trilogy,extracted,phyco,rfu,1,1229.952,195.457
-2023-01-11,culture_ana,trilogy,extracted,phyco,µg/L,1,92.672,14.727
-2023-01-11,culture_mic,trilogy,extracted,pc:chl,ratio,1,NA,NA
-2023-01-11,culture_mic,trilogy,extracted,phyco,rfu,1,275.689,50.778
-2023-01-11,culture_mic,trilogy,extracted,phyco,µg/L,1,20.772,3.826
-2023-01-11,culture_mic_ana,trilogy,extracted,pc:chl,ratio,1,NA,NA
-2023-01-11,culture_mic_ana,trilogy,extracted,phyco,rfu,1,853.476,53.525
-2023-01-11,culture_mic_ana,trilogy,extracted,phyco,µg/L,1,64.306,4.033
-2023-01-11,culture_mic_ana_pando_pedia,trilogy,extracted,pc:chl,ratio,1,NA,NA
-2023-01-11,culture_mic_ana_pando_pedia,trilogy,extracted,phyco,rfu,1,381.514,54.399
-2023-01-11,culture_mic_ana_pando_pedia,trilogy,extracted,phyco,µg/L,1,28.746,4.099
 2023-01-18,culture_ana,cyanofluor,frozen,chl,rfu,1,7109.767,9234.923
 2023-01-18,culture_ana,cyanofluor,frozen,pc:chl,ratio,1,17.293,0.106
 2023-01-18,culture_ana,cyanofluor,frozen,phyco,rfu,1,30718.333,365.515

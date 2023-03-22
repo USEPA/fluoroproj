@@ -221,7 +221,7 @@ clean_field <- function(df){
 
 ext_vs_all_plot <- function(fpdata, var, meth, x_order = NULL){
   
-  
+  browser()
   
   if(var == "chl"){
     xvar <- sprintf("extracted chlorophyll (\u03BCg/L)")
@@ -255,7 +255,7 @@ ext_vs_all_plot <- function(fpdata, var, meth, x_order = NULL){
     facet_wrap(instrument_unit ~ ., scales = "free", strip.position = "left") +
     theme_ipsum_rc() +
     scale_color_brewer(type = "qual", palette = "Set1") +
-    scale_x_continuous(breaks = my_breaks) +
+    #scale_x_continuous(breaks = my_breaks) +
     theme(axis.title.y = element_blank(), 
           strip.text.y.left = element_text(angle=90, hjust = 1, size = 14), 
           strip.placement = "outside",

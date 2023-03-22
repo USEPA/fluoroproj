@@ -12,6 +12,8 @@ Possible Journals: Lake and Reservoir Management, PLOS One, PLOS Water, Ecospher
 
 The goal of this paper is to compare accuracy and precision of a variety of fluorometers with respect to chlorophyll and phycocyanin across a variety of waterbodies as well as with lab grown cultures of green algae and cyanobacteria.
 
+This worked well until the fluorometer gave us problems.
+
 ## Methods
 
 When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
@@ -19,6 +21,13 @@ When you click the **Render** button a document will be generated that includes 
 ```{r}
 1 + 1
 ```
+
+```{r}
+library(dplyr)
+library(readr)
+read_csv("../data/cleaned_fluoroproj_data.csv")
+```
+
 
 You can add options to executable code like this
 
