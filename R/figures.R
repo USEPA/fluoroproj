@@ -1,7 +1,7 @@
 source(here::here("R/packages.R"))
 source(here::here("R/functions.R"))
 
-fp_data <- read_csv(here("data/cleaned_fluoroproj_data_dups.csv")) %>%
+fp_data_no_culture <- read_csv(here("data/cleaned_fluoroproj_data_dups.csv")) %>%
   filter(instrument != "uri fluoroquik" & !is.na(method)) %>%
   mutate(instrument = case_when(instrument == "duluth fluoroquik" ~
                                   "fluoroquik",
@@ -9,11 +9,23 @@ fp_data <- read_csv(here("data/cleaned_fluoroproj_data_dups.csv")) %>%
   filter(field_dups < 4) %>%
   group_by(date, waterbody,instrument,method,variable,units) %>%
   summarize(avg_value = mean(avg_value)) %>%
-  ungroup()
+  ungroup() %>%
+  filter(!grepl("cult", waterbody))
+
+fp_data_culture_only <- read_csv(here("data/cleaned_fluoroproj_data_dups.csv")) %>%
+  filter(instrument != "uri fluoroquik" & !is.na(method)) %>%
+  mutate(instrument = case_when(instrument == "duluth fluoroquik" ~
+                                  "fluoroquik",
+                                TRUE ~ instrument)) %>%
+  filter(field_dups < 4) %>%
+  group_by(date, waterbody,instrument,method,variable,units) %>%
+  summarize(avg_value = mean(avg_value)) %>%
+  ungroup() %>%
+  filter(grepl("cult", waterbody))
   
 
 # Plot #1 - Extracted Chl vs All others Chl scatterplot matrix
-chla_compare_plot <- ext_vs_all_plot(fp_data, "chl", c("fresh", "extracted"),
+chla_compare_plot <- ext_vs_all_plot(fp_data_culture_only, "chl", c("fresh", "extracted"),
                                      c("algaetorch (µg/L)", "phycoprobe (µg/L)",
                                        "fluoroquik (µg/L)", "cyanofluor (rfu)",
                                        "trilogy in vivo (rfu)"))

@@ -1,0 +1,55 @@
+---
+title: "Fluoroproj: Title to be decided later"
+author: "Stephen D. Shivers, Sophie Fournier, Jakob Stankoski, Jeffrey W. Hollister, Betty J. Kreakie"
+abstract: "This is our abstract.  Just seeing how it looks."
+format: docx
+bibliography: manuscript.bib
+---
+
+## Introduction
+
+Possible Journals: Lake and Reservoir Management, PLOS One, PLOS Water, Ecosphere, F1000Research,
+
+The goal of this paper is to compare accuracy and precision of a variety of fluorometers with respect to chlorophyll and phycocyanin across a variety of waterbodies as well as with lab grown cultures of green algae and cyanobacteria.
+
+This worked well until the fluorometer gave us problems.
+
+## Methods
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
+
+```{r}
+library(dplyr)
+library(readr)
+read_csv("../data/cleaned_fluoroproj_data.csv")
+```
+
+
+You can add options to executable code like this
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
+
+## Results
+
+Here are our results. Fear us.
+
+Figure ideas:
+
+scatterplots: ext chl/phyco on y, chl/phyco from each insturment on x, colors/shapes for each waterbody/culture
+
+boxplots (need to be same units): first boxplot is extracted, compare to all others.
+
+## Discussion
+
+Discuss amongst yourselves.
+
+## References

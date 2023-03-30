@@ -3,10 +3,14 @@
 merge_extracted_chla <- function(){
   files <- c(list.files(here("data/raw/extracted chl/"), ".csv", 
                         full.names = TRUE))
-  browser()
+  
   extracted_data <- purrr::map_df(files, 
                                   function(x) {
                                     xdf <- read_csv(x, na = c("", "NA", "na"))
+                                    xdf <- mutate(xdf, site = as.character(site),
+                                                  depth = as.character(depth),
+                                                  dup = as.numeric(dup),
+                                                  reps = as.numeric(reps))
                                     ce_convert_rfus(xdf, "ext_chla", "2022", 
                                                     "g04", std_check = TRUE)})
   extracted_data
@@ -39,6 +43,7 @@ merge_phycoprobe <- function(){
 #' Merge phycoprobe data
 #'  
 merge_invivo <- function(){
+  
   files_fresh <- list.files(here("data/raw/trilogy in vivo/"), "fresh.csv", full.names = TRUE)
   files_frozen <- list.files(here("data/raw/trilogy in vivo/"), "frozen1.csv", full.names = TRUE)
   
@@ -47,12 +52,12 @@ merge_invivo <- function(){
                                function(x) {
                                  xdf <- read_csv(x, na = c("", "NA", "na"))
                                  ce_convert_rfus(xdf, "invivo_chla", "2021", 
-                                                 "ours", std_check = FALSE)})
+                                                 "g04", std_check = FALSE)})
   invivo_data_frozen <- purrr::map_df(files_frozen,  
                                      function(x) {
                                        xdf <- read_csv(x, na = c("", "NA", "na")) 
                                        ce_convert_rfus(xdf, "invivo_chla", "2021", 
-                                                       "ours", std_check = FALSE)})
+                                                       "g04", std_check = FALSE)})
   invivo_data_fresh <- mutate(invivo_data_fresh, method = "fresh")
   invivo_data_frozen <- mutate(invivo_data_frozen, method = "frozen")
   invivo_data <- bind_rows(invivo_data_fresh, invivo_data_frozen)
@@ -65,7 +70,8 @@ merge_invivo <- function(){
 #' 
 #' @param df cyanoflour/fluoroquick data frame
 clean_handheld <- function(df){
-  handheld_data <- mutate(df, date = ymd(paste0(year, month, day)),
+  
+  handheld_data <- mutate(df, date = ymd(paste(year, month, day)),
                           variable = tolower(parameter))
   handheld_data <- select(handheld_data, date, waterbody, field_dups = dup, 
                           lab_reps = reps, instrument, 
@@ -89,7 +95,7 @@ clean_handheld <- function(df){
 clean_phycoprobe <- function(df){  
   
   phycoprobe_data <- rename_all(df, tolower)
-  phycoprobe_data <- mutate(phycoprobe_data, date = ymd(paste0(year, month, day)),
+  phycoprobe_data <- mutate(phycoprobe_data, date = ymd(paste(year, month, day)),
                             instrument = "phycoprobe", units = "µg/L")
   #Assuming this data is what we want from phycoprobe
   phycoprobe_data <- select(phycoprobe_data, date, waterbody, field_dups = dup, 
@@ -168,7 +174,7 @@ clean_invivo <- function(df){
 #' @param df merged extracted data
 clean_field <- function(df){
   
-  field_data <- mutate(df, date = ymd(paste0(year, month, day)),
+  field_data <- mutate(df, date = ymd(paste(year, month, day)),
                        variable = case_when(variable == "PC" ~
                                               "pc",
                                             variable == "cyano" ~
@@ -198,9 +204,15 @@ clean_field <- function(df){
                                            "ph",
                                          TRUE ~ NA_character_
                                          ),
-                       field_dups = reps, method = "fresh")
-  field_data <- select(field_data, date, waterbody, field_dups, lab_reps = reps, instrument, 
-                       method, variable, units, value)
+                       field_dups = reps, method = case_when(notes == "frozen1" ~
+                                                               "frozen",
+                                                             TRUE ~ "fresh"),
+                       lab_reps = case_when(grepl("culture", waterbody) ~
+                                              1,
+                                            TRUE ~ reps))
+  field_data <- select(field_data, date, waterbody, field_dups, 
+                       lab_reps, instrument, method, 
+                       variable, units, value)
   field_data <- dplyr::mutate_if(field_data, is.character, .funs = 
                                         function(x){return(`Encoding<-`(x, "UTF-8"))})
   field_data
@@ -209,7 +221,7 @@ clean_field <- function(df){
 
 ext_vs_all_plot <- function(fpdata, var, meth, x_order = NULL){
   
-  
+  browser()
   
   if(var == "chl"){
     xvar <- sprintf("extracted chlorophyll (\u03BCg/L)")
@@ -243,7 +255,7 @@ ext_vs_all_plot <- function(fpdata, var, meth, x_order = NULL){
     facet_wrap(instrument_unit ~ ., scales = "free", strip.position = "left") +
     theme_ipsum_rc() +
     scale_color_brewer(type = "qual", palette = "Set1") +
-    scale_x_continuous(breaks = my_breaks) +
+    #scale_x_continuous(breaks = my_breaks) +
     theme(axis.title.y = element_blank(), 
           strip.text.y.left = element_text(angle=90, hjust = 1, size = 14), 
           strip.placement = "outside",
