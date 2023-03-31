@@ -10,7 +10,13 @@ bibliography: manuscript.bib
 
 Possible Journals: Lake and Reservoir Management, PLOS One, PLOS Water, Ecosphere, F1000Research,
 
-The goal of this paper is to compare different handheld or in situ fluorometers with respect to a common benchmark (extracted chlorophyll and phycocyanin) in order to assess the feasibility of combining data from these various sources.
+HAB expansion is a problem and temporal nature means lots of groups have to be proactively involved in monitoring
+
+To respond to this problem industry has developed a variety of handhelds
+
+Taking individual fluorometer data across a region or between groups is difficult because these instruments all measure a little different
+
+The goal of this paper is to compare different handheld or in situ fluorometers with respect to a common benchmark (extracted chlorophyll and phycocyanin) in order to provide a communications tool for groups using these different instruments.
 
 Old Goal: The goal of this paper is to compare accuracy and precision of a variety of fluorometers with respect to chlorophyll and phycocyanin across a variety of waterbodies as well as with lab grown cultures of green algae and cyanobacteria.
 
