@@ -1,0 +1,60 @@
+---
+title: "Fluoroproj: Title to be decided later"
+author: "Stephen D. Shivers, Sophie Fournier, Jakob Stankoski, Jeffrey W. Hollister, Betty J. Kreakie"
+abstract: "This is our abstract.  Just seeing how it looks."
+format: docx
+bibliography: manuscript.bib
+---
+
+## Introduction
+
+Possible Journals: Lake and Reservoir Management, PLOS One, PLOS Water, Ecosphere, F1000Research,
+
+The goal of this paper is to compare accuracy and precision of a variety of fluorometers with respect to chlorophyll and phycocyanin across a variety of waterbodies as well as with lab grown cultures of green algae and cyanobacteria.
+
+## Methods
+
+Equipment used for comparison
+
+The following five fluorometers were used during this study: Turner Trilogy (in vivo chlorophyll module), Turner FluoroSense, Turner Cyanofluor, bbe AlgaeTorch, and bbe PhycoProbe. Measurements from these fluorometers were compared with the results of a solvent-based extraction for chlorophyll and phycocyanin using a Turner Trilogy with a chla-na and orange module, respectively.
+
+Field Sampling Methods
+
+Field samples were collected from eight ponds in Rhode Island during October and November 2021. Two liter surface samples were collected in triplicate (six total liters) by wading into each pond to a minimum depth of two feet to avoid collecting near the sediment. If a surface scum was present, the scum was gently brushed aside to avoid being collected in the sample bottles. Samples were collected in acid-washed 1 L amber bottles and placed in a cooler with ice. At the same location as sample collection, measurements of chlorophyll and phycocyanin were made using the AlgaeTorch and the FluoroSense.
+
+Analysis of field samples
+
+Within 24 hours of collection, field samples will be analyzed in triplicate using the PhycoProbe, CyanoFluor, and the Trilogy (in-vivo), as well as filtered onto 0.7 µm pre-ashed glass fiber filters and frozen at -20 °C for solvent-based extraction. Sample water filtered through a 0.22 µm syringe filter was used to correct for yellow substances on the PhycoProbe, CyanoFluor, and Trilogy in-vivo module. Chlorophyll a extraction using 90% acetone followed after a 20 minute period in a sonicating water bath. Phycocyanin extraction followed a 15 minute period in a sonicating water bath and used a 50 mM phosphate buffer. Extracted samples were analyzed using a Turner Trilogy with a chla na module (chlorophyll) and an orange module (phycocyanin).
+
+Analysis of lab grown culture
+
+Two strains of cyanobacteria (*Microcystis* *aeruginosa* and *Anabaena* *flos-aquae)* and green algae (*Pediastrum boryanum* and *Pandorina morum*), purhcased from the University of Texas Culture Collection of Algae, have been maintained since August 2022.
+
+```{r}
+1 + 1
+```
+
+You can add options to executable code like this
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
+
+## Results
+
+Here are our results. Fear us.
+
+Figure ideas:
+
+scatterplots: ext chl/phyco on y, chl/phyco from each insturment on x, colors/shapes for each waterbody/culture
+
+boxplots (need to be same units): first boxplot is extracted, compare to all others.
+
+## Discussion
+
+Discuss amongst yourselves.
+
+## References
