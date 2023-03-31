@@ -10,7 +10,9 @@ bibliography: manuscript.bib
 
 Possible Journals: Lake and Reservoir Management, PLOS One, PLOS Water, Ecosphere, F1000Research,
 
-The goal of this paper is to compare accuracy and precision of a variety of fluorometers with respect to chlorophyll and phycocyanin across a variety of waterbodies as well as with lab grown cultures of green algae and cyanobacteria.
+The goal of this paper is to compare different handheld or in situ fluorometers with respect to a common benchmark (extracted chlorophyll and phycocyanin) in order to assess the feasibility of combining data from these various sources.
+
+Old Goal: The goal of this paper is to compare accuracy and precision of a variety of fluorometers with respect to chlorophyll and phycocyanin across a variety of waterbodies as well as with lab grown cultures of green algae and cyanobacteria.
 
 ## Methods
 
