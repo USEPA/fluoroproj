@@ -12,9 +12,15 @@ Possible Journals: Lake and Reservoir Management, PLOS One, PLOS Water, Ecospher
 
 HAB expansion is a problem and temporal nature means lots of groups have to be proactively involved in monitoring
 
+Harmful algal blooms caused by cyanobacteria (cyanoHABs) are likely to increase in a warming world with greater inputs of nutrients by humans. These blooms may impact both human and environmental health, particularly if toxins are being produced. CyanoHAB blooms are often transient in nature, can be difficult to accurately quantify, and occur in diverse waterbodies across large spatial scales. Despite occuring on large scales, effects of blooms have primarily local impacts and can differ in species composition and toxicity based on local conditions. As large, centrally managed monitoring efforts are expensive and time consuming to operate, a substantial portion of cyanoHAB monitoring occurs at the local level. As neighborhood and lake associations generally do not have the equipment or training to perform extractive analysis of cholorophyll a and/or phycocyanin (pigments found in all algae and specifically cyanobacteria, respectively), alternative measurement equipment has been developed.
+
 To respond to this problem industry has developed a variety of handhelds
 
+A variety of instruments have been developed to measure chlorophyll a and/or phycocyanin without an extraction step and have a wide range in cost. Most of these instruments rely on in vivo fluoroescense and can be used in the field or the lab, or a combination of both.
+
 Taking individual fluorometer data across a region or between groups is difficult because these instruments all measure a little different
+
+Field instruments may be placed directly in a waterbody or require water to be poured into a cuvette and then placed into a handheld fluorometer. Differences in measurement methods represent a potential source of error when comparing instruments. Additionally, instruments may report valued in rfus (raw or relative fluorescence units) or µg/L (concentration) and comparing these values introduces an additional source of error during comparison.
 
 The goal of this paper is to compare different handheld or in situ fluorometers with respect to a common benchmark (extracted chlorophyll and phycocyanin) in order to provide a communications tool for groups using these different instruments.
 
