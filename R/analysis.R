@@ -1,8 +1,21 @@
 source(here::here("R/packages.R"))
 source(here::here("R/functions.R"))
 
-fp_data_wb <- read_csv(here("data/cleaned_fluoroproj_data_dups.csv"))
+fp_data_wb <- read_csv(here("data/cleaned_fluoroproj_data_dups.csv")) %>%
+  filter(!grepl("culture", waterbody),
+         !grepl("standard", waterbody),
+         waterbody != "windmist")
 
+
+
+
+
+
+
+
+
+
+# Beyond here be dragons
 inst_avg <- fp_data_wb %>%
   filter(method %in% c("frozen","extracted"), units == "µg/L", 
          variable == "chl") %>%

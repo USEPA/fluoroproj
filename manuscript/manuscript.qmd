@@ -10,60 +10,51 @@ bibliography: manuscript.bib
 
 Possible Journals: Lake and Reservoir Management, PLOS One, PLOS Water, Ecosphere, F1000Research,
 
-HAB expansion is a problem and temporal nature means lots of groups have to be proactively involved in monitoring
+<!-- HAB expansion is a problem and temporal nature means lots of groups have to be proactively involved in monitoring -->
 
 Harmful algal blooms caused by cyanobacteria (cyanoHABs) are likely to increase in a warming world with greater inputs of nutrients by humans. These blooms may impact both human and environmental health, particularly if toxins are being produced. CyanoHAB blooms are often transient in nature, can be difficult to accurately quantify, and occur in diverse waterbodies across large spatial scales. Despite occuring on large scales, effects of blooms have primarily local impacts and can differ in species composition and toxicity based on local conditions. As large, centrally managed monitoring efforts are expensive and time consuming to operate, a substantial portion of cyanoHAB monitoring occurs at the local level. As neighborhood and lake associations generally do not have the equipment or training to perform extractive analysis of cholorophyll a and/or phycocyanin (pigments found in all algae and specifically cyanobacteria, respectively), alternative measurement equipment has been developed.
 
-To respond to this problem industry has developed a variety of handhelds
+<!--To respond to this problem industry has developed a variety of handhelds-->
 
 A variety of instruments have been developed to measure chlorophyll a and/or phycocyanin using in vivo fluorescence without an extraction step and have a wide range in cost. These instruments distinguish between the pigments based on their differing emission spectra. Some instruments (i.e. PhycoProbe) use multiple leds at varying wavelengths to cause fluorescence of different algal types, thus creating a finer scale breakdown of community composition. These instruments can be used in the field, the lab, or a combination of both.
 
-Taking individual fluorometer data across a region or between groups is difficult because these instruments all measure a little different
+<!--Taking individual fluorometer data across a region or between groups is difficult because these instruments all measure a little different-->
 
-Field instruments may be placed directly in a waterbody or require water to be poured into a cuvette and then placed into a handheld fluorometer. Differences in measurement methods represent a potential source of error when comparing instruments. Additionally, instruments may report valued in rfus (raw or relative fluorescence units) or µg/L (concentration) and comparing these values introduces an additional source of error during comparison. In vivo fluorescence can be affected by photochemical quenching causing an underestimation of rfus as photosystems become saturated with light. Estimation problems can also result from differing community composition, particularly if colonial cyanobacteria are present as the interior of large colonies will not fluoresce as readily as the exterior. Finally, the physical properties of the sample water can greatly affect fluorescence readings based on turbidity levels and the presence of CDOM. Some instruments offer a yellow substance correction to help account for CDOM while others do not. How the different instruments handle these various potential problems can affect their accuracy, precision, and the ability to compare across different instrument types. The goal of this paper is to compare different handheld or in situ fluorometers with respect to a common benchmark (extracted chlorophyll and phycocyanin) in order to provide a communications tool for groups using these different instruments.
-
-Old Goal: The goal of this paper is to compare accuracy and precision of a variety of fluorometers with respect to chlorophyll and phycocyanin across a variety of waterbodies as well as with lab grown cultures of green algae and cyanobacteria.
+Field instruments may be placed directly in a waterbody or require water to be poured into a cuvette and then placed into a handheld fluorometer. Differences in measurement methods represent a potential source of error when comparing instruments. Additionally, instruments may report valued in rfus (raw or relative fluorescence units) or µg/L (concentration) and comparing these values introduces an additional source of error during comparison. In vivo fluorescence can be affected by photochemical quenching causing an underestimation of rfus as photosystems become saturated with light. Estimation problems can also result from differing community composition, particularly if colonial cyanobacteria are present as the interior of large colonies will not fluoresce as readily as the exterior. Finally, the physical properties of the sample water can greatly affect fluorescence readings based on turbidity levels and the presence of CDOM. Some instruments offer a yellow substance correction to help account for CDOM while others do not. How the different instruments handle these various potential problems can affect their accuracy and precision, and the ability to compare across different instrument types. The goal of this paper is to compare different handhelds or in situ fluorometers with respect to a common benchmark (extracted chlorophyll and phycocyanin) across a variety of waterbodies.
 
 ## Methods
 
-Equipment used for comparison
+### Equipment used for comparison
 
 The following five fluorometers were used during this study: Turner Trilogy (in vivo chlorophyll module), Turner FluoroSense, Turner Cyanofluor, bbe AlgaeTorch, and bbe PhycoProbe. Measurements from these fluorometers were compared with the results of a solvent-based extraction for chlorophyll and phycocyanin using a Turner Trilogy with a chla-na and orange module, respectively.
 
-Field Sampling Methods
+### Field Sampling Methods
 
 Field samples were collected from eight ponds in Rhode Island during October and November 2021. Two liter surface samples were collected in triplicate (six total liters) by wading into each pond to a minimum depth of two feet to avoid collecting near the sediment. If a surface scum was present, the scum was gently brushed aside to avoid being collected in the sample bottles. Samples were collected in acid-washed 1 L amber bottles and placed in a cooler with ice. At the same location as sample collection, measurements of chlorophyll and phycocyanin were made using the AlgaeTorch and the FluoroSense.
 
-Analysis of field samples
+### Analysis of field samples
 
 Within 24 hours of collection, field samples will be analyzed in triplicate using the PhycoProbe, CyanoFluor, and the Trilogy (in-vivo), as well as filtered onto 0.7 µm pre-ashed glass fiber filters and frozen at -20 °C for solvent-based extraction. Sample water filtered through a 0.22 µm syringe filter was used to correct for yellow substances on the PhycoProbe, CyanoFluor, and Trilogy in-vivo module. Chlorophyll a extraction using 90% acetone followed after a 20 minute period in a sonicating water bath. Phycocyanin extraction followed a 15 minute period in a sonicating water bath and used a 50 mM phosphate buffer. Extracted samples were analyzed using a Turner Trilogy with a chla na module (chlorophyll) and an orange module (phycocyanin).
-
-Analysis of lab grown culture
-
-Two strains of cyanobacteria (*Microcystis* *aeruginosa* and *Anabaena* *flos-aquae)* and green algae (*Pediastrum boryanum* and *Pandorina morum*), purhcased from the University of Texas Culture Collection of Algae, have been maintained since August 2022.
-
-```{r}
-1 + 1
-```
-
-You can add options to executable code like this
-
-```{r}
-#| echo: false
-2 * 2
-```
-
-The `echo: false` option disables the printing of code (only output is displayed).
 
 ## Results
 
 Here are our results. Fear us.
 
+Analysis ideas:
+
+-   Add in Phycotech data (all from 10-6)
+
+-   When did turnover happen? Might argue against using phycotech data for 10-21 and 11-09
+
+-   Maybe drop melville cuz to late/mismatch with phycotech.
+
 Figure ideas:
 
-scatterplots: ext chl/phyco on y, chl/phyco from each insturment on x, colors/shapes for each waterbody/culture
+-   scatterplots: ext chl/phyco on y, chl/phyco from each insturment on x, colors/shapes for each waterbody/culture
 
-boxplots (need to be same units): first boxplot is extracted, compare to all others.
+-   boxplots (need to be same units): first boxplot is extracted, compare to all others.
+
+-   Scatterplot of historic waterbody chlorophyll vs chlorophyll from each instrument
 
 ## Discussion
 
