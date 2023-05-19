@@ -4,17 +4,19 @@ author: "Stephen D. Shivers, Sophie Fournier, Jakob Stankoski, Jeffrey W. Hollis
 abstract: "This is our abstract.  Just seeing how it looks."
 format: docx
 bibliography: manuscript.bib
+editor_options: 
+  chunk_output_type: console
 ---
 
 ## Introduction
 
 Possible Journals: Lake and Reservoir Management, PLOS One, PLOS Water, Ecosphere, F1000Research,
 
-The goal of this paper is to compare accuracy and precision of a variety of fluorometers with respect to chlorophyll and phycocyanin across a variety of waterbodies as well as with lab grown cultures of green algae and cyanobacteria.
+The goal of this paper is to compare accuracy and precision of a variety of fluorometers with respect to chlorophyll and phycocyanin across a variety of waterbodies as well as with lab grown cultures of green algae and cyanobacteria [@Nojavan2019; @Hollister2016].
 
-This worked well until the fluorometer gave us problems.
+This worked well until the fluorometer gave us problems [@Hollister2016; @Walsh2017]
 
-With culture, first look not very linear, but split out but green, cyan, and mixed each grouping shows linear relationship between extracted and in situ turner.  Might not matter that different waterbodies would be in different green/cyano/mix classes.  But the pattern between extracted and in situ/handheld flouros should be similar.  Different pattern with any handheld/in situ would suggest it not perfomring well.
+With culture, first look not very linear, but split out but green, cyan, and mixed each grouping shows linear relationship between extracted and in situ turner. Might not matter that different waterbodies would be in different green/cyano/mix classes. But the pattern between extracted and in situ/handheld flouros should be similar @Hodges2018. Different pattern with any handheld/in situ would suggest it not perfomring well.
 
 ```{r comparisons}
 library(readr)
@@ -60,10 +62,9 @@ ggplot(all, aes(x = extracted, y = in_vivo, color = class)) +
   geom_point(size = 5)
 ```
 
-
 ## Methods
 
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code . You can embed code like this:
 
 ```{r}
 1 + 1
@@ -75,7 +76,6 @@ library(readr)
 read_csv("../data/cleaned_fluoroproj_data.csv")
 ```
 
-
 You can add options to executable code like this
 
 ```{r}
@@ -84,6 +84,8 @@ You can add options to executable code like this
 ```
 
 The `echo: false` option disables the printing of code (only output is displayed).
+
+![Instrument comparison for Chlorophyll](images/chla_instrument_compare.png){#fig-chla-comparison}
 
 ## Results
 
@@ -97,6 +99,6 @@ boxplots (need to be same units): first boxplot is extracted, compare to all oth
 
 ## Discussion
 
-Discuss amongst yourselves.
+Discuss amongst yourselves. @fig-chla-comparison
 
 ## References
