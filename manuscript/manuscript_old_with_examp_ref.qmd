@@ -1,0 +1,104 @@
+---
+title: "Fluoroproj: Title to be decided later"
+author: "Stephen D. Shivers, Sophie Fournier, Jakob Stankoski, Jeffrey W. Hollister, Betty J. Kreakie"
+abstract: "This is our abstract.  Just seeing how it looks."
+format: docx
+bibliography: manuscript.bib
+editor_options: 
+  chunk_output_type: console
+---
+
+## Introduction
+
+Possible Journals: Lake and Reservoir Management, PLOS One, PLOS Water, Ecosphere, F1000Research,
+
+The goal of this paper is to compare accuracy and precision of a variety of fluorometers with respect to chlorophyll and phycocyanin across a variety of waterbodies as well as with lab grown cultures of green algae and cyanobacteria [@Nojavan2019; @Hollister2016].
+
+This worked well until the fluorometer gave us problems [@Hollister2016; @Walsh2017]
+
+With culture, first look not very linear, but split out but green, cyan, and mixed each grouping shows linear relationship between extracted and in situ turner. Might not matter that different waterbodies would be in different green/cyano/mix classes. But the pattern between extracted and in situ/handheld flouros should be similar @Hodges2018. Different pattern with any handheld/in situ would suggest it not perfomring well.
+
+```{r comparisons}
+library(readr)
+library(dplyr)
+library(ggplot2)
+
+prelim_ext_chl <- read_csv(here::here("data/raw/extracted chl/extracted_chl_fluororproj_prelimanary_test_2023_3_29.csv")) |>
+  group_by(waterbody) |>
+  summarize(extracted = mean(value, na.rm = TRUE)) |>
+  arrange(waterbody)
+prelim_in_viv <- read_csv(here::here("data/raw/trilogy in vivo/trilogy in vivo 2023_03_28_fresh.csv")) |>
+  mutate(waterbody = case_when(waterbody == "culture_aba" ~
+                                 "culture_ana",
+                               TRUE ~ waterbody))|>
+  group_by(waterbody) |>
+  summarize(in_vivo = mean(value, na.rm = TRUE)) |>
+  arrange(waterbody)
+
+all <- bind_cols (prelim_ext_chl, prelim_in_viv) |>
+  select(culture = waterbody...1, extracted, in_vivo) |>
+  filter(!is.na(culture)) |>
+  mutate(class = case_when(culture == "culture_ana" ~
+                             "cyano",
+                           culture == "culture_ana_pando" ~
+                             "mix",
+                           culture == "culture_mic" ~
+                             "cyano",
+                           culture == "culture_mic_ana" ~
+                             "cyano",
+                           culture == "culture_mic_pando" ~
+                             "mix",
+                           culture == "culture_pando" ~
+                             "greens",
+                           culture == "culture_pedia" ~
+                             "greens",
+                           culture == "culture_pedia_pando" ~
+                             "greens",
+                           culture == "culture_mic_ana_pando_pedia" ~
+                             "mix",
+                           TRUE ~ culture))
+
+ggplot(all, aes(x = extracted, y = in_vivo, color = class)) +
+  geom_point(size = 5)
+```
+
+## Methods
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code . You can embed code like this:
+
+```{r}
+1 + 1
+```
+
+```{r}
+library(dplyr)
+library(readr)
+read_csv("../data/cleaned_fluoroproj_data.csv")
+```
+
+You can add options to executable code like this
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
+
+![Instrument comparison for Chlorophyll](images/chla_instrument_compare.png){#fig-chla-comparison}
+
+## Results
+
+Here are our results. Fear us.
+
+Figure ideas:
+
+scatterplots: ext chl/phyco on y, chl/phyco from each insturment on x, colors/shapes for each waterbody/culture
+
+boxplots (need to be same units): first boxplot is extracted, compare to all others.
+
+## Discussion
+
+Discuss amongst yourselves. @fig-chla-comparison
+
+## References
