@@ -1,3 +1,4 @@
+#source(here::here("R/data_prep.R"))
 source(here::here("R/packages.R"))
 source(here::here("R/functions.R"))
 
@@ -6,6 +7,10 @@ fp_data_wb <- read_csv(here("data/cleaned_fluoroproj_data_dups.csv")) %>%
          !grepl("standard", waterbody),
          waterbody != "windmist")
 
+# Figures
+chla_compare_plot <- ext_vs_all_plot(fp_data_wb, "chl", c("fresh", "extracted"),
+                                     c("algaetorch (µg/L)", "phycoprobe (µg/L)",
+                                       "cyanofluor (rfu)","trilogy in vivo (rfu)"))
 
 
 

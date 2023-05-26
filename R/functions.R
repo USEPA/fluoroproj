@@ -221,7 +221,7 @@ clean_field <- function(df){
 
 ext_vs_all_plot <- function(fpdata, var, meth, x_order = NULL){
   
-  browser()
+  #TODO Make sure units on x and y are the same.
   
   if(var == "chl"){
     xvar <- sprintf("extracted chlorophyll (\u03BCg/L)")
@@ -234,7 +234,7 @@ ext_vs_all_plot <- function(fpdata, var, meth, x_order = NULL){
   extracted_data <- fpdata %>%
     filter(method == "extracted", instrument == "trilogy",
            units != "rfu" , variable == var) %>%
-    select(date, waterbody, extracted_value = avg_value)
+    select(date, waterbody, field_dups, extracted_value = avg_value)
   
   plot_data <- fpdata %>%
     filter(method %in% meth, instrument != "trilogy",
