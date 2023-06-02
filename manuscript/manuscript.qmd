@@ -36,25 +36,35 @@ Field samples were collected from eight ponds in Rhode Island during October and
 
 Within 24 hours of collection, field samples will be analyzed in triplicate using the PhycoProbe, CyanoFluor, and the Trilogy (in-vivo), as well as filtered onto 0.7 µm pre-ashed glass fiber filters and frozen at -20 °C for solvent-based extraction. Sample water filtered through a 0.22 µm syringe filter was used to correct for yellow substances on the PhycoProbe, CyanoFluor, and Trilogy in-vivo module. Chlorophyll a extraction using 90% acetone followed after a 20 minute period in a sonicating water bath. Phycocyanin extraction followed a 15 minute period in a sonicating water bath and used a 50 mM phosphate buffer. Extracted samples were analyzed using a Turner Trilogy with a chla na module (chlorophyll) and an orange module (phycocyanin).
 
+### Phytoplankton Counts
+
+Add in stuff about sampling and Phycotech.
+
 ## Results
 
-Here are our results. Fear us.
+### Summary of Data
 
-Analysis ideas:
+Fig 1. Map of Field Sites
+
+### Chlorophyll
+
+Fig 2. Chlorophyll Scatterplot
+
+### Phycocyanin
+
+Fig 3. Phyco Scatterplot
+
+### Phycocyanin to Chlorophyll Ratio
+
+Fig 4. Ratio Scatterplot
+
+### Phytoplankton Counts
 
 -   Add in Phycotech data (all from 10-6)
 
 -   When did turnover happen? Might argue against using phycotech data for 10-21 and 11-09
 
 -   Maybe drop melville cuz to late/mismatch with phycotech.
-
-Figure ideas:
-
--   scatterplots: ext chl/phyco on y, chl/phyco from each insturment on x, colors/shapes for each waterbody/culture
-
--   boxplots (need to be same units): first boxplot is extracted, compare to all others.
-
--   Scatterplot of historic waterbody chlorophyll vs chlorophyll from each instrument
 
 ## Discussion
 

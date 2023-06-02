@@ -8,10 +8,19 @@ fp_data_wb <- read_csv(here("data/cleaned_fluoroproj_data_dups.csv")) %>%
          waterbody != "windmist")
 
 # Figures
+# Have instruments in same spot on figure
+# color-blind friendly palette
+# Ratio Figure 
 chla_compare_plot <- ext_vs_all_plot(fp_data_wb, "chl", c("fresh", "extracted"),
                                      c("algaetorch (µg/L)", "phycoprobe (µg/L)",
                                        "cyanofluor (rfu)","trilogy in vivo (rfu)"))
 
+phyco_compare_plot <- ext_vs_all_plot(fp_data_wb, "phyco", c("fresh", "extracted"),
+                                      c("algaetorch (µg/L of chlorophyll)", 
+                                        "phycoprobe (µg/L of chlorophyll)",
+                                        "fluoroquik (µg/L)", 
+                                        "fluorosense (µg/L)", 
+                                        "cyanofluor (rfu)"))
 
 
 
