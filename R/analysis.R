@@ -25,7 +25,8 @@ phyco_compare_plot <- ext_vs_all_plot(fp_data_wb, "phyco", c("fresh", "extracted
 
 ratio_compare_plot <- ext_vs_all_plot(fp_data_wb, "pc:chl", c("fresh", "extracted"))
 
-
+# Grouped bar chart with waterbody on x, and bars for each division, relative and total biovolume - read from pre-sums division tab
+# Crazy idea, scatterplots from above but size of point from relative cyano biovolume
 
 
 
