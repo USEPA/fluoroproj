@@ -44,13 +44,17 @@ fluoroproj_data <- mutate(fluoroproj_data, units = case_when(units == "µg/l" ~
                                                 TRUE ~ waterbody)) %>%
   # Set NA field dups to 1
   mutate(field_dups = case_when(is.na(field_dups) ~
-                                  1,
+                                  "1",
                                 TRUE ~ field_dups)) %>%
   # Remove known data entry mistake
   filter(!(waterbody == "warwick" & method == "frozen3" & field_dups == 2 & 
              variable == "ch1 lo")) %>%
   # Remove oddball Windmist
-  filter(!(waterbody == "windmist" & field_dups == 2))
+  filter(!(waterbody == "windmist" & field_dups == 2)) %>%
+  # Keep only fresh and extracted
+  filter(method %in% c("extracted", "fresh")) %>%
+  # Remove fluoroquick
+  filter(!grepl("fluoroquik", instrument))
 
 fluoroproj_data_dups <- fluoroproj_data %>%
   group_by(date, waterbody, instrument, method, variable, units, field_dups) %>%
