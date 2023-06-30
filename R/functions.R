@@ -421,3 +421,21 @@ fq_fresh_frozen_plot <- function(fpdata, var, x_order = NULL){
     labs(x = xvar, y = yvar)
   myplot
 }
+
+#' Clean Phycotech data
+clean_phycotech <- function(phycotech_df){
+  phycotech_df_clean <- phycotech_df %>%
+    select(waterbody = system_name, date = sample_date, division, 
+           concentration = concentration_natural_units_per_ml_,
+           relative_concentration, 
+           biovolume_concentration = total_biovolume_cubic_um_per_ml_,
+           relative_biovolume = relative_total_biovolume) %>%
+    mutate(date = ymd(date)) %>%
+    filter(date > "2021-09-01")
+  phycotech_df_clean
+}
+
+#' Make grouped bar plot
+grouped_bar_plot <- function(phycotech_df){
+  browser()
+}
