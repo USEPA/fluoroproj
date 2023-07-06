@@ -69,6 +69,7 @@ fluoroproj_data_dups <- fluoroproj_data %>%
 
 write_csv(fluoroproj_data, here("data/cleaned_fluoroproj_data.csv"))
 write_csv(fluoroproj_data_dups, here("data/cleaned_fluoroproj_data_dups.csv"))
+write_csv(phycotech_data, "data/cleaned_phycotech_data.csv")
 
 
 # Phycotech data prep

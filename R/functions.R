@@ -430,12 +430,20 @@ clean_phycotech <- function(phycotech_df){
            relative_concentration, 
            biovolume_concentration = total_biovolume_cubic_um_per_ml_,
            relative_biovolume = relative_total_biovolume) %>%
-    mutate(date = ymd(date)) %>%
+    # TODO: Standardize names with our data
+    mutate(date = ymd(date),
+           waterbody = case_when(waterbody == "Yawagoo Pond" ~
+                                   "Yawgoo",
+                                 TRUE ~ waterbody)) %>%
     filter(date > "2021-09-01")
   phycotech_df_clean
 }
 
 #' Make grouped bar plot
 grouped_bar_plot <- function(phycotech_df){
-  browser()
+  #browser()
+  bar_plot <- phycotech_df %>%
+    ggplot(aes(x = waterbody, y = relative_biovolume, fill = division)) +
+    geom_bar(position = "dodge", stat = "identity")
+  bar_plot
 }
