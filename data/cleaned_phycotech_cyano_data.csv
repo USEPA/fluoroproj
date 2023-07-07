@@ -1,0 +1,87 @@
+waterbody,family,genus,biovolume,relative_biovolume
+Barber Pond,Chroococcaceae,Aphanocapsa,3800.0357999999997,0.01523699
+Barber Pond,Chroococcaceae,Unknwon Chroococcaceae,3720.9723,0.01491997
+Barber Pond,Chroococcaceae,Synechococcus,2037.5610000000001,0.00817
+Barber Pond,Oscillatoriaceae,Planktothrix,1396.8619,0.00560099
+Barber Pond,Chroococcaceae,Woronichinia,801.5174,0.00321384
+Barber Pond,Chroococcaceae,Gomphosphaeria,611.9583,0.00245377
+Barber Pond,Chroococcaceae,Synechocystis,357.7963,0.00143465
+Barber Pond,Chroococcaceae,Aphanothece,284.9852,0.0011427
+Barber Pond,Synechococcaceae,Cyanogranis,257.1827,0.00103122
+Barber Pond,Nostocaceae,Dolichospermum,154.1923,6.1826e-4
+Georgiaville Pond,Chroococcaceae,Microcystis,170935.7227,0.24317709
+Georgiaville Pond,Nostocaceae,Dolichospermum,28238.487,0.040172719999999995
+Georgiaville Pond,Chroococcaceae,Woronichinia,23396.8545,0.0332849
+Georgiaville Pond,Chroococcaceae,Synechococcus,7677.0313,0.010921519999999999
+Georgiaville Pond,Chroococcaceae,Unknwon Chroococcaceae,6156.0655,0.00875776
+Georgiaville Pond,Chroococcaceae,Aphanocapsa,503.7178,7.166e-4
+Georgiaville Pond,Synechococcaceae,Cyanogranis,81.2593,1.156e-4
+Georgiaville Pond,Chroococcaceae,Synechocystis,59.6327,8.483e-5
+Indian Lake,Chroococcaceae,Unknwon Chroococcaceae,6963.4101,0.13788898
+Indian Lake,Chroococcaceae,Synechococcus,1641.4134,0.03250316
+Indian Lake,Nostocaceae,Dolichospermum,851.4207,0.01685978
+Indian Lake,Chroococcaceae,Woronichinia,801.5174,0.01587159
+Indian Lake,Chroococcaceae,Microcystis,799.5158,0.01583196
+Indian Lake,Nostocaceae,Pseudanabaena,159.6415,0.00316121
+JL Curran Reservoir,Nostocaceae,Chrysosporum,1740876.9089,0.54117142
+JL Curran Reservoir,Chroococcaceae,Microcystis,502109.2043,0.15608637
+JL Curran Reservoir,Chroococcaceae,Woronichinia,92433.8304,0.02873411
+JL Curran Reservoir,Chroococcaceae,Synechocystis,14311.8508,0.004449
+JL Curran Reservoir,Chroococcaceae,Aphanocapsa,14249.2161,0.00442953
+JL Curran Reservoir,Chroococcaceae,Synechococcus,5813.339,0.00180714
+JL Curran Reservoir,Chroococcaceae,Unknwon Chroococcaceae,3648.0388,0.00113403
+JL Curran Reservoir,Chroococcaceae,Chroococcus,1641.5069,5.1028e-4
+Mashapaug Pond,Chroococcaceae,Microcystis,9760627.2308,0.45999986
+Mashapaug Pond,Chroococcaceae,Woronichinia,3549726.2349,0.16729187
+Mashapaug Pond,Nostocaceae,Dolichospermum,3525235.3047,0.16613765
+Mashapaug Pond,Nostocaceae,Aphanizomenon,963532.6525,0.04540947
+Mashapaug Pond,Oscillatoriaceae,Planktothrix,330866.9991,0.01559313
+Mashapaug Pond,Nostocaceae,Cuspidothrix,227631.3705,0.01072783
+Mashapaug Pond,Chroococcaceae,Unknwon Chroococcaceae,15390.1637,7.2531e-4
+Mashapaug Pond,Chroococcaceae,Synechococcus,8720.0085,4.1096e-4
+Mashapaug Pond,Chroococcaceae,Aphanocapsa,2770.6377,1.3057e-4
+Mashapaug Pond,Chroococcaceae,Synechocystis,447.2453,2.108e-5
+Melville Pond,Nostocaceae,Dolichospermum,550379.5904,0.34736433
+Melville Pond,Chroococcaceae,Woronichinia,378216.5628,0.23870606
+Melville Pond,Nostocaceae,Cuspidothrix,75877.132,0.04788878
+Melville Pond,Chroococcaceae,Unknwon Chroococcaceae,8436.0897,0.00532432
+Melville Pond,Nostocaceae,Aphanizomenon,8095.0979,0.00510911
+Melville Pond,Chroococcaceae,Synechococcus,5813.339,0.00366901
+Melville Pond,Nostocaceae,Pseudanabaena,1496.6385,9.4458e-4
+Melville Pond,Chroococcaceae,Synechocystis,1240.5169,7.8293e-4
+Melville Pond,Oscillatoriaceae,Jaaginema,776.0349,4.8978e-4
+Melville Pond,Synechococcaceae,Cyanogranis,670.3492,4.2308e-4
+Melville Pond,Chroococcaceae,Merismopedia,43.8231,2.766e-5
+Slack Reservoir,Chroococcaceae,Microcystis,552128.9785,0.321866
+Slack Reservoir,Chroococcaceae,Unknwon Chroococcaceae,10875.7157,0.00634005
+Slack Reservoir,Chroococcaceae,Synechococcus,7694.1251,0.00448532
+Slack Reservoir,Chroococcaceae,Woronichinia,1997.142,0.00116424
+Slack Reservoir,Synechococcaceae,Cyanogranis,857.813,5.0007e-4
+Slack Reservoir,Synechococcaceae,Cyanodictyon,246.2273,1.4354e-4
+Slack Reservoir,Chroococcaceae,Aphanothece,118.3095,6.897e-5
+Slack Reservoir,Chroococcaceae,Aphanocapsa,106.8694,6.23e-5
+Stafford Pond,Chroococcaceae,Synechococcus,9232.9501,0.04403691
+Stafford Pond,Chroococcaceae,Unknwon Chroococcaceae,5335.2567,0.02544671
+Stafford Pond,Synechococcaceae,Cyanodictyon,984.8888,0.00469747
+Stafford Pond,Chroococcaceae,Aphanocapsa,961.825,0.00458746
+Warwick Pond,Chroococcaceae,Microcystis,9612332.2976,0.66326065
+Warwick Pond,Nostocaceae,Dolichospermum,2346541.1031,0.16191371000000002
+Warwick Pond,Nostocaceae,Chrysosporum,616348.7325,0.04252869
+Warwick Pond,Chroococcaceae,Aphanocapsa,150471.778,0.0103827
+Warwick Pond,Nostocaceae,Raphidiopsis,35358.0728,0.00243974
+Warwick Pond,Nostocaceae,Pseudanabaena,33824.018599999996,0.00233389
+Warwick Pond,Chroococcaceae,Woronichinia,31991.7583,0.00220746
+Warwick Pond,Chroococcaceae,Merismopedia,29175.8698,0.00201316
+Warwick Pond,Nostocaceae,Cuspidothrix,23613.6156,0.00162936
+Warwick Pond,Oscillatoriaceae,Planktolyngbya,12824.3072,8.8489e-4
+Warwick Pond,Chroococcaceae,Unknwon Chroococcaceae,7353.0144,5.0737e-4
+Warwick Pond,Chroococcaceae,Synechococcus,5450.0532,3.7606e-4
+Warwick Pond,Synechococcaceae,Cyanogranis,3184.1674,2.1971e-4
+Warwick Pond,Oscillatoriaceae,Jaaginema,2261.5872,1.5605e-4
+Warwick Pond,Chroococcaceae,Synechocystis,2236.2267,1.543e-4
+Warwick Pond,Chroococcaceae,Dactylococcopsis,472.312,3.259e-5
+Yawgoo,Chroococcaceae,Synechocystis,21149.6529,0.17363071
+Yawgoo,Chroococcaceae,Woronichinia,17781.409,0.14597869
+Yawgoo,Chroococcaceae,Unknwon Chroococcaceae,2964.0315,0.02433359
+Yawgoo,Chroococcaceae,Synechococcus,2276.1803,0.01868658
+Yawgoo,Chroococcaceae,Aphanothece,131.4565,0.00107921

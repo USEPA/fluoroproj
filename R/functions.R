@@ -439,11 +439,70 @@ clean_phycotech <- function(phycotech_df){
   phycotech_df_clean
 }
 
+#' Clean Phycotech data
+clean_phycotech_cyano <- function(phycotech_df){
+  
+  phycotech_df_clean <- phycotech_df %>%
+    select(waterbody = system_name, date = sample_date, division, family, genus, 
+           biovolume_concentration = total_biovolume_cubic_um_per_ml_,
+           relative_biovolume = relative_total_biovolume) %>%
+    # TODO: Standardize names with our data
+    mutate(date = ymd(date),
+           waterbody = case_when(waterbody == "Yawagoo Pond" ~
+                                   "Yawgoo",
+                                 TRUE ~ waterbody)) %>%
+    filter(date > "2021-09-01") %>%
+    filter(division == "Cyanophyta") %>%
+    group_by(waterbody,family, genus) %>%
+    summarize(biovolume = sum(biovolume_concentration, na.rm = TRUE),
+              relative_biovolume = sum(relative_biovolume, na.rm = TRUE)) %>%
+    ungroup() %>%
+    arrange(waterbody, desc(relative_biovolume)) %>%
+    mutate(genus = case_when(is.na(genus) ~ 
+                               "Unknwon Chroococcaceae",
+                             TRUE ~ genus))
+  phycotech_df_clean
+}
+
 #' Make grouped bar plot
-grouped_bar_plot <- function(phycotech_df){
-  #browser()
+grouped_bar_plot <- function(phycotech_df, yvar){
+  
+  yvar <- rlang::sym(yvar)
   bar_plot <- phycotech_df %>%
-    ggplot(aes(x = waterbody, y = relative_biovolume, fill = division)) +
-    geom_bar(position = "dodge", stat = "identity")
+    ggplot(aes(x = waterbody, y = !!yvar, fill = barplot_groups)) +
+    geom_bar(position = "dodge", stat = "identity") +
+    scale_fill_manual(values = c("brown","springgreen", "goldenrod", "cyan","grey50")) +
+    theme_ipsum_rc()
+    
   bar_plot
+}
+
+# Make scatterplot of fluoro concentrations vs counts
+flouro_vs_count_plot <- function(fluoro_df, phycotech_df){
+  browser()
+  fluoro_wb <- fluoro_df %>%
+    filter(variable %in% c("chl", "phyco"),
+           !(instrument == "trilogy" & units == "rfu")) %>%
+    select(-units, -date, -sd_value) %>%
+    pivot_wider(names_from = c(variable), values_from = avg_value) %>%
+    group_by(waterbody, instrument) %>%
+    summarize(chl = mean(chl,na.rm = TRUE), phyco = mean(phyco, na.rm = TRUE)) %>%
+    ungroup()
+  phyco_wb <- phycotech_df %>%
+    filter(division == "Cyanophyta") %>%
+    group_by(waterbody) %>%
+    summarize(concentration  = sum(concentration, na.rm = TRUE)) %>%
+    ungroup() %>%
+    mutate(waterbody = stringr::str_replace(waterbody, " Pond", "")) %>%
+    mutate(waterbody = stringr::str_replace(waterbody, " Lake", "")) %>%
+    mutate(waterbody = stringr::str_replace(waterbody, " Reservoir", "")) %>%
+    mutate(waterbody = case_when(waterbody == "Yawagoo" ~
+                                   "yawgoo",
+                                 waterbody == "JL Curran" ~
+                                   "curran",
+                                 TRUE ~ waterbody)) %>%
+    mutate(waterbody = tolower(waterbody))
+  plot_df <- left_join(fluoro_wb, phyco_wb)
+  # Need to make plot same as extracted vs plots - have all instruments vs counts  
+  plot(plot_df$concentration, plot_df$phyco, pch = 19, col = "red", cex = 5)  
 }

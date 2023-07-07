@@ -1,6 +1,6 @@
 ---
 title: "Fluoroproj: Title to be decided later"
-author: "Stephen D. Shivers, Sophie Fournier, Jakob Stankoski, Jeffrey W. Hollister, Betty J. Kreakie"
+author: "Stephen D. Shivers, Jeffrey W. Hollister, Sophie Fournier, Jakob Stankoski, Betty J. Kreakie"
 abstract: "This is our abstract.  Just seeing how it looks."
 format: docx
 bibliography: manuscript.bib
@@ -38,7 +38,7 @@ Within 24 hours of collection, field samples will be analyzed in triplicate usin
 
 ### Phytoplankton Counts
 
-Add in stuff about sampling and Phycotech.
+Add in stuff about sampling and Phycotech. Sampling dates of phytoplankton vs fluoro
 
 ## Results
 
@@ -48,23 +48,27 @@ Fig 1. Map of Field Sites
 
 ### Chlorophyll
 
-Fig 2. Chlorophyll Scatterplot
+![Figure 2. Comparison of fluorometers by waterbody](images/fig2_chla_scatter.jpg)
 
 ### Phycocyanin
 
-Fig 3. Phyco Scatterplot
-
-### Phycocyanin to Chlorophyll Ratio
-
-Fig 4. Ratio Scatterplot
+![Figure 3. Comparison of phycocyanin measurements by waterbody](images/fig3_phyco_scatter.jpg)
 
 ### Phytoplankton Counts
 
--   Add in Phycotech data (all from 10-6)
+![Figure 4. Compare Relative Biovolume of divisions by waterbody](images/fig4_rel_bio_bar.jpg)
 
--   When did turnover happen? Might argue against using phycotech data for 10-21 and 11-09
+![Figure 5. Compare Total Biovlume of divisions by waterbody](images/fig5_total_bio_bar.jpg)
 
--   Maybe drop melville cuz to late/mismatch with phycotech.
+Table 1. Waterbody, Cyano Genus, Relative Biovolume Total Biovolume
+
+```{r read_tabl1, echo=FALSE, message=FALSE}
+table1 <- read_csv(here::here("data/cleaned_phycotech_cyano_data.csv")) 
+```
+
+```{r show_table1, results='asis'}
+knitr::kable(table1)
+```
 
 ## Discussion
 

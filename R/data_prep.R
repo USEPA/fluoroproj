@@ -14,6 +14,8 @@ invivo_data <- merge_invivo()
 field_data <- read_csv(here("data/raw/field data.csv"))
 phycotech_data <- read_excel("data/phycotech/Pre_Sums_398_1_Algae_07012022.xlsx",
                              sheet = "division_398_1_algae_07012022")
+phycotech_genus_data <- read_excel("data/phycotech/Pre_Sums_398_1_Algae_07012022.xlsx",
+                             sheet = "taxalevel_398_1_algae_07012022")
 
 # Clean up data
 handheld_data <- clean_handheld(handheld_data)
@@ -22,7 +24,9 @@ extracted_data <- bind_rows(extracted_chla_data, extracted_phyco_data)
 extracted_data <- clean_extracted(extracted_data)
 invivo_data <- clean_invivo(invivo_data)
 field_data <- clean_field(field_data)
+phycotech_cyano_data <- clean_phycotech_cyano(phycotech_genus_data)
 phycotech_data <- clean_phycotech(phycotech_data)
+
 
 
 fluoroproj_data <- bind_rows(handheld_data, phycoprobe_data, extracted_data,
@@ -70,6 +74,4 @@ fluoroproj_data_dups <- fluoroproj_data %>%
 write_csv(fluoroproj_data, here("data/cleaned_fluoroproj_data.csv"))
 write_csv(fluoroproj_data_dups, here("data/cleaned_fluoroproj_data_dups.csv"))
 write_csv(phycotech_data, "data/cleaned_phycotech_data.csv")
-
-
-# Phycotech data prep
+write_csv(phycotech_cyano_data, "data/cleaned_phycotech_cyano_data.csv")
