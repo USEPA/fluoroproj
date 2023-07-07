@@ -2,8 +2,8 @@
 #' 
 merge_extracted_chla <- function(){
   files <- c(list.files(here("data/raw/extracted chl/"), ".csv", 
-                        full.names = TRUE))
-  
+                        full.names = TRUE)) 
+  files <- files[!grepl("prelimanary", files)]
   extracted_data <- purrr::map_df(files, 
                                   function(x) {
                                     xdf <- read_csv(x, na = c("", "NA", "na"))
@@ -80,6 +80,8 @@ clean_handheld <- function(df){
   handheld_data <- mutate(handheld_data, units = case_when(units == "ug/l" ~
                                                              "µg/L",
                                                            TRUE ~ units))
+  handheld_data <- mutate(handheld_data, field_dups = as.character(field_dups),
+                          lab_reps = as.character(lab_reps))
   # Assumes hi is chl and lo is phyco
   # What are ch1/ch2 hi/lo???
   
@@ -114,6 +116,8 @@ clean_phycoprobe <- function(df){
   phycoprobe_data <- ungroup(phycoprobe_data)
   phycoprobe_data <- select(phycoprobe_data, date:method, variable, units, 
                             value)
+  phycoprobe_data <- mutate(phycoprobe_data, field_dups = as.character(field_dups),
+                          lab_reps = as.character(lab_reps))
   
   #borrowed from https://stackoverflow.com/questions/54221280/how-to-declare-encoding-for-all-character-columns-in-a-data-frame
   phycoprobe_data <- dplyr::mutate_if(phycoprobe_data, is.character, .funs = 
@@ -138,14 +142,16 @@ clean_extracted <- function(df){
                                                  TRUE ~ waterbody),
                            units = tolower(units))
 
-  extracted_ratio <- pivot_wider(extracted_data, 
+  extracted_ratio <- pivot_wider(extracted_data,
+                                 id_cols = date:method,
                                  names_from = c("variable", "units"), 
                                  values_from = value)
-  
+ 
   extracted_ratio <- mutate(extracted_ratio, 
-                            `pc:chl_ratio` = phyco_rfu/chl_rfu)
-  extracted_ratio <- select(extracted_ratio, date:method, `pc:chl_ratio`)
-  extracted_ratio <- pivot_longer(extracted_ratio, `pc:chl_ratio`, 
+                            `pc:chl_ratio-rfu` = phyco_rfu/chl_rfu,
+                            `pc:chl_ratio-conc` = `phyco_µg/l`/`chl_µg/l`)
+  extracted_ratio <- select(extracted_ratio, date:method, `pc:chl_ratio-rfu`, `pc:chl_ratio-conc`)
+  extracted_ratio <- pivot_longer(extracted_ratio, c(`pc:chl_ratio-rfu`, `pc:chl_ratio-conc`), 
                                   names_to = c("variable", "units"), 
                                   names_sep = "_", values_to = "value")
   extracted_data <- bind_rows(extracted_data, extracted_ratio)
@@ -213,6 +219,8 @@ clean_field <- function(df){
   field_data <- select(field_data, date, waterbody, field_dups, 
                        lab_reps, instrument, method, 
                        variable, units, value)
+  field_data <- mutate(field_data, field_dups = as.character(field_dups),
+                            lab_reps = as.character(lab_reps))
   field_data <- dplyr::mutate_if(field_data, is.character, .funs = 
                                         function(x){return(`Encoding<-`(x, "UTF-8"))})
   field_data
@@ -221,20 +229,31 @@ clean_field <- function(df){
 
 ext_vs_all_plot <- function(fpdata, var, meth, x_order = NULL){
   
-  browser()
-  
+
   if(var == "chl"){
     xvar <- sprintf("extracted chlorophyll (\u03BCg/L)")
     my_breaks <- c(0, 15, 30)
+    extracted_data <- fpdata %>%
+      filter(method == "extracted", instrument == "trilogy",
+             units != "rfu" , variable == var) %>%
+      select(date, waterbody, field_dups, extracted_value = avg_value)
   } else if (var == "phyco"){
     xvar <- sprintf("extracted phycocyanin (\u03BCg/L)")
     my_breaks <- c(0, 5, 10)
+    extracted_data <- fpdata %>%
+      filter(method == "extracted", instrument == "trilogy",
+             units != "rfu" , variable == var) %>%
+      select(date, waterbody, field_dups, extracted_value = avg_value)
+  } else if (var == "pc:chl"){
+    xvar <- "extracted phycocyanin rfu : extracted chlorophyll rfu"
+    my_breaks <- c(0, 2, 4)
+    extracted_data <- fpdata %>%
+      filter(method == "extracted", instrument == "trilogy",
+             units == "ratio-rfu" , variable == var) %>%
+      select(date, waterbody, field_dups, extracted_value = avg_value)
   }
   
-  extracted_data <- fpdata %>%
-    filter(method == "extracted", instrument == "trilogy",
-           units != "rfu" , variable == var) %>%
-    select(date, waterbody, extracted_value = avg_value)
+  
   
   plot_data <- fpdata %>%
     filter(method %in% meth, instrument != "trilogy",
@@ -254,7 +273,7 @@ ext_vs_all_plot <- function(fpdata, var, meth, x_order = NULL){
     geom_point(size = 4) +
     facet_wrap(instrument_unit ~ ., scales = "free", strip.position = "left") +
     theme_ipsum_rc() +
-    scale_color_brewer(type = "qual", palette = "Set1") +
+    scale_color_viridis_d(option = "plasma") +
     #scale_x_continuous(breaks = my_breaks) +
     theme(axis.title.y = element_blank(), 
           strip.text.y.left = element_text(angle=90, hjust = 1, size = 14), 
@@ -401,4 +420,30 @@ fq_fresh_frozen_plot <- function(fpdata, var, x_order = NULL){
           legend.text=element_text(size=14)) +
     labs(x = xvar, y = yvar)
   myplot
+}
+
+#' Clean Phycotech data
+clean_phycotech <- function(phycotech_df){
+  phycotech_df_clean <- phycotech_df %>%
+    select(waterbody = system_name, date = sample_date, division, 
+           concentration = concentration_natural_units_per_ml_,
+           relative_concentration, 
+           biovolume_concentration = total_biovolume_cubic_um_per_ml_,
+           relative_biovolume = relative_total_biovolume) %>%
+    # TODO: Standardize names with our data
+    mutate(date = ymd(date),
+           waterbody = case_when(waterbody == "Yawagoo Pond" ~
+                                   "Yawgoo",
+                                 TRUE ~ waterbody)) %>%
+    filter(date > "2021-09-01")
+  phycotech_df_clean
+}
+
+#' Make grouped bar plot
+grouped_bar_plot <- function(phycotech_df){
+  #browser()
+  bar_plot <- phycotech_df %>%
+    ggplot(aes(x = waterbody, y = relative_biovolume, fill = division)) +
+    geom_bar(position = "dodge", stat = "identity")
+  bar_plot
 }

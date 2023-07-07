@@ -1,8 +1,44 @@
+#source(here::here("R/data_prep.R"))
 source(here::here("R/packages.R"))
 source(here::here("R/functions.R"))
 
-fp_data_wb <- read_csv(here("data/cleaned_fluoroproj_data_dups.csv"))
+fp_data_wb <- read_csv(here("data/cleaned_fluoroproj_data_dups.csv")) %>%
+  filter(!grepl("culture", waterbody),
+         !grepl("standard", waterbody),
+         waterbody != "windmist") %>%
+  filter(!(waterbody %in% c("lower melville", "upper melville")))
 
+phycotech_data <- read_csv(here("data/cleaned_phycotech_data.csv")) %>%
+  filter(!(waterbody %in% c("Melville Pond")))
+
+# Figures
+# Have instruments in same spot on figure
+# color-blind friendly palette
+# Ratio Figure 
+# Grouped bar chart with waterbody on x, and bars for each division, relative and total biovolume - read from pre-sums division tab
+# Crazy idea, scatterplots from above but size of point from relative cyano biovolume
+# Compare phyco and chl to cell counts - maybe can make argument that cell counts bad, phyco good.
+chla_compare_plot <- ext_vs_all_plot(fp_data_wb, "chl", c("fresh", "extracted"),
+                                     c("algaetorch (µg/L)", "phycoprobe (µg/L)",
+                                       "cyanofluor (rfu)",
+                                       "trilogy in vivo (rfu)"))
+
+phyco_compare_plot <- ext_vs_all_plot(fp_data_wb, "phyco", c("fresh", "extracted"),
+                                      c("algaetorch (µg/L of chlorophyll)", 
+                                        "phycoprobe (µg/L of chlorophyll)",
+                                        "cyanofluor (rfu)", 
+                                        "fluorosense (µg/L)"))
+
+ratio_compare_plot <- ext_vs_all_plot(fp_data_wb, "pc:chl", c("fresh", "extracted"))
+
+division_bar_plot <- grouped_bar_plot(phycotech_data)
+
+
+
+
+
+
+# Beyond here be dragons
 inst_avg <- fp_data_wb %>%
   filter(method %in% c("frozen","extracted"), units == "µg/L", 
          variable == "chl") %>%

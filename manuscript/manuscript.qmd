@@ -4,101 +4,74 @@ author: "Stephen D. Shivers, Sophie Fournier, Jakob Stankoski, Jeffrey W. Hollis
 abstract: "This is our abstract.  Just seeing how it looks."
 format: docx
 bibliography: manuscript.bib
-editor_options: 
-  chunk_output_type: console
 ---
 
 ## Introduction
 
 Possible Journals: Lake and Reservoir Management, PLOS One, PLOS Water, Ecosphere, F1000Research,
 
-The goal of this paper is to compare accuracy and precision of a variety of fluorometers with respect to chlorophyll and phycocyanin across a variety of waterbodies as well as with lab grown cultures of green algae and cyanobacteria [@Nojavan2019; @Hollister2016].
+<!-- HAB expansion is a problem and temporal nature means lots of groups have to be proactively involved in monitoring -->
 
-This worked well until the fluorometer gave us problems [@Hollister2016; @Walsh2017]
+Harmful algal blooms caused by cyanobacteria (cyanoHABs) are likely to increase in a warming world with greater inputs of nutrients by humans. These blooms may impact both human and environmental health, particularly if toxins are being produced. CyanoHAB blooms are often transient in nature, can be difficult to accurately quantify, and occur in diverse waterbodies across large spatial scales. Despite occuring on large scales, effects of blooms have primarily local impacts and can differ in species composition and toxicity based on local conditions. As large, centrally managed monitoring efforts are expensive and time consuming to operate, a substantial portion of cyanoHAB monitoring occurs at the local level. As neighborhood and lake associations generally do not have the equipment or training to perform extractive analysis of cholorophyll a and/or phycocyanin (pigments found in all algae and specifically cyanobacteria, respectively), alternative measurement equipment has been developed.
 
-With culture, first look not very linear, but split out but green, cyan, and mixed each grouping shows linear relationship between extracted and in situ turner. Might not matter that different waterbodies would be in different green/cyano/mix classes. But the pattern between extracted and in situ/handheld flouros should be similar @Hodges2018. Different pattern with any handheld/in situ would suggest it not perfomring well.
+<!--To respond to this problem industry has developed a variety of handhelds-->
 
-```{r comparisons}
-library(readr)
-library(dplyr)
-library(ggplot2)
+A variety of instruments have been developed to measure chlorophyll a and/or phycocyanin using in vivo fluorescence without an extraction step and have a wide range in cost. These instruments distinguish between the pigments based on their differing emission spectra. Some instruments (i.e. PhycoProbe) use multiple leds at varying wavelengths to cause fluorescence of different algal types, thus creating a finer scale breakdown of community composition. These instruments can be used in the field, the lab, or a combination of both.
 
-prelim_ext_chl <- read_csv(here::here("data/raw/extracted chl/extracted_chl_fluororproj_prelimanary_test_2023_3_29.csv")) |>
-  group_by(waterbody) |>
-  summarize(extracted = mean(value, na.rm = TRUE)) |>
-  arrange(waterbody)
-prelim_in_viv <- read_csv(here::here("data/raw/trilogy in vivo/trilogy in vivo 2023_03_28_fresh.csv")) |>
-  mutate(waterbody = case_when(waterbody == "culture_aba" ~
-                                 "culture_ana",
-                               TRUE ~ waterbody))|>
-  group_by(waterbody) |>
-  summarize(in_vivo = mean(value, na.rm = TRUE)) |>
-  arrange(waterbody)
+<!--Taking individual fluorometer data across a region or between groups is difficult because these instruments all measure a little different-->
 
-all <- bind_cols (prelim_ext_chl, prelim_in_viv) |>
-  select(culture = waterbody...1, extracted, in_vivo) |>
-  filter(!is.na(culture)) |>
-  mutate(class = case_when(culture == "culture_ana" ~
-                             "cyano",
-                           culture == "culture_ana_pando" ~
-                             "mix",
-                           culture == "culture_mic" ~
-                             "cyano",
-                           culture == "culture_mic_ana" ~
-                             "cyano",
-                           culture == "culture_mic_pando" ~
-                             "mix",
-                           culture == "culture_pando" ~
-                             "greens",
-                           culture == "culture_pedia" ~
-                             "greens",
-                           culture == "culture_pedia_pando" ~
-                             "greens",
-                           culture == "culture_mic_ana_pando_pedia" ~
-                             "mix",
-                           TRUE ~ culture))
-
-ggplot(all, aes(x = extracted, y = in_vivo, color = class)) +
-  geom_point(size = 5)
-```
+Field instruments may be placed directly in a waterbody or require water to be poured into a cuvette and then placed into a handheld fluorometer. Differences in measurement methods represent a potential source of error when comparing instruments. Additionally, instruments may report valued in rfus (raw or relative fluorescence units) or µg/L (concentration) and comparing these values introduces an additional source of error during comparison. In vivo fluorescence can be affected by photochemical quenching causing an underestimation of rfus as photosystems become saturated with light. Estimation problems can also result from differing community composition, particularly if colonial cyanobacteria are present as the interior of large colonies will not fluoresce as readily as the exterior. Finally, the physical properties of the sample water can greatly affect fluorescence readings based on turbidity levels and the presence of CDOM. Some instruments offer a yellow substance correction to help account for CDOM while others do not. How the different instruments handle these various potential problems can affect their accuracy and precision, and the ability to compare across different instrument types. The goal of this paper is to compare different handhelds or in situ fluorometers with respect to a common benchmark (extracted chlorophyll and phycocyanin) across a variety of waterbodies.
 
 ## Methods
 
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code . You can embed code like this:
+### Equipment used for comparison
 
-```{r}
-1 + 1
-```
+The following five fluorometers were used during this study: Turner Trilogy (in vivo chlorophyll module), Turner FluoroSense, Turner Cyanofluor, bbe AlgaeTorch, and bbe PhycoProbe. Measurements from these fluorometers were compared with the results of a solvent-based extraction for chlorophyll and phycocyanin using a Turner Trilogy with a chla-na and orange module, respectively.
 
-```{r}
-library(dplyr)
-library(readr)
-read_csv("../data/cleaned_fluoroproj_data.csv")
-```
+### Field Sampling Methods
 
-You can add options to executable code like this
+Field samples were collected from eight ponds in Rhode Island during October and November 2021. Two liter surface samples were collected in triplicate (six total liters) by wading into each pond to a minimum depth of two feet to avoid collecting near the sediment. If a surface scum was present, the scum was gently brushed aside to avoid being collected in the sample bottles. Samples were collected in acid-washed 1 L amber bottles and placed in a cooler with ice. At the same location as sample collection, measurements of chlorophyll and phycocyanin were made using the AlgaeTorch and the FluoroSense.
 
-```{r}
-#| echo: false
-2 * 2
-```
+### Analysis of field samples
 
-The `echo: false` option disables the printing of code (only output is displayed).
+Within 24 hours of collection, field samples will be analyzed in triplicate using the PhycoProbe, CyanoFluor, and the Trilogy (in-vivo), as well as filtered onto 0.7 µm pre-ashed glass fiber filters and frozen at -20 °C for solvent-based extraction. Sample water filtered through a 0.22 µm syringe filter was used to correct for yellow substances on the PhycoProbe, CyanoFluor, and Trilogy in-vivo module. Chlorophyll a extraction using 90% acetone followed after a 20 minute period in a sonicating water bath. Phycocyanin extraction followed a 15 minute period in a sonicating water bath and used a 50 mM phosphate buffer. Extracted samples were analyzed using a Turner Trilogy with a chla na module (chlorophyll) and an orange module (phycocyanin).
 
-![Instrument comparison for Chlorophyll](images/chla_instrument_compare.png){#fig-chla-comparison}
+### Phytoplankton Counts
+
+Add in stuff about sampling and Phycotech.
 
 ## Results
 
-Here are our results. Fear us.
+### Summary of Data
 
-Figure ideas:
+Fig 1. Map of Field Sites
 
-scatterplots: ext chl/phyco on y, chl/phyco from each insturment on x, colors/shapes for each waterbody/culture
+### Chlorophyll
 
-boxplots (need to be same units): first boxplot is extracted, compare to all others.
+Fig 2. Chlorophyll Scatterplot
+
+### Phycocyanin
+
+Fig 3. Phyco Scatterplot
+
+### Phycocyanin to Chlorophyll Ratio
+
+Fig 4. Ratio Scatterplot
+
+### Phytoplankton Counts
+
+-   Add in Phycotech data (all from 10-6)
+
+-   When did turnover happen? Might argue against using phycotech data for 10-21 and 11-09
+
+-   Maybe drop melville cuz to late/mismatch with phycotech.
 
 ## Discussion
 
-Discuss amongst yourselves. @fig-chla-comparison
+Discuss amongst yourselves.
+
+## Acknowledgements
+
+And special thanks to Gracie, Anastasia, and Lilac for emotional support during challenging analysis times.
 
 ## References

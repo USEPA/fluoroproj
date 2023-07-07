@@ -12,6 +12,8 @@ extracted_chla_data <- merge_extracted_chla() #On Feb 10, 2023 - blanks in new f
 extracted_phyco_data <- merge_extracted_phyco() #On Feb 10. 2023 - checking on solid standard, appeared to have typo (1044, should be 10044?)
 invivo_data <- merge_invivo()
 field_data <- read_csv(here("data/raw/field data.csv"))
+phycotech_data <- read_excel("data/phycotech/Pre_Sums_398_1_Algae_07012022.xlsx",
+                             sheet = "division_398_1_algae_07012022")
 
 # Clean up data
 handheld_data <- clean_handheld(handheld_data)
@@ -20,6 +22,7 @@ extracted_data <- bind_rows(extracted_chla_data, extracted_phyco_data)
 extracted_data <- clean_extracted(extracted_data)
 invivo_data <- clean_invivo(invivo_data)
 field_data <- clean_field(field_data)
+phycotech_data <- clean_phycotech(phycotech_data)
 
 
 fluoroproj_data <- bind_rows(handheld_data, phycoprobe_data, extracted_data,
@@ -44,13 +47,17 @@ fluoroproj_data <- mutate(fluoroproj_data, units = case_when(units == "µg/l" ~
                                                 TRUE ~ waterbody)) %>%
   # Set NA field dups to 1
   mutate(field_dups = case_when(is.na(field_dups) ~
-                                  1,
+                                  "1",
                                 TRUE ~ field_dups)) %>%
   # Remove known data entry mistake
   filter(!(waterbody == "warwick" & method == "frozen3" & field_dups == 2 & 
              variable == "ch1 lo")) %>%
   # Remove oddball Windmist
-  filter(!(waterbody == "windmist" & field_dups == 2))
+  filter(!(waterbody == "windmist" & field_dups == 2)) %>%
+  # Keep only fresh and extracted
+  filter(method %in% c("extracted", "fresh")) %>%
+  # Remove fluoroquick
+  filter(!grepl("fluoroquik", instrument))
 
 fluoroproj_data_dups <- fluoroproj_data %>%
   group_by(date, waterbody, instrument, method, variable, units, field_dups) %>%
@@ -62,3 +69,7 @@ fluoroproj_data_dups <- fluoroproj_data %>%
 
 write_csv(fluoroproj_data, here("data/cleaned_fluoroproj_data.csv"))
 write_csv(fluoroproj_data_dups, here("data/cleaned_fluoroproj_data_dups.csv"))
+write_csv(phycotech_data, "data/cleaned_phycotech_data.csv")
+
+
+# Phycotech data prep
