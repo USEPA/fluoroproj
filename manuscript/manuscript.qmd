@@ -63,7 +63,10 @@ Fig 1. Map of Field Sites
 Table 1. Waterbody, Cyano Genus, Relative Biovolume Total Biovolume
 
 ```{r read_tabl1, echo=FALSE, message=FALSE}
-table1 <- read_csv(here::here("data/cleaned_phycotech_cyano_data.csv")) 
+table1 <- read_csv(here::here("data/cleaned_phycotech_cyano_data.csv")) %>%
+  select(-family) %>%
+  mutate(biovolume = round(biovolume, 1),
+         relative_biovolume = round(relative_biovolume, 5))
 ```
 
 ```{r show_table1, results='asis'}

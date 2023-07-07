@@ -20,6 +20,8 @@ phycotech_data <- read_csv(here("data/cleaned_phycotech_data.csv")) %>%
                                       "Other",
                                     TRUE ~ division))
 
+
+  
 # Figures
 # Have instruments in same spot on figure
 # color-blind friendly palette
@@ -52,7 +54,7 @@ division_bar_plot_total <- grouped_bar_plot(phycotech_data, "biovolume_concentra
 ggsave(here::here("figures/fig5_total_bio_bar.jpg"), division_bar_plot_total, 
        width = 7.5, height = 5.25, dpi = 300)
 
-
+fluoro_count_scatter <- flouro_vs_count_plot(fp_data_wb, phycotech_data)
 
 
 
