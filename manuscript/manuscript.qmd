@@ -60,6 +60,10 @@ Fig 1. Map of Field Sites
 
 ![Figure 5. Compare Total Biovlume of divisions by waterbody](images/fig5_total_bio_bar.jpg)
 
+![Figure 6. Compare fluorometer chlorophyll to cyanobacteria cell counts](images/fig6_chl_vs_cells.jpg)
+
+![Figure 7. Compare fluorometer phycocyanin to cyanobacteria cell counts](images/fig7_phyco_vs_cells.jpg)
+
 Table 1. Waterbody, Cyano Genus, Relative Biovolume Total Biovolume
 
 ```{r read_tabl1, echo=FALSE, message=FALSE}

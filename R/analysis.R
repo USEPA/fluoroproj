@@ -33,7 +33,7 @@ chla_compare_plot <- ext_vs_all_plot(fp_data_wb, "chl", c("fresh", "extracted"),
                                      c("algaetorch (µg/L)", "phycoprobe (µg/L)",
                                        "cyanofluor (rfu)",
                                        "trilogy in vivo (rfu)"))
-ggsave(here::here("figures/fig2_chla_scatter.jpg"), chla_compare_plot, 
+ggsave(here::here("manuscript/images/fig2_chla_scatter.jpg"), chla_compare_plot, 
        width = 7.5, height = 5.25, dpi = 300)
 
 phyco_compare_plot <- ext_vs_all_plot(fp_data_wb, "phyco", c("fresh", "extracted"),
@@ -41,95 +41,24 @@ phyco_compare_plot <- ext_vs_all_plot(fp_data_wb, "phyco", c("fresh", "extracted
                                         "phycoprobe (µg/L of chlorophyll)",
                                         "cyanofluor (rfu)", 
                                         "fluorosense (µg/L)"))
-ggsave(here::here("figures/fig3_phyco_scatter.jpg"), phyco_compare_plot, 
+ggsave(here::here("manuscript/images/fig3_phyco_scatter.jpg"), phyco_compare_plot, 
        width = 7.5, height = 5.25, dpi = 300)
 
-ratio_compare_plot <- ext_vs_all_plot(fp_data_wb, "pc:chl", c("fresh", "extracted"))
+#ratio_compare_plot <- ext_vs_all_plot(fp_data_wb, "pc:chl", c("fresh", "extracted"))
 
 division_bar_plot_relative <- grouped_bar_plot(phycotech_data, "relative_biovolume")
-ggsave(here::here("figures/fig4_rel_bio_bar.jpg"), division_bar_plot_relative, 
+ggsave(here::here("manuscript/images/fig4_rel_bio_bar.jpg"), division_bar_plot_relative, 
        width = 7.5, height = 5.25, dpi = 300)
 
 division_bar_plot_total <- grouped_bar_plot(phycotech_data, "biovolume_concentration")
-ggsave(here::here("figures/fig5_total_bio_bar.jpg"), division_bar_plot_total, 
+ggsave(here::here("manuscript/images/fig5_total_bio_bar.jpg"), division_bar_plot_total, 
        width = 7.5, height = 5.25, dpi = 300)
 
-fluoro_count_scatter <- flouro_vs_count_plot(fp_data_wb, phycotech_data)
+fluoro_chl_count_scatter <- flouro_vs_count_plot(fp_data_wb, phycotech_data, "chlorophyll")
+ggsave(here::here("manuscript/images/fig6_chl_vs_cells.jpg"), fluoro_chl_count_scatter, 
+       width = 7.5, height = 5.25, dpi = 300)
 
+fluoro_phyco_count_scatter <- flouro_vs_count_plot(fp_data_wb, phycotech_data, "phycocyanin")
+ggsave(here::here("manuscript/images/fig7_phyco_vs_cells.jpg"), fluoro_phyco_count_scatter, 
+       width = 7.5, height = 5.25, dpi = 300)
 
-
-
-# Beyond here be dragons
-inst_avg <- fp_data_wb %>%
-  filter(method %in% c("frozen","extracted"), units == "µg/L", 
-         variable == "chl") %>%
-  group_by(instrument, variable) %>%
-  summarize(instrument_avg_conc = mean(avg_value)) %>%
-  ungroup() 
-inst_avg
-
-tril_fq_data <- fp_data_wb %>%
-  filter(method %in% c("frozen", "extracted"),
-         instrument %in% c("trilogy", "duluth fluoroquik"),
-         variable %in% c("phyco", "ch1 hi", "ch1 lo", "ch2 hi", "ch2 lo")) %>%
-  select(date, waterbody, dups, instrument, variable, units, avg_value) %>%
-  filter(!(instrument == "trilogy" & units == "rfu")) %>%
-  pivot_wider(date:dups, names_from = c("instrument", "variable", "units"), 
-              values_from = avg_value)
-
-trilogy_conc_vs_fluoroquick_conc <- tril_fq_data %>%
-  ggplot(aes(x = `trilogy_phyco_µg/L`, y = `duluth fluoroquik_phyco_µg/L`, 
-             color = waterbody)) +
-  geom_point(size = 3) 
-
-trilogy_conc_vs_fluoroquick_ch1_hi <- tril_fq_data %>%
-  ggplot(aes(x = `trilogy_phyco_µg/L`, y = `duluth fluoroquik_ch1 hi_rfu`, 
-             color = waterbody)) +
-  geom_point(size = 3) 
-
-trilogy_conc_vs_fluoroquick_ch1_lo <- tril_fq_data %>%
-  ggplot(aes(x = `trilogy_phyco_µg/L`, y = `duluth fluoroquik_ch1 lo_rfu`, 
-             color = waterbody)) +
-  geom_point(size = 3)  
-
-trilogy_conc_vs_fluoroquick_ch1_hi <- tril_fq_data %>%
-  ggplot(aes(x = `trilogy_phyco_µg/L`, y = `duluth fluoroquik_ch1 hi_rfu`, 
-             color = waterbody)) +
-  geom_point(size = 3) 
-
-trilogy_conc_vs_fluoroquick_ch1_lo <- tril_fq_data %>%
-  ggplot(aes(x = `trilogy_phyco_µg/L`, y = `duluth fluoroquik_ch1 lo_rfu`, 
-             color = waterbody)) +
-  geom_point(size = 3) 
-
-trilogy_conc_vs_fluoroquick_ch2_hi <- tril_fq_data %>%
-  ggplot(aes(x = `trilogy_phyco_µg/L`, y = `duluth fluoroquik_ch2 hi_rfu`, 
-             color = waterbody)) +
-  geom_point(size = 3) 
-
-trilogy_conc_vs_fluoroquick_ch2_lo <- tril_fq_data %>%
-  ggplot(aes(x = `trilogy_phyco_µg/L`, y = `duluth fluoroquik_ch2 lo_rfu`, 
-             color = waterbody)) +
-  geom_point(size = 3) 
-
-combined_plot_phyco <- cowplot::plot_grid(trilogy_conc_vs_fluoroquick_conc,
-                   trilogy_conc_vs_fluoroquick_ch2_lo,
-                   trilogy_conc_vs_fluoroquick_ch2_hi,
-                   trilogy_conc_vs_fluoroquick_conc,
-                   trilogy_conc_vs_fluoroquick_ch1_lo,
-                   trilogy_conc_vs_fluoroquick_ch1_hi,
-                   nrow = 2, ncol = 3)
-
-combined_plot_phyco
-
-tril_all_data <- fp_data_wb %>%
-  filter(method %in% c("fresh", "extracted"),
-         !instrument %in% c("uri fluoroquik", "sonde"),
-         variable %in% c("phyco")) %>%
-  select(date, waterbody, dups, instrument, variable, units, avg_value) %>%
-  filter(!(instrument == "trilogy" & units == "rfu")) %>%
-  pivot_wider(date:dups, names_from = c("instrument", "variable", "units"), 
-              values_from = avg_value)
-
-plot(tril_all_data[,4:9])
-  

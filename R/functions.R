@@ -478,8 +478,9 @@ grouped_bar_plot <- function(phycotech_df, yvar){
 }
 
 # Make scatterplot of fluoro concentrations vs counts
-flouro_vs_count_plot <- function(fluoro_df, phycotech_df){
-  browser()
+flouro_vs_count_plot <- function(fluoro_df, phycotech_df, xvar = c("chlorophyll", "phycocyanin")){
+  
+  xvar <- match.arg(xvar)
   fluoro_wb <- fluoro_df %>%
     filter(variable %in% c("chl", "phyco"),
            !(instrument == "trilogy" & units == "rfu")) %>%
@@ -502,7 +503,32 @@ flouro_vs_count_plot <- function(fluoro_df, phycotech_df){
                                    "curran",
                                  TRUE ~ waterbody)) %>%
     mutate(waterbody = tolower(waterbody))
-  plot_df <- left_join(fluoro_wb, phyco_wb)
-  # Need to make plot same as extracted vs plots - have all instruments vs counts  
-  plot(plot_df$concentration, plot_df$phyco, pch = 19, col = "red", cex = 5)  
+  
+  if(xvar == "chlorophyll"){
+    plot_df <- left_join(fluoro_wb, phyco_wb) %>%
+      select(waterbody, instrument, yvar = chl, concentration) %>%
+      filter(!is.na(yvar))
+  } else if(xvar == "phycocyanin"){
+    plot_df <- left_join(fluoro_wb, phyco_wb) %>%
+      select(waterbody, instrument, yvar = phyco, concentration) %>%
+      filter(!is.na(yvar))
+  }
+  
+  myplot <- plot_df %>%
+    ggplot(aes(x = concentration, y = yvar, color = waterbody)) +
+    geom_point(size = 4) +
+    facet_wrap(instrument ~ ., scales = "free", strip.position = "left") +
+    theme_ipsum_rc() +
+    scale_color_viridis_d(option = "plasma") +
+    #scale_x_continuous(breaks = my_breaks) +
+    theme(axis.title.y = element_blank(), 
+          strip.text.y.left = element_text(angle=90, hjust = 1, size = 14), 
+          strip.placement = "outside",
+          axis.text.x = element_text(size = 14),
+          axis.title.x = element_text(size = 14, hjust = 0.5, vjust = -1),
+          legend.text=element_text(size = 14),
+          axis.text.y = element_text(size = 14),
+          legend.title = element_text(size = 14)) +
+    labs(x = "cyanobacterial cells/ml")
+  myplot
 }
