@@ -42,6 +42,14 @@ Add in stuff about sampling and Phycotech. Sampling dates of phytoplankton vs fl
 
 ## Results
 
+Stats?  One-to-one lines? Regressions with r2?
+
+Chlorophyll measurements for all instruments followed the same general pattern as the extracted chlorophyll values.  The Algaetorch and Phycoprobe measurements were similar to and exhibited a strong relationship with extracted chlorophyll concentrations.  The Cyanofluor and Trilogy in vivo measurements increased as extracted chlorophyll concentrations increased but the relationship was not as strong compared to the other instruments, primarily resulting from differences in three of the six sites (Curran, Mashapaug, and Warwick).
+
+Phycocyanin measurements for the Fluorosense and the Cyanofluor had a similar relationship with extracted phycocyanin although the Fluorosense overestimated the concentrations.  The Algaetorch and Phycoprobe measurements were strongly related to extracted phycocyanin concentrations but were not directly comparable as both measurements were of cyanobacteria as chlorophyll.
+
+Cyanophytes were the dominant taxa by relative biovolume at three sites (Curran, Mashapaug, and Warwick), Chrysophytes at two sites (Barber and Yawgoo), and Bacillariophytes at one site (Indian).  Biovolume concentrations were substantially higher at Mashapaug and Warwick.
+
 ### Summary of Data
 
 Fig 1. Map of Field Sites
@@ -56,7 +64,7 @@ Fig 1. Map of Field Sites
 
 ### Phytoplankton Counts
 
-![Figure 4. Compare Relative Biovolume of divisions by waterbody](images/fig4_rel_bio_bar.jpg)
+![Figure 4. Compare Relative Biovolume of divisions by waterbody](images/fig4_rel_bio_bar.jpg){width="2250"}
 
 ![Figure 5. Compare Total Biovlume of divisions by waterbody](images/fig5_total_bio_bar.jpg)
 
