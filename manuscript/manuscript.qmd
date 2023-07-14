@@ -34,15 +34,21 @@ Field samples were collected from eight ponds in Rhode Island during October and
 
 ### Analysis of field samples
 
+<!-- Look at yellow substance and blank corrections on cyanfluor and in vivo (maybe others).  -->
+
 Within 24 hours of collection, field samples will be analyzed in triplicate using the PhycoProbe, CyanoFluor, and the Trilogy (in-vivo), as well as filtered onto 0.7 µm pre-ashed glass fiber filters and frozen at -20 °C for solvent-based extraction. Sample water filtered through a 0.22 µm syringe filter was used to correct for yellow substances on the PhycoProbe, CyanoFluor, and Trilogy in-vivo module. Chlorophyll a extraction using 90% acetone followed after a 20 minute period in a sonicating water bath. Phycocyanin extraction followed a 15 minute period in a sonicating water bath and used a 50 mM phosphate buffer. Extracted samples were analyzed using a Turner Trilogy with a chla na module (chlorophyll) and an orange module (phycocyanin).
 
 ### Phytoplankton Counts
 
 Add in stuff about sampling and Phycotech. Sampling dates of phytoplankton vs fluoro
 
+### Statistical Analysis
+
+Make some comment about why no 1:1 line, using regression and r2 to compare sensors
+
 ## Results
 
-Stats?  One-to-one lines? Regressions with r2?
+Stats?  Regressions with r2?
 
 Chlorophyll measurements for all instruments followed the same general pattern as the extracted chlorophyll values.  The Algaetorch and Phycoprobe measurements were similar to and exhibited a strong relationship with extracted chlorophyll concentrations.  The Cyanofluor and Trilogy in vivo measurements increased as extracted chlorophyll concentrations increased but the relationship was not as strong compared to the other instruments, primarily resulting from differences in three of the six sites (Curran, Mashapaug, and Warwick).
 
@@ -51,6 +57,8 @@ Phycocyanin measurements for the Fluorosense and the Cyanofluor had a similar re
 Cyanophytes were the dominant taxa by relative biovolume at three sites (Curran, Mashapaug, and Warwick), Chrysophytes at two sites (Barber and Yawgoo), and Bacillariophytes at one site (Indian).  Biovolume concentrations were substantially higher at Mashapaug and Warwick.
 
 ### Summary of Data
+
+<!-- TODO: Add Regression Lines to plots add R2-->
 
 Fig 1. Map of Field Sites
 
@@ -74,7 +82,7 @@ Fig 1. Map of Field Sites
 
 Table 1. Waterbody, Cyano Genus, Relative Biovolume Total Biovolume
 
-```{r read_tabl1, echo=FALSE, message=FALSE}
+```{r read_table1, echo=FALSE, message=FALSE}
 table1 <- read_csv(here::here("data/cleaned_phycotech_cyano_data.csv")) %>%
   select(-family) %>%
   mutate(biovolume = round(biovolume, 1),
@@ -87,7 +95,13 @@ knitr::kable(table1)
 
 ## Discussion
 
-Discuss amongst yourselves.
+Chlorophyll is not so good in some cases, but can be explained by phytoplankton community distributions
+
+Phycocyanin is good
+
+Don't read anything into absolute values (i.e. chlorophyll from one sensor not equal to chlorophyll from another sensor) across sensors, but general patterns are still very useful
+
+Phycocyanin very good proxy for cell counts. Suggest replacing cell counts for waterbody listing decisions with phycocyanin. Would likely need additional work to furhter explore relationship, build predictive models of cell coutns, etc.
 
 ## Acknowledgements
 
