@@ -265,12 +265,18 @@ ext_vs_all_plot <- function(fpdata, var, meth, x_order = NULL){
   }
   plot_data <- plot_data %>%
     filter(instrument_unit %in% x_order) %>%
-    mutate(instrument_unit = factor(instrument_unit, levels = x_order))
-  
-  
+    mutate(instrument_unit = factor(instrument_unit, levels = x_order)) %>%
+    group_by(instrument_unit) %>%
+    mutate(r_square = summary(lm(avg_value ~ extracted_value))$r.squared,
+           r_square = round(r_square, 2),
+           r_square_x = 5,
+           r_square_y = max(avg_value)*0.75) %>%
+    ungroup()
+ 
   myplot <- plot_data %>%
-    ggplot(aes(x = extracted_value, y = avg_value, color = waterbody)) +
-    geom_point(size = 4) +
+    ggplot(aes(x = extracted_value, y = avg_value)) +
+    geom_point(size = 4, aes(color = waterbody)) +
+    geom_smooth(data = plot_data, method = "lm") +
     facet_wrap(instrument_unit ~ ., scales = "free", strip.position = "left") +
     theme_ipsum_rc() +
     scale_color_viridis_d(option = "plasma") +
@@ -283,7 +289,9 @@ ext_vs_all_plot <- function(fpdata, var, meth, x_order = NULL){
           legend.text=element_text(size = 14),
           axis.text.y = element_text(size = 14),
           legend.title = element_text(size = 14)) +
-    labs(x = xvar)
+    labs(x = xvar) + 
+    geom_text(aes(x = r_square_x, y = r_square_y,
+                  label = paste0("R2=", r_square)))
   myplot
 }
 
