@@ -522,6 +522,15 @@ flouro_vs_count_plot <- function(fluoro_df, phycotech_df, xvar = c("chlorophyll"
       filter(!is.na(yvar))
   }
   
+  plot_df <- plot_df %>%
+    mutate(instrument = factor(instrument)) %>%
+    group_by(instrument) %>%
+    mutate(r_square = summary(lm(yvar ~ concentration))$r.squared,
+           r_square = round(r_square, 2),
+           r_square_x = 25000,
+           r_square_y = max(yvar)*0.85) %>%
+    ungroup()
+  
   myplot <- plot_df %>%
     ggplot(aes(x = concentration, y = yvar, color = waterbody)) +
     geom_point(size = 4) +
@@ -537,6 +546,8 @@ flouro_vs_count_plot <- function(fluoro_df, phycotech_df, xvar = c("chlorophyll"
           legend.text=element_text(size = 14),
           axis.text.y = element_text(size = 14),
           legend.title = element_text(size = 14)) +
-    labs(x = "cyanobacterial cells/ml")
+    labs(x = "cyanobacterial cells/ml") + 
+    geom_text(aes(x = r_square_x, y = r_square_y,
+                  label = paste0("R2=", r_square)), color="black")
   myplot
 }
