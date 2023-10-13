@@ -30,17 +30,17 @@ phycotech_data <- read_csv(here("data/cleaned_phycotech_data.csv")) %>%
 # Crazy idea, scatterplots from above but size of point from relative cyano biovolume
 # Compare phyco and chl to cell counts - maybe can make argument that cell counts bad, phyco good.
 chla_compare_plot <- ext_vs_all_plot(fp_data_wb, "chl", c("fresh", "extracted"),
-                                     c("algaetorch (µg/L)", "phycoprobe (µg/L)",
-                                       "cyanofluor (rfu)",
-                                       "trilogy in vivo (rfu)"))
+                                     c("algaetorch chlorophyll (µg/L)", "phycoprobe chlorophyll (µg/L)",
+                                       "cyanofluor chlorophyll (rfu)",
+                                       "trilogy in vivo chlorophyll (rfu)"))
 ggsave(here::here("manuscript/images/fig2_chla_scatter.jpg"), chla_compare_plot, 
        width = 7.5, height = 5.25, dpi = 300)
 
 phyco_compare_plot <- ext_vs_all_plot(fp_data_wb, "phyco", c("fresh", "extracted"),
-                                      c("algaetorch (µg/L of chlorophyll)", 
-                                        "phycoprobe (µg/L of chlorophyll)",
-                                        "cyanofluor (rfu)", 
-                                        "fluorosense (µg/L)"))
+                                      c("algaetorch phycocyanin (µg/L of chlorophyll)", 
+                                        "phycoprobe phycocyanin (µg/L of chlorophyll)",
+                                        "cyanofluor phycocyanin (rfu)", 
+                                        "fluorosense phycocyanin (µg/L)"))
 ggsave(here::here("manuscript/images/fig3_phyco_scatter.jpg"), phyco_compare_plot, 
        width = 7.5, height = 5.25, dpi = 300)
 

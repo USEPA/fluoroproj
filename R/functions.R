@@ -231,6 +231,7 @@ ext_vs_all_plot <- function(fpdata, var, meth, x_order = NULL){
   
 
   if(var == "chl"){
+    varname <- "chlorophyll"
     xvar <- sprintf("extracted chlorophyll (\u03BCg/L)")
     my_breaks <- c(0, 15, 30)
     extracted_data <- fpdata %>%
@@ -238,6 +239,7 @@ ext_vs_all_plot <- function(fpdata, var, meth, x_order = NULL){
              units != "rfu" , variable == var) %>%
       select(date, waterbody, field_dups, extracted_value = avg_value)
   } else if (var == "phyco"){
+    varname <- "phycocyanin"
     xvar <- sprintf("extracted phycocyanin (\u03BCg/L)")
     my_breaks <- c(0, 5, 10)
     extracted_data <- fpdata %>%
@@ -245,6 +247,7 @@ ext_vs_all_plot <- function(fpdata, var, meth, x_order = NULL){
              units != "rfu" , variable == var) %>%
       select(date, waterbody, field_dups, extracted_value = avg_value)
   } else if (var == "pc:chl"){
+    varname <- var
     xvar <- "extracted phycocyanin rfu : extracted chlorophyll rfu"
     my_breaks <- c(0, 2, 4)
     extracted_data <- fpdata %>%
@@ -259,10 +262,28 @@ ext_vs_all_plot <- function(fpdata, var, meth, x_order = NULL){
     filter(method %in% meth, instrument != "trilogy",
            variable == var) %>%
     left_join(extracted_data) %>%
-    mutate(instrument_unit = paste0(instrument, " (", units, ")")) 
+    mutate(instrument_unit = paste0(instrument, " ", varname, " (", units, ")")) 
   if(is.null(x_order)){
     x_order <- unique(plot_data$instrument_unit)
   }
+  if(var == "chl"){
+    plot_data <- plot_data %>%
+      mutate(ylim = case_when(units == "µg/L" ~ 
+                                50,
+                              units == "rfu" ~
+                                5000,
+                              TRUE ~ avg_value))
+  } else if(var == "phyco"){
+    plot_data <- plot_data %>%
+      mutate(ylim = case_when(units == "µg/L" ~ 
+                                40,
+                              units == "µg/L of chlorophyll" ~ 
+                                40,
+                              units == "rfu" ~
+                                3000,
+                              TRUE ~ avg_value))
+  }
+  
   plot_data <- plot_data %>%
     filter(instrument_unit %in% x_order) %>%
     mutate(instrument_unit = factor(instrument_unit, levels = x_order)) %>%
@@ -270,16 +291,21 @@ ext_vs_all_plot <- function(fpdata, var, meth, x_order = NULL){
     mutate(r_square = summary(lm(avg_value ~ extracted_value))$r.squared,
            r_square = round(r_square, 2),
            r_square_x = 5,
-           r_square_y = max(avg_value)*0.75) %>%
-    ungroup()
- 
+           r_square_y = ylim * 0.9) %>%
+    ungroup() 
+  
+  blank_data <- plot_data %>%
+    select(extracted_value, avg_value = ylim, waterbody, instrument_unit)
+  
   myplot <- plot_data %>%
     ggplot(aes(x = extracted_value, y = avg_value)) +
     geom_point(size = 4, aes(color = waterbody)) +
     geom_smooth(data = plot_data, method = "lm") +
+    geom_blank(data = blank_data) +
     facet_wrap(instrument_unit ~ ., scales = "free", strip.position = "left") +
     theme_ipsum_rc() +
     scale_color_viridis_d(option = "plasma") +
+    #scale_y_continuous(limits = c(0, .data$ylim)) +
     #scale_x_continuous(breaks = my_breaks) +
     theme(axis.title.y = element_blank(), 
           strip.text.y.left = element_text(angle=90, hjust = 1, size = 14), 
@@ -291,7 +317,7 @@ ext_vs_all_plot <- function(fpdata, var, meth, x_order = NULL){
           legend.title = element_text(size = 14)) +
     labs(x = xvar) + 
     geom_text(aes(x = r_square_x, y = r_square_y,
-                  label = paste0("R2=", r_square)))
+                  label = paste0("R² = ", r_square)))
   myplot
 }
 
@@ -527,8 +553,8 @@ flouro_vs_count_plot <- function(fluoro_df, phycotech_df, xvar = c("chlorophyll"
     group_by(instrument) %>%
     mutate(r_square = summary(lm(yvar ~ concentration))$r.squared,
            r_square = round(r_square, 2),
-           r_square_x = 25000,
-           r_square_y = max(yvar)*0.85) %>%
+           r_square_x = 30000,
+           r_square_y = max(yvar)*0.825) %>%
     ungroup()
   
   myplot <- plot_df %>%
@@ -548,6 +574,6 @@ flouro_vs_count_plot <- function(fluoro_df, phycotech_df, xvar = c("chlorophyll"
           legend.title = element_text(size = 14)) +
     labs(x = "cyanobacterial cells/ml") + 
     geom_text(aes(x = r_square_x, y = r_square_y,
-                  label = paste0("R2=", r_square)), color="black")
+                  label = paste0("R² = ", r_square)), color="black")
   myplot
 }
