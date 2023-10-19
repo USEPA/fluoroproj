@@ -262,7 +262,7 @@ ext_vs_all_plot <- function(fpdata, var, meth, x_order = NULL){
     filter(method %in% meth, instrument != "trilogy",
            variable == var) %>%
     left_join(extracted_data) %>%
-    mutate(instrument_unit = paste0(instrument, " ", varname, " (", units, ")")) 
+    mutate(instrument_unit = paste0(instrument, " ", varname, "\n(", units, ")")) 
   if(is.null(x_order)){
     x_order <- unique(plot_data$instrument_unit)
   }
@@ -290,7 +290,9 @@ ext_vs_all_plot <- function(fpdata, var, meth, x_order = NULL){
     group_by(instrument_unit) %>%
     mutate(r_square = summary(lm(avg_value ~ extracted_value))$r.squared,
            r_square = round(r_square, 2),
-           r_square_x = 5,
+           r_square_x = case_when(variable == "chl" ~ 10,
+                                  variable == "phyco" ~ 3,
+                                  TRUE ~ 10),
            r_square_y = ylim * 0.9) %>%
     ungroup() 
   
@@ -305,16 +307,14 @@ ext_vs_all_plot <- function(fpdata, var, meth, x_order = NULL){
     facet_wrap(instrument_unit ~ ., scales = "free", strip.position = "left") +
     theme_ipsum_rc() +
     scale_color_viridis_d(option = "plasma") +
-    #scale_y_continuous(limits = c(0, .data$ylim)) +
-    #scale_x_continuous(breaks = my_breaks) +
     theme(axis.title.y = element_blank(), 
-          strip.text.y.left = element_text(angle=90, hjust = 1, size = 14), 
+          strip.text.y.left = element_text(angle=90, hjust = 1, size = 11), 
           strip.placement = "outside",
-          axis.text.x = element_text(size = 14),
-          axis.title.x = element_text(size = 14, hjust = 0.5, vjust = -1),
-          legend.text=element_text(size = 14),
-          axis.text.y = element_text(size = 14),
-          legend.title = element_text(size = 14)) +
+          axis.text.x = element_text(size = 11),
+          axis.title.x = element_text(size = 11, hjust = 0.5, vjust = -1),
+          legend.text=element_text(size = 11),
+          axis.text.y = element_text(size = 11),
+          legend.title = element_text(size = 11)) +
     labs(x = xvar) + 
     geom_text(aes(x = r_square_x, y = r_square_y,
                   label = paste0("R² = ", r_square)))
@@ -356,12 +356,13 @@ beeswarm_plot <- function(fpdata, var, units, x_order = NULL){
     theme_ipsum_rc() +
     scale_color_brewer(type = "qual", palette = "Set1") +
     labs(x = "", y = yvar) +
-    theme(axis.title.y = element_text(size = 14, vjust = 3),
-          axis.title.x = element_text(size = 14),
-          axis.text.x = element_text(size = 14),
-          axis.text.y = element_text(size = 14),
-          legend.text = element_text(size = 14),
-          legend.title = element_text(size = 14))
+    theme(strip.text = element_text(size = 11), 
+          axis.title.y = element_text(size = 11, vjust = 3),
+          axis.title.x = element_text(size = 11),
+          axis.text.x = element_text(size = 11),
+          axis.text.y = element_text(size = 11),
+          legend.text = element_text(size = 11),
+          legend.title = element_text(size = 11))
   swarm
 }
 
@@ -397,11 +398,11 @@ fq_plot <- function(fpdata, var, meth, x_order = NULL){
     theme_ipsum_rc() +
     scale_color_brewer(type = "qual", palette = "Set1") +
     theme(axis.title.y = element_blank(), 
-          strip.text.y.left = element_text(angle=90, hjust = 1), 
+          strip.text.y.left = element_text(angle=90, hjust = 1, size = 11), 
           strip.placement = "outside",
-          axis.text.x = element_text(size = 14),
-          axis.title.x = element_text(size = 14, hjust = 0.5, vjust = -1),
-          legend.text=element_text(size=14)) +
+          axis.text.x = element_text(size = 11),
+          axis.title.x = element_text(size = 11, hjust = 0.5, vjust = -1),
+          legend.text=element_text(size = 11)) +
     labs(x = xvar)
   myplot
 }
@@ -448,10 +449,11 @@ fq_fresh_frozen_plot <- function(fpdata, var, x_order = NULL){
     scale_x_continuous(breaks = my_breaks) +
     scale_y_continuous(breaks = my_y_breaks, labels = my_y_breaks, 
                        limits = range(my_y_breaks)*1.1) +
-    theme(axis.text.x = element_text(size = 14),
-          axis.title.x = element_text(size = 14, hjust = 0.5, vjust = -1),
-          axis.title.y = element_text(size = 14, hjust = 0.5, vjust = 2),
-          legend.text=element_text(size=14)) +
+    theme(strip.text = element_text(size = 11), 
+          axis.text.x = element_text(size = 11),
+          axis.title.x = element_text(size = 11, hjust = 0.5, vjust = -1),
+          axis.title.y = element_text(size = 11, hjust = 0.5, vjust = 2),
+          legend.text=element_text(size = 11)) +
     labs(x = xvar, y = yvar)
   myplot
 }
@@ -515,12 +517,35 @@ grouped_bar_plot <- function(phycotech_df, yvar){
 flouro_vs_count_plot <- function(fluoro_df, phycotech_df, xvar = c("chlorophyll", "phycocyanin")){
   
   xvar <- match.arg(xvar)
-  fluoro_wb <- fluoro_df %>%
+  plot_data <- fluoro_df %>%
+    mutate(instrument_unit = paste0(instrument, " ", xvar, "\n(", units, ")")) 
+  #if(is.null(x_order)){
+  #  x_order <- unique(plot_data$instrument_unit)
+  #}
+  if(xvar == "chlorophyll"){
+    plot_data <- plot_data %>%
+      mutate(ylim = case_when(units == "µg/L" ~ 
+                                50,
+                              units == "rfu" ~
+                                5000,
+                              TRUE ~ avg_value))
+  } else if(xvar == "phycocyanin"){
+    plot_data <- plot_data %>%
+      mutate(ylim = case_when(units == "µg/L" ~ 
+                                40,
+                              units == "µg/L of chlorophyll" ~ 
+                                40,
+                              units == "rfu" ~
+                                3000,
+                              TRUE ~ avg_value))
+  }
+  
+  fluoro_wb <- plot_data %>%
     filter(variable %in% c("chl", "phyco"),
            !(instrument == "trilogy" & units == "rfu")) %>%
-    select(-units, -date, -sd_value) %>%
+    select( -date, -sd_value) %>%
     pivot_wider(names_from = c(variable), values_from = avg_value) %>%
-    group_by(waterbody, instrument) %>%
+    group_by(waterbody, instrument_unit) %>%
     summarize(chl = mean(chl,na.rm = TRUE), phyco = mean(phyco, na.rm = TRUE)) %>%
     ungroup()
   phyco_wb <- phycotech_df %>%
@@ -540,38 +565,39 @@ flouro_vs_count_plot <- function(fluoro_df, phycotech_df, xvar = c("chlorophyll"
   
   if(xvar == "chlorophyll"){
     plot_df <- left_join(fluoro_wb, phyco_wb) %>%
-      select(waterbody, instrument, yvar = chl, concentration) %>%
+      select(waterbody, instrument_unit, yvar = chl, concentration) %>%
       filter(!is.na(yvar))
   } else if(xvar == "phycocyanin"){
     plot_df <- left_join(fluoro_wb, phyco_wb) %>%
-      select(waterbody, instrument, yvar = phyco, concentration) %>%
+      select(waterbody, instrument_unit, yvar = phyco, concentration) %>%
       filter(!is.na(yvar))
   }
   
   plot_df <- plot_df %>%
-    mutate(instrument = factor(instrument)) %>%
+    mutate(instrument = factor(instrument_unit)) %>%
     group_by(instrument) %>%
     mutate(r_square = summary(lm(yvar ~ concentration))$r.squared,
            r_square = round(r_square, 2),
-           r_square_x = 30000,
-           r_square_y = max(yvar)*0.825) %>%
+           r_square_x = 40000,
+           r_square_y = max(yvar)*1.275) %>%
     ungroup()
   
   myplot <- plot_df %>%
-    ggplot(aes(x = concentration, y = yvar, color = waterbody)) +
-    geom_point(size = 4) +
+    ggplot(aes(x = concentration, y = yvar)) +
+    geom_point(size = 4, aes(color = waterbody)) +
+    geom_smooth(method = "lm") +
     facet_wrap(instrument ~ ., scales = "free", strip.position = "left") +
     theme_ipsum_rc() +
     scale_color_viridis_d(option = "plasma") +
-    #scale_x_continuous(breaks = my_breaks) +
     theme(axis.title.y = element_blank(), 
-          strip.text.y.left = element_text(angle=90, hjust = 1, size = 14), 
+          strip.text.y.left = element_text(angle=90, hjust = 1, size = 11), 
           strip.placement = "outside",
-          axis.text.x = element_text(size = 14),
-          axis.title.x = element_text(size = 14, hjust = 0.5, vjust = -1),
-          legend.text=element_text(size = 14),
-          axis.text.y = element_text(size = 14),
-          legend.title = element_text(size = 14)) +
+          axis.text.x = element_text(size = 11),
+          axis.title.x = element_text(size = 11, hjust = 0.5, vjust = -1),
+          legend.text=element_text(size = 11),
+          axis.text.y = element_text(size = 11),
+          legend.title = element_text(size = 11),
+          legend.position = c(0.9, 0.17)) +
     labs(x = "cyanobacterial cells/ml") + 
     geom_text(aes(x = r_square_x, y = r_square_y,
                   label = paste0("R² = ", r_square)), color="black")
