@@ -1,7 +1,7 @@
 ---
 title: "Fluoroproj: Title to be decided later"
 author: "Stephen D. Shivers, Jeffrey W. Hollister, Sophie Fournier, Jakob Stankoski, Betty J. Kreakie"
-abstract: "This is our abstract.  Just seeing how it looks."
+abstract: "Harmful algal blooms caused by cyanobacteria (cyanoHABs) are detrimental to human and environmental health and can be difficult to monitor without specialized training and equipment.  A variety of instruments have been developed to measure cyanoHAB indicators (i.e. chlorophyll a or phycocyanin) that do not require an extraction process.  We compared measurements from five in-vivo fluorometers (Turner Trilogy in-vivo module, Turner Fluorosense, Turner Cyanofluor, bbe AlgaeTorch, and bbe Phycoprobe) to results from solvent-based extractions for chlorophyll a and phycocyanin at six different waterbodies in Rhode Island.  We found a strong relationship between extracted phycocyanin and in-vivo fluorometers (r2 ranging from 0.78-0.96).  We found less consistency between in-vivo measurements of chlorophyll a and the extracted results (r2 between 0.34 and 0.82).  Some variability in the chlorophyll a results can be explained by differences in the phytoplankton community at the different sampling locations.  Phycocyanin results from in-vivo fluorometry were also strongly correlated with cell counts, which implies that phycocyanin measurements from these instruments can be a good proxy for cell counts.  Many federal, state, and local entities use cell counts of cyanobacteria to determine when to issue health or contact advisories for waterbodies.  Producing accurate cell counts requires highly specialized training/equipment, processing time, and counts can vary greatly between technicians.  The results from this study encourage further research using in-vivo fluorometry and discussion to move away from cell counts and towards fluorometric based measurements when making decisions regarding public health."
 format: docx
 bibliography: manuscript.bib
 ---
@@ -40,7 +40,9 @@ Within 24 hours of collection, field samples will be analyzed in triplicate usin
 
 ### Phytoplankton Counts
 
-Add in stuff about sampling and Phycotech. Sampling dates of phytoplankton vs fluoro
+Water samples for phytoplankton identification and enumeration were decanted from field collected samples into 250 ml amber HDPE bottles and were preserved with 25% glutaraldehyde. Samples were stored at 4°C and shipped the week after collection on ice to Phycotech, Inc.
+
+There was a temporal disconnect between some of the fluorometric analysis and the phytoplankton collection dates. All phytoplankton samples were collected on 2021-10-06. Samples from Barber, Indian and Yawgoo were collected on 2021-10-06 and samples from Curran, Mashapaug, and Warwick were collected on 2021-10-22; fluoromery was performed with 24 hours of sample collection.
 
 ### Statistical Analysis
 
@@ -48,13 +50,13 @@ Make some comment about why no 1:1 line, using regression and r2 to compare sens
 
 ## Results
 
-Stats?  Regressions with r2?
+Extracted chlorophyll measurements ranged from 3.2 ug/L (Indian Lake ) to 81.3 ug/L (Mashapaug Pond). Chlorophyll measurements for all instruments followed the same general pattern as the extracted chlorophyll values (Figure 2).  The Algaetorch and Phycoprobe measurements exhibited a strong relationship with extracted chlorophyll concentrations with R2 values of 0.82 and 0.81, respectively.  The Cyanofluor (R2=0.35) and Trilogy in vivo (R2=0.34) measurements increased as extracted chlorophyll concentrations increased, but the relationship was not as strong compared to the other instruments.
 
-Chlorophyll measurements for all instruments followed the same general pattern as the extracted chlorophyll values.  The Algaetorch and Phycoprobe measurements were similar to and exhibited a strong relationship with extracted chlorophyll concentrations.  The Cyanofluor and Trilogy in vivo measurements increased as extracted chlorophyll concentrations increased but the relationship was not as strong compared to the other instruments, primarily resulting from differences in three of the six sites (Curran, Mashapaug, and Warwick).
+Extracted phycocyanin measurements ranged from 1.3 ug/L (Indian Lake) to 75.0 ug/L (Mashapaug Pond). The Algaetorch (r2=0.86) and Phycoprobe (r2=0.84) were strongly related to extracted phycocyanin concentrations but were not directly comparable as both measurements were of cyanobacteria as chlorophyll instead of a direct measure of phycocyanin (Figure 3). Phycocyanin measurements for the Fluorosense (r2=0.96) and the Cyanofluor (r2=0.78) were also strongly related with extracted phycocyanin . 
 
-Phycocyanin measurements for the Fluorosense and the Cyanofluor had a similar relationship with extracted phycocyanin although the Fluorosense overestimated the concentrations.  The Algaetorch and Phycoprobe measurements were strongly related to extracted phycocyanin concentrations but were not directly comparable as both measurements were of cyanobacteria as chlorophyll.
+Cyanophytes were the dominant taxa by relative biovolume at Curran (0.75), Mashapaug (0.87), and Warwick (0.89); Chrysophytes at Barber (0.39) and Yawgoo (0.44); and Bacillariophytes at Indian (0.41)(Figure 4).  Total biovolume concentrations were highest at Mashapaug (2.12x10^7^), Warwick (1.44x10^7^), and Curran (3.22x10^6^)(Figure 5). Microcystis and Woronchinia were the dominant genera at Mashapaug and Warwick, while Chrysosporum was dominant at Curran (Table 1).
 
-Cyanophytes were the dominant taxa by relative biovolume at three sites (Curran, Mashapaug, and Warwick), Chrysophytes at two sites (Barber and Yawgoo), and Bacillariophytes at one site (Indian).  Biovolume concentrations were substantially higher at Mashapaug and Warwick.
+Extracted chlorophyll a was the most strongly correlated with cyanobacterial cell counts (r2=0.92) followed by the algaetorch (r2=0.78) and the Phycoprobe (r2=0.59). The Cyanofluor (r2=0.12) and Trilogy in vivo module (0.11) were weakly correlated (Figure 6). Phycocyanin measurements from all instruments were strongly correlated with cell counts (r2 between 0.9 and 0.97)(Figure 7).
 
 ### Summary of Data
 
@@ -95,9 +97,9 @@ knitr::kable(table1)
 
 ## Discussion
 
-Chlorophyll is not so good in some cases, but can be explained by phytoplankton community distributions
+For some instruments, chlorophyll is good but for others it is not so good. Part of the variability can be explained by phytoplankton community distributions
 
-Phycocyanin is good
+Phycocyanin is good for all instruments.
 
 Don't read anything into absolute values (i.e. chlorophyll from one sensor not equal to chlorophyll from another sensor) across sensors, but general patterns are still very useful
 
