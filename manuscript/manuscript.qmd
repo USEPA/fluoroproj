@@ -42,7 +42,7 @@ Within 24 hours of collection, field samples will be analyzed in triplicate usin
 
 Water samples for phytoplankton identification and enumeration were decanted from field collected samples into 250 ml amber HDPE bottles and were preserved with 25% glutaraldehyde. Samples were stored at 4°C and shipped the week after collection on ice to Phycotech, Inc.
 
-There was a temporal disconnect between some of the fluorometric analysis and the phytoplankton collection dates. All phytoplankton samples were collected on 2021-10-06. Samples from Barber, Indian and Yawgoo were collected on 2021-10-06 and samples from Curran, Mashapaug, and Warwick were collected on 2021-10-22; fluoromery was performed with 24 hours of sample collection.
+All phytoplankton samples were collected on 2021-10-06. Samples from Barber, Indian and Yawgoo were collected on 2021-10-06 and samples from Curran, Mashapaug, and Warwick were collected on 2021-10-22; fluoromery was performed with 24 hours of sample collection.
 
 ### Statistical Analysis
 
@@ -101,9 +101,11 @@ For some instruments, chlorophyll is good but for others it is not so good. Part
 
 Phycocyanin is good for all instruments.
 
-Don't read anything into absolute values (i.e. chlorophyll from one sensor not equal to chlorophyll from another sensor) across sensors, but general patterns are still very useful
+Don't read anything into absolute values (i.e. chlorophyll from one sensor not equal to chlorophyll from another sensor) across sensors, but general patterns are still very useful. Need to know info about specific sites to be useful.
 
 Phycocyanin very good proxy for cell counts. Suggest replacing cell counts for waterbody listing decisions with phycocyanin. Would likely need additional work to furhter explore relationship, build predictive models of cell coutns, etc.
+
+Extracted chla and phyco good for cell counts. Outliers for instruments don't throw off either extracted measurements.
 
 ## Acknowledgements
 
