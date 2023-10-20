@@ -97,6 +97,14 @@ knitr::kable(table1)
 
 ## Discussion
 
+Jeff's take home:
+
+1.) In general, in situ phycocyanin better match to extracted than in situ chlorophyll is to extracted. The cholorophylll relationship is driven by phytoplankton community make up
+
+2.) Extracted chlorophyll and phycocyanin, are great match to cell counts. Suggests pigments are a good proxy for cell counts and could be used in place of cell counts.
+
+3.) A discussion with water quality managers about using extracted or in situ phycocyanin as a replacement for cell counts might be warranted.
+
 For some instruments, chlorophyll is good but for others it is not so good. Part of the variability can be explained by phytoplankton community distributions
 
 Phycocyanin is good for all instruments.
