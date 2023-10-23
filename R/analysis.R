@@ -9,7 +9,7 @@ fp_data_wb <- read_csv(here("data/cleaned_fluoroproj_data_dups.csv")) %>%
   filter(!(waterbody %in% c("lower melville", "upper melville")))
 
 phycotech_data <- read_csv(here("data/cleaned_phycotech_data.csv")) %>%
-  filter(!(waterbody %in% c("Melville Pond"))) %>%
+  filter(!(waterbody %in% c("Melville Pond", "Georgiaville Pond", "Slack Reservoir", "Stafford Pond"))) %>%
   mutate(barplot_groups = case_when(division == "Euglenophyta" ~
                                       "Other",
                                     division == "Haptophyta" ~
@@ -18,7 +18,14 @@ phycotech_data <- read_csv(here("data/cleaned_phycotech_data.csv")) %>%
                                       "Other", 
                                     division == "Cryptophyta" ~
                                       "Other",
-                                    TRUE ~ division))
+                                    TRUE ~ division)) %>%
+  mutate(waterbody = case_when(waterbody == "Barber Pond" ~ "barber",
+                               waterbody == "Indian Lake" ~ "indian",
+                               waterbody == "Yawagoo Pond" ~ "yawgoo",
+                               waterbody == "JL Curran Reservoir" ~ "curran",
+                               waterbody == "Mashapaug Pond" ~ "mashapaug",
+                               waterbody == "Warwick Pond" ~ "warwick",
+                               TRUE ~ waterbody))
 
 
   
