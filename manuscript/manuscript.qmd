@@ -62,7 +62,7 @@ Extracted chlorophyll a was the most strongly correlated with cyanobacterial cel
 
 <!-- TODO: Add Regression Lines to plots add R2-->
 
-Fig 1. Map of Field Sites
+![Fig 1. Map of Field Sites](images/fig1_map.jpg)
 
 ### Chlorophyll
 

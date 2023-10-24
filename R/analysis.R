@@ -72,3 +72,7 @@ fluoro_phyco_count_scatter <- flouro_vs_count_plot(fp_data_wb, phycotech_data, "
 ggsave(here::here("manuscript/images/fig7_phyco_vs_cells.jpg"), fluoro_phyco_count_scatter, 
        width = 8.5, height = 5.25, dpi = 300)
 
+# Field Site Map
+field_sites <- map_field_sites() 
+ggsave(here::here("manuscript/images/fig1_map.jpg"), field_sites, 
+       width = 6, height = 8, dpi = 300)

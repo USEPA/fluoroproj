@@ -605,17 +605,28 @@ flouro_vs_count_plot <- function(fluoro_df, phycotech_df, xvar = c("chlorophyll"
 }
 
 map_field_sites <- function(){
+  
   ri <- st_read("data/ri.shp") |>
     st_transform(4326)
   ri_wb <- st_read("data/ri_lakes.shp") |>
     st_transform(4326)
   sites <- ri_wb |>
-    filter(GNIS_NAME %in% c("Barber Pond", "Curran Lower Reservoir", 
+    filter(GNIS_NAME %in% c("Barber Pond", 
                             "John L Curran Lower Reservoir", "Indian Lake",
                             "Mashapaug Pond", "Warwick Pond", "Yawgoo Pond"))
     
-  plot(st_geometry(ri))
-  plot(ri_wb, add = TRUE)
-  plot(sites, add = TRUE, col = "red")
+  sites_gg <- ggplot(ri) +
+    geom_sf(size = 0.75, fill = "grey95", show.legend = FALSE) +
+    geom_sf(data = ri_wb, fill = "darkblue", color = NA, alpha = 0.5) +
+    geom_sf(data= st_centroid(sites), aes(color = GNIS_NAME), size = 2.5) +
+    scale_color_viridis_d(option = "plasma") +
+    scale_shape_manual(values = c(16,17)) +
+    scale_x_continuous(breaks = seq(-72.0, -71.0, by  = 0.2)) +
+    scale_y_continuous(breaks = seq(41.0, 42.0, by = 0.2)) +
+    theme_ipsum() +
+    theme(legend.position = "bottom", legend.title = element_blank())
+    #theme(legend.title = element_blank()) #+
+    #guides(color = guide_legend(nrow = 3))
+  sites_gg
   
 }
