@@ -603,3 +603,19 @@ flouro_vs_count_plot <- function(fluoro_df, phycotech_df, xvar = c("chlorophyll"
                   label = paste0("R² = ", r_square)), color="black")
   myplot
 }
+
+map_field_sites <- function(){
+  ri <- st_read("data/ri.shp") |>
+    st_transform(4326)
+  ri_wb <- st_read("data/ri_lakes.shp") |>
+    st_transform(4326)
+  sites <- ri_wb |>
+    filter(GNIS_NAME %in% c("Barber Pond", "Curran Lower Reservoir", 
+                            "John L Curran Lower Reservoir", "Indian Lake",
+                            "Mashapaug Pond", "Warwick Pond", "Yawgoo Pond"))
+    
+  plot(st_geometry(ri))
+  plot(ri_wb, add = TRUE)
+  plot(sites, add = TRUE, col = "red")
+  
+}

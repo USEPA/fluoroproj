@@ -8,7 +8,7 @@ bibliography: manuscript.bib
 
 ## Introduction
 
-Possible Journals: Lake and Reservoir Management, PLOS One, PLOS Water, Ecosphere, F1000Research,
+<!-- Possible Journals: Lake and Reservoir Management, PLOS One, PLOS Water, Ecosphere, F1000Research, -->
 
 <!-- HAB expansion is a problem and temporal nature means lots of groups have to be proactively involved in monitoring -->
 
