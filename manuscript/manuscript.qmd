@@ -55,7 +55,9 @@ knitr::opts_chunk$set(
 )
 ```
 
-<!-- ADD IN CODE SO IT RE-RUNS ON RENDER -->
+```{r analysis, include=FALSE}
+source(here::here("R/analysis.R"))
+```
 
 # Introduction
 
@@ -83,7 +85,7 @@ The following five fluorometers were used during this study: Turner Trilogy (in 
 
 Field samples were collected from eight ponds in Rhode Island during October and November 2021 (@fig-map). Two liter surface samples were collected in triplicate (six total liters) by wading into each pond to a minimum depth of two feet to avoid collecting near the sediment. If a surface scum was present, the scum was gently brushed aside to avoid being collected in the sample bottles. Samples were collected in acid-washed 1 L amber bottles and placed in a cooler with ice. At the same location as sample collection, measurements of chlorophyll and phycocyanin were made using the AlgaeTorch and the FluoroSense.
 
-![Field sampling locations](images/fig1_map.jpg){#fig-map width=100%}
+![Field sampling locations](images/fig1_map.jpg){#fig-map width="6in" height="8in"}
 
 ## Analysis of field samples
 
@@ -113,27 +115,27 @@ Need summary of sites and dataFig 1. Map of Field Sites
 
 Extracted chlorophyll measurements ranged from 3.2 ug/L (Indian Lake ) to 81.3 ug/L (Mashapaug Pond). Chlorophyll measurements for all instruments followed the same general pattern as the extracted chlorophyll values (@fig-chlascatter).  The Algaetorch and Phycoprobe measurements exhibited a strong relationship with extracted chlorophyll concentrations with R2 values of 0.82 and 0.81, respectively.  The Cyanofluor (R2=0.35) and Trilogy in vivo (R2=0.34) measurements increased as extracted chlorophyll concentrations increased, but the relationship was not as strong compared to the other instruments.
 
-![Comparison of fluorometers by waterbody](images/fig2_chla_scatter.jpg){#fig-chlascatter width=80%}
+![Comparison of fluorometers by waterbody](images/fig2_chla_scatter.jpg){#fig-chlascatter width="8.5in" height="5.25in"}
 
 ## Phycocyanin
 
 Extracted phycocyanin measurements ranged from 1.3 ug/L (Indian Lake) to 75.0 ug/L (Mashapaug Pond). The Algaetorch (r2=0.86) and Phycoprobe (r2=0.84) were strongly related to extracted phycocyanin concentrations but were not directly comparable as both measurements were of cyanobacteria as chlorophyll instead of a direct measure of phycocyanin (@fig-phycoscatter). Phycocyanin measurements for the Fluorosense (r2=0.96) and the Cyanofluor (r2=0.78) were also strongly related with extracted phycocyanin.
 
-![Comparison of phycocyanin measurements by waterbody](images/fig3_phyco_scatter.jpg){#fig-phycoscatter width=80%}
+![Comparison of phycocyanin measurements by waterbody](images/fig3_phyco_scatter.jpg){#fig-phycoscatter width="8.5in" height="5.25in"}
 
 ## Phytoplankton Counts
 
 Cyanophytes were the dominant taxa by relative biovolume at Curran (0.75), Mashapaug (0.87), and Warwick (0.89); Chrysophytes at Barber (0.39) and Yawgoo (0.44); and Bacillariophytes at Indian (0.41)(@fig-relbv).  Total biovolume concentrations were highest at Mashapaug (2.12x10^7^), Warwick (1.44x10^7^), and Curran (3.22x10^6^)(@fig-bv). Microcystis was the dominant genus at Mashapaug and Warwick, while Chrysosporum was dominant at Curran (@tbl-supp).
 
-![Compare Relative Biovolume of divisions by waterbody](images/fig4_rel_bio_bar.jpg){#fig-relbv width=80%}
+![Compare Relative Biovolume of divisions by waterbody](images/fig4_rel_bio_bar.jpg){#fig-relbv width="8.5in" height="5.25in"}
 
-![Compare Total Biovlume of divisions by waterbody](images/fig5_total_bio_bar.jpg){#fig-bv width=80%}
+![Compare Total Biovlume of divisions by waterbody](images/fig5_total_bio_bar.jpg){#fig-bv width="8.5in" height="5.25in"}
 
 Extracted chlorophyll *a* was the most strongly correlated with cyanobacterial cell counts (r2=0.92) followed by the algaetorch (r2=0.78) and the Phycoprobe (r2=0.59). The Cyanofluor (r2=0.12) and Trilogy in vivo module (0.11) were weakly correlated (@fig-chlcount). Phycocyanin measurements from all instruments were strongly correlated with cell counts (r2 between 0.9 and 0.97)(@fig-phycocount).
 
-![Compare fluorometer chlorophyll to cyanobacteria cell counts](images/fig6_chl_vs_cells.jpg){#fig-chlcount width=80%}
+![Compare fluorometer chlorophyll to cyanobacteria cell counts](images/fig6_chl_vs_cells.jpg){#fig-chlcount width="8.5in" height="5.25in"}
 
-![Compare fluorometer phycocyanin to cyanobacteria cell counts](images/fig7_phyco_vs_cells.jpg){#fig-phycocount width=80%}
+![Compare fluorometer phycocyanin to cyanobacteria cell counts](images/fig7_phyco_vs_cells.jpg){#fig-phycocount width="8.5in" height="5.25in"}
 
 # Discussion
 
