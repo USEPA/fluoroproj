@@ -1,2 +1,15 @@
 dplyr
 readr
+here
+purrr
+lubridate
+tidyr
+compeco
+ggplot2
+plotly
+cowplot
+hrbrthemes
+ggbeeswarm
+readxl
+sf
+scales
