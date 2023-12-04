@@ -77,3 +77,5 @@ field_sites <- map_field_sites()
 ggsave(here::here("manuscript/images/fig1_map.jpg"), field_sites, 
        width = 6, height = 8, dpi = 300)
 
+# Fluoro summary
+fluoro_summary <- summary_table(fp_data_wb)
