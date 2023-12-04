@@ -76,3 +76,4 @@ ggsave(here::here("manuscript/images/fig7_phyco_vs_cells.jpg"), fluoro_phyco_cou
 field_sites <- map_field_sites() 
 ggsave(here::here("manuscript/images/fig1_map.jpg"), field_sites, 
        width = 6, height = 8, dpi = 300)
+

@@ -630,8 +630,3 @@ map_field_sites <- function(){
   sites_gg
   
 }
-
-summarize_data <- function(fluoro_df, phyco_df){
-  browser()
-  
-}
