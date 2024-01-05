@@ -83,7 +83,7 @@ The following five fluorometers were used during this study: Turner Trilogy (in 
 
 ## Field Sampling Methods
 
-Field samples were collected from eight ponds in Rhode Island during October and November 2021 (@fig-map). Two liter surface samples were collected in triplicate (six total liters) by wading into each pond to a minimum depth of two feet to avoid collecting near the sediment. If a surface scum was present, the scum was gently brushed aside to avoid being collected in the sample bottles. Samples were collected in acid-washed 1 L amber bottles and placed in a cooler with ice. At the same location as sample collection, measurements of chlorophyll and phycocyanin were made using the AlgaeTorch and the FluoroSense.
+Field samples were collected from eight ponds in Rhode Island during October and November 2021 (@fig-map). Surface samples were collected in triplicate by wading into each pond to a minimum depth of two feet to avoid collecting near the sediment. If a surface scum was present, the scum was gently brushed aside to avoid being collected in the sample bottles. Samples were collected in acid-washed 1 L amber bottles and placed in a cooler with ice. At the same location as sample collection, measurements of chlorophyll and phycocyanin were made using the AlgaeTorch and the FluoroSense.
 
 ![Field sampling locations](images/fig1_map.jpg){#fig-map width="6in" height="8in"}
 
@@ -91,17 +91,19 @@ Field samples were collected from eight ponds in Rhode Island during October and
 
 <!-- Look at yellow substance and blank corrections on cyanfluor and in vivo (maybe others).  -->
 
-Within 24 hours of collection, field samples will be analyzed in triplicate using the PhycoProbe, CyanoFluor, and the Trilogy (in-vivo), as well as filtered onto 0.7 µm pre-ashed glass fiber filters and frozen at -20 °C for solvent-based extraction. Sample water filtered through a 0.22 µm syringe filter was used to correct for yellow substances on the PhycoProbe, CyanoFluor, and Trilogy in vivo module. chlorophyll *a* extraction using 90% acetone followed after a 20 minute period in a sonicating water bath. Phycocyanin extraction followed a 15 minute period in a sonicating water bath and used a 50 mM phosphate buffer. Extracted samples were analyzed using a Turner Trilogy with a chla na module (chlorophyll) and an orange module (phycocyanin).
+Within 24 hours of collection, three replicates (i.e. lab replicates) from each field sample was analyzed using the PhycoProbe, CyanoFluor, and the Trilogy (in-vivo), as well as filtered onto 0.7 µm pre-ashed glass fiber filters and frozen at -20 °C for solvent-based extraction. Sample water filtered through a 0.22 µm syringe filter was used to correct for yellow substances on the PhycoProbe, CyanoFluor, and Trilogy in vivo module. chlorophyll *a* extraction using 90% acetone followed after a 20 minute period in a sonicating water bath. Phycocyanin extraction followed a 15 minute period in a sonicating water bath and used a 50 mM phosphate buffer. Extracted samples were analyzed using a Turner Trilogy with a chla na module (chlorophyll) and an orange module (phycocyanin).
 
 ## Phytoplankton Counts
 
 Water samples for phytoplankton identification and enumeration were decanted from field collected samples into 250 ml amber HDPE bottles and were preserved with 25% glutaraldehyde. Samples were stored at 4°C and shipped the week after collection on ice to Phycotech, Inc.
 
-All phytoplankton samples were collected on 2021-10-06. Samples from Barber, Indian and Yawgoo were collected on 2021-10-06 and samples from Curran, Mashapaug, and Warwick were collected on 2021-10-22; fluoromery was performed with 24 hours of sample collection.
+All phytoplankton samples were collected on 2021-10-06. Samples from Barber, Indian and Yawgoo were collected on 2021-10-06 and samples from Curran, Mashapaug, and Warwick were collected on 2021-10-22; fluorometry was performed with 24 hours of sample collection.
 
 ## Data Analysis
 
-To compare extracted concentrations and cell counts/biovolume to the various instruments we used simple linear regression and scatterplots. We derived the coefficient of determination from the regressions as a measure of fit and also qualitatively compare the device measurements to the extracted concentrations and phytoplankton counts with scatterplots. We do not compare slopes nor look for a slope of 1 as we have little expectation that the extracted concentrations would equal the values from the various devices given the difference in units and the different RFU returns across the devices.
+<!-- Clean up and add details on replicate/duplicate averaging -->
+
+To compare extracted concentrations and cell counts/biovolume to the various instruments we used simple linear regression and scatterplots. For these regressions and scatterplots, the lab replicates were averaged, resulting in three field replicates for each of the waterbodies.  We derived the coefficient of determination from the regressions as a measure of fit and also qualitatively compare the device measurements to the extracted concentrations and phytoplankton counts with scatterplots. We do not compare slopes nor look for a slope of 1 as we have little expectation that the extracted concentrations would equal the values from the various devices given the difference in units and the different RFU returns across the devices.
 
 # Results
 
