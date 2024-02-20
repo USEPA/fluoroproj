@@ -139,17 +139,18 @@ knitr::kable(fluoro_summary$phyco_summary)
 
 ## Phytoplankton Counts
 
-Cyanophytes were the dominant taxa by relative biovolume at Curran (0.75), Mashapaug (0.87), and Warwick (0.89); Chrysophytes at Barber (0.39) and Yawgoo (0.44); and Bacillariophytes at Indian (0.41)(@fig-relbv).  Total biovolume concentrations were highest at Mashapaug (2.12x10^7^), Warwick (1.44x10^7^), and Curran (3.22x10^6^)(@fig-bv). Microcystis was the dominant genus at Mashapaug and Warwick, while Chrysosporum was dominant at Curran (@tbl-supp).
+!!!REWRITE ME - Changed from biov to cells/ml, only one fig now!!!!
 
-![Compare Relative Biovolume of divisions by waterbody](images/fig4_rel_bio_bar.jpg){#fig-relbv width="8.5in" height="5.25in"}
+Cyanophytes were the dominant taxa by relative biovolume at Curran (0.75), Mashapaug (0.87), and Warwick (0.89); Chrysophytes at Barber (0.39) and Yawgoo (0.44); and Bacillariophytes at Indian (0.41)(@fig-cellsml).  Total biovolume concentrations were highest at Mashapaug (2.12x10^7^), Warwick (1.44x10^7^), and Curran (3.22x10^6^)(@fig-bv). Microcystis was the dominant genus at Mashapaug and Warwick, while Chrysosporum was dominant at Curran (@tbl-supp).
 
-![Compare Total Biovlume of divisions by waterbody](images/fig5_total_bio_bar.jpg){#fig-bv width="8.5in" height="5.25in"}
+![Compare Cells/mL of divisions by waterbody](images/fig4_total_cellsml_bar.jpg){#fig-cellsml width="8.5in" height="5.25in"}
+
 
 Extracted chlorophyll *a* was the most strongly correlated with cyanobacterial cell counts (R^2^=0.92) followed by the algaetorch (R^2^=0.78) and the Phycoprobe (R^2^=0.59). The Cyanofluor (R^2^=0.12) and Trilogy in vivo module (0.11) were weakly correlated (@fig-chlcount). Phycocyanin measurements from all instruments were strongly correlated with cell counts (R^2^ between 0.9 and 0.97)(@fig-phycocount).
 
-![Compare fluorometer chlorophyll to cyanobacteria cell counts](images/fig6_chl_vs_cells.jpg){#fig-chlcount width="8.5in" height="5.25in"}
+![Compare fluorometer chlorophyll to cyanobacteria cell counts](images/fig5_chl_vs_cells.jpg){#fig-chlcount width="8.5in" height="5.25in"}
 
-![Compare fluorometer phycocyanin to cyanobacteria cell counts](images/fig7_phyco_vs_cells.jpg){#fig-phycocount width="8.5in" height="5.25in"}
+![Compare fluorometer phycocyanin to cyanobacteria cell counts](images/fig6_phyco_vs_cells.jpg){#fig-phycocount width="8.5in" height="5.25in"}
 
 # Discussion
 
