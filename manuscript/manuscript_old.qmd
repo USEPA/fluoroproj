@@ -1,0 +1,193 @@
+---
+title: "Comparing fluorometric methods ( in vivo vs extracted) for cyanoHAB monitoring in six Rhode Island ponds"
+author: 
+  - name: Stephen D. Shivers
+    orcid: 0000-0003-0096-7433
+    email: shivers.stephen@epa.gov
+    corresponding: true
+    affiliation:
+      - id: epa
+        name: US Environmental Protection Agency, Atlantic Coastal Environmental Sciences Division
+        city: Narragansett
+        state: RI
+        zip: 02882
+  - name: Jeffrey W. Hollister
+    orcid: 0000-0002-9254-9740
+    affiliation:
+      - ref: epa
+  - name: Sophie Fournier
+    affiliation:
+      - id: orise
+        name: Oak Ridge Institute for Science and Education
+        city: Narragansett
+        state: RI
+        zip: 02882
+  - name: Jakob Stankoski
+    affiliation:
+      - id: orau
+        name: Oak Ridge Associated Universities
+        city: Narragansett
+        state: RI
+        zip: 02882
+  - name: Betty J. Kreakie
+    orcid: 0000-0002-4982-7610
+    affiliation:
+      - ref: epa
+abstract: "Harmful algal blooms caused by cyanobacteria (cyanoHABs) are detrimental to human and environmental health and can be difficult to monitor without specialized training and equipment.  A variety of instruments have been developed to measure cyanoHAB indicators (i.e. chlorophyll *a* or phycocyanin) that do not require advanced laboratory processes (e.g. pigment extraction).  We compared measurements from five in vivo fluorometers (Turner Trilogy in-vivo module, Turner Fluorosense, Turner Cyanofluor, bbe AlgaeTorch, and bbe Phycoprobe) to results from solvent-based extractions for chlorophyll *a* and phycocyanin at six different waterbodies in Rhode Island.  We found a strong relationship between extracted phycocyanin and  in vivo fluorometers (R^2^ ranging from 0.78-0.96).  We found less consistency between  in vivo measurements of chlorophyll *a* and the extracted results (R^2^ between 0.34 and 0.82).  Some variability in the chlorophyll *a* results can be explained by differences in the phytoplankton community at the different sampling locations.  Phycocyanin results from  in vivo fluorometry were also strongly correlated with cell counts, which implies that phycocyanin measurements from these instruments can be a good proxy for cell counts.  Many federal, state, and local entities use cell counts of cyanobacteria to determine when to issue health or contact advisories for waterbodies.  Producing accurate cell counts requires highly specialized training/equipment, processing time, and counts can vary greatly between technicians.  The results from this study encourage further research using in vivo fluorometry and phycocyanin for cyanoHAB monitoring efforts and when making decisions regarding public health."
+format: 
+    docx:
+      reference-doc: manuscript_template.docx
+bibliography: manuscript.bib
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  eval = TRUE,
+  cache = TRUE,
+  tidy = FALSE,
+  message = FALSE,
+  warning = FALSE,
+  fig.height = 4.8,
+  fig.width = 6,
+  dpi = 300
+)
+```
+
+```{r analysis, include=FALSE}
+source(here::here("R/analysis.R")) 
+```
+
+# Introduction
+
+<!-- Possible Journals: Lake and Reservoir Management, PLOS One, PLOS Water, Ecosphere, F1000Research, -->
+
+<!-- HAB expansion is a problem and temporal nature means lots of groups have to be proactively involved in monitoring -->
+
+Harmful algal blooms caused by cyanobacteria (cyanoHABs) are likely to increase in a warming world with greater inputs of nutrients by humans (@paerl_it_2016; @schindler_eutrophication_2008). These blooms may impact both human and environmental health, particularly if toxins are being produced. CyanoHAB blooms are often transient in nature, can be difficult to accurately quantify, and occur in diverse waterbodies across large spatial scales (@wynne_characterizing_2010). Despite occuring on large scales, effects of blooms have primarily local impacts and can differ in species composition and toxicity based on local conditions [@chaffin_interactions_2018; @gobler_dual_2016]. As large, centrally managed monitoring efforts are expensive and time consuming to operate, a substantial portion of cyanoHAB monitoring occurs at the local level. As neighborhood and lake associations generally do not have the equipment or training to perform extractive analysis of cholorophyll a and/or phycocyanin (pigments found in all algae and specifically cyanobacteria, respectively), alternative measurement equipment has been developed.
+
+<!--To respond to this problem industry has developed a variety of handhelds-->
+
+A variety of instruments have been developed to measure chlorophyll *a* and/or phycocyanin using in vivo fluorescence without an extraction step. These instruments distinguish between the pigments based on their differing emission spectra. Some instruments (i.e. PhycoProbe) use multiple leds at varying wavelengths to cause fluorescence of different algal types, thus creating a finer scale breakdown of community composition (@beutler_fluorometric_2002). These instruments can be used in the field, the lab, a combination of both, and have a wide range in cost.
+
+<!--Taking individual fluorometer data across a region or between groups is difficult because these instruments all measure a little different-->
+
+Field instruments may be placed directly in a waterbody or require sample water to be poured into a cuvette and then placed into a handheld fluorometer. Differences in measurement methods represent a potential source of error when comparing instruments. Additionally, instruments may report values in rfus (raw or relative fluorescence units) or µg/L (concentration) and comparing these values introduces an additional source of error during comparison. In vivo fluorescence can be affected by photochemical quenching causing an underestimation of rfus as photosystems become saturated with light (@liu_chlorophyll_2021). Estimation problems can also result from differing phytoplankton/cyanobacteria community composition and growth stage, particularly if colonial cyanobacteria are present as the interior of large colonies will not fluoresce as readily as the exterior (@rousso_chlorophyll_2022). Additionally, the physical properties of the sample water can greatly affect fluorescence readings based on turbidity levels and the presence of CDOM. Some instruments offer a yellow substance correction to help account for CDOM while others do not (@cremella_interpretation_2018).
+
+Overall, the physical properties and phytoplankton community composition of a waterbody can cause instruments to estimate pigment concentrations differently. How the different instruments handle these various potential situations can affect their accuracy and precision, and the ability to compare across instrument types. The goal of this paper is to compare several handheld or in situ fluorometers with respect to a common benchmark (extracted chlorophyll and phycocyanin) across a variety of waterbodies.
+
+# Methods
+
+## Equipment used for comparison
+
+The following five fluorometers (in decreasing order of cost) were used during this study: bbe PhycoProbe, bbe AlgaeTorch, Turner Trilogy (in vivo chlorophyll and orange modules), Turner Cyanofluor, and Turner FluoroSense. These fluorometers were chosen based on their availability to us as either our lab or our collaborators in the northeast US have used them. Measurements from these fluorometers were compared with the results of a solvent-based extraction for chlorophyll and phycocyanin using a Turner Trilogy with a chla-na and orange module, respectively.
+
+## Field Sampling Methods
+
+Field samples were collected from eight ponds in Rhode Island during October and November 2021 (@fig-map). Surface samples were collected in triplicate by wading into each pond to a minimum depth of two feet to avoid collecting near the sediment. If a surface scum was present, the scum was gently brushed aside to avoid being collected in the sample bottles. Samples were collected in acid-washed 1 L amber bottles and placed in a cooler with ice. At the same location as sample collection, measurements of chlorophyll and phycocyanin were made using the AlgaeTorch and the FluoroSense.
+
+![Field sampling locations](images/fig1_map.jpg){#fig-map width="6in" height="8in"}
+
+## Analysis of field samples
+
+<!-- Look at yellow substance and blank corrections on cyanfluor and in vivo (maybe others).  -->
+
+Within 24 hours of collection, three replicates (i.e. lab replicates) from each field sample was analyzed using the PhycoProbe, CyanoFluor, and the Trilogy (in-vivo), as well as filtered onto 0.7 µm pre-ashed glass fiber filters and frozen at -20 °C for solvent-based extraction. Sample water filtered through a 0.22 µm syringe filter was used to correct for yellow substances on the PhycoProbe, CyanoFluor, and Trilogy in vivo module. Chlorophyll *a* extraction using 90% acetone followed after a 20 minute period in a sonicating water bath. Phycocyanin extraction followed a 15 minute period in a sonicating water bath and used a 50 mM phosphate buffer. Extracted samples were analyzed using a Turner Trilogy with a chla na module (chlorophyll) and an orange module (phycocyanin)(@kasinak2015benchtop; @welschmeyer1994fluorometric).
+
+## Phytoplankton Counts
+
+Water samples for phytoplankton identification and enumeration were decanted from field collected samples into 250 ml amber HDPE bottles and were preserved with 25% glutaraldehyde. Samples were stored at 4°C and shipped the week after collection on ice to Phycotech, Inc. A full description of methods and a quality assurance plan are available from Phycotech, Inc. (https://www.phycotech.com/Portals/0/PDFs/PhycoTech_INFO_PACKET.pdf).
+
+All phytoplankton samples were collected on 2021-10-06. Samples from Barber, Indian and Yawgoo were collected on 2021-10-06 and samples from Curran, Mashapaug, and Warwick were collected on 2021-10-22; fluorometry was performed with 24 hours of sample collection.
+
+## Data Analysis
+
+<!-- Clean up and add details on replicate/duplicate averaging -->
+
+To compare extracted concentrations and cell counts/biovolume to the various instruments we used simple linear regression and scatterplots. For these regressions and scatterplots, the lab replicates were averaged, resulting in three field replicates for each of the waterbodies. We derived the coefficient of determination from the regressions as a measure of fit and also qualitatively compare the device measurements to the extracted concentrations and phytoplankton counts with scatterplots. We do not compare slopes nor look for a slope of 1 as we have little expectation that the extracted concentrations would equal the values from the various devices given the difference in units and the different RFU returns across the devices.
+
+# Results
+
+<!-- Need summary table of chl and phyco for each waterbody/instrument-->
+
+## Chlorophyll
+
+Extracted chlorophyll measurements ranged from 3.2 ug/L at Indian Lake to 81.3 ug/L in Mashapaug Pond (@tbl-chlsummary). Chlorophyll measurements for all instruments followed the same general pattern as the extracted chlorophyll values (@fig-chlascatter).  The Algaetorch and Phycoprobe measurements exhibited a strong relationship with extracted chlorophyll concentrations with R^2^ values of 0.82 and 0.81, respectively.  The Cyanofluor (R^2^=0.35) and Trilogy in vivo (R^2^=0.34) measurements increased as extracted chlorophyll concentrations increased, but the relationship was not as strong compared to the other instruments.
+
+![Comparison of fluorometers by waterbody](images/fig2_chla_scatter.jpg){#fig-chlascatter width="8.5in" height="5.25in"}
+
+```{r chl_summary, results='asis', echo=FALSE, message=FALSE}
+#| label: tbl-chlsummary
+#| tbl-cap: "Chlorophyll summary data by waterbody and instrument."
+
+
+knitr::kable(fluoro_summary$chl_summary)
+```
+
+## Phycocyanin
+
+Extracted phycocyanin measurements ranged from 1.3 ug/L at Indian Lake to 75.0 ug/L in Mashapaug Pond (@tbl-phycosummary). The Algaetorch (R^2^=0.86) and Phycoprobe (R^2^=0.84) were strongly related to extracted phycocyanin concentrations (@fig-phycoscatter). Phycocyanin measurements for the Fluorosense (R^2^=0.96) and the Cyanofluor (R^2^=0.78) were also strongly related with extracted phycocyanin.
+
+![Comparison of phycocyanin measurements by waterbody](images/fig3_phyco_scatter.jpg){#fig-phycoscatter width="8.5in" height="5.25in"}
+
+```{r phyco_summary, results='asis', echo=FALSE, message=FALSE}
+#| label: tbl-phycosummary
+#| tbl-cap: "Phycocyanin summary data by waterbody and instrument."
+
+
+knitr::kable(fluoro_summary$phyco_summary)
+```
+
+## Phytoplankton Counts
+
+Cyanophytes were the dominant taxa by relative biovolume at Curran (0.75), Mashapaug (0.87), and Warwick (0.89); Chrysophytes at Barber (0.39) and Yawgoo (0.44); and Bacillariophytes at Indian (0.41)(@fig-relbv).  Total biovolume concentrations were highest at Mashapaug (2.12x10^7^), Warwick (1.44x10^7^), and Curran (3.22x10^6^)(@fig-bv). Microcystis was the dominant genus at Mashapaug and Warwick, while Chrysosporum was dominant at Curran (@tbl-supp).
+
+![Compare Relative Biovolume of divisions by waterbody](images/fig4_rel_bio_bar.jpg){#fig-relbv width="8.5in" height="5.25in"}
+
+![Compare Total Biovlume of divisions by waterbody](images/fig5_total_bio_bar.jpg){#fig-bv width="8.5in" height="5.25in"}
+
+Extracted chlorophyll *a* was the most strongly correlated with cyanobacterial cell counts (R^2^=0.92) followed by the algaetorch (R^2^=0.78) and the Phycoprobe (R^2^=0.59). The Cyanofluor (R^2^=0.12) and Trilogy in vivo module (0.11) were weakly correlated (@fig-chlcount). Phycocyanin measurements from all instruments were strongly correlated with cell counts (R^2^ between 0.9 and 0.97)(@fig-phycocount).
+
+![Compare fluorometer chlorophyll to cyanobacteria cell counts](images/fig6_chl_vs_cells.jpg){#fig-chlcount width="8.5in" height="5.25in"}
+
+![Compare fluorometer phycocyanin to cyanobacteria cell counts](images/fig7_phyco_vs_cells.jpg){#fig-phycocount width="8.5in" height="5.25in"}
+
+# Discussion
+
+The results from this study indicate that in vivo phycocyanin is better related to extracted phycocyanin when compared to the same measurements for chlorophyll. Similarly, phycocyanin from all instruments was better correlated to cell counts than chlorophyll measurements. Instruments measuring phycocyanin were better able to handle differences in the phytoplankton community between these study ponds that cause chlorophyll measurements to be less strongly correlated with extracted results. Both extracted phycocyanin and chlorophyll were strongly correlated with cell counts across the six study ponds suggesting that pigments are indeed a good proxy for cell counts at least for some waterbodies.
+
+The relationship between phycocyanin and all fluorometers was strong. The Fluorosense had the strongest correlation even with the differences in phytoplankton concentrations and community dynamics between the waterbodies. However, the Fluorosense overestimated the actual concentrations as compared to extracted values (0-35 ug/L vs 0-12.5 ug/L). Hambdhani et al. also found that the Fluorosense performed well but overestimated chlorophyll *a* at higher algal concentrations (@hamdhani_performance_2021). Therefore, using this particular instrument to enforce set criteria across a variety of waterbodies would probably not be recommended without further research.
+
+The Algaetorch and Phycoprobe yielded similar measurements and also overestimated phycocyanin concentrations. However, the output from these instruments is not a direct measure of phycocyanin. Instead, these instruments measure the percentage of the chlorophyll that is derived from cyanobacteria, which makes a direct comparision with other instruments that measure phycocyanin difficult. The Cyanofluor output was in RFUs and was not directly comparable to extracted phycocyanin without creating a standard curve for the instrument using known phycocyanin standard concentrations, which was beyond the scope of this study. A study by Thomson-Laing et al. did convert RFUs to ug/L and found strong correlation between cyanobacteria biovolume and phycocyanin concentration for eleven cyanobacteria cultures (@thomson-laing_predicting_2020). They also found stronger relationships for environmental samples in lakes that were cyanobacteria dominated compared to more diverse lakes.
+
+All of these instruments could be used to effectively monitor for the presence of cyanobacteria by measuring more direct parameters of cyanobacteria than chlorophyll *a*. All of the fluorometers exhibited a positive relationship with chlorophyll, but the Algaetorch and Phycoprobe had a much stronger relationship. Reduced correlation by the Cyanofluor and Trilogy in vivo module was driven by the underestimation of chlorophyll in Mashapaug Pond and possible overestimation in Warwick and Curran. Phycocyanin concentrations and total biovolume of cyanobacteria were the highest in Mashapaug and it is likely that these high concentrations were underestimating the in vivo concentrations of chlorophyll (@zamyadi_monitoring_2012). Therefore, the Algaetorch and Phycoprobe are more successful in properly estimating chlorophyll across a range of different waterbodies, but they are also the most expensive instruments. A study by Silva et al. found that the Fluoroprobe (a similar instrument to the Phycoprobe) was correlated with cell counts at chlorophyll *a* concentrations below 100 ug/L but not above, but the present study did not have study ponds that exceed 100 ug/L (@silva_comparison_2016).
+
+This study supports the use of extracted chlorophyll and phycocyanin as an alternative to cell counts for the study waterbodies. Currently, in vivo chlorophyll *a* is typically used for routine monitoring of cyanoHABs, but this study found that phycocyanin to be better correlated with extracted phycocyanin across a variety of instruments. Therefore, measuring in vivo phycocyanin may be a good proxy for cell counts. There are a variety of instruments capable of measuring phycocyanin using in vivo fluorometry across a spectrum of prices. We hope this study will encourage further research and consideration of using in vivo phycocyanin as alternative to cell counts and in situations were extractive techniques are not able to be used.
+
+# Acknowledgements
+
+We are grateful to EPA Reviewer 1, EPA Reviewer 2, EPA Reviewer 3, ACESD QAM, ACESD Supervisor, and Tim Gleason for constructive reviews of this paper. The views expressed in this article are those of the authors and do not necessarily represent the views or policies of the U.S. Environmental Protection Agency. Any mention of trade names, products, or services does not imply an endorsement by the U.S. Government or the U.S. Environmental Protection Agency. The EPA does not endorse any commercial products, services, or enterprises. This contribution is identified by the tracking number ORD-XXXXXX of the Atlantic Coastal Environmental Sciences Division, Office of Research and Development, Center for Environmental Measurement and Modeling, US Environmental Protection Agency. Lastly, special thanks to Gracie, Anastasia, and Lilac for cheer leading and support during challenging analysis times.
+
+# Supplement
+
+```{r read_table1, echo=FALSE, message=FALSE}
+library(dplyr)
+library(readr)
+table1 <- read_csv(here::here("data/cleaned_phycotech_cyano_data.csv")) %>%
+  select(-family) %>%
+  mutate(biovolume = round(biovolume, 1),
+         relative_biovolume = round(relative_biovolume, 5))
+```
+
+```{r show_table1, results='asis', echo=FALSE}
+#| label: tbl-supp
+#| tbl-cap: "Waterbody, Cyano Genus, Relative Biovolume Total Biovolume"
+
+knitr::kable(table1)
+```
+
+```{r session_info, echo=FALSE}
+#Send session info to a file: 
+capture.output(sessionInfo(),file=here::here("sessioninfo.txt"))
+```
+
+# References
