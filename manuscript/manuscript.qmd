@@ -139,7 +139,8 @@ knitr::kable(fluoro_summary$phyco_summary)
 
 ## Phytoplankton Counts
 
-!!!REWRITE ME - Changed from biov to cells/ml, only one fig now!!!!
+!!! REWRITE ME - Changed from biov to cells/ml, only one fig now !!!!
+!!! Cyanobaceteria Cell Counts are natural units / mL !!!!
 
 Cyanophytes were the dominant taxa by relative biovolume at Curran (0.75), Mashapaug (0.87), and Warwick (0.89); Chrysophytes at Barber (0.39) and Yawgoo (0.44); and Bacillariophytes at Indian (0.41)(@fig-cellsml).  Total biovolume concentrations were highest at Mashapaug (2.12x10^7^), Warwick (1.44x10^7^), and Curran (3.22x10^6^)(@fig-bv). Microcystis was the dominant genus at Mashapaug and Warwick, while Chrysosporum was dominant at Curran (@tbl-supp).
 
