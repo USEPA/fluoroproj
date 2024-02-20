@@ -54,22 +54,18 @@ ggsave(here::here("manuscript/images/fig3_phyco_scatter.jpg"), phyco_compare_plo
 
 #ratio_compare_plot <- ext_vs_all_plot(fp_data_wb, "pc:chl", c("fresh", "extracted"))
 
-division_bar_plot_relative <- grouped_bar_plot(phycotech_data, "relative_biovolume")
-ggsave(here::here("manuscript/images/fig4_rel_bio_bar.jpg"), division_bar_plot_relative, 
-       width = 8.5, height = 5.25, dpi = 300)
-
-division_bar_plot_total <- grouped_bar_plot(phycotech_data, "biovolume_concentration")
-ggsave(here::here("manuscript/images/fig5_total_bio_bar.jpg"), division_bar_plot_total, 
+division_bar_plot_cellsml <- grouped_bar_plot(phycotech_data, "concentration")
+ggsave(here::here("manuscript/images/fig4_total_cellsml_bar.jpg"), division_bar_plot_cellsml, 
        width = 8.5, height = 5.25, dpi = 300)
 
 # As of 10/19/2023 still need to clean these up a bit.
 # consistency on y axis for each unit, x axis labels are scrunched
 fluoro_chl_count_scatter <- flouro_vs_count_plot(fp_data_wb, phycotech_data, "chlorophyll")
-ggsave(here::here("manuscript/images/fig6_chl_vs_cells.jpg"), fluoro_chl_count_scatter, 
+ggsave(here::here("manuscript/images/fig5_chl_vs_cells.jpg"), fluoro_chl_count_scatter, 
        width = 8.5, height = 5.25, dpi = 300)
 
 fluoro_phyco_count_scatter <- flouro_vs_count_plot(fp_data_wb, phycotech_data, "phycocyanin")
-ggsave(here::here("manuscript/images/fig7_phyco_vs_cells.jpg"), fluoro_phyco_count_scatter, 
+ggsave(here::here("manuscript/images/fig6_phyco_vs_cells.jpg"), fluoro_phyco_count_scatter, 
        width = 8.5, height = 5.25, dpi = 300)
 
 # Field Site Map

@@ -481,7 +481,9 @@ clean_phycotech_cyano <- function(phycotech_df){
   phycotech_df_clean <- phycotech_df %>%
     select(waterbody = system_name, date = sample_date, division, family, genus, 
            biovolume_concentration = total_biovolume_cubic_um_per_ml_,
-           relative_biovolume = relative_total_biovolume) %>%
+           relative_biovolume = relative_total_biovolume,
+           concentration = concentration_natural_units_per_ml_,
+           relative_concentration) %>%
     # TODO: Standardize names with our data
     mutate(date = ymd(date),
            waterbody = case_when(waterbody == "Yawagoo Pond" ~
@@ -502,7 +504,7 @@ clean_phycotech_cyano <- function(phycotech_df){
 
 #' Make grouped bar plot
 grouped_bar_plot <- function(phycotech_df, yvar){
-  
+ 
   yvar <- rlang::sym(yvar)
   bar_plot <- phycotech_df %>%
     ggplot(aes(x = waterbody, y = !!yvar, fill = barplot_groups)) +
@@ -637,7 +639,12 @@ summary_table <- function(fluoro_df){
     filter(idx) |>
     filter(variable %in% c("chl", "phyco")) |>
     group_by(waterbody, instrument, variable, units) |>
-    summarise(mean = mean(avg_value, na.rm = TRUE), sd = sd(avg_value, na.rm = TRUE))
+    summarise(mean = mean(avg_value, na.rm = TRUE), sd = sd(avg_value, na.rm = TRUE)) |>
+    ungroup()
+  summ_df <- filter(summ_df, instrument == "trilogy") |>
+    mutate(mean = round(mean, 1), sd = round(sd, 1)) |>
+    select(!instrument) |>
+    as.data.frame()
   list(chl_summary = summ_df[summ_df$variable == "chl",], 
        phyco_summary = summ_df[summ_df$variable == "phyco",])
 }
