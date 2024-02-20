@@ -481,7 +481,9 @@ clean_phycotech_cyano <- function(phycotech_df){
   phycotech_df_clean <- phycotech_df %>%
     select(waterbody = system_name, date = sample_date, division, family, genus, 
            biovolume_concentration = total_biovolume_cubic_um_per_ml_,
-           relative_biovolume = relative_total_biovolume) %>%
+           relative_biovolume = relative_total_biovolume,
+           concentration = concentration_natural_units_per_ml_,
+           relative_concentration) %>%
     # TODO: Standardize names with our data
     mutate(date = ymd(date),
            waterbody = case_when(waterbody == "Yawagoo Pond" ~

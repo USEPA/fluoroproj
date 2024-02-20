@@ -599,84 +599,84 @@ date,waterbody,field_dups,lab_reps,instrument,method,variable,units,value
 2021-11-09,windmist,3,1,trilogy,extracted,chl,rfu,11.652
 2021-11-09,windmist,3,2,trilogy,extracted,chl,rfu,12.105999999999998
 2021-11-09,windmist,3,3,trilogy,extracted,chl,rfu,13.073999999999996
-2021-10-06,barber,1,1,trilogy,extracted,chl,µg/L,5.004315138531909
-2021-10-06,barber,1,2,trilogy,extracted,chl,µg/L,4.596878052842693
+2021-10-06,barber,1,1,trilogy,extracted,chl,µg/L,5.00431513853191
+2021-10-06,barber,1,2,trilogy,extracted,chl,µg/L,4.596878052842694
 2021-10-06,barber,1,3,trilogy,extracted,chl,µg/L,4.427729929389898
 2021-10-06,barber,2,1,trilogy,extracted,chl,µg/L,4.4134078984990035
-2021-10-06,barber,2,2,trilogy,extracted,chl,µg/L,4.468967501092987
-2021-10-06,barber,2,3,trilogy,extracted,chl,µg/L,4.4847711213863874
+2021-10-06,barber,2,2,trilogy,extracted,chl,µg/L,4.468967501092988
+2021-10-06,barber,2,3,trilogy,extracted,chl,µg/L,4.484771121386388
 2021-10-06,barber,3,1,trilogy,extracted,chl,µg/L,4.081284940770522
 2021-10-06,barber,3,2,trilogy,extracted,chl,µg/L,4.355872843368346
 2021-10-06,barber,3,3,trilogy,extracted,chl,µg/L,4.383529178881794
 2021-10-06,indian,1,1,trilogy,extracted,chl,µg/L,1.2081867714304217
-2021-10-06,indian,1,2,trilogy,extracted,chl,µg/L,1.1424042019591447
+2021-10-06,indian,1,2,trilogy,extracted,chl,µg/L,1.142404201959145
 2021-10-06,indian,1,3,trilogy,extracted,chl,µg/L,1.3445917690878295
-2021-10-06,indian,2,1,trilogy,extracted,chl,µg/L,1.2867110097632521
+2021-10-06,indian,2,1,trilogy,extracted,chl,µg/L,1.2867110097632526
 2021-10-06,indian,2,2,trilogy,extracted,chl,µg/L,1.3202937028867272
-2021-10-06,indian,2,3,trilogy,extracted,chl,µg/L,1.2913533232244387
-2021-10-06,indian,3,1,trilogy,extracted,chl,µg/L,1.059435195418795
-2021-10-06,indian,3,2,trilogy,extracted,chl,µg/L,1.2370283784658764
-2021-10-06,indian,3,3,trilogy,extracted,chl,µg/L,1.3718530140939442
-2021-10-06,yawgoo,1,1,trilogy,extracted,chl,µg/L,2.9960700897481183
-2021-10-06,yawgoo,1,2,trilogy,extracted,chl,µg/L,3.0291589197374242
-2021-10-06,yawgoo,1,3,trilogy,extracted,chl,µg/L,2.887716518111495
+2021-10-06,indian,2,3,trilogy,extracted,chl,µg/L,1.291353323224439
+2021-10-06,indian,3,1,trilogy,extracted,chl,µg/L,1.0594351954187953
+2021-10-06,indian,3,2,trilogy,extracted,chl,µg/L,1.2370283784658767
+2021-10-06,indian,3,3,trilogy,extracted,chl,µg/L,1.3718530140939444
+2021-10-06,yawgoo,1,1,trilogy,extracted,chl,µg/L,2.996070089748119
+2021-10-06,yawgoo,1,2,trilogy,extracted,chl,µg/L,3.0291589197374247
+2021-10-06,yawgoo,1,3,trilogy,extracted,chl,µg/L,2.8877165181114957
 2021-10-06,yawgoo,2,1,trilogy,extracted,chl,µg/L,2.763954416688808
-2021-10-06,yawgoo,2,2,trilogy,extracted,chl,µg/L,2.7655347787181475
-2021-10-06,yawgoo,2,3,trilogy,extracted,chl,µg/L,2.7707697279403365
+2021-10-06,yawgoo,2,2,trilogy,extracted,chl,µg/L,2.765534778718148
+2021-10-06,yawgoo,2,3,trilogy,extracted,chl,µg/L,2.770769727940337
 2021-10-06,yawgoo,3,1,trilogy,extracted,chl,µg/L,2.6725897368675895
-2021-10-06,yawgoo,3,2,trilogy,extracted,chl,µg/L,2.6965914851881907
-2021-10-06,yawgoo,3,3,trilogy,extracted,chl,µg/L,2.6234997413312158
+2021-10-06,yawgoo,3,2,trilogy,extracted,chl,µg/L,2.696591485188191
+2021-10-06,yawgoo,3,3,trilogy,extracted,chl,µg/L,2.623499741331216
 2021-10-21,curran,1,1,trilogy,extracted,chl,µg/L,20.613353357069315
-2021-10-21,curran,1,2,trilogy,extracted,chl,µg/L,18.926316890748875
+2021-10-21,curran,1,2,trilogy,extracted,chl,µg/L,18.92631689074888
 2021-10-21,curran,1,3,trilogy,extracted,chl,µg/L,19.72538744183391
-2021-10-21,curran,2,1,trilogy,extracted,chl,µg/L,20.576807485140826
+2021-10-21,curran,2,1,trilogy,extracted,chl,µg/L,20.57680748514083
 2021-10-21,curran,2,2,trilogy,extracted,chl,µg/L,19.337704881511442
-2021-10-21,curran,2,3,trilogy,extracted,chl,µg/L,19.09719353517126
-2021-10-21,curran,3,1,trilogy,extracted,chl,µg/L,19.236956802141016
-2021-10-21,curran,3,2,trilogy,extracted,chl,µg/L,19.40487026775839
+2021-10-21,curran,2,3,trilogy,extracted,chl,µg/L,19.097193535171265
+2021-10-21,curran,3,1,trilogy,extracted,chl,µg/L,19.23695680214102
+2021-10-21,curran,3,2,trilogy,extracted,chl,µg/L,19.404870267758394
 2021-10-21,curran,3,3,trilogy,extracted,chl,µg/L,19.32683989255973
 2021-10-21,mashapaug,1,1,trilogy,extracted,chl,µg/L,30.01107493716639
-2021-10-21,mashapaug,1,2,trilogy,extracted,chl,µg/L,29.676729595334148
-2021-10-21,mashapaug,1,3,trilogy,extracted,chl,µg/L,29.415475997358882
+2021-10-21,mashapaug,1,2,trilogy,extracted,chl,µg/L,29.67672959533415
+2021-10-21,mashapaug,1,3,trilogy,extracted,chl,µg/L,29.41547599735889
 2021-10-21,mashapaug,2,1,trilogy,extracted,chl,µg/L,29.609070345953032
-2021-10-21,mashapaug,2,2,trilogy,extracted,chl,µg/L,28.703819221021714
-2021-10-21,mashapaug,2,3,trilogy,extracted,chl,µg/L,33.589607207353126
+2021-10-21,mashapaug,2,2,trilogy,extracted,chl,µg/L,28.70381922102172
+2021-10-21,mashapaug,2,3,trilogy,extracted,chl,µg/L,33.58960720735313
 2021-10-21,mashapaug,3,1,trilogy,extracted,chl,µg/L,35.98188022926654
 2021-10-21,mashapaug,3,2,trilogy,extracted,chl,µg/L,37.51285594518965
 2021-10-21,mashapaug,3,3,trilogy,extracted,chl,µg/L,35.34183360738385
-2021-10-21,warwick,1,1,trilogy,extracted,chl,µg/L,18.62802355771095
+2021-10-21,warwick,1,1,trilogy,extracted,chl,µg/L,18.628023557710954
 2021-10-21,warwick,1,2,trilogy,extracted,chl,µg/L,20.83114699923773
-2021-10-21,warwick,1,3,trilogy,extracted,chl,µg/L,17.660545677874378
-2021-10-21,warwick,2,1,trilogy,extracted,chl,µg/L,19.687359980502915
+2021-10-21,warwick,1,3,trilogy,extracted,chl,µg/L,17.66054567787438
+2021-10-21,warwick,2,1,trilogy,extracted,chl,µg/L,19.68735998050292
 2021-10-21,warwick,2,2,trilogy,extracted,chl,µg/L,20.884978080862126
 2021-10-21,warwick,2,3,trilogy,extracted,chl,µg/L,19.628096404402665
-2021-10-21,warwick,3,1,trilogy,extracted,chl,µg/L,20.03059485875019
+2021-10-21,warwick,3,1,trilogy,extracted,chl,µg/L,20.030594858750195
 2021-10-21,warwick,3,2,trilogy,extracted,chl,µg/L,21.516629029463953
-2021-10-21,warwick,3,3,trilogy,extracted,chl,µg/L,21.399089603531788
-2021-11-09,lower melville,1,1,trilogy,extracted,chl,µg/L,6.292310192444
-2021-11-09,lower melville,1,2,trilogy,extracted,chl,µg/L,6.340955711159622
-2021-11-09,lower melville,1,3,trilogy,extracted,chl,µg/L,5.938951119946261
+2021-10-21,warwick,3,3,trilogy,extracted,chl,µg/L,21.39908960353179
+2021-11-09,lower melville,1,1,trilogy,extracted,chl,µg/L,6.292310192444001
+2021-11-09,lower melville,1,2,trilogy,extracted,chl,µg/L,6.340955711159623
+2021-11-09,lower melville,1,3,trilogy,extracted,chl,µg/L,5.938951119946262
 2021-11-09,lower melville,2,1,trilogy,extracted,chl,µg/L,5.680907632343092
-2021-11-09,lower melville,2,2,trilogy,extracted,chl,µg/L,5.3193998181315685
-2021-11-09,lower melville,2,3,trilogy,extracted,chl,µg/L,5.628805071688289
-2021-11-09,lower melville,3,1,trilogy,extracted,chl,µg/L,4.965053019365493
-2021-11-09,lower melville,3,2,trilogy,extracted,chl,µg/L,5.0549361097842045
-2021-11-09,lower melville,3,3,trilogy,extracted,chl,µg/L,5.162598273032992
+2021-11-09,lower melville,2,2,trilogy,extracted,chl,µg/L,5.319399818131569
+2021-11-09,lower melville,2,3,trilogy,extracted,chl,µg/L,5.62880507168829
+2021-11-09,lower melville,3,1,trilogy,extracted,chl,µg/L,4.965053019365494
+2021-11-09,lower melville,3,2,trilogy,extracted,chl,µg/L,5.054936109784205
+2021-11-09,lower melville,3,3,trilogy,extracted,chl,µg/L,5.162598273032993
 2021-11-09,upper melville,1,1,trilogy,extracted,chl,µg/L,6.832102598090439
-2021-11-09,upper melville,1,2,trilogy,extracted,chl,µg/L,7.092862332931537
-2021-11-09,upper melville,1,3,trilogy,extracted,chl,µg/L,6.771357432587683
-2021-11-09,upper melville,2,1,trilogy,extracted,chl,µg/L,7.171386571264367
-2021-11-09,upper melville,2,2,trilogy,extracted,chl,µg/L,7.456345599679735
-2021-11-09,upper melville,2,3,trilogy,extracted,chl,µg/L,7.8005682041953515
+2021-11-09,upper melville,1,2,trilogy,extracted,chl,µg/L,7.092862332931538
+2021-11-09,upper melville,1,3,trilogy,extracted,chl,µg/L,6.771357432587684
+2021-11-09,upper melville,2,1,trilogy,extracted,chl,µg/L,7.171386571264369
+2021-11-09,upper melville,2,2,trilogy,extracted,chl,µg/L,7.456345599679737
+2021-11-09,upper melville,2,3,trilogy,extracted,chl,µg/L,7.800568204195352
 2021-11-09,upper melville,3,1,trilogy,extracted,chl,µg/L,5.447310369881275
-2021-11-09,upper melville,3,2,trilogy,extracted,chl,µg/L,5.863636991985528
-2021-11-09,upper melville,3,3,trilogy,extracted,chl,µg/L,5.954754740239662
-2021-11-09,windmist,1,1,trilogy,extracted,chl,µg/L,3.5790261333209066
-2021-11-09,windmist,1,2,trilogy,extracted,chl,µg/L,3.807190901306867
-2021-11-09,windmist,1,3,trilogy,extracted,chl,µg/L,4.006217744376872
-2021-11-09,windmist,3,1,trilogy,extracted,chl,µg/L,2.877246619667117
-2021-11-09,windmist,3,2,trilogy,extracted,chl,µg/L,2.989353551123423
-2021-11-09,windmist,3,3,trilogy,extracted,chl,µg/L,3.2283833080610957
+2021-11-09,upper melville,3,2,trilogy,extracted,chl,µg/L,5.863636991985529
+2021-11-09,upper melville,3,3,trilogy,extracted,chl,µg/L,5.954754740239663
+2021-11-09,windmist,1,1,trilogy,extracted,chl,µg/L,3.579026133320907
+2021-11-09,windmist,1,2,trilogy,extracted,chl,µg/L,3.807190901306868
+2021-11-09,windmist,1,3,trilogy,extracted,chl,µg/L,4.0062177443768725
+2021-11-09,windmist,3,1,trilogy,extracted,chl,µg/L,2.8772466196671176
+2021-11-09,windmist,3,2,trilogy,extracted,chl,µg/L,2.9893535511234233
+2021-11-09,windmist,3,3,trilogy,extracted,chl,µg/L,3.2283833080610966
 2023-01-04,culture_mic,1,1,trilogy,extracted,chl,rfu,208.55124999999998
 2023-01-04,culture_mic,1,2,trilogy,extracted,chl,rfu,163.36624999999998
 2023-01-04,culture_mic,1,3,trilogy,extracted,chl,rfu,187.50625
@@ -709,37 +709,37 @@ date,waterbody,field_dups,lab_reps,instrument,method,variable,units,value
 2023-01-05,culture_mic_ana_pando_pedia,1,6,trilogy,extracted,chl,rfu,292.60875
 2023-01-05,culture_mic_ana_pando_pedia,1,7,trilogy,extracted,chl,rfu,225.60375
 2023-01-05,culture_mic_ana_pando_pedia,1,8,trilogy,extracted,chl,rfu,260.89875
-2023-01-04,culture_mic,1,1,trilogy,extracted,chl,µg/L,51.497886979904905
+2023-01-04,culture_mic,1,1,trilogy,extracted,chl,µg/L,51.49788697990491
 2023-01-04,culture_mic,1,2,trilogy,extracted,chl,µg/L,40.3402841211975
-2023-01-04,culture_mic,1,3,trilogy,extracted,chl,µg/L,46.30121215061427
-2023-01-04,culture_mic,1,4,trilogy,extracted,chl,µg/L,45.18755078306374
-2023-01-04,culture_mic,1,5,trilogy,extracted,chl,µg/L,37.570946596346246
-2023-01-04,culture_mic,1,6,trilogy,extracted,chl,µg/L,44.46404129150653
-2023-01-04,culture_mic,1,7,trilogy,extracted,chl,µg/L,46.70000663145553
-2023-01-04,culture_mic,1,8,trilogy,extracted,chl,µg/L,49.95209536995673
+2023-01-04,culture_mic,1,3,trilogy,extracted,chl,µg/L,46.301212150614276
+2023-01-04,culture_mic,1,4,trilogy,extracted,chl,µg/L,45.18755078306375
+2023-01-04,culture_mic,1,5,trilogy,extracted,chl,µg/L,37.57094659634625
+2023-01-04,culture_mic,1,6,trilogy,extracted,chl,µg/L,44.46404129150654
+2023-01-04,culture_mic,1,7,trilogy,extracted,chl,µg/L,46.70000663145554
+2023-01-04,culture_mic,1,8,trilogy,extracted,chl,µg/L,49.95209536995674
 2023-01-05,culture_ana,1,1,trilogy,extracted,chl,µg/L,89.84389003243724
-2023-01-05,culture_ana,1,2,trilogy,extracted,chl,µg/L,94.94920018190666
-2023-01-05,culture_ana,1,3,trilogy,extracted,chl,µg/L,91.07607855218826
-2023-01-05,culture_ana,1,4,trilogy,extracted,chl,µg/L,79.88020130058278
-2023-01-05,culture_ana,1,5,trilogy,extracted,chl,µg/L,89.42287171055838
+2023-01-05,culture_ana,1,2,trilogy,extracted,chl,µg/L,94.94920018190668
+2023-01-05,culture_ana,1,3,trilogy,extracted,chl,µg/L,91.07607855218828
+2023-01-05,culture_ana,1,4,trilogy,extracted,chl,µg/L,79.8802013005828
+2023-01-05,culture_ana,1,5,trilogy,extracted,chl,µg/L,89.4228717105584
 2023-01-05,culture_ana,1,6,trilogy,extracted,chl,µg/L,87.34370791570797
-2023-01-05,culture_ana,1,7,trilogy,extracted,chl,µg/L,92.32802159730603
-2023-01-05,culture_ana,1,8,trilogy,extracted,chl,µg/L,89.89698031936038
+2023-01-05,culture_ana,1,7,trilogy,extracted,chl,µg/L,92.32802159730605
+2023-01-05,culture_ana,1,8,trilogy,extracted,chl,µg/L,89.8969803193604
 2023-01-05,culture_mic_ana,1,1,trilogy,extracted,chl,µg/L,73.33065014812864
-2023-01-05,culture_mic_ana,1,2,trilogy,extracted,chl,µg/L,60.8507287476844
-2023-01-05,culture_mic_ana,1,3,trilogy,extracted,chl,µg/L,78.8680905399957
+2023-01-05,culture_mic_ana,1,2,trilogy,extracted,chl,µg/L,60.85072874768441
+2023-01-05,culture_mic_ana,1,3,trilogy,extracted,chl,µg/L,78.86809053999572
 2023-01-05,culture_mic_ana,1,4,trilogy,extracted,chl,µg/L,71.66386207030912
 2023-01-05,culture_mic_ana,1,5,trilogy,extracted,chl,µg/L,68.47474088141443
-2023-01-05,culture_mic_ana,1,6,trilogy,extracted,chl,µg/L,71.27617950998665
-2023-01-05,culture_mic_ana,1,7,trilogy,extracted,chl,µg/L,67.65492807869431
-2023-01-05,culture_mic_ana,1,8,trilogy,extracted,chl,µg/L,70.24524021740939
-2023-01-05,culture_mic_ana_pando_pedia,1,1,trilogy,extracted,chl,µg/L,58.42246544986845
-2023-01-05,culture_mic_ana_pando_pedia,1,2,trilogy,extracted,chl,µg/L,59.837383329261904
-2023-01-05,culture_mic_ana_pando_pedia,1,3,trilogy,extracted,chl,µg/L,62.28694447473889
-2023-01-05,culture_mic_ana_pando_pedia,1,4,trilogy,extracted,chl,µg/L,56.49516456877491
-2023-01-05,culture_mic_ana_pando_pedia,1,5,trilogy,extracted,chl,µg/L,57.56931688559193
-2023-01-05,culture_mic_ana_pando_pedia,1,6,trilogy,extracted,chl,µg/L,72.25433718009961
-2023-01-05,culture_mic_ana_pando_pedia,1,7,trilogy,extracted,chl,µg/L,55.70868752761118
+2023-01-05,culture_mic_ana,1,6,trilogy,extracted,chl,µg/L,71.27617950998666
+2023-01-05,culture_mic_ana,1,7,trilogy,extracted,chl,µg/L,67.65492807869433
+2023-01-05,culture_mic_ana,1,8,trilogy,extracted,chl,µg/L,70.2452402174094
+2023-01-05,culture_mic_ana_pando_pedia,1,1,trilogy,extracted,chl,µg/L,58.422465449868454
+2023-01-05,culture_mic_ana_pando_pedia,1,2,trilogy,extracted,chl,µg/L,59.83738332926191
+2023-01-05,culture_mic_ana_pando_pedia,1,3,trilogy,extracted,chl,µg/L,62.286944474738895
+2023-01-05,culture_mic_ana_pando_pedia,1,4,trilogy,extracted,chl,µg/L,56.49516456877492
+2023-01-05,culture_mic_ana_pando_pedia,1,5,trilogy,extracted,chl,µg/L,57.56931688559194
+2023-01-05,culture_mic_ana_pando_pedia,1,6,trilogy,extracted,chl,µg/L,72.25433718009963
+2023-01-05,culture_mic_ana_pando_pedia,1,7,trilogy,extracted,chl,µg/L,55.70868752761119
 2023-01-05,culture_mic_ana_pando_pedia,1,8,trilogy,extracted,chl,µg/L,64.42413718785414
 2023-03-29,culture_pedia,1,1,trilogy,extracted,phyco,rfu,NA
 2023-03-29,culture_pedia,1,2,trilogy,extracted,phyco,rfu,NA
@@ -994,17 +994,17 @@ date,waterbody,field_dups,lab_reps,instrument,method,variable,units,value
 2023-01-05,culture_mic_ana_pando_pedia,1,7,trilogy,extracted,phyco,µg/L,24.93887337172525
 2023-01-05,culture_mic_ana_pando_pedia,1,8,trilogy,extracted,phyco,µg/L,24.384324569598608
 2021-10-06,barber,1,1,trilogy,extracted,pc:chl,ratio-rfu,0.18819698016382116
-2021-10-06,barber,1,1,trilogy,extracted,pc:chl,ratio-conc,0.05742460215424281
+2021-10-06,barber,1,1,trilogy,extracted,pc:chl,ratio-conc,0.057424602154242804
 2021-10-06,barber,1,2,trilogy,extracted,pc:chl,ratio-rfu,0.1752256123764503
-2021-10-06,barber,1,2,trilogy,extracted,pc:chl,ratio-conc,0.05346664473145242
+2021-10-06,barber,1,2,trilogy,extracted,pc:chl,ratio-conc,0.05346664473145241
 2021-10-06,barber,1,3,trilogy,extracted,pc:chl,ratio-rfu,0.2340081423233506
 2021-10-06,barber,1,3,trilogy,extracted,pc:chl,ratio-conc,0.07140297608428423
 2021-10-06,barber,2,1,trilogy,extracted,pc:chl,ratio-rfu,0.18665025457393836
 2021-10-06,barber,2,1,trilogy,extracted,pc:chl,ratio-conc,0.056952649301633324
 2021-10-06,barber,2,2,trilogy,extracted,pc:chl,ratio-rfu,0.1559288319151288
-2021-10-06,barber,2,2,trilogy,extracted,pc:chl,ratio-conc,0.04757861220359482
+2021-10-06,barber,2,2,trilogy,extracted,pc:chl,ratio-conc,0.04757861220359481
 2021-10-06,barber,2,3,trilogy,extracted,pc:chl,ratio-rfu,0.11276291157361525
-2021-10-06,barber,2,3,trilogy,extracted,pc:chl,ratio-conc,0.03440738171904917
+2021-10-06,barber,2,3,trilogy,extracted,pc:chl,ratio-conc,0.03440738171904916
 2021-10-06,barber,3,1,trilogy,extracted,pc:chl,ratio-rfu,0.1530735721200387
 2021-10-06,barber,3,1,trilogy,extracted,pc:chl,ratio-conc,0.04670738590847928
 2021-10-06,barber,3,2,trilogy,extracted,pc:chl,ratio-rfu,0.1727891156462585
@@ -1014,69 +1014,69 @@ date,waterbody,field_dups,lab_reps,instrument,method,variable,units,value
 2021-10-06,indian,1,1,trilogy,extracted,pc:chl,ratio-rfu,0.46615434924787436
 2021-10-06,indian,1,1,trilogy,extracted,pc:chl,ratio-conc,0.1422378192504873
 2021-10-06,indian,1,2,trilogy,extracted,pc:chl,ratio-rfu,0.42158049455300023
-2021-10-06,indian,1,2,trilogy,extracted,pc:chl,ratio-conc,0.12863698532580864
+2021-10-06,indian,1,2,trilogy,extracted,pc:chl,ratio-conc,0.1286369853258086
 2021-10-06,indian,1,3,trilogy,extracted,pc:chl,ratio-rfu,0.37478880481892307
 2021-10-06,indian,1,3,trilogy,extracted,pc:chl,ratio-conc,0.11435942271685934
 2021-10-06,indian,2,1,trilogy,extracted,pc:chl,ratio-rfu,0.40346971674215115
-2021-10-06,indian,2,1,trilogy,extracted,pc:chl,ratio-conc,0.12311083814966056
+2021-10-06,indian,2,1,trilogy,extracted,pc:chl,ratio-conc,0.12311083814966052
 2021-10-06,indian,2,2,trilogy,extracted,pc:chl,ratio-rfu,0.3329094037555175
 2021-10-06,indian,2,2,trilogy,extracted,pc:chl,ratio-conc,0.10158074825337633
 2021-10-06,indian,2,3,trilogy,extracted,pc:chl,ratio-rfu,0.27306103717301516
-2021-10-06,indian,2,3,trilogy,extracted,pc:chl,ratio-conc,0.08331919784172868
+2021-10-06,indian,2,3,trilogy,extracted,pc:chl,ratio-conc,0.08331919784172866
 2021-10-06,indian,3,1,trilogy,extracted,pc:chl,ratio-rfu,0.7046429237367146
-2021-10-06,indian,3,1,trilogy,extracted,pc:chl,ratio-conc,0.2150079109726439
+2021-10-06,indian,3,1,trilogy,extracted,pc:chl,ratio-conc,0.21500791097264385
 2021-10-06,indian,3,2,trilogy,extracted,pc:chl,ratio-rfu,0.5309805174065795
-2021-10-06,indian,3,2,trilogy,extracted,pc:chl,ratio-conc,0.162018247780516
+2021-10-06,indian,3,2,trilogy,extracted,pc:chl,ratio-conc,0.16201824778051596
 2021-10-06,indian,3,3,trilogy,extracted,pc:chl,ratio-rfu,0.5834833321333431
-2021-10-06,indian,3,3,trilogy,extracted,pc:chl,ratio-conc,0.1780384477063483
+2021-10-06,indian,3,3,trilogy,extracted,pc:chl,ratio-conc,0.17803844770634827
 2021-10-06,yawgoo,1,1,trilogy,extracted,pc:chl,ratio-rfu,0.9691754854448946
-2021-10-06,yawgoo,1,1,trilogy,extracted,pc:chl,ratio-conc,0.29572481248568516
+2021-10-06,yawgoo,1,1,trilogy,extracted,pc:chl,ratio-conc,0.2957248124856851
 2021-10-06,yawgoo,1,2,trilogy,extracted,pc:chl,ratio-rfu,1.0314334159384373
 2021-10-06,yawgoo,1,2,trilogy,extracted,pc:chl,ratio-conc,0.31472159387094495
 2021-10-06,yawgoo,1,3,trilogy,extracted,pc:chl,ratio-rfu,1.2564646326446847
-2021-10-06,yawgoo,1,3,trilogy,extracted,pc:chl,ratio-conc,0.38338543789433394
+2021-10-06,yawgoo,1,3,trilogy,extracted,pc:chl,ratio-conc,0.3833854378943339
 2021-10-06,yawgoo,2,1,trilogy,extracted,pc:chl,ratio-rfu,1.4587428081335092
 2021-10-06,yawgoo,2,1,trilogy,extracted,pc:chl,ratio-conc,0.44510663948758283
 2021-10-06,yawgoo,2,2,trilogy,extracted,pc:chl,ratio-rfu,1.2627593842637237
-2021-10-06,yawgoo,2,2,trilogy,extracted,pc:chl,ratio-conc,0.3853061573823323
+2021-10-06,yawgoo,2,2,trilogy,extracted,pc:chl,ratio-conc,0.38530615738233226
 2021-10-06,yawgoo,2,3,trilogy,extracted,pc:chl,ratio-rfu,1.26322543847141
-2021-10-06,yawgoo,2,3,trilogy,extracted,pc:chl,ratio-conc,0.3854483646453575
+2021-10-06,yawgoo,2,3,trilogy,extracted,pc:chl,ratio-conc,0.3854483646453574
 2021-10-06,yawgoo,3,1,trilogy,extracted,pc:chl,ratio-rfu,1.3876857121738484
 2021-10-06,yawgoo,3,1,trilogy,extracted,pc:chl,ratio-conc,0.4234249660507006
 2021-10-06,yawgoo,3,2,trilogy,extracted,pc:chl,ratio-rfu,1.3373869089044355
-2021-10-06,yawgoo,3,2,trilogy,extracted,pc:chl,ratio-conc,0.4080772768153776
+2021-10-06,yawgoo,3,2,trilogy,extracted,pc:chl,ratio-conc,0.40807727681537753
 2021-10-06,yawgoo,3,3,trilogy,extracted,pc:chl,ratio-rfu,1.131132110989797
-2021-10-06,yawgoo,3,3,trilogy,extracted,pc:chl,ratio-conc,0.34514268720431246
+2021-10-06,yawgoo,3,3,trilogy,extracted,pc:chl,ratio-conc,0.3451426872043124
 2021-10-21,curran,1,1,trilogy,extracted,pc:chl,ratio-rfu,0.1518004743764824
 2021-10-21,curran,1,1,trilogy,extracted,pc:chl,ratio-conc,0.046318925204361996
 2021-10-21,curran,1,2,trilogy,extracted,pc:chl,ratio-rfu,0.32800146126347096
-2021-10-21,curran,1,2,trilogy,extracted,pc:chl,ratio-conc,0.10008318625872403
+2021-10-21,curran,1,2,trilogy,extracted,pc:chl,ratio-conc,0.100083186258724
 2021-10-21,curran,1,3,trilogy,extracted,pc:chl,ratio-rfu,0.26784507148043357
 2021-10-21,curran,1,3,trilogy,extracted,pc:chl,ratio-conc,0.08172764863362794
 2021-10-21,curran,2,1,trilogy,extracted,pc:chl,ratio-rfu,0.32334093363734556
-2021-10-21,curran,2,1,trilogy,extracted,pc:chl,ratio-conc,0.09866111803783044
+2021-10-21,curran,2,1,trilogy,extracted,pc:chl,ratio-conc,0.09866111803783043
 2021-10-21,curran,2,2,trilogy,extracted,pc:chl,ratio-rfu,0.2727040555725814
 2021-10-21,curran,2,2,trilogy,extracted,pc:chl,ratio-conc,0.08321027193673569
 2021-10-21,curran,2,3,trilogy,extracted,pc:chl,ratio-rfu,0.33230753316610206
-2021-10-21,curran,2,3,trilogy,extracted,pc:chl,ratio-conc,0.10139709929622816
+2021-10-21,curran,2,3,trilogy,extracted,pc:chl,ratio-conc,0.10139709929622813
 2021-10-21,curran,3,1,trilogy,extracted,pc:chl,ratio-rfu,0.20040049291435613
-2021-10-21,curran,3,1,trilogy,extracted,pc:chl,ratio-conc,0.06114826373464482
+2021-10-21,curran,3,1,trilogy,extracted,pc:chl,ratio-conc,0.06114826373464481
 2021-10-21,curran,3,2,trilogy,extracted,pc:chl,ratio-rfu,0.16486816654789777
-2021-10-21,curran,3,2,trilogy,extracted,pc:chl,ratio-conc,0.05030627411593556
+2021-10-21,curran,3,2,trilogy,extracted,pc:chl,ratio-conc,0.05030627411593555
 2021-10-21,curran,3,3,trilogy,extracted,pc:chl,ratio-rfu,0.21076301936934633
 2021-10-21,curran,3,3,trilogy,extracted,pc:chl,ratio-conc,0.06431018460326152
 2021-10-21,mashapaug,1,1,trilogy,extracted,pc:chl,ratio-rfu,0.6666666666666669
 2021-10-21,mashapaug,1,1,trilogy,extracted,pc:chl,ratio-conc,0.20342020403039415
 2021-10-21,mashapaug,1,2,trilogy,extracted,pc:chl,ratio-rfu,0.9236990564310796
-2021-10-21,mashapaug,1,2,trilogy,extracted,pc:chl,ratio-conc,0.2818485757828392
+2021-10-21,mashapaug,1,2,trilogy,extracted,pc:chl,ratio-conc,0.2818485757828391
 2021-10-21,mashapaug,1,3,trilogy,extracted,pc:chl,ratio-rfu,0.9337832846445722
-2021-10-21,mashapaug,1,3,trilogy,extracted,pc:chl,ratio-conc,0.2849255794238557
+2021-10-21,mashapaug,1,3,trilogy,extracted,pc:chl,ratio-conc,0.28492557942385566
 2021-10-21,mashapaug,2,1,trilogy,extracted,pc:chl,ratio-rfu,1.177302598658972
 2021-10-21,mashapaug,2,1,trilogy,extracted,pc:chl,ratio-conc,0.3592307022370819
 2021-10-21,mashapaug,2,2,trilogy,extracted,pc:chl,ratio-rfu,1.1288174670084825
-2021-10-21,mashapaug,2,2,trilogy,extracted,pc:chl,ratio-conc,0.3444364191779074
+2021-10-21,mashapaug,2,2,trilogy,extracted,pc:chl,ratio-conc,0.3444364191779073
 2021-10-21,mashapaug,2,3,trilogy,extracted,pc:chl,ratio-rfu,1.3647778398565003
-2021-10-21,mashapaug,2,3,trilogy,extracted,pc:chl,ratio-conc,0.4164350799596549
+2021-10-21,mashapaug,2,3,trilogy,extracted,pc:chl,ratio-conc,0.4164350799596548
 2021-10-21,mashapaug,3,1,trilogy,extracted,pc:chl,ratio-rfu,0.9942628125943618
 2021-10-21,mashapaug,3,1,trilogy,extracted,pc:chl,ratio-conc,0.3033797162966678
 2021-10-21,mashapaug,3,2,trilogy,extracted,pc:chl,ratio-rfu,1.3173595934595437
@@ -1084,133 +1084,133 @@ date,waterbody,field_dups,lab_reps,instrument,method,variable,units,value
 2021-10-21,mashapaug,3,3,trilogy,extracted,pc:chl,ratio-rfu,1.0475112489868923
 2021-10-21,mashapaug,3,3,trilogy,extracted,pc:chl,ratio-conc,0.31962742798956995
 2021-10-21,warwick,1,1,trilogy,extracted,pc:chl,ratio-rfu,0.43712717728465766
-2021-10-21,warwick,1,1,trilogy,extracted,pc:chl,ratio-conc,0.133380749385713
+2021-10-21,warwick,1,1,trilogy,extracted,pc:chl,ratio-conc,0.13338074938571298
 2021-10-21,warwick,1,2,trilogy,extracted,pc:chl,ratio-rfu,0.4164532954006637
 2021-10-21,warwick,1,2,trilogy,extracted,pc:chl,ratio-conc,0.12707252147929954
 2021-10-21,warwick,1,3,trilogy,extracted,pc:chl,ratio-rfu,0.6078299776286352
-2021-10-21,warwick,1,3,trilogy,extracted,pc:chl,ratio-conc,0.1854673470975103
+2021-10-21,warwick,1,3,trilogy,extracted,pc:chl,ratio-conc,0.18546734709751028
 2021-10-21,warwick,2,1,trilogy,extracted,pc:chl,ratio-rfu,0.4629239414007624
-2021-10-21,warwick,2,1,trilogy,extracted,pc:chl,ratio-conc,0.14125212391544598
+2021-10-21,warwick,2,1,trilogy,extracted,pc:chl,ratio-conc,0.14125212391544595
 2021-10-21,warwick,2,2,trilogy,extracted,pc:chl,ratio-rfu,0.4016174418879613
 2021-10-21,warwick,2,2,trilogy,extracted,pc:chl,ratio-conc,0.12254565295652109
 2021-10-21,warwick,2,3,trilogy,extracted,pc:chl,ratio-rfu,0.37424516908212563
 2021-10-21,warwick,2,3,trilogy,extracted,pc:chl,ratio-conc,0.11419354297811302
 2021-10-21,warwick,3,1,trilogy,extracted,pc:chl,ratio-rfu,0.3329963756502872
-2021-10-21,warwick,3,1,trilogy,extracted,pc:chl,ratio-conc,0.10160728601424482
+2021-10-21,warwick,3,1,trilogy,extracted,pc:chl,ratio-conc,0.10160728601424479
 2021-10-21,warwick,3,2,trilogy,extracted,pc:chl,ratio-rfu,0.29567572530297465
 2021-10-21,warwick,3,2,trilogy,extracted,pc:chl,ratio-conc,0.0902196245519488
 2021-10-21,warwick,3,3,trilogy,extracted,pc:chl,ratio-rfu,0.2657742903300254
-2021-10-21,warwick,3,3,trilogy,extracted,pc:chl,ratio-conc,0.08109579054745047
+2021-10-21,warwick,3,3,trilogy,extracted,pc:chl,ratio-conc,0.08109579054745046
 2021-11-09,lower melville,1,1,trilogy,extracted,pc:chl,ratio-rfu,-0.02244721764382701
-2021-11-09,lower melville,1,1,trilogy,extracted,pc:chl,ratio-conc,-0.00684932638953293
+2021-11-09,lower melville,1,1,trilogy,extracted,pc:chl,ratio-conc,-0.0068493263895329295
 2021-11-09,lower melville,1,2,trilogy,extracted,pc:chl,ratio-rfu,0.015654815218661203
-2021-11-09,lower melville,1,2,trilogy,extracted,pc:chl,ratio-conc,0.004776758558757271
+2021-11-09,lower melville,1,2,trilogy,extracted,pc:chl,ratio-conc,0.00477675855875727
 2021-11-09,lower melville,1,3,trilogy,extracted,pc:chl,ratio-rfu,0.002494698765124206
-2021-11-09,lower melville,1,3,trilogy,extracted,pc:chl,ratio-conc,7.612081976939073e-4
+2021-11-09,lower melville,1,3,trilogy,extracted,pc:chl,ratio-conc,7.612081976939072e-4
 2021-11-09,lower melville,2,1,trilogy,extracted,pc:chl,ratio-rfu,0.034251934278014415
 2021-11-09,lower melville,2,1,trilogy,extracted,pc:chl,ratio-conc,0.010451303188904013
 2021-11-09,lower melville,2,2,trilogy,extracted,pc:chl,ratio-rfu,0.20787299229412312
-2021-11-09,lower melville,2,2,trilogy,extracted,pc:chl,ratio-conc,0.06342834975731862
+2021-11-09,lower melville,2,2,trilogy,extracted,pc:chl,ratio-conc,0.0634283497573186
 2021-11-09,lower melville,2,3,trilogy,extracted,pc:chl,ratio-rfu,0.11055055933318716
-2021-11-09,lower melville,2,3,trilogy,extracted,pc:chl,ratio-conc,0.033732326002846695
+2021-11-09,lower melville,2,3,trilogy,extracted,pc:chl,ratio-conc,0.03373232600284669
 2021-11-09,lower melville,3,1,trilogy,extracted,pc:chl,ratio-rfu,-0.02486696175461282
-2021-11-09,lower melville,3,1,trilogy,extracted,pc:chl,ratio-conc,-0.007587663650609023
+2021-11-09,lower melville,3,1,trilogy,extracted,pc:chl,ratio-conc,-0.007587663650609021
 2021-11-09,lower melville,3,2,trilogy,extracted,pc:chl,ratio-rfu,0.05090127497435405
-2021-11-09,lower melville,3,2,trilogy,extracted,pc:chl,ratio-conc,0.015531521611035446
+2021-11-09,lower melville,3,2,trilogy,extracted,pc:chl,ratio-conc,0.015531521611035442
 2021-11-09,lower melville,3,3,trilogy,extracted,pc:chl,ratio-rfu,0.06543263021954374
-2021-11-09,lower melville,3,3,trilogy,extracted,pc:chl,ratio-conc,0.01996547848425738
+2021-11-09,lower melville,3,3,trilogy,extracted,pc:chl,ratio-conc,0.019965478484257376
 2021-11-09,upper melville,1,1,trilogy,extracted,pc:chl,ratio-rfu,0.14760734422437471
 2021-11-09,upper melville,1,1,trilogy,extracted,pc:chl,ratio-conc,0.04503947411776039
 2021-11-09,upper melville,1,2,trilogy,extracted,pc:chl,ratio-rfu,0.15589750731095944
-2021-11-09,upper melville,1,2,trilogy,extracted,pc:chl,ratio-conc,0.047569054117537854
+2021-11-09,upper melville,1,2,trilogy,extracted,pc:chl,ratio-conc,0.04756905411753785
 2021-11-09,upper melville,1,3,trilogy,extracted,pc:chl,ratio-rfu,0.13762672306906862
 2021-11-09,upper melville,1,3,trilogy,extracted,pc:chl,ratio-conc,0.04199408413011674
 2021-11-09,upper melville,2,1,trilogy,extracted,pc:chl,ratio-rfu,0.2622408925005166
-2021-11-09,upper melville,2,1,trilogy,extracted,pc:chl,ratio-conc,0.08001764378635162
+2021-11-09,upper melville,2,1,trilogy,extracted,pc:chl,ratio-conc,0.0800176437863516
 2021-11-09,upper melville,2,2,trilogy,extracted,pc:chl,ratio-rfu,0.1353821698238178
-2021-11-09,upper melville,2,2,trilogy,extracted,pc:chl,ratio-conc,0.04130920291145771
+2021-11-09,upper melville,2,2,trilogy,extracted,pc:chl,ratio-conc,0.041309202911457704
 2021-11-09,upper melville,2,3,trilogy,extracted,pc:chl,ratio-rfu,0.17739791073124409
-2021-11-09,upper melville,2,3,trilogy,extracted,pc:chl,ratio-conc,0.054129478793272984
+2021-11-09,upper melville,2,3,trilogy,extracted,pc:chl,ratio-conc,0.05412947879327298
 2021-11-09,upper melville,3,1,trilogy,extracted,pc:chl,ratio-rfu,0.2289211242067089
 2021-11-09,upper melville,3,1,trilogy,extracted,pc:chl,ratio-conc,0.06985077268949388
 2021-11-09,upper melville,3,2,trilogy,extracted,pc:chl,ratio-rfu,0.1558999410427019
-2021-11-09,upper melville,3,2,trilogy,extracted,pc:chl,ratio-conc,0.047569796722849264
+2021-11-09,upper melville,3,2,trilogy,extracted,pc:chl,ratio-conc,0.04756979672284926
 2021-11-09,upper melville,3,3,trilogy,extracted,pc:chl,ratio-rfu,0.12747252747252746
-2021-11-09,upper melville,3,3,trilogy,extracted,pc:chl,ratio-conc,0.03889573132009733
+2021-11-09,upper melville,3,3,trilogy,extracted,pc:chl,ratio-conc,0.038895731320097326
 2021-11-09,windmist,1,1,trilogy,extracted,pc:chl,ratio-rfu,0.3035738926452325
-2021-11-09,windmist,1,1,trilogy,extracted,pc:chl,ratio-conc,0.09262959477029124
+2021-11-09,windmist,1,1,trilogy,extracted,pc:chl,ratio-conc,0.09262959477029123
 2021-11-09,windmist,1,2,trilogy,extracted,pc:chl,ratio-rfu,0.24983785186146087
-2021-11-09,windmist,1,2,trilogy,extracted,pc:chl,ratio-conc,0.07623310020026064
+2021-11-09,windmist,1,2,trilogy,extracted,pc:chl,ratio-conc,0.07623310020026061
 2021-11-09,windmist,1,3,trilogy,extracted,pc:chl,ratio-rfu,0.31089743589743596
-2021-11-09,windmist,1,3,trilogy,extracted,pc:chl,ratio-conc,0.09486422976417419
+2021-11-09,windmist,1,3,trilogy,extracted,pc:chl,ratio-conc,0.09486422976417418
 2021-11-09,windmist,3,1,trilogy,extracted,pc:chl,ratio-rfu,0.8798489529694475
 2021-11-09,windmist,3,1,trilogy,extracted,pc:chl,ratio-conc,0.26846858029346055
 2021-11-09,windmist,3,2,trilogy,extracted,pc:chl,ratio-rfu,0.3941847018007602
-2021-11-09,windmist,3,2,trilogy,extracted,pc:chl,ratio-conc,0.12027769869895608
+2021-11-09,windmist,3,2,trilogy,extracted,pc:chl,ratio-conc,0.12027769869895606
 2021-11-09,windmist,3,3,trilogy,extracted,pc:chl,ratio-rfu,0.19244301667431565
-2021-11-09,windmist,3,3,trilogy,extracted,pc:chl,ratio-conc,0.05872019657417074
+2021-11-09,windmist,3,3,trilogy,extracted,pc:chl,ratio-conc,0.05872019657417073
 2023-01-04,culture_mic,1,1,trilogy,extracted,pc:chl,ratio-rfu,1.3517540652477509
-2023-01-04,culture_mic,1,1,trilogy,extracted,pc:chl,ratio-conc,0.41246113162741826
+2023-01-04,culture_mic,1,1,trilogy,extracted,pc:chl,ratio-conc,0.4124611316274182
 2023-01-04,culture_mic,1,2,trilogy,extracted,pc:chl,ratio-rfu,1.0933102767554501
 2023-01-04,culture_mic,1,2,trilogy,extracted,pc:chl,ratio-conc,0.33360209934918045
 2023-01-04,culture_mic,1,3,trilogy,extracted,pc:chl,ratio-rfu,1.7709276357454748
-2023-01-04,culture_mic,1,3,trilogy,extracted,pc:chl,ratio-conc,0.540363691479612
+2023-01-04,culture_mic,1,3,trilogy,extracted,pc:chl,ratio-conc,0.5403636914796119
 2023-01-04,culture_mic,1,4,trilogy,extracted,pc:chl,ratio-rfu,1.5580100685123333
-2023-01-04,culture_mic,1,4,trilogy,extracted,pc:chl,ratio-conc,0.4753960890272807
+2023-01-04,culture_mic,1,4,trilogy,extracted,pc:chl,ratio-conc,0.47539608902728064
 2023-01-04,culture_mic,1,5,trilogy,extracted,pc:chl,ratio-rfu,2.083387418769153
-2023-01-04,culture_mic,1,5,trilogy,extracted,pc:chl,ratio-conc,0.6357046407005659
+2023-01-04,culture_mic,1,5,trilogy,extracted,pc:chl,ratio-conc,0.6357046407005658
 2023-01-04,culture_mic,1,6,trilogy,extracted,pc:chl,ratio-rfu,1.610018534844814
-2023-01-04,culture_mic,1,6,trilogy,extracted,pc:chl,ratio-conc,0.49126544827627244
+2023-01-04,culture_mic,1,6,trilogy,extracted,pc:chl,ratio-conc,0.4912654482762724
 2023-01-04,culture_mic,1,7,trilogy,extracted,pc:chl,ratio-rfu,1.5802031765335733
-2023-01-04,culture_mic,1,7,trilogy,extracted,pc:chl,ratio-conc,0.48216787886990464
+2023-01-04,culture_mic,1,7,trilogy,extracted,pc:chl,ratio-conc,0.48216787886990453
 2023-01-04,culture_mic,1,8,trilogy,extracted,pc:chl,ratio-rfu,1.0977736308416703
-2023-01-04,culture_mic,1,8,trilogy,extracted,pc:chl,ratio-conc,0.33496400394749876
+2023-01-04,culture_mic,1,8,trilogy,extracted,pc:chl,ratio-conc,0.3349640039474987
 2023-01-05,culture_ana,1,1,trilogy,extracted,pc:chl,ratio-rfu,2.499537916605113
 2023-01-05,culture_ana,1,1,trilogy,extracted,pc:chl,ratio-conc,0.7626847694662775
 2023-01-05,culture_ana,1,2,trilogy,extracted,pc:chl,ratio-rfu,3.0265951048882846
-2023-01-05,culture_ana,1,2,trilogy,extracted,pc:chl,ratio-conc,0.9235058906306505
+2023-01-05,culture_ana,1,2,trilogy,extracted,pc:chl,ratio-conc,0.9235058906306503
 2023-01-05,culture_ana,1,3,trilogy,extracted,pc:chl,ratio-rfu,3.9167098774846214
-2023-01-05,culture_ana,1,3,trilogy,extracted,pc:chl,ratio-conc,1.1951068836086727
+2023-01-05,culture_ana,1,3,trilogy,extracted,pc:chl,ratio-conc,1.1951068836086725
 2023-01-05,culture_ana,1,4,trilogy,extracted,pc:chl,ratio-rfu,3.08655952827163
-2023-01-05,culture_ana,1,4,trilogy,extracted,pc:chl,ratio-conc,0.941802853489458
+2023-01-05,culture_ana,1,4,trilogy,extracted,pc:chl,ratio-conc,0.9418028534894579
 2023-01-05,culture_ana,1,5,trilogy,extracted,pc:chl,ratio-rfu,3.9079075900299953
-2023-01-05,culture_ana,1,5,trilogy,extracted,pc:chl,ratio-conc,1.1924210389437413
+2023-01-05,culture_ana,1,5,trilogy,extracted,pc:chl,ratio-conc,1.192421038943741
 2023-01-05,culture_ana,1,6,trilogy,extracted,pc:chl,ratio-rfu,3.8952550243309427
 2023-01-05,culture_ana,1,6,trilogy,extracted,pc:chl,ratio-conc,1.1885603576997272
 2023-01-05,culture_ana,1,7,trilogy,extracted,pc:chl,ratio-rfu,3.2991197542131774
-2023-01-05,culture_ana,1,7,trilogy,extracted,pc:chl,ratio-conc,1.0066614202841226
+2023-01-05,culture_ana,1,7,trilogy,extracted,pc:chl,ratio-conc,1.0066614202841224
 2023-01-05,culture_ana,1,8,trilogy,extracted,pc:chl,ratio-rfu,3.562018232072653
-2023-01-05,culture_ana,1,8,trilogy,extracted,pc:chl,ratio-conc,1.0868797132923045
+2023-01-05,culture_ana,1,8,trilogy,extracted,pc:chl,ratio-conc,1.0868797132923043
 2023-01-05,culture_mic_ana,1,1,trilogy,extracted,pc:chl,ratio-rfu,2.82286782223644
 2023-01-05,culture_mic_ana,1,1,trilogy,extracted,pc:chl,ratio-conc,0.8613425225252564
 2023-01-05,culture_mic_ana,1,2,trilogy,extracted,pc:chl,ratio-rfu,3.4986760812003537
 2023-01-05,culture_mic_ana,1,2,trilogy,extracted,pc:chl,ratio-conc,1.0675521034110536
 2023-01-05,culture_mic_ana,1,3,trilogy,extracted,pc:chl,ratio-rfu,2.8362281518820884
-2023-01-05,culture_mic_ana,1,3,trilogy,extracted,pc:chl,ratio-conc,0.8654191639989033
+2023-01-05,culture_mic_ana,1,3,trilogy,extracted,pc:chl,ratio-conc,0.8654191639989032
 2023-01-05,culture_mic_ana,1,4,trilogy,extracted,pc:chl,ratio-rfu,2.68912109021682
 2023-01-05,culture_mic_ana,1,4,trilogy,extracted,pc:chl,ratio-conc,0.8205323412515122
 2023-01-05,culture_mic_ana,1,5,trilogy,extracted,pc:chl,ratio-rfu,3.256443775299538
 2023-01-05,culture_mic_ana,1,5,trilogy,extracted,pc:chl,ratio-conc,0.9936396857774085
 2023-01-05,culture_mic_ana,1,6,trilogy,extracted,pc:chl,ratio-rfu,2.884313912297872
-2023-01-05,culture_mic_ana,1,6,trilogy,extracted,pc:chl,ratio-conc,0.8800915867910062
+2023-01-05,culture_mic_ana,1,6,trilogy,extracted,pc:chl,ratio-conc,0.8800915867910061
 2023-01-05,culture_mic_ana,1,7,trilogy,extracted,pc:chl,ratio-rfu,3.3541193324391156
-2023-01-05,culture_mic_ana,1,7,trilogy,extracted,pc:chl,ratio-conc,1.0234434584205814
+2023-01-05,culture_mic_ana,1,7,trilogy,extracted,pc:chl,ratio-conc,1.0234434584205812
 2023-01-05,culture_mic_ana,1,8,trilogy,extracted,pc:chl,ratio-rfu,2.764766365817434
-2023-01-05,culture_mic_ana,1,8,trilogy,extracted,pc:chl,ratio-conc,0.84361400734643055
+2023-01-05,culture_mic_ana,1,8,trilogy,extracted,pc:chl,ratio-conc,0.8436140073464304
 2023-01-05,culture_mic_ana_pando_pedia,1,1,trilogy,extracted,pc:chl,ratio-rfu,1.6361801611411968
-2023-01-05,culture_mic_ana_pando_pedia,1,1,trilogy,extracted,pc:chl,ratio-conc,0.4992481533147381
+2023-01-05,culture_mic_ana_pando_pedia,1,1,trilogy,extracted,pc:chl,ratio-conc,0.49924815331473804
 2023-01-05,culture_mic_ana_pando_pedia,1,2,trilogy,extracted,pc:chl,ratio-rfu,1.6436275849973434
-2023-01-05,culture_mic_ana_pando_pedia,1,2,trilogy,extracted,pc:chl,ratio-conc,0.5015205880352154
+2023-01-05,culture_mic_ana_pando_pedia,1,2,trilogy,extracted,pc:chl,ratio-conc,0.5015205880352153
 2023-01-05,culture_mic_ana_pando_pedia,1,3,trilogy,extracted,pc:chl,ratio-rfu,1.8199063405931761
 2023-01-05,culture_mic_ana_pando_pedia,1,3,trilogy,extracted,pc:chl,ratio-conc,0.5553085786795078
 2023-01-05,culture_mic_ana_pando_pedia,1,4,trilogy,extracted,pc:chl,ratio-rfu,1.705284897093935
-2023-01-05,culture_mic_ana_pando_pedia,1,4,trilogy,extracted,pc:chl,ratio-conc,0.5203341025451969
+2023-01-05,culture_mic_ana_pando_pedia,1,4,trilogy,extracted,pc:chl,ratio-conc,0.5203341025451967
 2023-01-05,culture_mic_ana_pando_pedia,1,5,trilogy,extracted,pc:chl,ratio-rfu,1.9142677911758554
-2023-01-05,culture_mic_ana_pando_pedia,1,5,trilogy,extracted,pc:chl,ratio-conc,0.5841011169747067
+2023-01-05,culture_mic_ana_pando_pedia,1,5,trilogy,extracted,pc:chl,ratio-conc,0.5841011169747066
 2023-01-05,culture_mic_ana_pando_pedia,1,6,trilogy,extracted,pc:chl,ratio-rfu,1.081956708403286
-2023-01-05,culture_mic_ana_pando_pedia,1,6,trilogy,extracted,pc:chl,ratio-conc,0.33013778156317514
+2023-01-05,culture_mic_ana_pando_pedia,1,6,trilogy,extracted,pc:chl,ratio-conc,0.330137781563175
 2023-01-05,culture_mic_ana_pando_pedia,1,7,trilogy,extracted,pc:chl,ratio-rfu,1.4671298681870315
-2023-01-05,culture_mic_ana_pando_pedia,1,7,trilogy,extracted,pc:chl,ratio-conc,0.4476657856885368
+2023-01-05,culture_mic_ana_pando_pedia,1,7,trilogy,extracted,pc:chl,ratio-conc,0.44766578568853677
 2023-01-05,culture_mic_ana_pando_pedia,1,8,trilogy,extracted,pc:chl,ratio-rfu,1.240442892118111
 2023-01-05,culture_mic_ana_pando_pedia,1,8,trilogy,extracted,pc:chl,ratio-conc,0.37849671930407747
 2023-03-29,culture_pedia,1,1,trilogy,extracted,pc:chl,ratio-rfu,NA
