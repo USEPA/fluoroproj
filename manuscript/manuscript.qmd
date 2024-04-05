@@ -38,12 +38,13 @@ format:
     docx:
       reference-doc: manuscript_template.docx
 bibliography: manuscript.bib
+editor_options: 
+  chunk_output_type: console
 ---
 
 ```{r, include = FALSE}
 knitr::opts_chunk$set(
   eval = TRUE,
-  cache = TRUE,
   tidy = FALSE,
   message = FALSE,
   warning = FALSE,
@@ -53,7 +54,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-```{r analysis, include=FALSE}
+```{r analysis, include=FALSE, cache=FALSE}
 source(here::here("R/analysis.R")) 
 ```
 
@@ -117,7 +118,7 @@ Extracted chlorophyll measurements ranged from 3.2 ug/L at Indian Lake to 81.3 u
 
 ```{r chl_summary, results='asis', echo=FALSE, message=FALSE}
 #| label: tbl-chlsummary
-#| tbl-cap: "Chlorophyll summary data by waterbody and instrument."
+#| tbl-cap: "Extracted chlorophyll summary data by waterbody and instrument."
 
 
 knitr::kable(fluoro_summary$chl_summary)
@@ -131,7 +132,7 @@ Extracted phycocyanin measurements ranged from 1.3 ug/L at Indian Lake to 75.0 u
 
 ```{r phyco_summary, results='asis', echo=FALSE, message=FALSE}
 #| label: tbl-phycosummary
-#| tbl-cap: "Phycocyanin summary data by waterbody and instrument."
+#| tbl-cap: "Extracted phycocyanin summary data by waterbody and instrument."
 
 
 knitr::kable(fluoro_summary$phyco_summary)
@@ -141,7 +142,9 @@ knitr::kable(fluoro_summary$phyco_summary)
 
 !!! REWRITE ME - Changed from biov to cells/ml, only one fig now !!!! !!! Cyanobaceteria Cell Counts are natural units / mL !!!!
 
-Cyanophytes were the dominant taxa by relative biovolume at Curran (0.75), Mashapaug (0.87), and Warwick (0.89); Chrysophytes at Barber (0.39) and Yawgoo (0.44); and Bacillariophytes at Indian (0.41)(@fig-cellsml).  Total biovolume concentrations were highest at Mashapaug (2.12x10^7^), Warwick (1.44x10^7^), and Curran (3.22x10^6^)(@fig-bv). Microcystis was the dominant genus at Mashapaug and Warwick, while Chrysosporum was dominant at Curran (@tbl-supp).
+<!-- phycotech data is in data/phycotech_data_summ.csv" -->
+
+Cyanophytes were the dominant taxa by natural units / mL at Curran (???), Mashapaug (0.87), and Warwick (0.89); Chrysophytes at Barber (0.39) and Yawgoo (0.44); and Bacillariophytes at Indian (0.41)(@fig-cellsml).  Total biovolume concentrations were highest at Mashapaug (2.12x10^7^), Warwick (1.44x10^7^), and Curran (3.22x10^6^). Microcystis was the dominant genus at Mashapaug and Warwick, while Chrysosporum was dominant at Curran (@tbl-supp).
 
 ![Compare Cells/mL of divisions by waterbody](images/fig4_total_cellsml_bar.jpg){#fig-cellsml width="8.5in" height="5.25in"}
 

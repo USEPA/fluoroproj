@@ -634,9 +634,9 @@ map_field_sites <- function(){
 }
 
 summary_table <- function(fluoro_df){
-  idx <- !(fluoro_df$instrument == "trilogy" & fluoro_df$units == "rfu")
+  #idx <- !(fluoro_df$instrument == "trilogy" & fluoro_df$units == "rfu")
   summ_df <- fluoro_df |>
-    filter(idx) |>
+    filter(method == "extracted" & units == "µg/L") |>
     filter(variable %in% c("chl", "phyco")) |>
     group_by(waterbody, instrument, variable, units) |>
     summarise(mean = mean(avg_value, na.rm = TRUE), sd = sd(avg_value, na.rm = TRUE)) |>
