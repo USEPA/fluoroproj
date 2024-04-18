@@ -80,7 +80,7 @@ Overall, the physical properties and phytoplankton community composition of a wa
 
 ## Equipment used for comparison
 
-The following five fluorometers (in decreasing order of cost) were used during this study: bbe PhycoProbe, bbe AlgaeTorch, Turner Trilogy (in vivo chlorophyll and orange modules), Turner Cyanofluor, and Turner FluoroSense. These fluorometers were chosen based on their availability to us as many have been used by our collaborators in the northeast US. Measurements from these fluorometers were compared with the results of a solvent-based extraction for chlorophyll and phycocyanin using a Turner Trilogy with a chla-na and orange module, respectively.
+For this study, we used five fluorometers that are commonly used by our collaborators in the northeast US. In decreasing order of cost, they are: bbe PhycoProbe, bbe AlgaeTorch, Turner Trilogy (in vivo chlorophyll and orange modules), Turner Cyanofluor, and Turner FluoroSense. Measurements from these fluorometers were compared with the results of a solvent-based extraction for chlorophyll and phycocyanin using a Turner Trilogy with a chla-na and orange module, respectively.
 
 ## Field Sampling Methods
 
