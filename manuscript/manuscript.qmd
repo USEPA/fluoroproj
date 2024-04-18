@@ -138,8 +138,6 @@ knitr::kable(fluoro_summary$phyco_summary)
 
 ## Phytoplankton Counts
 
-!!! REWRITE ME - Changed from biov to cells/ml, only one fig now !!!! !!! Cyanobaceteria Cell Counts are natural units / mL !!!!
-
 <!-- phycotech data is in data/phycotech_data_summ.csv" -->
 
 Cyanophytes were the dominant taxa at all waterbodies with the highest concentrations observed at Curran (38,019 natural units/mL), Mashapaug (89,806 natural units/mL), and Warwick (45,847 natural units/mL)(@fig-cellsml).  Total concentrations were highest at Mashapaug (92,527 natural units/mL), Warwick (70,728 natural units/mL), and Curran (40,428 natural units/mL). Microcystis was the dominant genus at Mashapaug and Warwick, while Chrysosporum was dominant at Curran (@tbl-supp).
