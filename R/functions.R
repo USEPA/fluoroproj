@@ -302,7 +302,7 @@ ext_vs_all_plot <- function(fpdata, var, meth, x_order = NULL){
   myplot <- plot_data %>%
     ggplot(aes(x = extracted_value, y = avg_value)) +
     geom_point(size = 4, aes(color = waterbody)) +
-    geom_smooth(data = plot_data, method = "lm") +
+    geom_smooth(data = plot_data, method = "lm", se = FALSE) +
     geom_blank(data = blank_data) +
     facet_wrap(instrument_unit ~ ., scales = "free", strip.position = "left") +
     theme_ipsum_rc() +
@@ -587,7 +587,7 @@ flouro_vs_count_plot <- function(fluoro_df, phycotech_df, xvar = c("chlorophyll"
   myplot <- plot_df %>%
     ggplot(aes(x = concentration, y = yvar)) +
     geom_point(size = 4, aes(color = waterbody)) +
-    geom_smooth(method = "lm") +
+    geom_smooth(method = "lm", se = FALSE) +
     facet_wrap(instrument ~ ., scales = "free", strip.position = "left") +
     theme_ipsum_rc() +
     scale_color_viridis_d(option = "plasma") +
