@@ -1,5 +1,5 @@
-R version 4.3.2 (2023-10-31 ucrt)
-Platform: x86_64-w64-mingw32/x64 (64-bit)
+R version 4.4.0 (2024-04-24 ucrt)
+Platform: x86_64-w64-mingw32/x64
 Running under: Windows 11 x64 (build 22621)
 
 Matrix products: default
@@ -20,38 +20,37 @@ attached base packages:
 
 other attached packages:
  [1] scales_1.3.0       sf_1.0-16          readxl_1.4.3       ggbeeswarm_0.7.2  
- [5] hrbrthemes_0.8.7   cowplot_1.1.1      plotly_4.10.3      ggplot2_3.5.0     
+ [5] hrbrthemes_0.8.7   cowplot_1.1.3      plotly_4.10.4      ggplot2_3.5.1     
  [9] compeco_0.0.5.9999 tidyr_1.3.1        lubridate_1.9.3    purrr_1.0.2       
 [13] here_1.0.1         dplyr_1.1.4        readr_2.1.5       
 
 loaded via a namespace (and not attached):
- [1] tidyselect_1.2.1        viridisLite_0.4.2       farver_2.1.1           
- [4] vipor_0.4.5             fastmap_1.1.1           lazyeval_0.2.2         
- [7] fontquiver_0.2.1        promises_1.2.1          digest_0.6.33          
+ [1] tidyselect_1.2.1        viridisLite_0.4.2       farver_2.1.2           
+ [4] vipor_0.4.7             fastmap_1.2.0           lazyeval_0.2.2         
+ [7] fontquiver_0.2.1        promises_1.3.0          digest_0.6.36          
 [10] timechange_0.3.0        mime_0.12               lifecycle_1.0.4        
-[13] gfonts_0.2.0            magrittr_2.0.3          compiler_4.3.2         
-[16] rlang_1.1.3             tools_4.3.2             utf8_1.2.4             
-[19] yaml_2.3.8              data.table_1.15.2       knitr_1.45             
-[22] labeling_0.4.3          htmlwidgets_1.6.3       bit_4.0.5              
+[13] gfonts_0.2.0            magrittr_2.0.3          compiler_4.4.0         
+[16] rlang_1.1.4             tools_4.4.0             utf8_1.2.4             
+[19] yaml_2.3.9              data.table_1.15.4       knitr_1.48             
+[22] labeling_0.4.3          htmlwidgets_1.6.4       bit_4.0.5              
 [25] classInt_0.4-10         curl_5.2.1              KernSmooth_2.23-22     
-[28] httpcode_0.3.0          withr_3.0.0             grid_4.3.2             
+[28] httpcode_0.3.0          withr_3.0.0             grid_4.4.0             
 [31] fansi_1.0.6             gdtools_0.3.7           xtable_1.8-4           
 [34] e1071_1.7-14            colorspace_2.1-0        extrafontdb_1.0        
-[37] crul_1.4.0              cli_3.6.2               rmarkdown_2.25         
-[40] crayon_1.5.2            ragg_1.2.6              generics_0.1.3         
+[37] crul_1.5.0              cli_3.6.3               rmarkdown_2.27         
+[40] crayon_1.5.3            ragg_1.3.2              generics_0.1.3         
 [43] rstudioapi_0.16.0       httr_1.4.7              tzdb_0.4.0             
-[46] DBI_1.2.2               proxy_0.4-27            stringr_1.5.1          
-[49] splines_4.3.2           parallel_4.3.2          s2_1.1.6               
-[52] cellranger_1.1.0        vctrs_0.6.5             Matrix_1.6-1.1         
+[46] DBI_1.2.3               proxy_0.4-27            stringr_1.5.1          
+[49] splines_4.4.0           parallel_4.4.0          s2_1.1.7               
+[52] cellranger_1.1.0        vctrs_0.6.5             Matrix_1.7-0           
 [55] jsonlite_1.8.8          fontBitstreamVera_0.1.1 hms_1.1.3              
-[58] bit64_4.0.5             archive_1.1.7           beeswarm_0.4.0         
-[61] systemfonts_1.0.6       units_0.8-5             glue_1.7.0             
-[64] stringi_1.8.3           gtable_0.3.4            later_1.3.1            
-[67] extrafont_0.19          munsell_0.5.0           tibble_3.2.1           
-[70] pillar_1.9.0            htmltools_0.5.7         R6_2.5.1               
-[73] wk_0.9.1                textshaping_0.3.7       rprojroot_2.0.4        
-[76] lattice_0.21-9          vroom_1.6.5             evaluate_0.23          
-[79] shiny_1.8.1             fontLiberation_0.1.0    httpuv_1.6.12          
-[82] class_7.3-22            Rcpp_1.0.11             nlme_3.1-163           
-[85] Rttf2pt1_1.3.12         mgcv_1.9-0              xfun_0.41              
-[88] pkgconfig_2.0.3        
+[58] bit64_4.0.5             beeswarm_0.4.0          systemfonts_1.1.0      
+[61] units_0.8-5             glue_1.7.0              stringi_1.8.4          
+[64] gtable_0.3.5            later_1.3.2             extrafont_0.19         
+[67] munsell_0.5.1           tibble_3.2.1            pillar_1.9.0           
+[70] htmltools_0.5.8.1       R6_2.5.1                wk_0.9.2               
+[73] textshaping_0.4.0       rprojroot_2.0.4         lattice_0.22-6         
+[76] vroom_1.6.5             evaluate_0.24.0         shiny_1.8.1.1          
+[79] fontLiberation_0.1.0    httpuv_1.6.15           class_7.3-22           
+[82] Rcpp_1.0.13             nlme_3.1-164            Rttf2pt1_1.3.12        
+[85] mgcv_1.9-1              xfun_0.45               pkgconfig_2.0.3        
