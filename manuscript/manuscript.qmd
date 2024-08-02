@@ -112,11 +112,11 @@ To compare extracted concentrations and cell counts to the various instruments w
 
 Extracted chlorophyll measurements ranged from a mean of 1.3 ug/L in Indian Lake to a mean of 32.2 ug/L in Mashapaug Pond (@tbl-chlsummary). Chlorophyll measurements for all instruments followed the same general pattern as the extracted chlorophyll values (@fig-chlascatter).  The Algaetorch and Phycoprobe measurements exhibited a strong relationship with extracted chlorophyll concentrations with R^2^ values of 0.82 and 0.81, respectively.  The Cyanofluor (R^2^=0.35) and Trilogy in vivo (R^2^=0.34) measurements increased as extracted chlorophyll concentrations increased, but the relationship was not as strong compared to the other instruments.
 
-![Comparison of fluorometer measurements of chlorophyll by waterbody. Blue lines represent the best fit regression line. R^2^ on plot is the coeffecient of determination for this line.](images/fig2_chla_scatter.jpg){#fig-chlascatter width="8.5in" height="5.25in"}
+![Comparison of fluorometer measurements of chlorophyll by waterbody. Blue lines represent the best fit regression line. R^2^ on plot is the coefficient of determination for this line.](images/fig2_chla_scatter.jpg){#fig-chlascatter width="8.5in" height="5.25in"}
 
 ```{r chl_summary, results='asis', echo=FALSE, message=FALSE}
 #| label: tbl-chlsummary
-#| tbl-cap: "Summary of extracted chlorophyll from Turner Trilogy by waterbody."
+#| tbl-cap: "Summary (mean and standard deviation) of extracted chlorophyll from Turner Trilogy for waterbodies sampled in Rhode Island."
 
 
 knitr::kable(fluoro_summary$chl_summary, row.names = FALSE)
@@ -126,11 +126,11 @@ knitr::kable(fluoro_summary$chl_summary, row.names = FALSE)
 
 Extracted phycocyanin measurements ranged from a mean of 0.2 ug/L in Indian Lake and Barber Pond to 10.5 ug/L in Mashapaug Pond (@tbl-phycosummary). The Algaetorch (R^2^=0.86) and Phycoprobe (R^2^=0.84) were strongly related to extracted phycocyanin concentrations (@fig-phycoscatter). Phycocyanin measurements for the Fluorosense (R^2^=0.96) and the Cyanofluor (R^2^=0.78) were also strongly related with extracted phycocyanin.
 
-![Comparison of fluorometer measurements of phycocyanin by waterbody. Blue lines represent the best fit regression line. R^2^ on plot is the coeffecient of determination for this line.](images/fig3_phyco_scatter.jpg){#fig-phycoscatter width="8.5in" height="5.25in"}
+![Comparison of fluorometer measurements of phycocyanin by Rhode Island waterbody. Blue lines represent the best fit regression line. R^2^ on plot is the coefficient of determination for this line.](images/fig3_phyco_scatter.jpg){#fig-phycoscatter width="8.5in" height="5.25in"}
 
 ```{r phyco_summary, results='asis', echo=FALSE, message=FALSE}
 #| label: tbl-phycosummary
-#| tbl-cap: "Summary of extracted phycocyanin from Turner Trilogy by waterbody."
+#| tbl-cap: "Summary (mean and standard deviation) of extracted phycocyanin from Turner Trilogy for waterbodies sampled in Rhode Island."
 
 
 knitr::kable(fluoro_summary$phyco_summary, row.names = FALSE)
@@ -146,9 +146,9 @@ Cyanophytes were the dominant taxa at all waterbodies with the highest concentra
 
 Extracted chlorophyll *a* was the most strongly correlated with cyanobacterial cell counts (R^2^=0.92) followed by the Algaetorch (R^2^=0.78) and the Phycoprobe (R^2^=0.59). The Cyanofluor (R^2^=0.12) and Trilogy in vivo module (0.11) were weakly correlated (@fig-chlcount). Phycocyanin measurements from all instruments were strongly correlated with cell counts (R^2^ between 0.9 and 0.97)(@fig-phycocount).
 
-![Compare fluorometer chlorophyll to cyanobacteria cell counts. Blue lines represent the best fit regression line. R^2^ on plot is the coeffecient of determination for this line.](images/fig5_chl_vs_cells.jpg){#fig-chlcount width="8.5in" height="5.25in"}
+![Comparison of fluorometer chlorophyll to cyanobacteria cell counts. Blue lines represent the best fit regression line. R^2^ on plot is the coefficient of determination for this line.](images/fig5_chl_vs_cells.jpg){#fig-chlcount width="8.5in" height="5.25in"}
 
-![Compare fluorometer phycocyanin to cyanobacteria cell counts. Blue lines represent the best fit regression line. R^2^ on plot is the coeffecient of determination for this line.](images/fig6_phyco_vs_cells.jpg){#fig-phycocount width="8.5in" height="5.25in"}
+![Comparison of fluorometer phycocyanin to cyanobacteria cell counts. Blue lines represent the best fit regression line. R^2^ on plot is the coefficient of determination for this line.](images/fig6_phyco_vs_cells.jpg){#fig-phycocount width="8.5in" height="5.25in"}
 
 # Discussion
 
