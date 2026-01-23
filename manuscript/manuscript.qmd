@@ -104,6 +104,8 @@ All phytoplankton samples were collected on 2021-10-06. Water samples for phytop
 
 To compare extracted concentrations and cell counts to the various instruments we used simple linear regression and scatterplots. For these regressions and scatterplots, the lab replicates were averaged, resulting in three field replicates for each of the waterbodies. We derived the coefficient of determination from the regressions as a measure of fit and also qualitatively compared the device measurements to the extracted concentrations and phytoplankton counts with scatterplots. We do not compare slopes nor look for a slope of 1 as we have little expectation that the extracted concentrations would equal the values from the various devices given the difference in units and the different RFU returns across the devices.
 
+All data and code for this analysis are available via GitHub at https://github.com/usepa/fluoroproj.  This repo has also been archived at Zenodo [@shivers_zenodo].
+
 # Results
 
 <!-- Need summary table of chl and phyco for each waterbody/instrument-->
