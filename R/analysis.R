@@ -21,7 +21,7 @@ phycotech_data <- read_csv(here("data/cleaned_phycotech_data.csv")) %>%
                                     TRUE ~ division)) %>%
   mutate(waterbody = case_when(waterbody == "Barber Pond" ~ "barber",
                                waterbody == "Indian Lake" ~ "indian",
-                               waterbody == "Yawagoo Pond" ~ "yawgoo",
+                               waterbody == "Yawgoo" ~ "yawgoo",
                                waterbody == "JL Curran Reservoir" ~ "curran",
                                waterbody == "Mashapaug Pond" ~ "mashapaug",
                                waterbody == "Warwick Pond" ~ "warwick",

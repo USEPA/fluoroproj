@@ -504,13 +504,17 @@ clean_phycotech_cyano <- function(phycotech_df){
 
 #' Make grouped bar plot
 grouped_bar_plot <- function(phycotech_df, yvar){
- 
+  #browser()
   yvar <- rlang::sym(yvar)
   bar_plot <- phycotech_df %>%
     ggplot(aes(x = waterbody, y = !!yvar, fill = barplot_groups)) +
     geom_bar(position = "dodge", stat = "identity") +
     scale_fill_manual(values = c("brown","springgreen", "goldenrod", "cyan","grey50")) +
-    theme_ipsum_rc()
+    theme_ipsum_rc() +
+    labs(fill = "division", y = "cell counts") +
+    theme(axis.title.x = element_text(hjust = 1, vjust = -1),
+          axis.title.y = element_text(hjust = 1, vjust = 1))
+
     
   bar_plot
 }
@@ -595,19 +599,19 @@ flouro_vs_count_plot <- function(fluoro_df, phycotech_df, xvar = c("chlorophyll"
           strip.text.y.left = element_text(angle=90, hjust = 1, size = 11), 
           strip.placement = "outside",
           axis.text.x = element_text(size = 11),
-          axis.title.x = element_text(size = 11, hjust = 0.5, vjust = -1),
+          axis.title.x = element_text(size = 11, hjust = 0.5, vjust = -2),
           legend.text=element_text(size = 11),
           axis.text.y = element_text(size = 11),
           legend.title = element_text(size = 11),
           legend.position = c(0.9, 0.17)) +
-    labs(x = "cyanobacterial cells/ml") + 
+    labs(x = "cyanobacterial cell counts") + 
     geom_text(aes(x = r_square_x, y = r_square_y,
                   label = paste0("R² = ", r_square)), color="black")
   myplot
 }
 
 map_field_sites <- function(){
-  
+  browser()
   ri <- st_read(here::here("data/ri.shp")) |>
     st_transform(4326)
   ri_wb <- st_read(here::here("data/ri_lakes.shp")) |>
@@ -630,7 +634,30 @@ map_field_sites <- function(){
     #theme(legend.title = element_blank()) #+
     #guides(color = guide_legend(nrow = 3))
   sites_gg
+
+  usa_l48 <- us_states() |>
+  filter(state_abbr != "HI" & 
+           state_abbr != "AK" &
+           state_abbr != "PR") |>
+    st_transform(5072)
   
+  # Generate inset map of us with ri highlighted and circled in dark grey
+  inset_gg <- ggplot() +
+    geom_sf(data = usa_l48, fill = "grey80", color = "white", size = 0.2) +
+    geom_sf(data = st_transform(ri, 5072), fill = "darkblue", color = NA, alpha = 0.5) +
+    theme_void() +
+    geom_sf(data = st_transform(st_buffer(st_centroid(ri), dist = 50000), 5072),
+            fill = NA, color = "darkred", size = 0.5)
+  
+  inset_gg
+
+  # Combine main map and inset map using patchwork
+  # place inset in bottom right corner
+  combined_map <- sites_gg +
+    inset_element(inset_gg, 
+                  left = 0, bottom = 0, right = 1, top = 1, align_to = "full")
+  combined_map
+
 }
 
 summary_table <- function(fluoro_df){
