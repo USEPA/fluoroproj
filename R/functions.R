@@ -611,7 +611,7 @@ flouro_vs_count_plot <- function(fluoro_df, phycotech_df, xvar = c("chlorophyll"
 }
 
 map_field_sites <- function(){
-  browser()
+  
   ri <- st_read(here::here("data/ri.shp")) |>
     st_transform(4326)
   ri_wb <- st_read(here::here("data/ri_lakes.shp")) |>
@@ -641,22 +641,31 @@ map_field_sites <- function(){
            state_abbr != "PR") |>
     st_transform(5072)
   
-  # Generate inset map of us with ri highlighted and circled in dark grey
-  inset_gg <- ggplot() +
-    geom_sf(data = usa_l48, fill = "grey80", color = "white", size = 0.2) +
-    geom_sf(data = st_transform(ri, 5072), fill = "darkblue", color = NA, alpha = 0.5) +
-    theme_void() +
-    geom_sf(data = st_transform(st_buffer(st_centroid(ri), dist = 50000), 5072),
-            fill = NA, color = "darkred", size = 0.5)
-  
-  inset_gg
+  # Generate inset map of us with ri highlighted and with extent rectangle in dark grey
 
+  ri <- usa_l48 |>
+    filter(state_name == "Rhode Island")
+
+  # Expand extent a bit for better visualization
+  ri_extent <- st_as_sfc(st_bbox(ri)) |>
+    st_transform(5072) |>
+    st_buffer(50000, endCapStyle = "SQUARE") # buffer by 50 km
+  
+  inset_gg <- ggplot(usa_l48) +
+    geom_sf(fill = "white", color = "black", size = 0.25) +
+    geom_sf(data = ri_extent, fill = "darkgrey", color = "black", alpha = 0.75) +
+    geom_sf(data = st_transform(ri, 5072), fill = "lightblue", color = "black", size = 0.25) +
+    theme_void()
+  
+  # Not including inset for now.  
   # Combine main map and inset map using patchwork
   # place inset in bottom right corner
   combined_map <- sites_gg +
     inset_element(inset_gg, 
                   left = 0, bottom = 0, right = 1, top = 1, align_to = "full")
-  combined_map
+  
+  sites_gg
+
 
 }
 
